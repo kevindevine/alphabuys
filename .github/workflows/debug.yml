@@ -1,0 +1,11 @@
+name: debug
+on: workflow_dispatch
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+          curl -s "https://live.luigisbox.com/search?tracker_id=214346-251725&q=alphafly&f[]=type:item&size=40" | head -c 300; echo
+          curl -s -L -A "$UA" -o p.html -w "%{http_code} %{url_effective}\n" https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-800
+          wc -c p.html; grep -c 'ProductGroup' p.html; head -c 600 p.html
