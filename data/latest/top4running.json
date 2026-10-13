@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-13T14:15:02+00:00",
+ "checked": "2026-10-13T18:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -156,6 +156,21 @@
    "shoe": "alphafly",
    "shop": "Top4Running",
    "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "red",
+   "gender": "women",
+   "price": 172.7,
+   "was": null,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-road-racing-running-shoe-women-fd8315-600",
+   "image": "https://i1.t4s.cz/products/fd8315-600/nike-alphafly-3-888155-fd8315-602.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
    "name": "Nike Alphafly 3 SE",
    "colour": "red",
    "gender": "women",
@@ -170,21 +185,6 @@
    ],
    "url": "https://top4running.ie/p/nike-w-air-zm-alphafly-next-3-se-ir2312-600",
    "image": "https://i1.t4s.cz/products/ir2312-600/nike-alphafly-3-se-1093121-ir2312-6003.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "red",
-   "gender": "women",
-   "price": 172.7,
-   "was": null,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://top4running.ie/p/nike-alphafly-3-road-racing-running-shoe-women-fd8315-600",
-   "image": "https://i1.t4s.cz/products/fd8315-600/nike-alphafly-3-888155-fd8315-602.png"
   },
   {
    "shoe": "alphafly",
@@ -292,7 +292,6 @@
    "price": 162.9,
    "was": null,
    "sizes": [
-    "8.5",
     "9",
     "9.5",
     "10.5"
@@ -534,6 +533,21 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-ki1465",
    "image": "https://i1.t4s.cz/products/ki1465/adidas-adizero-adios-pro-4-running-shoe-1119405-ki14651.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 184.5,
+   "was": null,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-ki1471",
+   "image": "https://i1.t4s.cz/products/ki1471/adidas-adizero-adios-pro-4-running-shoe-women-1122726-ki14711.png"
   },
   {
    "shoe": "adios-pro",
