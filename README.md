@@ -1,7 +1,7 @@
 # Alpha Buys
 
-Tracks race-shoe prices (Nike Alphafly, adidas Adios Pro, ASICS Metaspeed) and in-stock sizes across Irish and UK shops
-(Nike, Elverys, Lifestyle Sports, Top4Running, Sports Direct, Zalando, Pro:Direct, Run4It).
+Tracks race-shoe prices (Nike Alphafly, adidas Adios Pro, ASICS Metaspeed) and in-stock sizes across Irish shops
+(Nike, Elverys, Lifestyle Sports, Top4Running, Sports Direct, Zalando, Pro:Direct).
 
 - `check.py`: visits each shop for every shoe in `SHOES` (add a shoe there), writes `data/latest.json` and appends to `data/history.jsonl`
 - `.github/workflows/check.yml`: runs the check 4 times a day and saves the results

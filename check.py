@@ -53,11 +53,11 @@ def metaspeed_model(name):
 # (so spikes, singlets and lookalike names are skipped).
 SHOES = [
     {"id": "alphafly", "brand": "Nike", "q": "alphafly",
-     "match": r"alphafly", "model": alphafly_model},
+     "match": r"alphafly", "model": alphafly_model, "prodirect_tag": "silo_alphafly"},
     {"id": "adios-pro", "brand": "adidas", "q": "adios pro",
-     "match": r"adios\s*pro", "model": adios_model},
+     "match": r"adios\s*pro", "model": adios_model, "prodirect_tag": "silo_adizero"},
     {"id": "metaspeed", "brand": "ASICS", "q": "metaspeed",
-     "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model},
+     "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model, "prodirect_tag": "silo_metaspeed"},
 ]
 NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
              r"|kids|junior|track|spikes?|equipment")
@@ -275,43 +275,23 @@ def zalando(shoe):
     return out
 
 
-# ---------------------------------------------------------------- UK shops (Shopify, priced in GBP)
-_gbp = None
-def gbp_to_eur():
-    """Today's European Central Bank rate."""
-    global _gbp
-    if _gbp is None:
-        x = get("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml")
-        _gbp = 1 / float(re.search(r"currency='GBP' rate='([\d.]+)'", x).group(1))
-    return _gbp
+# ---------------------------------------------------------------- Pro:Direct (Shopify)
+# EU -> UK sizes by brand and fit, taken from Top4Running, which lists both for
+# these exact shoes (Pro:Direct Ireland only shows EU sizes). ASICS race shoes are
+# unisex, sized as men's.
+EU_TO_UK = {
+    ("Nike", "men"): {"35.5": "3", "36": "3.5", "36.5": "4", "37.5": "4.5", "38": "5", "38.5": "5.5", "39": "6", "40": "6", "40.5": "6.5", "41": "7", "42": "7.5", "42.5": "8", "43": "8.5", "44": "9", "44.5": "9.5", "45": "10", "45.5": "10.5", "46": "11", "47": "11.5", "47.5": "12", "48.5": "13", "49.5": "14"},
+    ("Nike", "women"): {"35.5": "2.5", "36": "3", "36.5": "3.5", "37.5": "4", "38": "4.5", "38.5": "5", "39": "5.5", "40": "6", "40.5": "6.5", "41": "7", "42": "7.5", "42.5": "8", "43": "8.5", "44": "9", "44.5": "9.5"},
+    ("adidas", "men"): {"36⅔": "4", "37⅓": "4.5", "38": "5", "38⅔": "5.5", "39⅓": "6", "40": "6.5", "40⅔": "7", "41⅓": "7.5", "42": "8", "42⅔": "8.5", "43⅓": "9", "44": "9.5", "44⅔": "10", "45⅓": "10.5", "46": "11", "46⅔": "11.5", "47⅓": "12", "48": "12.5", "48⅔": "13", "50": "14"},
+    ("adidas", "women"): {"36": "3.5", "36⅔": "4", "37⅓": "4.5", "38": "5", "38⅔": "5.5", "39⅓": "6", "40": "6.5", "40⅔": "7", "41⅓": "7.5", "42": "8", "42⅔": "8.5", "43⅓": "9", "44": "9.5", "44⅔": "10", "45⅓": "10.5"},
+    ("ASICS", "men"): {"35.5": "2.5", "36": "3", "37": "3.5", "37.5": "4", "38": "4.5", "39": "5", "39.5": "5.5", "40": "6", "40.5": "6.5", "41.5": "7", "42": "7.5", "42.5": "8", "43.5": "8.5", "44": "9", "44.5": "9.5", "45": "10", "46": "10.5", "46.5": "11", "47": "11.5", "48": "12", "49": "13", "50.5": "14", "51.5": "15"},
+}
 
 
-def shopify_uk(shoe, shop, domain, products):
-    """products: Shopify product dicts (from products.json or a .js fetch)."""
-    rate, out = gbp_to_eur(), []
-    for p in products:
-        title = p["title"]
-        if not is_shoe(shoe, title):
-            continue
-        vs = [v for v in p["variants"] if v["available"]] or p["variants"]
-        price = min(float(v["price"]) if isinstance(v["price"], str) else v["price"] / 100 for v in vs)
-        was = max(float(v["compare_at_price"] or 0) if isinstance(v["compare_at_price"], (str, type(None))) else v["compare_at_price"] / 100 for v in vs)
-        img = p.get("featured_image") or (p.get("images") or [{}])[0]
-        img = img.get("src") if isinstance(img, dict) else img
-        if img and img.startswith("//"):
-            img = "https:" + img
-        name, _, colour = re.sub(r"^\w+ \| ", "", title).partition(" - ")
-        if not colour:  # Pro:Direct keeps the colourway in the URL handle
-            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-            rest = re.sub(r"-(mens|womens)-shoes-\d+$", "", p["handle"])
-            if rest.startswith(slug):
-                colour = rest[len(slug):].strip("-").replace("-", " ").title()
-        o = offer(shoe, shop, name, colour, price * rate, was * rate,
-                  [v.get("option1") or v["title"] for v in vs if v["available"]],
-                  f"https://{domain}/products/{p['handle']}", img)
-        o.update(country="UK", gbp=round(price, 2))
-        out.append(o)
-    return out
+def eu_to_uk(shoe, gender, eu):
+    eu = eu.replace(" ½", ".5").replace("½", ".5").replace(" ⅓", "⅓").replace(" ⅔", "⅔").strip()
+    table = EU_TO_UK.get((shoe["brand"], gender)) or EU_TO_UK.get((shoe["brand"], "men"), {})
+    return table.get(eu)
 
 
 def shopify_products(domain, handles):
@@ -320,24 +300,35 @@ def shopify_products(domain, handles):
 
 
 def prodirect(shoe):
-    d = "www.prodirectsport.com"
-    if shoe["id"] == "alphafly":  # big range: use the full Alphafly collections
-        ps = []
-        for c in ("running-mens-nike-alphafly-shoes", "running-womens-nike-alphafly-shoes"):
-            ps += json.loads(get(f"https://{d}/collections/{c}/products.json?limit=250"))["products"]
-    else:
-        ps = shopify_products(d, shopify_find(d, shoe))
-    return shopify_uk(shoe, "Pro:Direct", d, ps)
-
-
-def run4it(shoe):
-    d = "www.run4it.com"
-    return shopify_uk(shoe, "Run4It", d, shopify_products(d, shopify_find(d, shoe)))
+    # The Irish site: the UK one stopped shipping to the EU in July 2026.
+    domain, out, handles = "www.prodirectsport.ie", [], set()
+    # Its quick search stops at 10, so list the shoe line's tag page instead.
+    for page in range(1, 8):
+        h = get(f"https://{domain}/collections/all/{shoe['prodirect_tag']}?page={page}")
+        found = {x for x in re.findall(r"/products/([a-z0-9-]+)", h) if is_shoe(shoe, x.replace("-", " "))}
+        if not found - handles:
+            break
+        handles |= found
+    for p in shopify_products(domain, handles):
+        vs = [v for v in p["variants"] if v["available"]] or p["variants"]
+        name = p["title"]
+        # Pro:Direct keeps the colourway in the URL handle
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        rest = re.sub(r"-(mens|womens)-shoes-\d+$", "", p["handle"])
+        colour = rest[len(slug):].strip("-").replace("-", " ").title() if rest.startswith(slug) else ""
+        img = p.get("featured_image")
+        gender = "women" if "gender_female" in p.get("tags", []) or re.search(r"women", name, re.I) else "men"
+        sizes = [eu_to_uk(shoe, gender, v["option1"] or v["title"]) for v in vs if v["available"]]
+        out.append(offer(shoe, "Pro:Direct", name, colour,
+                         min(v["price"] for v in vs) / 100, max(v["compare_at_price"] or 0 for v in vs) / 100,
+                         [x for x in sizes if x], f"https://{domain}/products/{p['handle']}",
+                         "https:" + img if img and img.startswith("//") else img, gender))
+    return out
 
 
 SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
          "Top4Running": top4running, "Sports Direct": sportsdirect, "Zalando": zalando,
-         "Pro:Direct": prodirect, "Run4It": run4it}
+         "Pro:Direct": prodirect}
 
 
 
