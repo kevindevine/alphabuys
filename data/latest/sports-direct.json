@@ -1,0 +1,295 @@
+{
+ "checked": "2026-10-13T12:45:25+00:00",
+ "offers": [
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Coconut",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Crimson",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "EK Red/Green",
+   "gender": "men",
+   "price": 225.0,
+   "was": 320.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Green/Volt",
+   "gender": "men",
+   "price": 225.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Hyper Pink",
+   "gender": "women",
+   "price": 219.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Laser Orange",
+   "gender": "women",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000812",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000812_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Phantom",
+   "gender": "men",
+   "price": 249.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228225",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228225_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Laser Orange",
+   "gender": "men",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228212_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Blue/White",
+   "gender": "men",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228221",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228221_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Glacier Blue",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "White/Platinum",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Platinum/Purple",
+   "gender": "men",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228224",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228224_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Chalk/Purple",
+   "gender": "women",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000870",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000870_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Fuchsia Glow",
+   "gender": "women",
+   "price": 249.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000824",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000824_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Team Red",
+   "gender": "women",
+   "price": 225.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000809",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000809_o?fmt=auto&w=345&h=345&v=1"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "checked": "2026-10-13T12:45:25+00:00",
+ "offers": [
+  {
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "orange",
+   "gender": "men",
+   "price": 186.0,
+   "was": 310.0,
+   "sizes": [
+    "6",
+    "7"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-yellow-orange-1170155",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170155-636Wx636H.jpg?v=1765906525"
+  },
+  {
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
+   "colour": "orange",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-orange-1170142",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170142-636Wx636H.jpg?v=1765906223"
+  },
+  {
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "blue",
+   "gender": "men",
+   "price": 248.0,
+   "was": 310.0,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
+  },
+  {
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
+   "colour": "pink",
+   "gender": "women",
+   "price": 248.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-pink-1175564",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175564-636Wx636H.jpg?v=1781525537"
+  }
+ ]
+}

@@ -156,7 +156,10 @@ def top4running():
                              "https://top4running.ie" + path, (g.get("image") or [None])[0],
                              "women" if "women" in path else "men")
     with ThreadPoolExecutor(6) as ex:
-        return [o for o in ex.map(one, paths) if o]
+        got = [o for o in ex.map(one, paths) if o]
+    if paths and not got:
+        raise RuntimeError("product pages blocked (bot check)")
+    return got
 
 
 # ---------------------------------------------------------------- Sports Direct
@@ -188,24 +191,27 @@ SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
 
 
 def main():
+    """python3 check.py [shop ...]  - checks the named shops, or all of them."""
+    names = sys.argv[1:] or list(SHOPS)
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-    offers, status = [], {}
-    for shop, fn in SHOPS.items():
+    data = pathlib.Path(__file__).parent / "data"
+    (data / "latest").mkdir(parents=True, exist_ok=True)
+    (data / "history").mkdir(exist_ok=True)
+    offers = []
+    for shop in names:
+        slug = shop.lower().replace(" ", "-")
         try:
-            got = fn()
-            offers += got
-            status[shop] = {"ok": True, "count": len(got)}
+            got = SHOPS[shop]()
         except Exception as e:
-            status[shop] = {"ok": False, "error": str(e)[:200]}
-    out = pathlib.Path(__file__).parent / "data"
-    out.mkdir(exist_ok=True)
-    (out / "latest.json").write_text(json.dumps({"checked": now, "status": status, "offers": offers}, indent=1))
-    with open(out / "history.jsonl", "a") as f:
-        for o in offers:
-            f.write(json.dumps({"t": now, "shop": o["shop"], "url": o["url"], "price": o["price"], "sizes": o["sizes"]}) + "\n")
-
-    for shop, st in status.items():
-        print(f"{shop:17} {'OK ' + str(st['count']) + ' shoes' if st['ok'] else 'FAILED: ' + st['error']}")
+            # Keep the last good result; just note the failure.
+            print(f"{shop:17} FAILED: {str(e)[:200]}")
+            continue
+        print(f"{shop:17} OK {len(got)} shoes")
+        offers += got
+        (data / "latest" / f"{slug}.json").write_text(json.dumps({"checked": now, "offers": got}, indent=1))
+        with open(data / "history" / f"{slug}.jsonl", "a") as f:
+            for o in got:
+                f.write(json.dumps({"t": now, "url": o["url"], "price": o["price"], "sizes": o["sizes"]}) + "\n")
     print()
     for o in sorted(offers, key=lambda o: o["price"]):
         was = f" (was €{o['was']:.0f})" if o["was"] else ""
