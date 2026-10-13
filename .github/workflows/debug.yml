@@ -1,0 +1,11 @@
+name: debug
+on: workflow_dispatch
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+          curl -s -L -A "$UA" -o l.html -w "%{http_code} %{url_effective}\n" "https://www.lifestylesports.com/ie/search?q=adios+pro"
+          wc -c l.html; grep -c 'class="product-tile' l.html || true; grep -o '<title>[^<]*' l.html
+          for i in 1 2 3 4 5 6 7 8; do curl -s -A "$UA" -o /dev/null -w "%{http_code} " "https://www.run4it.com/search/suggest.json?q=adios+pro&resources%5Btype%5D=product&resources%5Blimit%5D=10"; done; echo
