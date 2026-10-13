@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-13T13:01:21+00:00",
+ "checked": "2026-10-13T13:03:11+00:00",
  "offers": [
   {
    "shop": "Zalando",
@@ -24,21 +24,6 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-alphafly-3-road-running-shoes-platinum-coloured-tintpurple-dynastyocean-cubemoon-particleice-peachspruce-aura-n1242a2z1-q12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/f60e5bf88c9547a5a7bfd9b586ff5670/5a6726756a28444ea771e237a766af5f.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shop": "Zalando",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next 3 Unisex",
-   "colour": "phantom/sequoia/ultralime/citron tint/iron purple/football grey",
-   "gender": "men",
-   "price": 247.95,
-   "was": 310.0,
-   "sizes": [
-    "6",
-    "7"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-phantomsequoiaultralimecitron-tintiron-purplefootball-grey-n1242a2z1-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/c3aa2f2d85fa41c4946553a7bcab2530/a92107932c6344ec8185d5ca8a8a5b21.jpg?imwidth=400&filter=packshot"
   },
   {
    "shop": "Zalando",
@@ -85,23 +70,6 @@
   {
    "shop": "Zalando",
    "model": "Alphafly 3",
-   "name": "Alphafly 3",
-   "colour": "team red/barely green/bright crimson/purple dynasty/atomic pink/steam",
-   "gender": "women",
-   "price": 233.95,
-   "was": 310.0,
-   "sizes": [
-    "2.5",
-    "3",
-    "3.5",
-    "6"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-alphafly-3-se-road-running-shoes-team-redbarely-greenbright-crimsonpurple-dynastyatomic-pinksteam-n1241a1ho-i11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/bb5ecc45e0394d7ab335f0d9010dfe6a/900ab69f0c81433d95f56aa44a200828.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shop": "Zalando",
-   "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next 3 Unisex",
    "colour": "racer blue atomic pink indigo burst white",
    "gender": "men",
@@ -131,21 +99,6 @@
   {
    "shop": "Zalando",
    "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next 3 Unisex",
-   "colour": "barely green/black spruce/volt tint/volt ice/sapphire/steam",
-   "gender": "men",
-   "price": 247.95,
-   "was": 310.0,
-   "sizes": [
-    "5.5",
-    "14"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/4820a80d892040b583fee3be28afcbb5/403052dbb19e41728554dab1bd6b30db.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shop": "Zalando",
-   "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
    "colour": "chalk/purple dynasty/hyper crimson/fennel/spruce aura/palest purple",
    "gender": "women",
@@ -168,6 +121,53 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-chalkpurple-dynastyhyper-crimsonfennelspruce-aurapalest-purple-n1241a1ev-h12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a0d5e388c48144dd8f90e4a9660fa4e5/7bfd6fc62c1442efa2a979d1ed950f82.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shop": "Zalando",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3",
+   "colour": "team red/barely green/bright crimson/purple dynasty/atomic pink/steam",
+   "gender": "women",
+   "price": 233.95,
+   "was": 310.0,
+   "sizes": [
+    "2.5",
+    "3",
+    "3.5",
+    "6"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-alphafly-3-se-road-running-shoes-team-redbarely-greenbright-crimsonpurple-dynastyatomic-pinksteam-n1241a1ho-i11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/bb5ecc45e0394d7ab335f0d9010dfe6a/900ab69f0c81433d95f56aa44a200828.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shop": "Zalando",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next 3 Unisex",
+   "colour": "barely green/black spruce/volt tint/volt ice/sapphire/steam",
+   "gender": "men",
+   "price": 247.95,
+   "was": 310.0,
+   "sizes": [
+    "5.5",
+    "14"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/4820a80d892040b583fee3be28afcbb5/403052dbb19e41728554dab1bd6b30db.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shop": "Zalando",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next 3 Unisex",
+   "colour": "phantom/sequoia/ultralime/citron tint/iron purple/football grey",
+   "gender": "men",
+   "price": 247.95,
+   "was": 310.0,
+   "sizes": [
+    "6",
+    "7"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-phantomsequoiaultralimecitron-tintiron-purplefootball-grey-n1242a2z1-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/c3aa2f2d85fa41c4946553a7bcab2530/a92107932c6344ec8185d5ca8a8a5b21.jpg?imwidth=400&filter=packshot"
   },
   {
    "shop": "Zalando",
