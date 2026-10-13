@@ -20,7 +20,9 @@ BROWSER_HEADERS = [
 
 
 def get(url, headers=(), browser=False):
-    cmd = ["curl", "-s", "-L", "--max-time", "30", "-A", UA]
+    # --fail: a blocked page (403 etc.) is an error, so the last good prices are kept.
+    # --retry: shops sometimes say "slow down" (429); wait and try again.
+    cmd = ["curl", "-s", "-L", "--fail", "--retry", "3", "--retry-delay", "3", "--max-time", "30", "-A", UA]
     if browser:  # Sports Direct only answers requests that look fully like Chrome
         cmd += ["--http2", "--compressed"] + [x for h in BROWSER_HEADERS for x in ("-H", h)]
     for h in headers:
@@ -144,7 +146,7 @@ def shopify_find(domain, shoe):
     """Product handles matching the shoe. Shopify search returns at most 10, so
     ask a few ways (men's / women's) to catch them all."""
     handles = set()
-    for extra in ("", " mens", " womens", " men", " women"):
+    for extra in ("", " mens", " womens"):
         q = (shoe["q"] + extra).replace(" ", "+")
         d = json.loads(get(f"https://{domain}/search/suggest.json?q={q}&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
         handles |= {p["handle"] for p in d["resources"]["results"]["products"] if is_shoe(shoe, p["title"])}
@@ -313,7 +315,7 @@ def shopify_uk(shoe, shop, domain, products):
 
 
 def shopify_products(domain, handles):
-    with ThreadPoolExecutor(6) as ex:
+    with ThreadPoolExecutor(2) as ex:
         return list(ex.map(lambda h: json.loads(get(f"https://{domain}/products/{h}.js")), handles))
 
 
