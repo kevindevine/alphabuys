@@ -1,6 +1,22 @@
 {
- "checked": "2026-10-13T13:25:45+00:00",
+ "checked": "2026-10-13T13:28:08+00:00",
  "offers": [
+  {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "orange",
+   "gender": "men",
+   "price": 186.0,
+   "was": 310.0,
+   "sizes": [
+    "6",
+    "7"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-yellow-orange-1170155",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170155-636Wx636H.jpg?v=1765906525"
+  },
   {
    "shoe": "alphafly",
    "shop": "Elverys",
@@ -56,20 +72,34 @@
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175564-636Wx636H.jpg?v=1781525537"
   },
   {
-   "shoe": "alphafly",
+   "shoe": "adios-pro",
    "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
-   "colour": "orange",
+   "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4 Mens Running Shoes",
+   "colour": "yellow",
    "gender": "men",
-   "price": 186.0,
-   "was": 310.0,
+   "price": 150.0,
+   "was": 250.0,
    "sizes": [
-    "6",
-    "7"
+    "6"
    ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-yellow-orange-1170155",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170155-636Wx636H.jpg?v=1765906525"
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-yellow-1170135",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170135-636Wx636H.jpg?v=1765819872"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-yellow-1170120",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170120-636Wx636H.jpg?v=1765819874"
   },
   {
    "shoe": "adios-pro",
@@ -117,21 +147,6 @@
    "shoe": "adios-pro",
    "shop": "Elverys",
    "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
-   "colour": "yellow",
-   "gender": "women",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-yellow-1170120",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170120-636Wx636H.jpg?v=1765819874"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4 Regular-Fit Mens Running Shoes",
    "colour": "blue",
    "gender": "men",
@@ -142,21 +157,6 @@
    ],
    "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-blue-1170139",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170139-636Wx636H.jpg?v=1767958223"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4 Mens Running Shoes",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-yellow-1170135",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170135-636Wx636H.jpg?v=1765819872"
   },
   {
    "shoe": "adios-pro",
