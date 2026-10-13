@@ -32,8 +32,8 @@ def get(url, headers=(), browser=False):
 
 
 def model_of(name):
-    m = re.search(r"alphafly\s*(?:next%?\s*)?(\d)", name, re.I)
-    return f"Alphafly {m.group(1)}" if m else "Alphafly"
+    m = re.search(r"alphafly\s*(?:next\s*(?:%|percent)?\s*)?(\d)?", name, re.I)
+    return f"Alphafly {m.group(1) or 1}" if m else "Alphafly"
 
 
 def gender_of(text):
@@ -186,8 +186,92 @@ def sportsdirect():
     return out
 
 
+# ---------------------------------------------------------------- Zalando
+def zalando():
+    h = get("https://www.zalando.ie/catalog/?q=alphafly", browser=True)
+    dec, prods = json.JSONDecoder(), {}
+    # Product cards are cached in pieces; merge every fragment per SKU.
+    for m in re.finditer(r'\{"data":\{"product":\{"id":"ern:product::', h):
+        try:
+            p = dec.raw_decode(h, m.start())[0]["data"]["product"]
+        except (ValueError, KeyError):
+            continue
+        prods.setdefault(p["sku"], {}).update({k: v for k, v in p.items() if v is not None})
+    out = []
+    for p in prods.values():
+        if "alphafly" not in p.get("name", "").lower() or "displayPrice" not in p:
+            continue
+        dp = p["displayPrice"]
+        orig = dp["original"]["amount"] / 100
+        price = (dp.get("promotional") or {}).get("amount", orig * 100) / 100
+        model, _, colour = p["name"].partition(" - Road running shoes - ")
+        out.append(offer("Zalando", model.title(), colour, price, orig,
+                         [x["size"] for x in p.get("simples", [])], p["uri"],
+                         (p.get("mediumPackshotImage") or {}).get("uri"),
+                         "women" if p.get("navigationTargetGroup") == "WOMEN" else "men"))
+    return out
+
+
+# ---------------------------------------------------------------- UK shops (Shopify, priced in GBP)
+_gbp = None
+def gbp_to_eur():
+    """Today's European Central Bank rate."""
+    global _gbp
+    if _gbp is None:
+        x = get("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml")
+        _gbp = 1 / float(re.search(r"currency='GBP' rate='([\d.]+)'", x).group(1))
+    return _gbp
+
+
+def shopify_uk(shop, domain, products):
+    """products: Shopify product dicts (from products.json or a .js fetch)."""
+    rate, out = gbp_to_eur(), []
+    for p in products:
+        title = p["title"]
+        if "alphafly" not in title.lower():
+            continue
+        vs = [v for v in p["variants"] if v["available"]] or p["variants"]
+        price = min(float(v["price"]) if isinstance(v["price"], str) else v["price"] / 100 for v in vs)
+        was = max(float(v["compare_at_price"] or 0) if isinstance(v["compare_at_price"], (str, type(None))) else v["compare_at_price"] / 100 for v in vs)
+        img = p.get("featured_image") or (p.get("images") or [{}])[0]
+        img = img.get("src") if isinstance(img, dict) else img
+        if img and img.startswith("//"):
+            img = "https:" + img
+        name, _, colour = title.replace("Nike | ", "").partition(" - ")
+        if not colour:  # Pro:Direct keeps the colourway in the URL handle
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+            rest = re.sub(r"-(mens|womens)-shoes-\d+$", "", p["handle"])
+            if rest.startswith(slug):
+                colour = rest[len(slug):].strip("-").replace("-", " ").title()
+        o = offer(shop, name, colour, price * rate, was * rate,
+                  [v.get("option1") or v["title"] for v in vs if v["available"]],
+                  f"https://{domain}/products/{p['handle']}", img)
+        o.update(country="UK", gbp=round(price, 2))
+        out.append(o)
+    return out
+
+
+def prodirect():
+    ps = []
+    for c in ("running-mens-nike-alphafly-shoes", "running-womens-nike-alphafly-shoes"):
+        ps += json.loads(get(f"https://www.prodirectsport.com/collections/{c}/products.json?limit=250"))["products"]
+    return shopify_uk("Pro:Direct", "www.prodirectsport.com", ps)
+
+
+def run4it():
+    handles = set()
+    for q in ("alphafly mens", "alphafly womens", "alphafly"):
+        d = json.loads(get(f"https://www.run4it.com/search/suggest.json?q={q.replace(' ', '+')}&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
+        handles |= {p["handle"] for p in d["resources"]["results"]["products"]}
+    with ThreadPoolExecutor(6) as ex:
+        ps = list(ex.map(lambda h: json.loads(get(f"https://www.run4it.com/products/{h}.js")), handles))
+    return shopify_uk("Run4It", "www.run4it.com", ps)
+
+
 SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
-         "Top4Running": top4running, "Sports Direct": sportsdirect}
+         "Top4Running": top4running, "Sports Direct": sportsdirect, "Zalando": zalando,
+         "Pro:Direct": prodirect, "Run4It": run4it}
+
 
 
 def main():
@@ -199,7 +283,7 @@ def main():
     (data / "history").mkdir(exist_ok=True)
     offers = []
     for shop in names:
-        slug = shop.lower().replace(" ", "-")
+        slug = re.sub(r"[^a-z0-9]+", "-", shop.lower())
         try:
             got = SHOPS[shop]()
         except Exception as e:

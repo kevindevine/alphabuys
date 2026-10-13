@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
       - name: Check shops
         # Top4Running blocks GitHub servers; it is checked from the Mac (mac-check.sh)
-        run: python3 check.py Nike Elverys "Lifestyle Sports" "Sports Direct"
+        run: python3 check.py Nike Elverys "Lifestyle Sports" "Sports Direct" Zalando Pro:Direct Run4It
       - name: Save prices
         run: |
           git config user.name "alpha-buys-bot"

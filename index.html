@@ -70,11 +70,11 @@ header { padding: 28px 0 8px; }
 
 /* hero */
 .hero {
-  display: grid; grid-template-columns: 1.1fr 1fr; gap: 0; margin: 24px 0;
+  display: grid; grid-template-columns: minmax(200px, 300px) 1fr; gap: 0; margin: 24px 0;
   background: var(--card); border: 1.5px solid var(--ink); border-radius: 22px; overflow: hidden;
 }
-.hero .pic { background: var(--img); display: grid; place-items: center; min-height: 300px; position: relative; }
-.hero .pic img { width: 92%; max-height: 360px; object-fit: contain; mix-blend-mode: multiply; }
+.hero .pic { background: var(--img); display: grid; place-items: center; min-height: 220px; position: relative; }
+.hero .pic img { width: 90%; max-height: 220px; object-fit: contain; mix-blend-mode: multiply; }
 .hero .info { padding: 28px; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
 .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .hero h2 { font-size: clamp(34px, 5vw, 54px); line-height: .95; margin: 0; }
@@ -99,37 +99,48 @@ header { padding: 28px 0 8px; }
 .listhead { display: flex; justify-content: space-between; align-items: baseline; margin: 8px 0 14px; gap: 12px; flex-wrap: wrap; }
 .listhead h3 { margin: 0; font-size: 30px; }
 .count { color: var(--muted); font-weight: 500; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
-  display: flex; flex-direction: column; text-decoration: none; transition: transform .15s, border-color .15s;
+  display: flex; flex-direction: row; text-decoration: none; transition: transform .15s, border-color .15s;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--ink); }
-.card .pic { background: var(--img); aspect-ratio: 4/3; display: grid; place-items: center; position: relative; }
-.card .pic img { width: 88%; height: 88%; object-fit: contain; mix-blend-mode: multiply; }
+.card .pic { background: var(--img); width: 118px; flex: none; display: grid; place-items: center; position: relative; }
+.card .pic img { width: 92%; height: 92%; object-fit: contain; mix-blend-mode: multiply; }
 .pic img.fill { width: 100%; height: 100%; max-height: none; object-fit: cover; }
 .badges { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; gap: 6px; }
 .shop { background: #fff; color: #111; font-size: 12px; font-weight: 700; padding: 4px 9px; border-radius: 999px; }
-.card .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
-.card .model { font-size: 22px; line-height: 1; }
+.card .body { padding: 12px 14px 12px; min-width: 0; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.card .model { font-size: 20px; line-height: 1; }
+.card .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.card .by { font-size: 12px; font-weight: 700; color: var(--ink); white-space: nowrap; }
 .card .colour { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card .prow { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; }
-.card .price { font-size: 34px; line-height: 1; }
+.card .prow { display: flex; align-items: baseline; gap: 8px; margin-top: 4px; }
+.card .price { font-size: 28px; line-height: 1; }
 .dropnote { font-size: 13px; font-weight: 700; color: var(--drop); }
 .lownote { font-size: 13px; font-weight: 700; color: var(--good); }
-.szs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; padding-top: 10px; }
+.szs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; padding-top: 8px; }
+.uknote { font-size: 12px; color: var(--muted); }
+.card .off { position: absolute; top: 8px; left: 8px; font-size: 11px; padding: 2px 6px; }
 .sz { font-size: 11.5px; font-weight: 600; border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; color: var(--muted); }
 .sz.me { background: var(--volt); color: var(--volt-ink); border-color: var(--ink); }
 .none { padding: 40px 0; color: var(--muted); text-align: center; }
 
 footer { margin: 48px 0 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-.shops { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-bottom: 10px; }
+.shops { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px 18px; margin: 10px 0 18px; }
+.shops a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.shops a:hover { text-decoration: underline; }
+footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
+.flag { font-size: 10.5px; font-weight: 700; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 6px; color: var(--muted); }
 .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--good); margin-right: 6px; vertical-align: 1px; }
 .dot.stale { background: var(--drop); }
 
 @media (max-width: 720px) {
   .hero { grid-template-columns: 1fr; }
-  .hero .pic { min-height: 220px; }
+  .hero .pic { min-height: 150px; }
+  .hero .pic img { max-height: 150px; }
+  .grid { grid-template-columns: 1fr; }
+  .card .pic { width: 100px; }
   .hero .info { padding: 20px; }
   .flabel { min-width: 0; }
   .filters { position: static; }
@@ -172,19 +183,27 @@ footer { margin: 48px 0 32px; padding-top: 18px; border-top: 1px solid var(--lin
   <section class="grid" id="grid"></section>
 
   <footer>
+    <h4 class="display">Shops we check</h4>
     <div class="shops" id="shops"></div>
-    Prices checked four times a day. Always confirm the price on the shop's site. Not affiliated with Nike or any retailer.
+    Prices checked four times a day. UK shops are priced in pounds and shown in euro at the European Central Bank's daily rate; customs charges may apply on delivery to Ireland. Always confirm the price on the shop's site. Not affiliated with Nike or any retailer.
   </footer>
 </div>
 
 <script>
+// [file name, shop, country, home page]
 const SHOPS = [
-  ["nike", "Nike"], ["elverys", "Elverys"], ["lifestyle-sports", "Lifestyle Sports"],
-  ["top4running", "Top4Running"], ["sports-direct", "Sports Direct"],
+  ["nike", "Nike", "IE", "https://www.nike.com/ie"],
+  ["elverys", "Elverys", "IE", "https://www.elverys.ie"],
+  ["lifestyle-sports", "Lifestyle Sports", "IE", "https://www.lifestylesports.com/ie"],
+  ["sports-direct", "Sports Direct", "IE", "https://ie.sportsdirect.com"],
+  ["top4running", "Top4Running", "IE", "https://top4running.ie"],
+  ["zalando", "Zalando", "IE", "https://www.zalando.ie"],
+  ["pro-direct", "Pro:Direct", "UK", "https://www.prodirectsport.com"],
+  ["run4it", "Run4It", "UK", "https://www.run4it.com"],
 ];
 const $ = id => document.getElementById(id);
 const eur = n => "€" + (Number.isInteger(n) ? n : n.toFixed(2));
-const imgClass = o => o.shop === "Nike" ? ' class="fill"' : "";
+const imgClass = o => ["Nike", "Pro:Direct"].includes(o.shop) ? ' class="fill"' : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const day = t => new Date(t).toLocaleDateString("en-IE", { day: "numeric", month: "short" });
 const ago = t => {
@@ -230,6 +249,7 @@ async function load() {
 
 function matches(o, withSize = true) {
   return o.gender === state.gender
+    && (!withSize || o.sizes.length > 0)
     && (state.model === "all" || o.model === state.model)
     && (!withSize || !state.size || o.sizes.includes(state.size));
 }
@@ -237,7 +257,7 @@ function matches(o, withSize = true) {
 function renderFilters() {
   for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
 
-  const models = [...new Set(offers.map(o => o.model))].sort();
+  const models = [...new Set(offers.filter(o => o.sizes.length).map(o => o.model))].sort();
   if (state.model !== "all" && !models.includes(state.model)) state.model = "all";
   $("model").innerHTML = ["all", ...models].map(m =>
     `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All" : esc(m.replace("Alphafly ", "AF"))}</button>`).join("");
@@ -251,6 +271,9 @@ function renderFilters() {
 
 function badgeRow(o) {
   return `<div class="badges"><span class="shop">${esc(o.shop)}</span>${o.offPct >= 5 ? `<span class="off">−${o.offPct}%</span>` : ""}</div>`;
+}
+function ukNote(o) {
+  return o.country === "UK" ? `<div class="uknote">UK shop · £${o.gbp.toFixed(2)} · customs may apply</div>` : "";
 }
 function notes(o) {
   let s = "";
@@ -274,7 +297,7 @@ function renderHero(list) {
           <span class="price display">${eur(o.price)}</span>
           ${o.was ? `<span class="was">${eur(o.was)}</span>` : ""}
         </div>
-        ${notes(o)}
+        ${ukNote(o)}${notes(o)}
         <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)} →</a>
       </div>
     </div>`;
@@ -290,12 +313,12 @@ function renderGrid(list) {
   }
   $("grid").innerHTML = list.map(o => `
     <a class="card" href="${esc(o.url)}" target="_blank" rel="noopener">
-      <div class="pic">${badgeRow(o)}${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="${esc(o.model)} ${esc(o.colour)}">` : ""}</div>
+      <div class="pic">${o.offPct >= 5 ? `<span class="off">−${o.offPct}%</span>` : ""}${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="${esc(o.model)} ${esc(o.colour)}">` : ""}</div>
       <div class="body">
-        <div class="model display">${esc(o.model)}</div>
+        <div class="top"><span class="model display">${esc(o.model)}</span><span class="by">${esc(o.shop)}</span></div>
         <div class="colour">${esc(o.colour) || "&nbsp;"}</div>
         <div class="prow"><span class="price display">${eur(o.price)}</span>${o.was ? `<span class="was">${eur(o.was)}</span>` : ""}</div>
-        ${notes(o)}
+        ${ukNote(o)}${notes(o)}
         <div class="szs">${o.sizes.map(s => `<span class="sz${s === state.size ? " me" : ""}">${s}</span>`).join("")}</div>
       </div>
     </a>`).join("");
@@ -317,7 +340,7 @@ function renderChart() {
   }
   const pts = Object.entries(byDay).sort();
   const who = `${state.gender === "men" ? "men's" : "women's"} ${state.model === "all" ? "Alphafly" : state.model}${state.size ? ", UK " + state.size : ""}`;
-  $("chartSub").textContent = `Lowest in-stock price each day for ${who}, across all five shops.`;
+  $("chartSub").textContent = `Lowest in-stock price each day for ${who}, across all ${SHOPS.length} shops.`;
   if (pts.length < 2) {
     $("chart").innerHTML = `<div class="empty">${pts.length ? `Today's low: <b style="color:var(--ink)">${eur(pts[0][1])}</b>. ` : ""}The line fills in as we collect a few days of prices.</div>`;
     return;
@@ -343,10 +366,12 @@ function renderChart() {
 }
 
 function renderShops() {
-  $("shops").innerHTML = SHOPS.map(([, name]) => {
+  $("shops").innerHTML = SHOPS.map(([, name, country, url]) => {
     const t = checked[name];
     const stale = !t || (Date.now() - new Date(t)) > 36 * 36e5;
-    return `<span><i class="dot${stale ? " stale" : ""}"></i>${name}: ${t ? "checked " + ago(t) : "no data yet"}</span>`;
+      const n = offers.filter(o => o.shop === name && o.sizes.length).length;
+    return `<div><i class="dot${stale ? " stale" : ""}"></i><a href="${url}" target="_blank" rel="noopener">${name}</a><span class="flag">${country}</span><br>
+      <span>${n ? n + (n === 1 ? " pair" : " pairs") + " in stock" : "none in stock"} · ${t ? "checked " + ago(t) : "no data yet"}</span></div>`;
   }).join("");
 }
 
