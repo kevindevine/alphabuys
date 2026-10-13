@@ -4,7 +4,7 @@ Visits each shop, finds every race shoe in SHOES, and records price + in-stock
 sizes (UK). Writes data/latest/<shop>.json and appends to data/history/<shop>.jsonl.
 Run:  python3 check.py [shop ...]
 """
-import json, re, subprocess, html, datetime, pathlib, sys
+import json, re, subprocess, html, datetime, pathlib, sys, time
 from concurrent.futures import ThreadPoolExecutor
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
@@ -22,7 +22,7 @@ BROWSER_HEADERS = [
 def get(url, headers=(), browser=False):
     # --fail: a blocked page (403 etc.) is an error, so the last good prices are kept.
     # --retry: shops sometimes say "slow down" (429); wait and try again.
-    cmd = ["curl", "-s", "-L", "--fail", "--retry", "3", "--retry-delay", "3", "--max-time", "30", "-A", UA]
+    cmd = ["curl", "-s", "-L", "--fail", "--retry", "4", "--retry-delay", "10", "--max-time", "30", "-A", UA]
     if browser:  # Sports Direct only answers requests that look fully like Chrome
         cmd += ["--http2", "--compressed"] + [x for h in BROWSER_HEADERS for x in ("-H", h)]
     for h in headers:
@@ -295,8 +295,12 @@ def eu_to_uk(shoe, gender, eu):
 
 
 def shopify_products(domain, handles):
-    with ThreadPoolExecutor(2) as ex:
-        return list(ex.map(lambda h: json.loads(get(f"https://{domain}/products/{h}.js")), handles))
+    # One at a time with a pause: Pro:Direct turns away quick bursts of requests.
+    out = []
+    for h in sorted(handles):
+        out.append(json.loads(get(f"https://{domain}/products/{h}.js")))
+        time.sleep(1)
+    return out
 
 
 def prodirect(shoe):
