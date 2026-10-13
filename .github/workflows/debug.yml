@@ -5,7 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-          curl -s "https://live.luigisbox.com/search?tracker_id=214346-251725&q=alphafly&f[]=type:item&size=40" | head -c 300; echo
-          curl -s -L -A "$UA" -o p.html -w "%{http_code} %{url_effective}\n" https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-800
-          wc -c p.html; grep -c 'ProductGroup' p.html; head -c 600 p.html
+          U=https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-800
+          curl -s -L -A "Mozilla/5.0" $U | sed 's/<[^>]*>/ /g' | tr -s ' \n' | head -c 400; echo; echo ----
+          curl -s -L --http2 --compressed -o p.html -w "%{http_code}\n" $U \
+            -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" \
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: en-IE,en;q=0.9" \
+            -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130"' -H "sec-ch-ua-mobile: ?0" -H 'sec-ch-ua-platform: "macOS"' \
+            -H "Sec-Fetch-Dest: document" -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Site: none" -H "Sec-Fetch-User: ?1" -H "Upgrade-Insecure-Requests: 1"
+          wc -c p.html; grep -c ProductGroup p.html || true
+          pip -q install curl_cffi && python3 -c "
+          from curl_cffi import requests
+          r=requests.get('$U',impersonate='chrome'); print('cffi',r.status_code,len(r.text),r.text.count('ProductGroup'))"
