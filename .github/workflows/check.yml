@@ -1,0 +1,28 @@
+name: Check prices
+
+on:
+  schedule:
+    - cron: "0 6,10,14,18 * * *"   # 4 times a day (UTC)
+  workflow_dispatch:                # "Run workflow" button for a manual check
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check shops
+        run: python3 check.py
+      - name: Save prices
+        run: |
+          git config user.name "alpha-buys-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Prices $(date -u +'%Y-%m-%d %H:%M')"
+          git push
