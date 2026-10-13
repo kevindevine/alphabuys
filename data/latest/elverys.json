@@ -1,21 +1,6 @@
 {
- "checked": "2026-10-13T15:20:01+00:00",
+ "checked": "2026-10-13T15:21:35+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
-   "colour": "orange",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-orange-1170142",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170142-636Wx636H.jpg?v=1765906223"
-  },
   {
    "shoe": "alphafly",
    "shop": "Elverys",
@@ -42,6 +27,24 @@
    "shop": "Elverys",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "blue",
+   "gender": "men",
+   "price": 248.0,
+   "was": 310.0,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
    "colour": "orange",
    "gender": "men",
    "price": 186.0,
@@ -57,19 +60,16 @@
    "shoe": "alphafly",
    "shop": "Elverys",
    "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
-   "colour": "blue",
-   "gender": "men",
-   "price": 248.0,
+   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
+   "colour": "orange",
+   "gender": "women",
+   "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "8",
-    "9",
-    "10",
-    "11"
+    "4"
    ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-orange-1170142",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170142-636Wx636H.jpg?v=1765906223"
   },
   {
    "shoe": "adios-pro",
@@ -85,6 +85,24 @@
    ],
    "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-black-1170137",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170137-636Wx636H.jpg?v=1765819849"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
+   "colour": "white",
+   "gender": "women",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "4",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-white-1170122",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170122-636Wx636H.jpg?v=1765819874"
   },
   {
    "shoe": "adios-pro",
@@ -139,21 +157,6 @@
    "shoe": "adios-pro",
    "shop": "Elverys",
    "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Regular-Fit Mens Running Shoes",
-   "colour": "blue",
-   "gender": "men",
-   "price": 187.5,
-   "was": 250.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-blue-1170139",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170139-636Wx636H.jpg?v=1767958223"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4 Mens Road Running Shoes",
    "colour": "white",
    "gender": "men",
@@ -178,19 +181,16 @@
    "shoe": "adios-pro",
    "shop": "Elverys",
    "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
-   "colour": "white",
-   "gender": "women",
-   "price": 150.0,
+   "name": "adidas Adizero Adios Pro 4 Regular-Fit Mens Running Shoes",
+   "colour": "blue",
+   "gender": "men",
+   "price": 187.5,
    "was": 250.0,
    "sizes": [
-    "4",
-    "5.5",
-    "6",
-    "6.5"
+    "8"
    ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-white-1170122",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170122-636Wx636H.jpg?v=1765819874"
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-blue-1170139",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170139-636Wx636H.jpg?v=1767958223"
   }
  ]
 }
