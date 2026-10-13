@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Alpha Buys</title>
-<meta name="description" content="Every Nike Alphafly in Ireland, cheapest first. Pick your size, see who has it, catch the price drops.">
+<meta name="description" content="Race-day super shoes in Ireland, cheapest first: Nike Alphafly, adidas Adios Pro, ASICS Metaspeed. Pick your size, see who has it, catch the price drops.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -51,8 +51,22 @@ header { padding: 28px 0 8px; }
 /* filters */
 .filters {
   position: sticky; top: 0; z-index: 5; background: var(--bg);
-  padding: 14px 0; border-bottom: 1px solid var(--line); margin-top: 18px;
+  padding: 14px 0; border-bottom: 1px solid var(--line); margin-top: 6px;
 }
+.shoes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 22px; max-width: 680px; }
+.shoes::-webkit-scrollbar { display: none; }
+.shoes button {
+  min-width: 0; text-align: left; cursor: pointer; color: var(--ink); background: var(--card);
+  border: 1.5px solid var(--line); border-radius: 14px; padding: 10px 16px 9px;
+}
+.shoes button small { display: block; font: 700 11px Inter, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.shoes button span { font-size: clamp(17px, 4.6vw, 24px); line-height: 1.05; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.shoes button em { font: 500 12px Inter, sans-serif; font-style: normal; color: var(--muted); display: block; margin-top: 2px; }
+.shoes button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
+.shoes button[aria-pressed="true"] small, .shoes button[aria-pressed="true"] em { color: var(--volt); }
+.shoes button:hover { border-color: var(--ink); }
+#model { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+#model button { white-space: nowrap; }
 .frow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .frow + .frow { margin-top: 10px; }
 .flabel { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); min-width: 44px; }
@@ -144,6 +158,7 @@ footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
   .hero .info { padding: 20px; }
   .flabel { min-width: 0; }
   .filters { position: static; }
+  .shoes button { padding: 8px 10px 7px; }
 }
 </style>
 </head>
@@ -151,8 +166,10 @@ footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
 <div class="wrap">
   <header>
     <div class="brand"><h1 class="logo display">Alpha <span>Buys</span></h1></div>
-    <p class="tag">Every Nike Alphafly in Ireland, cheapest first. Pick your size, see who has it, catch the drops.</p>
+    <p class="tag">Race-day super shoes in Ireland, cheapest first. Pick your shoe and size, see who has it, catch the drops.</p>
   </header>
+
+  <nav class="shoes" id="shoes" aria-label="Shoe"></nav>
 
   <div class="filters">
     <div class="frow">
@@ -185,7 +202,7 @@ footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
   <footer>
     <h4 class="display">Shops we check</h4>
     <div class="shops" id="shops"></div>
-    Prices checked four times a day. UK shops are priced in pounds and shown in euro at the European Central Bank's daily rate; customs charges may apply on delivery to Ireland. Always confirm the price on the shop's site. Not affiliated with Nike or any retailer.
+    Prices checked four times a day. UK shops are priced in pounds and shown in euro at the European Central Bank's daily rate; customs charges may apply on delivery to Ireland. Always confirm the price on the shop's site. Not affiliated with Nike, adidas, ASICS or any retailer.
   </footer>
 </div>
 
@@ -201,6 +218,14 @@ const SHOPS = [
   ["pro-direct", "Pro:Direct", "UK", "https://www.prodirectsport.com"],
   ["run4it", "Run4It", "UK", "https://www.run4it.com"],
 ];
+// Shoes we track; ids match "shoe" in the data files.
+const SHOES = [
+  { id: "alphafly", brand: "Nike", name: "Alphafly", short: m => m.replace("Alphafly ", "AF") },
+  { id: "adios-pro", brand: "adidas", name: "Adios Pro", short: m => m.replace("Adios Pro ", "Pro ").replace("Pro Evo", "Evo") },
+  { id: "metaspeed", brand: "ASICS", name: "Metaspeed", short: m => m.replace("Metaspeed ", "") },
+];
+const shoe = () => SHOES.find(x => x.id === state.shoe) || SHOES[0];
+const sizeKey = x => { const m = /^(\d+)(.*)$/.exec(x); return m ? +m[1] + ({ ".5": .5, "⅓": .33, "⅔": .67 }[m[2]] || 0) : 99; };
 const $ = id => document.getElementById(id);
 const eur = n => "€" + (Number.isInteger(n) ? n : n.toFixed(2));
 const imgClass = o => ["Nike", "Pro:Direct"].includes(o.shop) ? ' class="fill"' : "";
@@ -212,7 +237,7 @@ const ago = t => {
 };
 
 let offers = [], history = {}, checked = {};
-const state = { gender: "men", size: null, model: "all" };
+const state = { shoe: "alphafly", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("alphabuys", JSON.stringify(state)); } catch (e) {} };
 
@@ -248,23 +273,28 @@ async function load() {
 }
 
 function matches(o, withSize = true) {
-  return o.gender === state.gender
+  return (o.shoe || "alphafly") === state.shoe
+    && o.gender === state.gender
     && (!withSize || o.sizes.length > 0)
     && (state.model === "all" || o.model === state.model)
     && (!withSize || !state.size || o.sizes.includes(state.size));
 }
 
 function renderFilters() {
+  $("shoes").innerHTML = SHOES.map(x => {
+    const n = offers.filter(o => (o.shoe || "alphafly") === x.id && o.sizes.length).length;
+    return `<button data-v="${x.id}" aria-pressed="${x.id === state.shoe}"><small>${x.brand}</small><span class="display">${x.name}</span><em>${n} in stock</em></button>`;
+  }).join("");
   for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
 
-  const models = [...new Set(offers.filter(o => o.sizes.length).map(o => o.model))].sort();
+  const models = [...new Set(offers.filter(o => (o.shoe || "alphafly") === state.shoe && o.sizes.length).map(o => o.model))].sort();
   if (state.model !== "all" && !models.includes(state.model)) state.model = "all";
   $("model").innerHTML = ["all", ...models].map(m =>
-    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All" : esc(m.replace("Alphafly ", "AF"))}</button>`).join("");
+    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All" : esc(shoe().short(m))}</button>`).join("");
 
-  const sizes = [...new Set(offers.filter(o => o.gender === state.gender).flatMap(o => o.sizes))]
-    .sort((a, b) => parseFloat(a) - parseFloat(b));
-  if (state.size && !sizes.includes(state.size)) sizes.push(state.size), sizes.sort((a, b) => parseFloat(a) - parseFloat(b));
+  const sizes = [...new Set(offers.filter(o => (o.shoe || "alphafly") === state.shoe && o.gender === state.gender && o.sizes.length).flatMap(o => o.sizes))];
+  if (state.size && !sizes.includes(state.size)) sizes.push(state.size);
+  sizes.sort((a, b) => sizeKey(a) - sizeKey(b));
   $("sizes").innerHTML = [`<button class="chip" data-v="" aria-pressed="${!state.size}">Any</button>`,
     ...sizes.map(s => `<button class="chip" data-v="${s}" aria-pressed="${s === state.size}">${s}</button>`)].join("");
 }
@@ -290,7 +320,7 @@ function renderHero(list) {
     <div class="hero">
       <div class="pic">${badgeRow(o)}${o.image ? `<img${imgClass(o)} src="${esc(o.image)}" alt="${esc(o.model)} ${esc(o.colour)}">` : ""}</div>
       <div class="info">
-        <div class="eyebrow">Cheapest ${state.gender === "men" ? "men's" : "women's"} Alphafly ${sizeTxt}</div>
+        <div class="eyebrow">Cheapest ${state.gender === "men" ? "men's" : "women's"} ${shoe().name} ${sizeTxt}</div>
         <h2 class="display">${esc(o.model)}</h2>
         <div class="colour" style="color:var(--muted)">${esc(o.colour)} · ${esc(o.shop)}</div>
         <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
@@ -305,7 +335,7 @@ function renderHero(list) {
 
 function renderGrid(list) {
   const g = state.gender === "men" ? "Men's" : "Women's";
-  $("listTitle").textContent = state.size ? `${g} UK ${state.size} in stock` : `${g} Alphaflys in stock`;
+  $("listTitle").textContent = state.size ? `${g} UK ${state.size} in stock` : `${g} ${shoe().name}s in stock`;
   $("count").textContent = `${list.length} ${list.length === 1 ? "pair" : "pairs"} across ${new Set(list.map(o => o.shop)).size} shops`;
   if (!list.length) {
     $("grid").innerHTML = `<div class="none" style="grid-column:1/-1">No shop has this in stock right now. We check four times a day.</div>`;
@@ -339,7 +369,7 @@ function renderChart() {
     }
   }
   const pts = Object.entries(byDay).sort();
-  const who = `${state.gender === "men" ? "men's" : "women's"} ${state.model === "all" ? "Alphafly" : state.model}${state.size ? ", UK " + state.size : ""}`;
+  const who = `${state.gender === "men" ? "men's" : "women's"} ${state.model === "all" ? shoe().name : state.model}${state.size ? ", UK " + state.size : ""}`;
   $("chartSub").textContent = `Lowest in-stock price each day for ${who}, across all ${SHOPS.length} shops.`;
   if (pts.length < 2) {
     $("chart").innerHTML = `<div class="empty">${pts.length ? `Today's low: <b style="color:var(--ink)">${eur(pts[0][1])}</b>. ` : ""}The line fills in as we collect a few days of prices.</div>`;
@@ -369,9 +399,9 @@ function renderShops() {
   $("shops").innerHTML = SHOPS.map(([, name, country, url]) => {
     const t = checked[name];
     const stale = !t || (Date.now() - new Date(t)) > 36 * 36e5;
-      const n = offers.filter(o => o.shop === name && o.sizes.length).length;
+    const n = offers.filter(o => o.shop === name && (o.shoe || "alphafly") === state.shoe && o.sizes.length).length;
     return `<div><i class="dot${stale ? " stale" : ""}"></i><a href="${url}" target="_blank" rel="noopener">${name}</a><span class="flag">${country}</span><br>
-      <span>${n ? n + (n === 1 ? " pair" : " pairs") + " in stock" : "none in stock"} · ${t ? "checked " + ago(t) : "no data yet"}</span></div>`;
+      <span>${n ? n + (n === 1 ? " pair" : " pairs") + " in stock" : `no ${shoe().name}s in stock`} · ${t ? "checked " + ago(t) : "no data yet"}</span></div>`;
   }).join("");
 }
 
@@ -384,6 +414,10 @@ function render() {
   renderShops();
 }
 
+$("shoes").addEventListener("click", e => {
+  const v = e.target.closest("button")?.dataset.v; if (!v) return;
+  state.shoe = v; state.model = "all"; save(); render();  // size stays: same feet
+});
 $("gender").addEventListener("click", e => {
   const v = e.target.dataset?.v; if (!v) return;
   state.gender = v; state.size = null; save(); render();

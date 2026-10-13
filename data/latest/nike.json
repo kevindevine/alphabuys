@@ -1,7 +1,8 @@
 {
- "checked": "2026-10-13T13:03:11+00:00",
+ "checked": "2026-10-13T13:25:45+00:00",
  "offers": [
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 4",
    "name": "Nike Alphafly 4",
@@ -31,6 +32,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4868d7a4-594e-488f-afc4-662626aee2fb/AIR+ZM+ALPHAFLY+NEXT%25+4.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 4",
    "name": "Nike Alphafly 4",
@@ -59,6 +61,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a5f947fe-3648-45fc-8bbe-ef73d03af660/W+AIR+ZM+ALPHAFLY+NEXT%25+4.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3 'Run in Berlin'",
@@ -88,6 +91,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9afea404-fa13-4c8e-8767-1bc6c9972266/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -108,6 +112,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/328e9b09-4b24-41d3-8cf6-ab8dff5e0860/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -136,6 +141,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae088d22-67d0-49c0-a1b6-b308f2b53ad4/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -157,6 +163,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/033c00fe-c615-40b8-8e82-fc6e09e14c36/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -173,6 +180,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac239f66-cd66-44b1-a120-d4fcc6cef689/AIR+ZOOM+ALPHAFLY+NEXT%25+3+CM.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -202,6 +210,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7216632-c3bc-49fa-92a4-9aef3be2f8fe/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -231,6 +240,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5a90fe9f-c34c-4460-b856-a06d435a7256/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3 Glam",
@@ -251,6 +261,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c939d1f-85c8-4cfc-ad28-b1aea980a958/AIR+ZOOM+ALPHAFLY+NEXT%25+3+GLAM.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -279,6 +290,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fa144942-5012-4014-8afb-bee5bb15481a/W+AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
@@ -307,6 +319,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3472880f-0c98-4352-b525-96ae70ca71f9/W+AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3 SE",
@@ -335,6 +348,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3bfb831d-f21a-4786-bece-7b022ce7927c/W+AIR+ZM+ALPHAFLY+NEXT%25+3+SE.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3 Glam",
@@ -359,6 +373,7 @@
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0104eed9-474e-4a65-80e9-4d6e512db867/W+AIR+ZM+ALPHAFLY+NEXT%25+3+GLAM.png"
   },
   {
+   "shoe": "alphafly",
    "shop": "Nike",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",

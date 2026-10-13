@@ -1,8 +1,8 @@
 """Alpha Buys price checker.
 
-Visits five Irish shops, finds every Nike Alphafly, and records price + in-stock
-sizes (UK). Writes data/latest.json and appends to data/history.jsonl.
-Run:  python3 check.py
+Visits each shop, finds every race shoe in SHOES, and records price + in-stock
+sizes (UK). Writes data/latest/<shop>.json and appends to data/history/<shop>.jsonl.
+Run:  python3 check.py [shop ...]
 """
 import json, re, subprocess, html, datetime, pathlib, sys
 from concurrent.futures import ThreadPoolExecutor
@@ -31,9 +31,38 @@ def get(url, headers=(), browser=False):
     return r.stdout
 
 
-def model_of(name):
+def alphafly_model(name):
     m = re.search(r"alphafly\s*(?:next\s*(?:%|percent)?\s*)?(\d)?", name, re.I)
-    return f"Alphafly {m.group(1) or 1}" if m else "Alphafly"
+    return f"Alphafly {m.group(1) or 1}"
+
+
+def adios_model(name):
+    m = re.search(r"adios\s*pro\s*(evo\s*)?(\d)?", name, re.I)
+    return "Adios Pro " + ("Evo " if m.group(1) else "") + (m.group(2) or "1")
+
+
+def metaspeed_model(name):
+    m = re.search(r"metaspeed\s*(sky|edge|ray)\s*(\+|plus)?\s*(tokyo|paris)?", name, re.I)
+    name = "Metaspeed " + m.group(1).title() + ("+" if m.group(2) else "")
+    return f"{name} {m.group(3).title()}" if m.group(3) else name
+
+
+# The race shoes we track. `match` decides whether a product title is one of them
+# (so spikes, singlets and lookalike names are skipped).
+SHOES = [
+    {"id": "alphafly", "brand": "Nike", "q": "alphafly",
+     "match": r"alphafly", "model": alphafly_model},
+    {"id": "adios-pro", "brand": "adidas", "q": "adios pro",
+     "match": r"adios\s*pro", "model": adios_model},
+    {"id": "metaspeed", "brand": "ASICS", "q": "metaspeed",
+     "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model},
+]
+NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
+             r"|kids|junior|track|spikes?|equipment")
+
+
+def is_shoe(shoe, title):
+    return re.search(shoe["match"], title, re.I) and not re.search(NOT_SHOES, title, re.I)
 
 
 def gender_of(text):
@@ -42,29 +71,48 @@ def gender_of(text):
 
 
 def size_num(s):
-    s = str(s).strip().replace(",", ".")
-    m = re.match(r"(\d+(?:\.\d)?)", s)
-    return m.group(1).rstrip("0").rstrip(".") if m and "." in m.group(1) else (m.group(1) if m else s)
+    """UK size as text: '9', '9.5', and adidas thirds as '8⅔' / '9⅓'."""
+    s = str(s).strip().replace(",", ".").replace("⅓", " 1/3").replace("⅔", " 2/3")
+    m = re.match(r"(\d+)(?:\.(\d+))?(?:\s*([12])/3)?", s)
+    if not m:
+        return s
+    whole, dec, third = m.groups()
+    if third:
+        return whole + ("⅓" if third == "1" else "⅔")
+    if dec in ("33", "3"):
+        return whole + "⅓"
+    if dec in ("67", "66", "7"):
+        return whole + "⅔"
+    return whole + (".5" if dec and dec.startswith("5") else "")
 
 
-def offer(shop, name, colour, price, was, sizes, url, image=None, gender=None):
+def size_key(x):
+    m = re.match(r"(\d+)(.*)", x)
+    if not m:
+        return 99
+    return int(m.group(1)) + {"": 0, ".5": .5, "⅓": .33, "⅔": .67}.get(m.group(2), 0)
+
+
+def offer(shoe, shop, name, colour, price, was, sizes, url, image=None, gender=None):
     return {
-        "shop": shop, "model": model_of(name), "name": name.strip(), "colour": colour or "",
+        "shoe": shoe["id"], "shop": shop, "model": shoe["model"](name), "name": name.strip(), "colour": colour or "",
         "gender": gender or gender_of(name), "price": round(float(price), 2),
         "was": round(float(was), 2) if was and float(was) > float(price) else None,
-        "sizes": sorted({size_num(s) for s in sizes}, key=lambda x: float(x) if re.match(r"^[\d.]+$", x) else 99),
+        "sizes": sorted({size_num(s) for s in sizes}, key=size_key),
         "url": url, "image": image,
     }
 
 
 # ---------------------------------------------------------------- Nike
-def nike():
-    h = get("https://www.nike.com/ie/w?q=alphafly")
+def nike(shoe):
+    if shoe["brand"] != "Nike":
+        return []
+    h = get("https://www.nike.com/ie/w?q=" + shoe["q"].replace(" ", "+"))
     data = json.loads(re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S).group(1))
     prods = {}
     def walk(o):
         if isinstance(o, dict):
-            if "copy" in o and "pdpUrl" in o and "alphafly" in o["copy"]["title"].lower():
+            if "copy" in o and "pdpUrl" in o and is_shoe(shoe, o["copy"]["title"]):
                 prods[o["productCode"]] = o
             for v in o.values(): walk(v)
         elif isinstance(o, list):
@@ -84,51 +132,63 @@ def nike():
             f"https://api.nike.com/deliver/available_gtins/v3?filter=styleColor({code})&filter=merchGroup(XP)",
             ["nike-api-caller-id: com.nike.commerce.nikedotcom.web"]))
         sizes = [gtin_to_uk[o["gtin"]] for o in stock.get("objects", []) if o["available"] and o["gtin"] in gtin_to_uk]
-        return offer("Nike", p["copy"]["title"], p["displayColors"]["colorDescription"],
+        return offer(shoe, "Nike", p["copy"]["title"], p["displayColors"]["colorDescription"],
                      p["prices"]["currentPrice"], p["prices"]["initialPrice"], sizes,
                      p["pdpUrl"]["url"], p["colorwayImages"]["squarishURL"], gender_of(p["copy"]["subTitle"]))
     with ThreadPoolExecutor(6) as ex:
         return list(ex.map(one, prods.values()))
 
 
-# ---------------------------------------------------------------- Elverys (Shopify)
-def elverys():
-    d = json.loads(get("https://www.elverys.ie/search/suggest.json?q=alphafly&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
+# ---------------------------------------------------------------- Shopify shops
+def shopify_find(domain, shoe):
+    """Product handles matching the shoe. Shopify search returns at most 10, so
+    ask a few ways (men's / women's) to catch them all."""
+    handles = set()
+    for extra in ("", " mens", " womens", " men", " women"):
+        q = (shoe["q"] + extra).replace(" ", "+")
+        d = json.loads(get(f"https://{domain}/search/suggest.json?q={q}&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
+        handles |= {p["handle"] for p in d["resources"]["results"]["products"] if is_shoe(shoe, p["title"])}
+    return handles
+
+
+def elverys(shoe):
     out = []
-    for p in d["resources"]["results"]["products"]:
-        if "alphafly" not in p["title"].lower():
-            continue
-        handle = p["url"].split("?")[0]
+    for h in shopify_find("www.elverys.ie", shoe):
+        handle = "/products/" + h
         j = json.loads(get(f"https://www.elverys.ie{handle}.js"))
         sizes = [v["title"] for v in j["variants"] if v["available"]]
         colour = handle.split("-")[-2] if handle[-1].isdigit() else ""
-        out.append(offer("Elverys", j["title"], colour, j["price"] / 100,
+        out.append(offer(shoe, "Elverys", j["title"], colour, j["price"] / 100,
                          (j["compare_at_price"] or 0) / 100, sizes,
                          f"https://www.elverys.ie{handle}", "https:" + j["featured_image"] if j.get("featured_image") else None))
     return out
 
 
 # ---------------------------------------------------------------- Lifestyle Sports
-def lifestyle():
-    h = get("https://www.lifestylesports.com/ie/search?q=alphafly")
+def lifestyle(shoe):
+    h = get("https://www.lifestylesports.com/ie/search?q=" + shoe["q"].replace(" ", "+"))
     out = []
     for t in re.findall(r'class="product-tile.*?END: \.product-tile', h, re.S):
         name = re.sub(r"<[^>]+>|\s+", " ", re.search(r'product-name-label">(.*?)</h2>', t, re.S).group(1)).strip()
-        if "alphafly" not in name.lower():
+        if not is_shoe(shoe, name):
             continue
         prices = [float(x) for x in re.findall(r"(?:€|&#8364;)\s*([\d.]+)", t)]
         sizes = re.search(r"Sizes in stock: ([^<]*)", t)
         img = re.search(r'<img[^>]*src="([^"]+)"', t)
-        out.append(offer("Lifestyle Sports", name, "", prices[0], max(prices),
+        out.append(offer(shoe, "Lifestyle Sports", name, "", prices[0], max(prices),
                          sizes.group(1).split(", ") if sizes else [],
                          re.search(r'href="([^"?]+)', t).group(1), img and html.unescape(img.group(1))))
     return out
 
 
 # ---------------------------------------------------------------- Top4Running
-def top4running():
-    d = json.loads(get("https://live.luigisbox.com/search?tracker_id=214346-251725&q=alphafly&f[]=type:item&size=40"))
-    paths = [h["url"] for h in d["results"]["hits"]]
+def top4running(shoe):
+    q = shoe["q"].replace(" ", "+")
+    d = json.loads(get(f"https://live.luigisbox.com/search?tracker_id=214346-251725&q={q}&f[]=type:item&size=48"))
+    hits = [h for h in d["results"]["hits"] if is_shoe(shoe, h["attributes"].get("title", ""))]
+    paths = [h["url"] for h in hits]
+    # Top4Running's own label (Czech): ženy = women, muži = men
+    women = {h["url"] for h in hits if "ženy" in (h["attributes"].get("Gender") or [])}
 
     def one(path):
         page = get("https://top4running.ie" + path)
@@ -145,16 +205,17 @@ def top4running():
                 sizes, in_stock_prices = [], []
                 for v in variants:
                     if v["offers"]["availability"].endswith("InStock"):
-                        m = re.search(r"eu-(\d+(?:-5)?)-uk", v["offers"]["url"])
+                        # e.g. ...?size=42-eu-8-uk-...  or  42-2-3-eu-8-uk-...  (adidas thirds)
+                        m = re.search(r"eu-(\d+(?:-5|-1-3|-2-3)?)-uk", v["offers"]["url"])
                         if m:
-                            sizes.append(m.group(1).replace("-5", ".5"))
+                            sizes.append(m.group(1).replace("-5", ".5").replace("-1-3", " 1/3").replace("-2-3", " 2/3"))
                             in_stock_prices.append(float(v["offers"]["price"]))
                 price = min(in_stock_prices or prices)
                 was = re.search(r'class="[^"]*(?:price-old|old-price|crossed)[^"]*"[^>]*>\s*€?\s*([\d.,]+)', page)
-                return offer("Top4Running", g["name"].replace("Running shoes ", ""), g.get("color", ""),
+                return offer(shoe, "Top4Running", g["name"].replace("Running shoes ", ""), g.get("color", ""),
                              price, was and was.group(1).replace(",", ""), sizes,
                              "https://top4running.ie" + path, (g.get("image") or [None])[0],
-                             "women" if "women" in path else "men")
+                             "women" if path in women or "women" in path else "men")
     with ThreadPoolExecutor(6) as ex:
         got = [o for o in ex.map(one, paths) if o]
     if paths and not got:
@@ -163,8 +224,8 @@ def top4running():
 
 
 # ---------------------------------------------------------------- Sports Direct
-def sportsdirect():
-    h = get("https://ie.sportsdirect.com/running/running-shoes/nike-alphafly", browser=True)
+def sportsdirect(shoe):
+    h = get("https://ie.sportsdirect.com/searchresults?descriptionfilter=" + shoe["q"].replace(" ", "+"), browser=True)
     s = h.replace('\\"', '"').replace("\\u0026", "&")
     dec = json.JSONDecoder()
     seen, out = set(), []
@@ -173,22 +234,22 @@ def sportsdirect():
             p, _ = dec.raw_decode(s, m.start())
         except ValueError:
             continue
-        if "alphafly" not in p.get("name", "").lower() or p.get("key") in seen:
+        if not is_shoe(shoe, p.get("name", "")) or p.get("key") in seen:
             continue
         seen.add(p.get("key"))
         url = p.get("url") or p.get("productUrl") or ""
         if url.startswith("/"):
             url = "https://ie.sportsdirect.com" + url
         price = p.get("discountedPrice") or p.get("price")
-        out.append(offer("Sports Direct", p["name"], p.get("color", ""), price, p.get("price"),
+        out.append(offer(shoe, "Sports Direct", p["name"], p.get("color", ""), price, p.get("price"),
                          [v["description"].split(" ")[0] for v in p.get("sizeVariants", [])],
                          url, p.get("image")))
     return out
 
 
 # ---------------------------------------------------------------- Zalando
-def zalando():
-    h = get("https://www.zalando.ie/catalog/?q=alphafly", browser=True)
+def zalando(shoe):
+    h = get("https://www.zalando.ie/catalog/?q=" + shoe["q"].replace(" ", "+"), browser=True)
     dec, prods = json.JSONDecoder(), {}
     # Product cards are cached in pieces; merge every fragment per SKU.
     for m in re.finditer(r'\{"data":\{"product":\{"id":"ern:product::', h):
@@ -199,13 +260,13 @@ def zalando():
         prods.setdefault(p["sku"], {}).update({k: v for k, v in p.items() if v is not None})
     out = []
     for p in prods.values():
-        if "alphafly" not in p.get("name", "").lower() or "displayPrice" not in p:
+        if not is_shoe(shoe, p.get("name", "")) or "displayPrice" not in p:
             continue
         dp = p["displayPrice"]
         orig = dp["original"]["amount"] / 100
         price = (dp.get("promotional") or {}).get("amount", orig * 100) / 100
-        model, _, colour = p["name"].partition(" - Road running shoes - ")
-        out.append(offer("Zalando", model.title(), colour, price, orig,
+        model, colour = (re.split(r" - [^-]*(?:shoes|trainers)[^-]* - ", p["name"], 1) + [""])[:2]
+        out.append(offer(shoe, "Zalando", model.title(), colour, price, orig,
                          [x["size"] for x in p.get("simples", [])], p["uri"],
                          (p.get("mediumPackshotImage") or {}).get("uri"),
                          "women" if p.get("navigationTargetGroup") == "WOMEN" else "men"))
@@ -223,12 +284,12 @@ def gbp_to_eur():
     return _gbp
 
 
-def shopify_uk(shop, domain, products):
+def shopify_uk(shoe, shop, domain, products):
     """products: Shopify product dicts (from products.json or a .js fetch)."""
     rate, out = gbp_to_eur(), []
     for p in products:
         title = p["title"]
-        if "alphafly" not in title.lower():
+        if not is_shoe(shoe, title):
             continue
         vs = [v for v in p["variants"] if v["available"]] or p["variants"]
         price = min(float(v["price"]) if isinstance(v["price"], str) else v["price"] / 100 for v in vs)
@@ -237,13 +298,13 @@ def shopify_uk(shop, domain, products):
         img = img.get("src") if isinstance(img, dict) else img
         if img and img.startswith("//"):
             img = "https:" + img
-        name, _, colour = title.replace("Nike | ", "").partition(" - ")
+        name, _, colour = re.sub(r"^\w+ \| ", "", title).partition(" - ")
         if not colour:  # Pro:Direct keeps the colourway in the URL handle
             slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
             rest = re.sub(r"-(mens|womens)-shoes-\d+$", "", p["handle"])
             if rest.startswith(slug):
                 colour = rest[len(slug):].strip("-").replace("-", " ").title()
-        o = offer(shop, name, colour, price * rate, was * rate,
+        o = offer(shoe, shop, name, colour, price * rate, was * rate,
                   [v.get("option1") or v["title"] for v in vs if v["available"]],
                   f"https://{domain}/products/{p['handle']}", img)
         o.update(country="UK", gbp=round(price, 2))
@@ -251,27 +312,46 @@ def shopify_uk(shop, domain, products):
     return out
 
 
-def prodirect():
-    ps = []
-    for c in ("running-mens-nike-alphafly-shoes", "running-womens-nike-alphafly-shoes"):
-        ps += json.loads(get(f"https://www.prodirectsport.com/collections/{c}/products.json?limit=250"))["products"]
-    return shopify_uk("Pro:Direct", "www.prodirectsport.com", ps)
-
-
-def run4it():
-    handles = set()
-    for q in ("alphafly mens", "alphafly womens", "alphafly"):
-        d = json.loads(get(f"https://www.run4it.com/search/suggest.json?q={q.replace(' ', '+')}&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
-        handles |= {p["handle"] for p in d["resources"]["results"]["products"]}
+def shopify_products(domain, handles):
     with ThreadPoolExecutor(6) as ex:
-        ps = list(ex.map(lambda h: json.loads(get(f"https://www.run4it.com/products/{h}.js")), handles))
-    return shopify_uk("Run4It", "www.run4it.com", ps)
+        return list(ex.map(lambda h: json.loads(get(f"https://{domain}/products/{h}.js")), handles))
+
+
+def prodirect(shoe):
+    d = "www.prodirectsport.com"
+    if shoe["id"] == "alphafly":  # big range: use the full Alphafly collections
+        ps = []
+        for c in ("running-mens-nike-alphafly-shoes", "running-womens-nike-alphafly-shoes"):
+            ps += json.loads(get(f"https://{d}/collections/{c}/products.json?limit=250"))["products"]
+    else:
+        ps = shopify_products(d, shopify_find(d, shoe))
+    return shopify_uk(shoe, "Pro:Direct", d, ps)
+
+
+def run4it(shoe):
+    d = "www.run4it.com"
+    return shopify_uk(shoe, "Run4It", d, shopify_products(d, shopify_find(d, shoe)))
 
 
 SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
          "Top4Running": top4running, "Sports Direct": sportsdirect, "Zalando": zalando,
          "Pro:Direct": prodirect, "Run4It": run4it}
 
+
+
+def check_shop(fn):
+    """Every tracked shoe at one shop. A shoe that fails is skipped; if all fail, raise."""
+    got, errors = [], []
+    for shoe in SHOES:
+        try:
+            got += fn(shoe)
+        except Exception as e:
+            errors.append(f"{shoe['id']}: {str(e)[:120]}")
+    if errors and len(errors) == len(SHOES):
+        raise RuntimeError("; ".join(errors))
+    for e in errors:
+        print("   partial failure,", e)
+    return got
 
 
 def main():
@@ -285,7 +365,7 @@ def main():
     for shop in names:
         slug = re.sub(r"[^a-z0-9]+", "-", shop.lower())
         try:
-            got = SHOPS[shop]()
+            got = check_shop(SHOPS[shop])
         except Exception as e:
             # Keep the last good result; just note the failure.
             print(f"{shop:17} FAILED: {str(e)[:200]}")
@@ -295,11 +375,11 @@ def main():
         (data / "latest" / f"{slug}.json").write_text(json.dumps({"checked": now, "offers": got}, indent=1))
         with open(data / "history" / f"{slug}.jsonl", "a") as f:
             for o in got:
-                f.write(json.dumps({"t": now, "url": o["url"], "price": o["price"], "sizes": o["sizes"]}) + "\n")
+                f.write(json.dumps({"t": now, "shoe": o["shoe"], "url": o["url"], "price": o["price"], "sizes": o["sizes"]}) + "\n")
     print()
-    for o in sorted(offers, key=lambda o: o["price"]):
+    for o in sorted((o for o in offers if o["sizes"]), key=lambda o: (o["shoe"], o["price"])):
         was = f" (was €{o['was']:.0f})" if o["was"] else ""
-        print(f"€{o['price']:>7.2f}{was:14} {o['shop']:16} {o['model']} {o['gender']:5} {o['colour'][:22]:22} sizes: {', '.join(o['sizes']) or 'none'}")
+        print(f"€{o['price']:>7.2f}{was:14} {o['shop']:16} {o['model']:22} {o['gender']:5} {o['colour'][:22]:22} sizes: {', '.join(o['sizes']) or 'none'}")
 
 
 if __name__ == "__main__":
