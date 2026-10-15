@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-15T10:47:53+00:00",
+ "checked": "2026-10-15T17:58:27+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -238,8 +238,7 @@
     "6",
     "6.5",
     "7",
-    "9",
-    "9.5"
+    "9"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-lucid-pinklucid-orangeiron-metallic-ad541a2fg-j12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/8dd2520814c64a55a23fbbe327ac2196/55b4ef1f708945faa192684fa78dde3f.jpg?imwidth=400&filter=packshot"
@@ -409,8 +408,7 @@
     "9",
     "9.5",
     "10",
-    "11.5",
-    "12"
+    "11.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad542a5us-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/08ba7131c20346c388b4c1ac204de3a3/c2103800be844280a781ff6aa23efafe.jpg?imwidth=400&filter=packshot"
@@ -532,6 +530,7 @@
     "7",
     "7.5",
     "8",
+    "8.5",
     "10.5",
     "11"
    ],
@@ -737,21 +736,6 @@
    "shop": "Zalando",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
-   "colour": "dark blue/yellow tint/clear pink",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-road-running-shoes-dark-blueyellow-tintclear-pink-ad542a5gq-k13.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/f6d6bfb9481946079e8a5aa308f9d43e/f7b8307380ee419999855babd15bfada.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
    "colour": "cloud white/core black/silver-coloured metallic",
    "gender": "women",
    "price": 250.0,
@@ -779,6 +763,7 @@
     "4",
     "4.5",
     "5",
+    "5.5",
     "8"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteiron-metallicpulse-mint-ad541a2fg-m11.html",
@@ -801,6 +786,21 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-shock-pinkmetallicaurora-plum-ad541a2fg-j11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/f5cbda2f954443e08d7c402a5644bff7/9e0932cb3fd545838694922aa89c326a.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "core black/grey five",
+   "gender": "women",
+   "price": 199.95,
+   "was": 250.0,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-core-blackgrey-five-ad541a2fg-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/6e8bbef73162430fb01b65ee3c5ca663/b470ce954c0a4f3095b7fc3814b9f51c.jpg?imwidth=400&filter=packshot"
   }
  ]
 }

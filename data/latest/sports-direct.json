@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-15T10:47:53+00:00",
+ "checked": "2026-10-15T17:58:27+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -96,6 +96,28 @@
    "shoe": "alphafly",
    "shop": "Sports Direct",
    "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Phantom",
+   "gender": "men",
+   "price": 249.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228225",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228225_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Hyper Pink",
    "gender": "women",
@@ -175,28 +197,6 @@
    ],
    "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228221",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228221_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Phantom",
-   "gender": "men",
-   "price": 249.0,
-   "was": 310.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228225",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228225_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
