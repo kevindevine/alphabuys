@@ -1,23 +1,6 @@
 {
- "checked": "2026-10-14T18:17:01+00:00",
+ "checked": "2026-10-15T10:47:53+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Coconut",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
-  },
   {
    "shoe": "alphafly",
    "shop": "Sports Direct",
@@ -36,6 +19,23 @@
    ],
    "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Coconut",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -65,35 +65,32 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Glacier Blue",
+   "colour": "White/Platinum",
    "gender": "women",
    "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
+    "5"
    ],
-   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "White/Platinum",
+   "colour": "Glacier Blue",
    "gender": "women",
    "price": 155.0,
    "was": 310.0,
    "sizes": [
     "5",
-    "6"
+    "6",
+    "7"
    ],
-   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
+   "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -135,29 +132,6 @@
    ],
    "url": "nike-alphafly-3-running-shoes-womens-210008#colcode=21000812",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000812_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Laser Orange",
-   "gender": "men",
-   "price": 245.0,
-   "was": 310.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228212_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -250,6 +224,29 @@
    "shoe": "alphafly",
    "shop": "Sports Direct",
    "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Laser Orange",
+   "gender": "men",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228212_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Chalk/Purple",
    "gender": "women",
@@ -328,6 +325,28 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
+   "name": "Men's Adios Pro 4 Road Running Shoes",
+   "colour": "Dark Bl/Yllw",
+   "gender": "men",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198418",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21198418_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4 Womens",
    "colour": "Lemn/Blk/Slvr",
    "gender": "women",
@@ -364,28 +383,6 @@
    ],
    "url": "adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198401",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21198401_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Men's Adios Pro 4 Road Running Shoes",
-   "colour": "Dark Bl/Yllw",
-   "gender": "men",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198418",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21198418_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -465,21 +462,6 @@
    ],
    "url": "adidas-adizero-adios-pro-4-womens-212206#colcode=21220612",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220612_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4 Womens",
-   "colour": "Solar Yellow",
-   "gender": "women",
-   "price": 175.0,
-   "was": 250.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "adidas-adizero-adios-pro-4-womens-212206#colcode=21220669",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220669_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
