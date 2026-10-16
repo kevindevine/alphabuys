@@ -49,8 +49,25 @@ def metaspeed_model(name):
     return f"{name} {m.group(3).title()}" if m.group(3) else name
 
 
+def vaporfly_model(name):
+    m = re.search(r"vaporfly\s*(?:next\s*(?:%|percent)?\s*)?(\d)?", name, re.I)
+    return f"Vaporfly {m.group(1) or 1}"
+
+
+def puma_model(name):
+    m = re.search(r"(deviate|fast-?r)\s*nitro\s*elite\s*(\d)?", name, re.I)
+    line = "Deviate" if m.group(1).lower() == "deviate" else "Fast-R"
+    return f"{line} Nitro Elite {m.group(2) or 1}"
+
+
+def saucony_model(name):
+    m = re.search(r"endorphin\s*(elite|pro)\s*(\d)?", name, re.I)
+    return f"Endorphin {m.group(1).title()} {m.group(2) or 1}"
+
+
 # The race shoes we track. `match` decides whether a product title is one of them
-# (so spikes, singlets and lookalike names are skipped).
+# (so spikes, singlets and lookalike names are skipped). `q` can be a list when
+# one entry covers two shoe lines.
 SHOES = [
     {"id": "alphafly", "brand": "Nike", "q": "alphafly",
      "match": r"alphafly", "model": alphafly_model, "prodirect_tag": "silo_alphafly"},
@@ -58,9 +75,15 @@ SHOES = [
      "match": r"adios\s*pro", "model": adios_model, "prodirect_tag": "silo_adizero"},
     {"id": "metaspeed", "brand": "ASICS", "q": "metaspeed",
      "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model, "prodirect_tag": "silo_metaspeed"},
+    {"id": "vaporfly", "brand": "Nike", "q": "vaporfly",
+     "match": r"vaporfly", "model": vaporfly_model, "prodirect_tag": "silo_vaporfly"},
+    {"id": "puma-elite", "brand": "Puma", "q": ["deviate nitro elite", "fast-r nitro elite"],
+     "match": r"(deviate|fast-?r)\s*nitro\s*elite", "model": puma_model},
+    {"id": "saucony-endorphin", "brand": "Saucony", "q": ["endorphin elite", "endorphin pro"],
+     "match": r"endorphin\s*(elite|pro)", "model": saucony_model, "prodirect_tag": "silo_endorphin"},
 ]
 NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
-             r"|kids|junior|track|spikes?|equipment")
+             r"|kids|junior|track|spikes?|equipment|trail")
 
 
 def is_shoe(shoe, title):
@@ -240,8 +263,8 @@ def sportsdirect(shoe):
             continue
         seen.add(p.get("key"))
         url = p.get("url") or p.get("productUrl") or ""
-        if url.startswith("/"):
-            url = "https://ie.sportsdirect.com" + url
+        if not url.startswith("http"):  # links come without the shop's address
+            url = "https://ie.sportsdirect.com/" + url.lstrip("/")
         price = p.get("discountedPrice") or p.get("price")
         out.append(offer(shoe, "Sports Direct", p["name"], p.get("color", ""), price, p.get("price"),
                          [v["description"].split(" ")[0] for v in p.get("sizeVariants", [])],
@@ -285,6 +308,10 @@ EU_TO_UK = {
     ("adidas", "men"): {"36⅔": "4", "37⅓": "4.5", "38": "5", "38⅔": "5.5", "39⅓": "6", "40": "6.5", "40⅔": "7", "41⅓": "7.5", "42": "8", "42⅔": "8.5", "43⅓": "9", "44": "9.5", "44⅔": "10", "45⅓": "10.5", "46": "11", "46⅔": "11.5", "47⅓": "12", "48": "12.5", "48⅔": "13", "50": "14"},
     ("adidas", "women"): {"36": "3.5", "36⅔": "4", "37⅓": "4.5", "38": "5", "38⅔": "5.5", "39⅓": "6", "40": "6.5", "40⅔": "7", "41⅓": "7.5", "42": "8", "42⅔": "8.5", "43⅓": "9", "44": "9.5", "44⅔": "10", "45⅓": "10.5"},
     ("ASICS", "men"): {"35.5": "2.5", "36": "3", "37": "3.5", "37.5": "4", "38": "4.5", "39": "5", "39.5": "5.5", "40": "6", "40.5": "6.5", "41.5": "7", "42": "7.5", "42.5": "8", "43.5": "8.5", "44": "9", "44.5": "9.5", "45": "10", "46": "10.5", "46.5": "11", "47": "11.5", "48": "12", "49": "13", "50.5": "14", "51.5": "15"},
+    ("Puma", "men"): {"39": "6", "40": "6.5", "40.5": "7", "41": "7.5", "42": "8", "42.5": "8.5", "43": "9", "44": "9.5", "44.5": "10", "45": "10.5", "46": "11", "46.5": "11.5", "47": "12", "48": "13", "48.5": "13"},
+    ("Puma", "women"): {"35.5": "3", "36": "3.5", "37": "4", "37.5": "4.5", "38": "5", "38.5": "5.5", "39": "6", "40": "6.5", "40.5": "7", "41": "7.5", "42": "8", "42.5": "8.5"},
+    ("Saucony", "men"): {"35.5": "2.5", "36": "3", "37": "3.5", "37.5": "4", "38": "4.5", "38.5": "5", "39": "5.5", "40": "6", "40.5": "6.5", "41": "7", "42": "7.5", "42.5": "8", "43": "8.5", "44": "9", "44.5": "9.5", "45": "10", "46": "10.5", "46.5": "11", "47": "11.5", "48": "12", "49": "13", "50": "14"},
+    ("Saucony", "women"): {"35.5": "3", "36": "3.5", "37": "4", "37.5": "4.5", "38": "5", "38.5": "5.5", "39": "6", "40": "6.5", "40.5": "7", "41": "7.5", "42": "8", "42.5": "8.5", "43": "9", "43.5": "9.5", "44": "10"},
 }
 
 
@@ -306,6 +333,8 @@ def shopify_products(domain, handles):
 def prodirect(shoe):
     # The Irish site: the UK one stopped shipping to the EU in July 2026.
     domain, out, handles = "www.prodirectsport.ie", [], set()
+    if "prodirect_tag" not in shoe:  # Pro:Direct Ireland doesn't stock this line
+        return []
     # Its quick search stops at 10, so list the shoe line's tag page instead.
     for page in range(1, 8):
         h = get(f"https://{domain}/collections/all/{shoe['prodirect_tag']}?page={page}")
@@ -338,13 +367,17 @@ SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
 
 def check_shop(fn):
     """Every tracked shoe at one shop. A shoe that fails is skipped; if all fail, raise."""
-    got, errors = [], []
+    got, errors, seen = [], [], set()
     for shoe in SHOES:
-        try:
-            got += fn(shoe)
-        except Exception as e:
-            errors.append(f"{shoe['id']}: {str(e)[:120]}")
-    if errors and len(errors) == len(SHOES):
+        qs = shoe["q"] if isinstance(shoe["q"], list) else [shoe["q"]]
+        for q in qs:
+            try:
+                for o in fn({**shoe, "q": q}):
+                    if o["url"] not in seen:
+                        seen.add(o["url"]); got.append(o)
+            except Exception as e:
+                errors.append(f"{shoe['id']} ({q}): {str(e)[:120]}")
+    if errors and len(errors) == sum(len(x["q"]) if isinstance(x["q"], list) else 1 for x in SHOES):
         raise RuntimeError("; ".join(errors))
     for e in errors:
         print("   partial failure,", e)

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Alpha Buys</title>
-<meta name="description" content="Race-day super shoes in Ireland, cheapest first: Nike Alphafly, adidas Adios Pro, ASICS Metaspeed. Pick your size, see who has it, catch the price drops.">
+<meta name="description" content="Race-day super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -53,14 +53,14 @@ header { padding: 28px 0 8px; }
   position: sticky; top: 0; z-index: 5; background: var(--bg);
   padding: 14px 0; border-bottom: 1px solid var(--line); margin-top: 6px;
 }
-.shoes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 22px; max-width: 860px; }
+.shoes { display: flex; gap: 8px; margin-top: 22px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
 .shoes::-webkit-scrollbar { display: none; }
 .shoes button {
-  min-width: 0; text-align: left; cursor: pointer; color: var(--ink); background: var(--card);
+  flex: 1 0 140px; min-width: 0; text-align: left; cursor: pointer; scroll-snap-align: start; color: var(--ink); background: var(--card);
   border: 1.5px solid var(--line); border-radius: 14px; padding: 10px 16px 9px;
 }
 .shoes button small { display: block; font: 700 11px Inter, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.shoes button span { font-size: clamp(15px, 4vw, 24px); line-height: 1.05; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.shoes button span { font-size: 21px; line-height: 1.05; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .shoes button em { font: 500 12px Inter, sans-serif; font-style: normal; color: var(--muted); display: block; margin-top: 2px; }
 .shoes button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
 .shoes button[aria-pressed="true"] small, .shoes button[aria-pressed="true"] em { color: inherit; opacity: .7; }
@@ -158,7 +158,8 @@ footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
   .hero .info { padding: 20px; }
   .flabel { min-width: 0; }
   .filters { position: static; }
-  .shoes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .shoes { margin-right: -16px; padding-right: 16px; }
+  .shoes button { flex-basis: 128px; }
   .shoes button { padding: 8px 10px 7px; }
 }
 </style>
@@ -203,7 +204,7 @@ footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
   <footer>
     <h4 class="display">Shops we check</h4>
     <div class="shops" id="shops"></div>
-    Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site. Not affiliated with Nike, adidas, ASICS or any retailer.
+    Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site. Not affiliated with any shoe brand or retailer.
   </footer>
 </div>
 
@@ -220,10 +221,13 @@ const SHOPS = [
 ];
 // Shoes we track; ids match "shoe" in the data files.
 const SHOES = [
-  { id: "all", brand: "Every brand", name: "All super shoes", short: m => m },
+  { id: "all", brand: "Every brand", name: "All shoes", short: m => m },
   { id: "alphafly", brand: "Nike", name: "Alphafly", short: m => m.replace("Alphafly ", "AF") },
   { id: "adios-pro", brand: "adidas", name: "Adios Pro", short: m => m.replace("Adios Pro ", "Pro ").replace("Pro Evo", "Evo") },
   { id: "metaspeed", brand: "ASICS", name: "Metaspeed", short: m => m.replace("Metaspeed ", "") },
+  { id: "vaporfly", brand: "Nike", name: "Vaporfly", short: m => m.replace("Vaporfly ", "VF") },
+  { id: "puma-elite", brand: "Puma", name: "Nitro Elite", short: m => m.replace(" Nitro Elite", "") },
+  { id: "saucony-endorphin", brand: "Saucony", name: "Endorphin", short: m => m.replace("Endorphin ", "") },
 ];
 const shoe = () => SHOES.find(x => x.id === state.shoe) || SHOES[0];
 const isShoe = o => state.shoe === "all" || (o.shoe || "alphafly") === state.shoe;
