@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-16T17:47:36+00:00",
+ "checked": "2026-10-16T20:27:28+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -72,7 +72,8 @@
     "4.5",
     "5",
     "5.5",
-    "6"
+    "6",
+    "6.5"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-laser-orangeindigo-burstcitron-pulsevolt-icevivid-purplesapphire-n1241a1ev-h11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/bdd957e2c19845bc8eabb0ef49d54b3a/ae1dd1a49cdd46318c4644f6fb54e862.jpg?imwidth=400&filter=packshot"
@@ -708,7 +709,6 @@
    "sizes": [
     "6",
     "6.5",
-    "10.5",
     "11"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-frozen-purplesolar-purplesignal-green-ad542a5ur-i11.html",
@@ -776,7 +776,8 @@
    "was": null,
    "sizes": [
     "6.5",
-    "7"
+    "7",
+    "9"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteteam-royal-bluepure-ruby-ad542a5gq-a15.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/c848e40a95194a54b9110727affaa82a/e1d159b7930d47e2bc66c4ad05746afd.jpg?imwidth=400&filter=packshot"
@@ -1369,37 +1370,19 @@
    "image": "https://img01.ztat.net/article/spp-media-p1/6773ce6629e44eb08abb159343e2a25a/99ceb27381ac4463b79303a1d59c6158.jpg?imwidth=400&filter=packshot"
   },
   {
-   "shoe": "saucony-endorphin",
+   "shoe": "puma-elite",
    "shop": "Zalando",
-   "model": "Endorphin Elite 2",
-   "name": "Endorphin Elite 2 Unisex",
-   "colour": "lapis/citron",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Fast-R Nitro Elite 3",
+   "colour": "apple spritz-deep plum",
    "gender": "men",
-   "price": 224.95,
-   "was": 300.0,
+   "price": 324.0,
+   "was": null,
    "sizes": [
     "6.5"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-lapiscitron-s2344a00c-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/5881ad58ee504b6da3092132036fd86d/686b557fd6d042ed9a4066cb1a19be3d.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Elite 2",
-   "name": "Endorphin Elite 2 Unisex",
-   "colour": "white/crimson",
-   "gender": "men",
-   "price": 194.95,
-   "was": 300.0,
-   "sizes": [
-    "3",
-    "3.5",
-    "4",
-    "5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-whitecrimson-s2344a00c-a13.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/5215b12576be45358e81162cf2f1cbd2/8d42c03114da4042bcba3c894093085e.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/puma-fast-r-nitro-elite-3-road-running-shoes-apple-spritz-deep-plum-pu142a2cd-m11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/f5b05c571dad41d7b6e5b9d08da8c1c1/a658f048fa0e468d938b4f3f496ecb58.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1520,6 +1503,39 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-3-unisex-road-running-shoes-vizired-s2344a00e-g11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/99c66abcbd034f13bb80547da5ff6001/ac8339282b5346898623e20badb6bf65.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Elite 2",
+   "name": "Endorphin Elite 2 Unisex",
+   "colour": "white/crimson",
+   "gender": "men",
+   "price": 194.95,
+   "was": 300.0,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "5"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-whitecrimson-s2344a00c-a13.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/5215b12576be45358e81162cf2f1cbd2/8d42c03114da4042bcba3c894093085e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Elite 2",
+   "name": "Endorphin Elite 2 Unisex",
+   "colour": "lapis/citron",
+   "gender": "men",
+   "price": 224.95,
+   "was": 300.0,
+   "sizes": [
+    "6.5"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-lapiscitron-s2344a00c-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/5881ad58ee504b6da3092132036fd86d/686b557fd6d042ed9a4066cb1a19be3d.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1801,7 +1817,8 @@
    "price": 215.95,
    "was": 270.0,
    "sizes": [
-    "5"
+    "5",
+    "6"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2341a09o-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/ce92ff1f5dd6404d89acd72930929b82/3895716c419542099312df82183725b3.jpg?imwidth=400&filter=packshot"
@@ -1843,21 +1860,6 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitecrimson-s2342a0b2-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/1f80a92f43c3460c89fb68952b79d3d7/5fd4932d54f249ae95ab81c50b14ebba.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "white/splash",
-   "gender": "women",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "7.5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitesplash-s2341a09o-a12.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/47737469c45741b3ba095d3aacf95225/5799d8b570c04d8196876d7b1f79f327.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
