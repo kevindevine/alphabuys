@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-16T10:36:44+00:00",
+ "checked": "2026-10-16T17:47:36+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -122,13 +122,11 @@
     "7",
     "7.5",
     "8.5",
-    "9.5",
     "10",
     "10.5",
     "11",
     "12",
-    "13",
-    "14"
+    "13"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-300",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/033c00fe-c615-40b8-8e82-fc6e09e14c36/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
@@ -173,10 +171,7 @@
    "price": 216.99,
    "was": 309.99,
    "sizes": [
-    "6",
-    "7.5",
-    "9.5",
-    "10.5"
+    "6"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/II7290-100",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac239f66-cd66-44b1-a120-d4fcc6cef689/AIR+ZOOM+ALPHAFLY+NEXT%25+3+CM.png"
@@ -221,12 +216,9 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
-    "6",
-    "10",
     "10.5",
     "11",
-    "11.5",
-    "14"
+    "11.5"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-mens-road-racing-shoes-KnKE5jwD/IO9573-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c939d1f-85c8-4cfc-ad28-b1aea980a958/AIR+ZOOM+ALPHAFLY+NEXT%25+3+GLAM.png"
@@ -359,18 +351,14 @@
    "was": 319.99,
    "sizes": [
     "2.5",
-    "3",
     "3.5",
-    "4",
-    "4.5",
     "5",
     "5.5",
     "6",
     "6.5",
     "7",
     "7.5",
-    "8",
-    "8.5"
+    "8"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-womens-road-racing-shoes-c0BiSuME/IO9559-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0104eed9-474e-4a65-80e9-4d6e512db867/W+AIR+ZM+ALPHAFLY+NEXT%25+3+GLAM.png"
@@ -531,7 +519,6 @@
    "price": 181.99,
    "was": 259.99,
    "sizes": [
-    "5.5",
     "6",
     "7",
     "7.5",
@@ -679,7 +666,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "9",
     "9.5"
