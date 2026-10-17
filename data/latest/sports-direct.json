@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-17T16:48:51+00:00",
+ "checked": "2026-10-17T20:02:02+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -99,6 +99,26 @@
    "shoe": "alphafly",
    "shop": "Sports Direct",
    "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Hyper Pink",
+   "gender": "women",
+   "price": 219.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
    "colour": "Platinum/Purple",
    "gender": "men",
@@ -116,26 +136,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228224",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228224_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Hyper Pink",
-   "gender": "women",
-   "price": 219.0,
-   "was": 310.0,
-   "sizes": [
-    "4",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -645,6 +645,27 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
+   "colour": "Pink Spell",
+   "gender": "women",
+   "price": 185.0,
+   "was": 260.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281906",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281906_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4 Road Running Shoes Womens",
    "colour": "White/Purple",
    "gender": "women",
    "price": 190.0,
@@ -764,27 +785,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281909",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281909_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "Pink Spell",
-   "gender": "women",
-   "price": 185.0,
-   "was": 260.0,
-   "sizes": [
-    "4",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281906",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281906_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -1027,6 +1027,7 @@
    "was": 263.0,
    "sizes": [
     "3.5",
+    "4.5",
     "5"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
