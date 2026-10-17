@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-16T20:27:28+00:00",
+ "checked": "2026-10-17T10:05:43+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -101,7 +101,6 @@
    "was": 319.99,
    "sizes": [
     "5.5",
-    "11",
     "11.5",
     "12"
    ],
@@ -121,6 +120,7 @@
     "5.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "10",
     "10.5",
@@ -172,6 +172,7 @@
    "was": 309.99,
    "sizes": [
     "6",
+    "11",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/II7290-100",
@@ -217,10 +218,11 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
-    "10",
+    "8.5",
     "10.5",
     "11",
-    "11.5"
+    "11.5",
+    "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-mens-road-racing-shoes-KnKE5jwD/IO9573-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c939d1f-85c8-4cfc-ad28-b1aea980a958/AIR+ZOOM+ALPHAFLY+NEXT%25+3+GLAM.png"
@@ -607,6 +609,7 @@
    "price": 181.99,
    "was": 259.99,
    "sizes": [
+    "5.5",
     "6",
     "7",
     "7.5",
@@ -669,6 +672,7 @@
     "6.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "9",
     "9.5"
