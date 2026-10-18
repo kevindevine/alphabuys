@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-18T06:44:35+00:00",
+ "checked": "2026-10-18T10:22:40+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -1485,7 +1485,6 @@
    "price": 229.5,
    "was": null,
    "sizes": [
-    "8",
     "10"
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-312060-13",
@@ -1868,26 +1867,6 @@
    "shop": "Top4Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "white",
-   "gender": "men",
-   "price": 225.8,
-   "was": null,
-   "sizes": [
-    "7.5",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s21064-172",
-   "image": "https://i1.t4s.cz/products/s21064-172/saucony-endorphin-pro-5-1084703-s21064-1721.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "men",
    "price": 229.5,
@@ -1906,6 +1885,26 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101360-1011",
    "image": "https://i1.t4s.cz/products/s101360-1011/saucony-endorphin-pro-5-1187064-s101360-10111.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "white",
+   "gender": "men",
+   "price": 225.8,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s21064-172",
+   "image": "https://i1.t4s.cz/products/s21064-172/saucony-endorphin-pro-5-1084703-s21064-1721.png"
   },
   {
    "shoe": "saucony-endorphin",
