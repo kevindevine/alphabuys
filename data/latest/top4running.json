@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-18T10:22:40+00:00",
+ "checked": "2026-10-18T14:15:59+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -1089,8 +1089,7 @@
    "was": null,
    "sizes": [
     "8",
-    "8.5",
-    "11.5"
+    "8.5"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-running-shoe-309809-09",
    "image": "https://i1.t4s.cz/products/309809-09/puma-deviate-nitro-elite-3-993232-309809-09.png"
@@ -1485,6 +1484,7 @@
    "price": 229.5,
    "was": null,
    "sizes": [
+    "8",
     "10"
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-312060-13",
@@ -1514,28 +1514,11 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "",
    "gender": "women",
-   "price": 186.1,
+   "price": 286.0,
    "was": null,
-   "sizes": [
-    "5.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-ekiden-running-shoe-women-313419-01",
    "image": "https://i1.t4s.cz/products/313419-01/puma-fast-r-nitro-elite-3-ekiden-1031079-313419-011.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Puma Fast-R Nitro Elite 3",
-   "colour": "red",
-   "gender": "women",
-   "price": 190.4,
-   "was": null,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-ultra-red-inky-dept-312061-09",
-   "image": "https://i1.t4s.cz/products/312061-09/puma-fast-r-nitro-elite-3-ultra-red-inky-dept-1122210-312061-091.png"
   },
   {
    "shoe": "puma-elite",
@@ -1551,6 +1534,21 @@
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-wns-312061-13",
    "image": "https://i1.t4s.cz/products/312061-13/puma-fast-r-nitro-elite-3-wns-1217619-312061-131.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma Fast-R Nitro Elite 3",
+   "colour": "red",
+   "gender": "women",
+   "price": 190.4,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-ultra-red-inky-dept-312061-09",
+   "image": "https://i1.t4s.cz/products/312061-09/puma-fast-r-nitro-elite-3-ultra-red-inky-dept-1122210-312061-091.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -2241,21 +2239,6 @@
    "shoe": "saucony-endorphin",
    "shop": "Top4Running",
    "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4",
-   "colour": "silver",
-   "gender": "women",
-   "price": 172.3,
-   "was": null,
-   "sizes": [
-    "3.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-4-running-shoe-s10939-30",
-   "image": "https://i1.t4s.cz/products/s10939-30/saucony-endorphin-pro-4-901563-s10939-30.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 4",
    "name": "Saucony ENDORPHIN PRO 4",
    "colour": "white",
    "gender": "women",
@@ -2266,6 +2249,21 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-4-s10939-97",
    "image": "https://i1.t4s.cz/products/s10939-97/saucony-endorphin-pro-4-958662-s10939-97.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4",
+   "colour": "silver",
+   "gender": "women",
+   "price": 172.3,
+   "was": null,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-4-running-shoe-s10939-30",
+   "image": "https://i1.t4s.cz/products/s10939-30/saucony-endorphin-pro-4-901563-s10939-30.png"
   }
  ]
 }
