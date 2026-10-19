@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-19T14:15:05+00:00",
+ "checked": "2026-10-19T18:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -251,8 +251,7 @@
     "10",
     "10.5",
     "11",
-    "11.5",
-    "12"
+    "11.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-ki8294",
    "image": "https://i1.t4s.cz/products/ki8294/adidas-adizero-adios-pro-5-m-1184083-ki82941.png"
@@ -285,7 +284,6 @@
    "was": null,
    "sizes": [
     "5.5",
-    "6",
     "6.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-ki4781",
@@ -315,29 +313,6 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "men",
-   "price": 199.9,
-   "was": null,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11.5",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
-   "image": "https://i1.t4s.cz/products/jp6624/adidas-adizero-adios-pro-4-1073762-jp66241.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
    "colour": "pink",
    "gender": "men",
    "price": 187.5,
@@ -361,21 +336,21 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "men",
-   "price": 205.0,
+   "price": 199.9,
    "was": null,
    "sizes": [
     "7",
-    "7.5",
     "8",
     "8.5",
     "9",
+    "9.5",
     "10",
     "10.5",
     "11.5",
     "12"
    ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kh7343",
-   "image": "https://i1.t4s.cz/products/kh7343/adidas-adizero-adios-pro-4-running-shoe-1130202-kh73431.png"
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
+   "image": "https://i1.t4s.cz/products/jp6624/adidas-adizero-adios-pro-4-1073762-jp66241.png"
   },
   {
    "shoe": "adios-pro",
@@ -401,6 +376,29 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-ki8293",
    "image": "https://i1.t4s.cz/products/ki8293/adidas-adizero-adios-pro-5-w-1184088-ki82931.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 205.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "10.5",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kh7343",
+   "image": "https://i1.t4s.cz/products/kh7343/adidas-adizero-adios-pro-4-running-shoe-1130202-kh73431.png"
   },
   {
    "shoe": "adios-pro",
@@ -666,6 +664,7 @@
    "price": 260.0,
    "was": null,
    "sizes": [
+    "4",
     "5",
     "5.5",
     "6",
@@ -720,11 +719,9 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "men",
-   "price": 192.0,
+   "price": 250.0,
    "was": null,
-   "sizes": [
-    "9.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr1656",
    "image": "https://i1.t4s.cz/products/jr1656/adidas-adizero-adios-pro-4-new-york-996770-jr1657.png"
   },
@@ -2115,31 +2112,6 @@
    "shop": "Top4Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "white",
-   "gender": "women",
-   "price": 243.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
-   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "yellow",
    "gender": "men",
    "price": 243.0,
@@ -2159,6 +2131,31 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101360-1001",
    "image": "https://i1.t4s.cz/products/s101360-1001/saucony-endorphin-pro-5-1193431-s101360-10011.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "white",
+   "gender": "women",
+   "price": 243.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
+   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
   },
   {
    "shoe": "saucony-endorphin",
