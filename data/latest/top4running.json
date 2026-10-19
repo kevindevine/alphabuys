@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-19T06:15:04+00:00",
+ "checked": "2026-10-19T10:15:04+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -317,27 +317,6 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
-   "colour": "pink",
-   "gender": "men",
-   "price": 187.5,
-   "was": null,
-   "sizes": [
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
-   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "men",
    "price": 199.9,
@@ -355,6 +334,27 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
    "image": "https://i1.t4s.cz/products/jp6624/adidas-adizero-adios-pro-4-1073762-jp66241.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "pink",
+   "gender": "men",
+   "price": 187.5,
+   "was": null,
+   "sizes": [
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
+   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
   },
   {
    "shoe": "adios-pro",
@@ -786,7 +786,6 @@
     "4.5",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7",
     "7.5",
@@ -1026,8 +1025,7 @@
     "9",
     "9.5",
     "10",
-    "10.5",
-    "13"
+    "10.5"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312127-07",
    "image": "https://i1.t4s.cz/products/312127-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122816-312127-071.png"
@@ -1628,7 +1626,6 @@
     "5.5",
     "6.5",
     "7",
-    "8.5",
     "9",
     "9.5",
     "11"
