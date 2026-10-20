@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-20T14:15:02+00:00",
+ "checked": "2026-10-20T18:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -266,8 +266,7 @@
    "was": null,
    "sizes": [
     "9",
-    "9.5",
-    "11.5"
+    "9.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-js2579",
    "image": "https://i1.t4s.cz/products/js2579/adidas-adizero-adios-pro-4-1054720-js25791.png"
@@ -445,6 +444,21 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
    "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 187.6,
+   "was": null,
+   "sizes": [
+    "10.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kj7036",
+   "image": "https://i1.t4s.cz/products/kj7036/adidas-adizero-adios-pro-4-running-shoe-1120076-kj70361.png"
   },
   {
    "shoe": "adios-pro",
@@ -1161,7 +1175,6 @@
    "sizes": [
     "5.5",
     "6",
-    "7",
     "8"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-light-lavender-ultra-312128-08",
@@ -1192,7 +1205,6 @@
    "price": 200.9,
    "was": null,
    "sizes": [
-    "7.5",
     "8",
     "8.5",
     "9",
