@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-20T10:52:40+00:00",
+ "checked": "2026-10-20T18:17:51+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -12,6 +12,7 @@
    "was": 310.0,
    "sizes": [
     "5",
+    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
@@ -324,7 +325,6 @@
     "9",
     "9.5",
     "10",
-    "10.5",
     "11",
     "12"
    ],
@@ -665,8 +665,7 @@
     "5.5",
     "6",
     "6.5",
-    "7",
-    "8"
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
@@ -759,8 +758,7 @@
    "price": 82.0,
    "was": 270.0,
    "sizes": [
-    "4",
-    "5"
+    "4"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
@@ -958,6 +956,21 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4  Mens Running Shoes",
+   "colour": "Blue Void",
+   "gender": "men",
+   "price": 129.0,
+   "was": 260.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281518",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4  Mens Running Shoes",
    "colour": "Green/Volt",
    "gender": "men",
    "price": 190.0,
@@ -1031,7 +1044,6 @@
    "price": 80.0,
    "was": 263.0,
    "sizes": [
-    "3.5",
     "5"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
@@ -1168,7 +1180,7 @@
    "name": "Endorphin Pro 4",
    "colour": "Lapis/Citron",
    "gender": "men",
-   "price": 175.0,
+   "price": 125.0,
    "was": 250.0,
    "sizes": [
     "7",
@@ -1179,22 +1191,6 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-210472#colcode=21047219",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047219_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4",
-   "colour": "Mutant",
-   "gender": "men",
-   "price": 175.0,
-   "was": 250.0,
-   "sizes": [
-    "8",
-    "9"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-210472#colcode=21047230",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047230_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1221,7 +1217,6 @@
    "price": 200.0,
    "was": 250.0,
    "sizes": [
-    "5",
     "8"
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047330",
