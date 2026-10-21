@@ -187,6 +187,7 @@ def shopify_find(domain, shoe):
     ask a few ways (men's / women's) to catch them all."""
     handles = set()
     for extra in ("", " mens", " womens"):
+        time.sleep(1)  # Shopify turns away quick bursts ("too many requests")
         q = (shoe["q"] + extra).replace(" ", "+")
         d = json.loads(get(f"https://{domain}/search/suggest.json?q={q}&resources%5Btype%5D=product&resources%5Blimit%5D=10"))
         handles |= {p["handle"] for p in d["resources"]["results"]["products"] if is_shoe(shoe, p["title"])}
@@ -210,6 +211,7 @@ def runhub(shoe):
     # The Run Hub (Dublin): Shopify, sizes are UK; men's / women's is the product type.
     out = []
     for h in shopify_find("therunhub.ie", shoe):
+        time.sleep(1)
         j = json.loads(get(f"https://therunhub.ie/products/{h}.js"))
         img = j.get("featured_image")
         # The colour is in the photo's alt text: "Nike Alphafly 3 | Chalk & Purple | The Run Hub"
