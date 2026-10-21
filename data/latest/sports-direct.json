@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-21T11:05:02+00:00",
+ "checked": "2026-10-21T18:20:53+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -31,7 +31,6 @@
    "was": 310.0,
    "sizes": [
     "5",
-    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
@@ -696,21 +695,6 @@
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
-   "colour": "Green",
-   "gender": "men",
-   "price": 88.0,
-   "was": 293.0,
-   "sizes": [
-    "11.5"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281516",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281516_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
    "colour": "Pink Spell",
    "gender": "women",
@@ -753,33 +737,30 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "EK Red/Green",
+   "colour": "White/Platinum",
    "gender": "women",
-   "price": 82.0,
-   "was": 270.0,
+   "price": 129.0,
+   "was": 260.0,
    "sizes": [
-    "4",
-    "5",
-    "7"
+    "6"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Platinum",
+   "colour": "EK Red/Green",
    "gender": "women",
-   "price": 129.0,
-   "was": 260.0,
+   "price": 82.0,
+   "was": 270.0,
    "sizes": [
-    "6",
-    "7"
+    "4"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -967,21 +948,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281520",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281520_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
-   "colour": "Blue Void",
-   "gender": "men",
-   "price": 129.0,
-   "was": 260.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281518",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
