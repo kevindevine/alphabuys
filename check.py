@@ -134,6 +134,17 @@ def offer(shoe, shop, name, colour, price, was, sizes, url, image=None, gender=N
     }
 
 
+def each_page(fn, items, workers=4):
+    """fn over items in parallel; a page that fails (gone, blocked) is skipped, not fatal."""
+    def safe(x):
+        try:
+            return fn(x)
+        except Exception as e:
+            print("   skipped a page:", str(e)[:120])
+    with ThreadPoolExecutor(workers) as ex:
+        return [o for o in ex.map(safe, items) if o]
+
+
 # ---------------------------------------------------------------- Nike
 def nike(shoe):
     if shoe["brand"] != "Nike":
@@ -233,8 +244,7 @@ def misterrunning(shoe):
         return offer(shoe, "Mister Running", name, colour.title(), price.group(1) if price else p["price"],
                      p.get("list_price"), sizes, p["url"], p.get("image"),
                      "women" if p.get("gender") == "Woman" else "men")
-    with ThreadPoolExecutor(4) as ex:
-        return list(ex.map(one, prods))
+    return each_page(one, prods)
 
 
 # ---------------------------------------------------------------- 365rider
@@ -267,8 +277,7 @@ def rider365(shoe):
         name = re.sub(r"\s*(Women's\s*)?Running Shoes.*$", "", r["title"], flags=re.I)
         return offer(shoe, "365rider", name, "", r.get("sale_price") or r["price"], r["price"],
                      [x for x in sizes if x], r["link"], r.get("image_link2") or r.get("image_link"), gender)
-    with ThreadPoolExecutor(4) as ex:
-        return list(ex.map(one, hits))
+    return each_page(one, hits)
 
 
 # ---------------------------------------------------------------- SportsShoes
@@ -297,8 +306,7 @@ def sportsshoes(shoe):
         name = re.sub(r"\s*(Men's|Women's)?\s*Running Shoes.*$", "", p["title"])
         return offer(shoe, "SportsShoes", name, pr.get("manufacturerColor") or "", price, was, sizes,
                      "https://www.sportsshoes.com" + p["url"], p["images"]["medium"], gender_of(p["title"]))
-    with ThreadPoolExecutor(4) as ex:
-        return list(ex.map(one, prods.values()))
+    return each_page(one, prods.values())
 
 
 # ---------------------------------------------------------------- Lifestyle Sports
