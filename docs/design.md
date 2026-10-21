@@ -33,14 +33,15 @@ jrny's rule applies: colour means something or it isn't used.
 
 | Colour | Means |
 |---|---|
-| jrny teal `#009ead` | **Your size**: the selected size chip, your size in each row's size line, the price chart's line |
+| Neon `#d4ff3a` | **Your size**: the selected size chip (with a jrny-black edge), and your size tagged in every size line. Kevin, 21 Oct: "I don't mind the shock neon being used in places for this." The one colour from v1 that stays, and only for this. |
+| jrny teal `#009ead` | The price chart's line and fill |
 | Small teal text `#007a87` | **A price fact**: "50% off", "Down €50", "Lowest" |
 | jrny black `#2e2e2e` | Everything else: all text, the Buy button, selected controls ("Any", Men's) |
 | Band `#242424` | The header band |
 
-- **No red, green or yellow** (the v1 site had a volt-yellow highlight, red
-  discount badges and a green "lowest" note; all retired).
-- **"Any" size is black, not teal**: nothing is "yours" until you pick a size.
+- **No red or green** (v1's red discount badges and green "lowest" note are
+  retired). Neon only ever means your size.
+- **"Any" size is black, not neon**: nothing is "yours" until you pick a size.
 - **The sash is not used.** In jrny it means "race"; reusing it for "best
   price" would blur that. (Open: see §4.)
 
@@ -54,11 +55,12 @@ jrny's rule applies: colour means something or it isn't used.
 2. **Filters on white.** Fit as a segmented control (selected in jrny black);
    the version control (AF3, Pro 4, Sky Tokyo…) only when a shoe has two or
    more versions in stock. **UK size chips**: 44 × 44, 9 px radius, white with
-   the date-card shadow; your size solid teal.
+   the date-card shadow; your size neon. **All sizes visible, wrapping onto
+   rows, never a sideways scroll** (Kevin, 21 Oct); "Any" spans two.
 3. **Cheapest pair card.** The one card on the page (white, card shadow, 16 px
    radius). Photo on page grey, then: "Cheapest men's super shoe in UK 9"
    (Subheadline), brand + model (Title 3), shop · colour, **"In stock UK 7 · 8 ·
-   9 · 10"** with your size in teal (Kevin, 21 Oct: you need to see the sizes
+   9 · 10"** with your size tagged in neon (Kevin, 21 Oct: you need to see the sizes
    up top), the price as Large
    Title (34 bold) with the old price struck through and "50% off" in small
    teal, any price note, and a full-width black **Buy at {shop}** button
@@ -68,8 +70,8 @@ jrny's rule applies: colour means something or it isn't used.
    Drawn at the screen's real width so its labels stay 13 px.
 5. **In stock list.** Full width on white, **no dividers** (as jrny's week):
    64 px photo tile (9 px radius, page grey), Headline brand + model,
-   Subheadline shop · colour, Data line "UK 7 · 8 · **9** · 10" with your size
-   in teal; price on the right (17 semibold), old price struck through
+   Subheadline shop · colour, Data line "UK 7 · 8 · **9** · 10" (wraps, never
+   cut off) with your size tagged in neon; price on the right (17 semibold), old price struck through
    (13 regular), then one teal fact.
 6. **Shops we check.** Name (link, semibold) · pairs in stock, and "checked 2h
    ago" on the right; red (jrny's destructive) only when a shop hasn't been

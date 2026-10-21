@@ -18,7 +18,8 @@
 :root {
   --ink: #2e2e2e;          /* all text */
   --band: #242424;
-  --teal: #009ead;         /* means: cheapest, your size */
+  --teal: #009ead;         /* means: price facts, the chart */
+  --neon: #d4ff3a;         /* means: your size (Kevin's call, 21 Oct) */
   --teal-text: #007a87;    /* small teal text (AA) */
   --teal40: #99d8de;
   --teal10: #e6f5f7;
@@ -82,16 +83,15 @@ button { font: inherit; color: inherit; }
 }
 .seg button[aria-pressed="true"] { background: var(--ink); color: #fff; font-weight: 700; }
 #model { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
-.sizes { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)); padding: 2px var(--gutter) 6px; }
-.sizes::-webkit-scrollbar { display: none; }
+.sizes { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 8px; padding: 2px 0 6px; }
 .size {
-  flex: none; min-width: 44px; height: 44px; padding: 0 10px; border: 0; border-radius: 9px; cursor: pointer;
+  min-width: 44px; height: 44px; padding: 0 4px; border: 0; border-radius: 9px; cursor: pointer;
   background: var(--page); box-shadow: var(--shadow-card); font: 600 17px/22px var(--font);
 }
-.size.any { font-size: 15px; }
+.size.any { font-size: 15px; grid-column: span 2; }
 /* Your size: solid teal, white text (like "today" in jrny). */
-.size[aria-pressed="true"] { background: var(--teal); color: #fff; }
-.size.any[aria-pressed="true"] { background: var(--ink); }  /* no size picked: not teal */
+.size[aria-pressed="true"] { background: var(--neon); color: var(--ink); font-weight: 700; box-shadow: inset 0 0 0 1.5px var(--ink); }
+.size.any[aria-pressed="true"] { background: var(--ink); color: #fff; box-shadow: none; }  /* no size picked: not neon */
 .label { font: 600 15px/20px var(--font); }
 
 /* ---------- Cheapest pair ---------- */
@@ -133,8 +133,8 @@ section { margin-top: 32px; }
 .thumb img.fill { width: 100%; height: 100%; object-fit: cover; }
 .list .mid { min-width: 0; }
 .list .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.list .sizes-line { margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.me { color: var(--teal-text); font-weight: 700; }
+.list .sizes-line { margin-top: 2px; }
+.me { background: var(--neon); color: var(--ink); font-weight: 700; border-radius: 4px; padding: 0 4px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .list .right { text-align: right; }
 .list .p { font: 600 17px/22px var(--font); }
 .list .w { font: 400 13px/18px var(--font); text-decoration: line-through; }
