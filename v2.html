@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alpha Buys · jrny</title>
-<meta name="description" content="Race-day super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
+<title>alphabuys · jrny</title>
+<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
 <meta name="color-scheme" content="light">
 <link rel="preload" href="fonts/GeneralSans-Semibold.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 /* jrny v2 design system: docs/design.md in the jrny repo (fonts and tokens
-   copied from jrny main, 21 Oct 2026). Alpha Buys specifics: docs/design.md here. */
+   copied from jrny main, 21 Oct 2026). alphabuys specifics: docs/design.md here. */
 @font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
 @font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Semibold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
@@ -164,9 +164,9 @@ footer p { margin: 0 0 8px; }
   <div class="col">
     <div class="nav">
       <a class="wordmark" href="https://jrny.run" aria-label="jrny.run home">jrny</a>
-      <span class="footnote">Race shoes · <a href="https://jrny.run">jrny.run</a></span>
+      <span class="footnote">Super shoes · <a href="https://jrny.run">jrny.run</a></span>
     </div>
-    <h1 class="large-title">Alpha <span class="hl">Buys</span></h1>
+    <h1 class="large-title">alpha<span class="hl">buys</span></h1>
     <p class="context subhead" id="context">&nbsp;</p>
     <nav class="pills" id="shoes" aria-label="Shoe"></nav>
   </div>
@@ -298,7 +298,7 @@ function renderBand() {
   const inStock = offers.filter(o => o.sizes.length);
   const shops = new Set(inStock.map(o => o.shop)).size;
   const last = Object.values(checked).sort().at(-1);
-  $("context").textContent = `${inStock.length} pairs of race shoes in stock at ${shops} Irish shops${last ? " · checked " + ago(last) : ""}`;
+  $("context").textContent = `${inStock.length} pairs of super shoes in stock at ${shops} Irish shops${last ? " · checked " + ago(last) : ""}`;
   $("shoes").innerHTML = SHOES.map(x =>
     `<button data-v="${x.id}" aria-pressed="${x.id === state.shoe}">${x.name}</button>`).join("");
   $("shoes").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });

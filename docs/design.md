@@ -1,14 +1,14 @@
-# Alpha Buys design
+# alphabuys design
 
-Alpha Buys follows **jrny's design system**: `docs/design.md` in the jrny repo
+alphabuys follows **jrny's design system**: `docs/design.md` in the jrny repo
 (jrny.run). Font, palette, type scale, spacing, the black band, buttons and
 motion all come from there; when the two disagree, jrny's doc wins. This file
-holds only what's specific to Alpha Buys. Started 21 Oct 2026 from jrny `main`
+holds only what's specific to alphabuys. Started 21 Oct 2026 from jrny `main`
 at 1a8f413 (fonts and tokens copied then; refresh both if jrny changes them).
 
 ## 0. Point of view (draft, Kevin to own)
 
-> **Alpha Buys reports race-shoe prices: which shop, what size, how much, and
+> **alphabuys reports super-shoe prices: which shop, what size, how much, and
 > whether it just dropped.**
 
 Same voice as jrny: it reports, it doesn't sell. No "deal of the day", no
@@ -27,29 +27,36 @@ Add to this list; don't let it shrink.
   isn't news.
 - **Sold-out pairs are hidden**, but their history still counts for the chart.
 
+## 0.2 Words
+
+- **Super shoes**, everywhere (never "race shoes": that could mean spikes or
+  any racing flat). Kevin, 21 Oct.
+- **alphabuys**: one word, lowercase.
+
 ## 1. What colour means here
 
 jrny's rule applies: colour means something or it isn't used.
 
 | Colour | Means |
 |---|---|
-| Neon `#d4ff3a` | **Your size**: the selected size chip (with a jrny-black edge), and your size tagged in every size line. Kevin, 21 Oct: "I don't mind the shock neon being used in places for this." The one colour from v1 that stays: for this, and for the word **Buys** in the title (on a neon block, as v1's logo; Kevin, 21 Oct). |
+| Neon `#d4ff3a` | **Your size**: the selected size chip (with a jrny-black edge), and your size tagged in every size line. Kevin, 21 Oct: "I don't mind the shock neon being used in places for this." The one colour from v1 that stays: for this, and for **buys** in the title (on a neon block, as v1's logo; Kevin, 21 Oct). |
 | jrny teal `#009ead` | The price chart's line and fill |
 | Small teal text `#007a87` | **A price fact**: "50% off", "Down €50", "Lowest" |
 | jrny black `#2e2e2e` | Everything else: all text, the Buy button, selected controls ("Any", Men's) |
 | Band `#242424` | The header band |
 
 - **No red or green** (v1's red discount badges and green "lowest" note are
-  retired). Neon only ever means your size (plus the brand's "Buys").
+  retired). Neon only ever means your size (plus "buys" in the name).
 - **"Any" size is black, not neon**: nothing is "yours" until you pick a size.
 - **The sash is not used.** In jrny it means "race"; reusing it for "best
   price" would blur that. (Open: see §4.)
 
 ## 2. Structure (top to bottom)
 
-1. **Black band.** Nav line (jrny wordmark left → jrny.run; "Race shoes ·
-   jrny.run" right), Large Title "Alpha Buys", one context line of facts
-   ("357 pairs of race shoes in stock at 7 Irish shops · checked 2h ago"), then
+1. **Black band.** Nav line (jrny wordmark left → jrny.run; "Super shoes ·
+   jrny.run" right), Large Title **alphabuys** (one word, lowercase like
+   jrny, "buys" on the neon block; Kevin, 21 Oct), one context line of facts
+   ("357 pairs of super shoes in stock at 7 Irish shops · checked 2h ago"), then
    the **shoe pills** in jrny's week-pill style: one line, semibold, the
    selected shoe a white pill in bold. Scrolls sideways on a phone.
 2. **Filters on white.** Fit as a segmented control (selected in jrny black);
@@ -93,7 +100,7 @@ jrny's motion tokens. Light only (jrny has no dark mode yet).
   top of the page? (Not the sash: see §1.)
 - Shoe photos come from the shops on different backgrounds (white, grey,
   lifestyle). A consistent tile would need our own cut-outs.
-- Name: "Alpha Buys" now covers seven shoes from five brands.
+- ~~Name~~ Decided 21 Oct: **alphabuys**, one word, lowercase.
 - Affiliate links (Awin) and the disclosure line.
 
 ## 5. Rejected along the way

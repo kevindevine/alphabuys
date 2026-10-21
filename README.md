@@ -1,6 +1,6 @@
-# Alpha Buys
+# alphabuys
 
-Tracks race-shoe prices (Nike Alphafly + Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin Elite/Pro) and in-stock sizes across Irish shops
+Tracks super-shoe prices (Nike Alphafly + Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin Elite/Pro) and in-stock sizes across Irish shops
 (Nike, Elverys, Lifestyle Sports, Top4Running, Sports Direct, Zalando, Pro:Direct).
 
 - `check.py`: visits each shop for every shoe in `SHOES` (add a shoe there), writes `data/latest.json` and appends to `data/history.jsonl`
