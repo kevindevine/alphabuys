@@ -101,6 +101,7 @@ button { font: inherit; color: inherit; }
 .best .pic img.fill { max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: cover; }
 .best .info { padding: 16px 20px 20px; }
 .best .what { margin: 2px 0 0; }
+.best-sizes { font: 500 15px/20px var(--font); margin-top: 8px; }
 .price-line { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
 .price-line .now { font: 700 34px/41px var(--font); letter-spacing: -0.02em; }
 .was { text-decoration: line-through; font-weight: 400; }
@@ -133,7 +134,7 @@ section { margin-top: 32px; }
 .list .mid { min-width: 0; }
 .list .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .list .sizes-line { margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.list .me { color: var(--teal-text); font-weight: 700; }
+.me { color: var(--teal-text); font-weight: 700; }
 .list .right { text-align: right; }
 .list .p { font: 600 17px/22px var(--font); }
 .list .w { font: 400 13px/18px var(--font); text-decoration: line-through; }
@@ -321,6 +322,8 @@ function note(o) {
   return "";
 }
 const fullName = o => `${BRAND[o.shoe] || ""} ${o.model}`.trim();
+// "UK 7 · 8 · 9 · 10" with your size in teal
+const sizeLine = o => "UK " + o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
 
 function renderBest(list) {
   const o = list[0];
@@ -333,6 +336,7 @@ function renderBest(list) {
         <div class="subhead">Cheapest ${fit()} ${shoeWord(false)}${state.size ? " in UK " + esc(state.size) : ""}</div>
         <div class="title3 what">${esc(fullName(o))}</div>
         <div class="subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
+        <div class="best-sizes"><span class="label">In stock</span> ${sizeLine(o)}</div>
         <div class="price-line">
           <span class="now">${eur(o.price)}</span>
           ${o.was ? `<span class="was subhead">${eur(o.was)}</span><span class="off">${o.offPct}% off</span>` : ""}
@@ -351,14 +355,13 @@ function renderList(list) {
     return;
   }
   $("grid").innerHTML = list.map(o => {
-    const sizes = o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
     const n = note(o);
     return `<li><a href="${esc(o.url)}" target="_blank" rel="noopener">
       <div class="thumb">${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="">` : ""}</div>
       <div class="mid">
         <div class="headline">${esc(fullName(o))}</div>
         <div class="sub subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
-        <div class="sizes-line data">UK ${sizes}</div>
+        <div class="sizes-line data">${sizeLine(o)}</div>
       </div>
       <div class="right">
         <div class="p">${eur(o.price)}</div>

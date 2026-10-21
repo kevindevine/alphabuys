@@ -57,7 +57,9 @@ jrny's rule applies: colour means something or it isn't used.
    the date-card shadow; your size solid teal.
 3. **Cheapest pair card.** The one card on the page (white, card shadow, 16 px
    radius). Photo on page grey, then: "Cheapest men's super shoe in UK 9"
-   (Subheadline), brand + model (Title 3), shop · colour, the price as Large
+   (Subheadline), brand + model (Title 3), shop · colour, **"In stock UK 7 · 8 ·
+   9 · 10"** with your size in teal (Kevin, 21 Oct: you need to see the sizes
+   up top), the price as Large
    Title (34 bold) with the old price struck through and "50% off" in small
    teal, any price note, and a full-width black **Buy at {shop}** button
    (48 px, 12 px radius, as jrny's primary button).
