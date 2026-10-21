@@ -33,14 +33,14 @@ jrny's rule applies: colour means something or it isn't used.
 
 | Colour | Means |
 |---|---|
-| Neon `#d4ff3a` | **Your size**: the selected size chip (with a jrny-black edge), and your size tagged in every size line. Kevin, 21 Oct: "I don't mind the shock neon being used in places for this." The one colour from v1 that stays, and only for this. |
+| Neon `#d4ff3a` | **Your size**: the selected size chip (with a jrny-black edge), and your size tagged in every size line. Kevin, 21 Oct: "I don't mind the shock neon being used in places for this." The one colour from v1 that stays: for this, and for the word **Buys** in the title (on a neon block, as v1's logo; Kevin, 21 Oct). |
 | jrny teal `#009ead` | The price chart's line and fill |
 | Small teal text `#007a87` | **A price fact**: "50% off", "Down €50", "Lowest" |
 | jrny black `#2e2e2e` | Everything else: all text, the Buy button, selected controls ("Any", Men's) |
 | Band `#242424` | The header band |
 
 - **No red or green** (v1's red discount badges and green "lowest" note are
-  retired). Neon only ever means your size.
+  retired). Neon only ever means your size (plus the brand's "Buys").
 - **"Any" size is black, not neon**: nothing is "yours" until you pick a size.
 - **The sash is not used.** In jrny it means "race"; reusing it for "best
   price" would blur that. (Open: see §4.)

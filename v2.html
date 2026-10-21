@@ -59,6 +59,8 @@ button { font: inherit; color: inherit; }
 .wordmark { font: 700 17px/22px var(--font); letter-spacing: -0.01em; }
 .nav .footnote a { text-decoration: underline; text-underline-offset: 2px; }
 .band .large-title { margin-top: 4px; }
+/* "Buys" on a neon block, as v1's logo */
+.hl { background: var(--neon); color: var(--ink); padding: 0 6px; border-radius: 4px; }
 .band .context { margin: 6px 0 16px; }
 /* Shoe pills: the week-pill style. One line, semibold; selected is a white pill in bold. */
 .pills { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter); }
@@ -164,7 +166,7 @@ footer p { margin: 0 0 8px; }
       <a class="wordmark" href="https://jrny.run" aria-label="jrny.run home">jrny</a>
       <span class="footnote">Race shoes · <a href="https://jrny.run">jrny.run</a></span>
     </div>
-    <h1 class="large-title">Alpha Buys</h1>
+    <h1 class="large-title">Alpha <span class="hl">Buys</span></h1>
     <p class="context subhead" id="context">&nbsp;</p>
     <nav class="pills" id="shoes" aria-label="Shoe"></nav>
   </div>
