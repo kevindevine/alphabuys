@@ -104,9 +104,11 @@ button { font: inherit; color: inherit; }
 
 /* ---------- Cheapest pair ---------- */
 .best { margin: 16px 0 8px; border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; background: var(--page); }
-.best .pic { background: var(--grey); height: 200px; display: grid; place-items: center; }
+.best .pic { position: relative; overflow: hidden; background: var(--grey); height: 200px; display: grid; place-items: center; }
 .best .pic img { max-width: 80%; max-height: 180px; object-fit: contain; mix-blend-mode: multiply; }
-.best .pic img.fill { max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: cover; }
+/* Pinned to the box: iOS Safari ignores height: 100% in a grid cell and
+   lets a square photo spill over the text below. */
+.best .pic img.fill { position: absolute; inset: 0; max-width: none; max-height: none; width: 100%; height: 100%; object-fit: cover; }
 .best .info { padding: 16px 20px 20px; }
 .best .what { margin: 2px 0 0; }
 .best-sizes { font: 500 15px/20px var(--font); margin-top: 8px; }
@@ -121,6 +123,25 @@ button { font: inherit; color: inherit; }
   font: 600 17px/22px var(--font); transition: opacity var(--dur-quick) ease;
 }
 .buy:hover { opacity: .88; }
+/* Buy + share side by side; share is a quiet square the same height. */
+.actions { display: flex; gap: 8px; margin-top: 16px; }
+.actions .buy { flex: 1; margin-top: 0; }
+.share {
+  flex: none; display: grid; place-items: center; width: 48px; height: 48px; padding: 0;
+  border: 0; border-radius: 12px; background: var(--grey); color: var(--ink); cursor: pointer;
+  transition: background var(--dur-quick) ease;
+}
+.share:hover { background: var(--fill); }
+.share svg { width: 22px; height: 22px; }
+.list .share { width: 44px; height: 44px; background: transparent; }
+.list .share:hover { background: var(--grey); }
+/* "Link copied" when the phone has no share panel */
+.toast {
+  position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 8px); opacity: 0; pointer-events: none;
+  background: var(--ink); color: #fff; border-radius: 999px; padding: 10px 16px; font: 600 15px/20px var(--font);
+  transition: opacity var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+}
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------- Sections ---------- */
 section { margin-top: 32px; }
@@ -132,13 +153,14 @@ section { margin-top: 32px; }
 
 /* The list: full width on white, no dividers; spacing separates rows. */
 .list { margin: 8px 0 0; padding: 0; list-style: none; }
-.list a {
+.list li { display: flex; align-items: center; gap: 4px; }
+.list a { flex: 1; min-width: 0;
   display: grid; grid-template-columns: 64px 1fr auto; gap: 14px; align-items: center;
   min-height: 88px; padding: 12px 0; text-decoration: none;
 }
-.thumb { width: 64px; height: 64px; border-radius: 9px; background: var(--grey); overflow: hidden; display: grid; place-items: center; }
+.thumb { position: relative; width: 64px; height: 64px; border-radius: 9px; background: var(--grey); overflow: hidden; display: grid; place-items: center; }
 .thumb img { width: 92%; height: 92%; object-fit: contain; mix-blend-mode: multiply; }
-.thumb img.fill { width: 100%; height: 100%; object-fit: cover; }
+.thumb img.fill { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .list .mid { min-width: 0; }
 .list .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .list .sizes-line { margin-top: 2px; }
@@ -213,6 +235,7 @@ footer p { margin: 0 0 8px; }
     <p>Not affiliated with any shoe brand or retailer. A <a href="https://jrny.run">jrny.run</a> experiment.</p>
   </footer>
 </main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 // [file name, shop, country, home page]
@@ -224,6 +247,10 @@ const SHOPS = [
   ["top4running", "Top4Running", "IE", "https://top4running.ie"],
   ["zalando", "Zalando", "IE", "https://www.zalando.ie"],
   ["pro-direct", "Pro:Direct", "IE", "https://www.prodirectsport.ie"],
+  ["the-run-hub", "The Run Hub", "IE", "https://therunhub.ie"],
+  ["mister-running", "Mister Running", "IT", "https://www.misterrunning.com/en/"],
+  ["365rider", "365rider", "ES", "https://www.365rider.com/en/"],
+  ["sportsshoes", "SportsShoes", "UK", "https://www.sportsshoes.com"],
 ];
 // Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
@@ -297,7 +324,7 @@ function renderBand() {
   const inStock = offers.filter(o => o.sizes.length);
   const shops = new Set(inStock.map(o => o.shop)).size;
   const last = Object.values(checked).sort().at(-1);
-  $("context").textContent = `${inStock.length} pairs of super shoes in stock at ${shops} Irish shops${last ? " · checked " + ago(last) : ""}`;
+  $("context").textContent = `${inStock.length} pairs of super shoes in stock at ${shops} shops that deliver to Ireland${last ? " · checked " + ago(last) : ""}`;
   $("shoes").innerHTML = ["all", ...BRANDS].map(b =>
     `<button data-v="${b}" aria-pressed="${b === state.brand}">${b === "all" ? "All" : b}</button>`).join("");
   $("shoes").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
@@ -328,6 +355,29 @@ const fullName = o => `${brandOf(o) || ""} ${o.model}`.trim();
 // "UK 7 · 8 · 9 · 10" with your size in teal
 const sizeLine = o => "UK " + o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
 
+// ---------- Share a pair: the phone's share panel, else copy to the clipboard.
+let shown = [];  // the pairs on screen, cheapest first (share buttons point into it)
+const SHARE_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="m7.5 7.5 4.5-4.5 4.5 4.5"/><path d="M8 10H6.5A1.5 1.5 0 0 0 5 11.5v8A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-8a1.5 1.5 0 0 0-1.5-1.5H16"/></svg>`;
+const shareButton = i => `<button class="share" type="button" data-share="${i}" aria-label="Share">${SHARE_ICON}</button>`;
+async function share(o) {
+  const text = `${fullName(o)}, ${eur(o.price)}${o.was ? ` (was ${eur(o.was)})` : ""} at ${o.shop}`
+    + `${state.size ? " in UK " + state.size : ""}. Found on alpha buys.`;
+  if (navigator.share) {
+    try { await navigator.share({ title: fullName(o), text, url: o.url }); } catch (e) { /* closed the panel */ }
+    return;
+  }
+  try { await navigator.clipboard.writeText(`${text} ${o.url}`); toast("Link copied"); }
+  catch (e) { toast("Couldn't copy the link"); }
+}
+function toast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("on");
+  clearTimeout(toast.timer); toast.timer = setTimeout(() => t.classList.remove("on"), 1800);
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-share]"); if (!b) return;
+  share(shown[+b.dataset.share]);
+});
+
 function renderBest(list) {
   const o = list[0];
   if (!o) { $("best").innerHTML = ""; return; }
@@ -345,7 +395,10 @@ function renderBest(list) {
           ${o.was ? `<span class="was subhead">${eur(o.was)}</span><span class="off">${o.offPct}% off</span>` : ""}
         </div>
         ${n ? `<div class="note">${n}</div>` : ""}
-        <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)}</a>
+        <div class="actions">
+          <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)}</a>
+          ${shareButton(0)}
+        </div>
       </div>
     </article>`;
 }
@@ -357,7 +410,7 @@ function renderList(list) {
     $("grid").innerHTML = `<li class="none subhead">No shop has this in stock right now. Prices are checked four times a day.</li>`;
     return;
   }
-  $("grid").innerHTML = list.map(o => {
+  $("grid").innerHTML = list.map((o, i) => {
     const n = note(o);
     return `<li><a href="${esc(o.url)}" target="_blank" rel="noopener">
       <div class="thumb">${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="">` : ""}</div>
@@ -371,7 +424,7 @@ function renderList(list) {
         ${o.was ? `<div class="w">${eur(o.was)}</div>` : ""}
         ${n ? `<div class="d">${n.startsWith("Down") ? n.split(" since")[0] : "Lowest"}</div>` : o.offPct >= 5 ? `<div class="d">${o.offPct}% off</div>` : ""}
       </div>
-    </a></li>`;
+    </a>${shareButton(i)}</li>`;
   }).join("");
 }
 
@@ -449,6 +502,7 @@ function render() {
   renderBand();
   renderFilters();
   const list = offers.filter(o => matches(o)).sort((a, b) => a.price - b.price);
+  shown = list;
   renderBest(list);
   renderChart();
   renderList(list);

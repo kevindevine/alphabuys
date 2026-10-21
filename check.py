@@ -67,20 +67,26 @@ def saucony_model(name):
 
 # The race shoes we track. `match` decides whether a product title is one of them
 # (so spikes, singlets and lookalike names are skipped). `q` can be a list when
-# one entry covers two shoe lines.
+# one entry covers two shoe lines. `sportsshoes`: that shop's store pages for the line.
 SHOES = [
     {"id": "alphafly", "brand": "Nike", "q": "alphafly",
-     "match": r"alphafly", "model": alphafly_model, "prodirect_tag": "silo_alphafly"},
+     "match": r"alphafly", "model": alphafly_model, "prodirect_tag": "silo_alphafly",
+     "sportsshoes": ["nike-alphafly"]},
     {"id": "adios-pro", "brand": "adidas", "q": "adios pro",
-     "match": r"adios\s*pro", "model": adios_model, "prodirect_tag": "silo_adizero"},
+     "match": r"adios\s*pro", "model": adios_model, "prodirect_tag": "silo_adizero",
+     "sportsshoes": ["adidas-adizero-adios-pro"]},
     {"id": "metaspeed", "brand": "ASICS", "q": "metaspeed",
-     "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model, "prodirect_tag": "silo_metaspeed"},
+     "match": r"metaspeed\s*(sky|edge|ray)", "model": metaspeed_model, "prodirect_tag": "silo_metaspeed",
+     "sportsshoes": ["asics-metaspeed"]},
     {"id": "vaporfly", "brand": "Nike", "q": "vaporfly",
-     "match": r"vaporfly", "model": vaporfly_model, "prodirect_tag": "silo_vaporfly"},
+     "match": r"vaporfly", "model": vaporfly_model, "prodirect_tag": "silo_vaporfly",
+     "sportsshoes": ["nike-vaporfly"]},
     {"id": "puma-elite", "brand": "Puma", "q": ["deviate nitro elite", "fast-r nitro elite"],
-     "match": r"(deviate|fast-?r)\s*nitro\s*elite", "model": puma_model},
+     "match": r"(deviate|fast-?r)\s*nitro\s*elite", "model": puma_model,
+     "sportsshoes": ["puma-deviate-nitro-elite", "puma-fast-r-nitro-elite"]},
     {"id": "saucony-endorphin", "brand": "Saucony", "q": ["endorphin elite", "endorphin pro"],
-     "match": r"endorphin\s*(elite|pro)", "model": saucony_model, "prodirect_tag": "silo_endorphin"},
+     "match": r"endorphin\s*(elite|pro)", "model": saucony_model, "prodirect_tag": "silo_endorphin",
+     "sportsshoes": ["saucony-endorphin-pro", "saucony-endorphin-elite"]},
 ]
 NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
              r"|kids|junior|track|spikes?|equipment|trail")
@@ -187,6 +193,112 @@ def elverys(shoe):
                          (j["compare_at_price"] or 0) / 100, sizes,
                          f"https://www.elverys.ie{handle}", "https:" + j["featured_image"] if j.get("featured_image") else None))
     return out
+
+
+def runhub(shoe):
+    # The Run Hub (Dublin): Shopify, sizes are UK; men's / women's is the product type.
+    out = []
+    for h in shopify_find("therunhub.ie", shoe):
+        j = json.loads(get(f"https://therunhub.ie/products/{h}.js"))
+        img = j.get("featured_image")
+        # The colour is in the photo's alt text: "Nike Alphafly 3 | Chalk & Purple | The Run Hub"
+        alt = ((j.get("media") or [{}])[0].get("alt") or "").split(" | ")
+        out.append(offer(shoe, "The Run Hub", j["title"], alt[1] if len(alt) == 3 else "", j["price"] / 100,
+                         (j["compare_at_price"] or 0) / 100,
+                         [v["title"] for v in j["variants"] if v["available"]],
+                         f"https://therunhub.ie/products/{h}",
+                         "https:" + img if img and img.startswith("//") else img,
+                         gender_of(j.get("type") or j["title"])))
+    return out
+
+
+# ---------------------------------------------------------------- Mister Running
+CLERK_KEY = "huVwq1tr71hj6HxjWj0TQ8zonvIAxisP"  # public search key from misterrunning.com
+
+
+def misterrunning(shoe):
+    # Italian shop, ships to Ireland in euro. Its Clerk search gives name, prices and
+    # photo; the sizes it lists are US, so the UK ones come from the product page
+    # (size buttons carry data-UK, and only in-stock ones are "opt_on").
+    attrs = '%5B%22name%22%2C%22price%22%2C%22list_price%22%2C%22url%22%2C%22image%22%2C%22gender%22%5D'
+    d = json.loads(get(f"https://api.clerk.io/v2/search/search?key={CLERK_KEY}"
+                       f"&query={shoe['q'].replace(' ', '+')}&limit=60&attributes={attrs}"))
+    prods = [p for p in d.get("product_data", []) if is_shoe(shoe, p.get("name", ""))]
+
+    def one(p):
+        page = get(p["url"])
+        sizes = re.findall(r'class="opt opt_on[^"]*"[^>]*data-UK="([^"]+)"', page)
+        price = re.search(r'itemprop="price" content="([\d.]+)"', page)
+        name, _, colour = p["name"].partition(" - ")
+        return offer(shoe, "Mister Running", name, colour.title(), price.group(1) if price else p["price"],
+                     p.get("list_price"), sizes, p["url"], p.get("image"),
+                     "women" if p.get("gender") == "Woman" else "men")
+    with ThreadPoolExecutor(4) as ex:
+        return list(ex.map(one, prods))
+
+
+# ---------------------------------------------------------------- 365rider
+DOOFINDER_365 = "16f08ec90ecf186ae58eab6f667fc98d"  # 365rider's English search, prices in euro
+
+
+def rider365(shoe):
+    # Spanish shop (PrestaShop). Search through Doofinder for the euro prices (the
+    # product page shows dollars to GitHub's US servers), then read the in-stock
+    # sizes off the product page (EU ones converted with the brand's chart).
+    d = json.loads(get(f"https://eu1-search.doofinder.com/5/search?hashid={DOOFINDER_365}"
+                       f"&query={shoe['q'].replace(' ', '+')}&rpp=50",
+                       ["Origin: https://www.365rider.com"]))
+    hits = [r for r in d.get("results", []) if is_shoe(shoe, r.get("title", ""))]
+
+    def one(r):
+        page = get(r["link"])
+        # Unisex shoes sit in both men's and women's categories: those count as men's
+        cats = " ".join(r.get("categories", []))
+        women_only = "Women's" in cats and not re.search(r"(?<!Wo)Men's", cats)
+        gender = "women" if women_only else gender_of(r["title"])
+        # Size buttons say "UK 8.5" on some shoes and "42,5 - EUR" on others
+        sizes = []
+        for cls, label in re.findall(r'<li\s+class="([^"]*input-container[^"]*)"[^>]*>\s*<input data-attname="([^"]+)"', page):
+            if "not-in-stock" in cls:
+                continue
+            uk = re.match(r"UK\s*([\d.,]+)", label)
+            eu = re.match(r"([\d.,]+)\s*-\s*EUR", label)
+            sizes.append(uk.group(1).replace(",", ".") if uk else eu and eu_to_uk(shoe, gender, eu.group(1).replace(",", ".")))
+        name = re.sub(r"\s*(Women's\s*)?Running Shoes.*$", "", r["title"], flags=re.I)
+        return offer(shoe, "365rider", name, "", r.get("sale_price") or r["price"], r["price"],
+                     [x for x in sizes if x], r["link"], r.get("image_link2") or r.get("image_link"), gender)
+    with ThreadPoolExecutor(4) as ex:
+        return list(ex.map(one, hits))
+
+
+# ---------------------------------------------------------------- SportsShoes
+def next_data(page):
+    return json.loads(re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S).group(1))["props"]["pageProps"]
+
+
+def sportsshoes(shoe):
+    # UK shop, Next.js. The English store page lists the line (titles, photos); euro
+    # prices and UK sizes come from the German site's product page (same stock,
+    # prices in euro with Irish taxes and duties included).
+    prods = {}
+    # One store page per search word: "fast-r nitro elite" -> puma-fast-r-nitro-elite
+    for slug in [x for x in shoe.get("sportsshoes", []) if shoe["q"].replace(" ", "-") in x]:
+        for p in next_data(get(f"https://www.sportsshoes.com/store/{slug}"))["productsData"]["products"]:
+            if is_shoe(shoe, p["title"]):
+                prods[p["sku"]] = p
+
+    def one(p):
+        pr = next_data(get(f"https://www.sportsshoes.com/de-de/product/{p['sku'].lower()}/x"))["product"]
+        vs = pr.get("variants") or []
+        stock = [v for v in vs if v["inventory"]["isInStock"]]
+        price = min(v["prices"]["price"] for v in (stock or vs))
+        was = max(v["prices"]["retailPrice"] for v in vs)
+        sizes = [v["options"][0]["value"][0]["label"] for v in stock]
+        name = re.sub(r"\s*(Men's|Women's)?\s*Running Shoes.*$", "", p["title"])
+        return offer(shoe, "SportsShoes", name, pr.get("manufacturerColor") or "", price, was, sizes,
+                     "https://www.sportsshoes.com" + p["url"], p["images"]["medium"], gender_of(p["title"]))
+    with ThreadPoolExecutor(4) as ex:
+        return list(ex.map(one, prods.values()))
 
 
 # ---------------------------------------------------------------- Lifestyle Sports
@@ -361,7 +473,8 @@ def prodirect(shoe):
 
 SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
          "Top4Running": top4running, "Sports Direct": sportsdirect, "Zalando": zalando,
-         "Pro:Direct": prodirect}
+         "Pro:Direct": prodirect, "The Run Hub": runhub, "Mister Running": misterrunning,
+         "365rider": rider365, "SportsShoes": sportsshoes}
 
 
 
