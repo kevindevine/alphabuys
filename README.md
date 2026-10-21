@@ -1,4 +1,4 @@
-# alphabuys
+# alpha buys
 
 Tracks super-shoe prices (Nike Alphafly + Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin Elite/Pro) and in-stock sizes across Irish shops
 (Nike, Elverys, Lifestyle Sports, Top4Running, Sports Direct, Zalando, Pro:Direct).

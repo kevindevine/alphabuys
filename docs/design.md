@@ -1,14 +1,14 @@
-# alphabuys design
+# alpha buys design
 
-alphabuys follows **jrny's design system**: `docs/design.md` in the jrny repo
+alpha buys follows **jrny's design system**: `docs/design.md` in the jrny repo
 (jrny.run). Font, palette, type scale, spacing, the black band, buttons and
 motion all come from there; when the two disagree, jrny's doc wins. This file
-holds only what's specific to alphabuys. Started 21 Oct 2026 from jrny `main`
+holds only what's specific to alpha buys. Started 21 Oct 2026 from jrny `main`
 at 1a8f413 (fonts and tokens copied then; refresh both if jrny changes them).
 
 ## 0. Point of view (draft, Kevin to own)
 
-> **alphabuys reports super-shoe prices: which shop, what size, how much, and
+> **alpha buys reports super-shoe prices: which shop, what size, how much, and
 > whether it just dropped.**
 
 Same voice as jrny: it reports, it doesn't sell. No "deal of the day", no
@@ -31,7 +31,9 @@ Add to this list; don't let it shrink.
 
 - **Super shoes**, everywhere (never "race shoes": that could mean spikes or
   any racing flat). Kevin, 21 Oct.
-- **alphabuys**: one word, lowercase.
+- **alpha buys**: two words, lowercase. Not tied to super shoes, so it can
+  grow beyond race shoes later (Kevin, 21 Oct). The web address stays
+  alphabuys.jrny.run.
 
 ## 1. What colour means here
 
@@ -54,7 +56,7 @@ jrny's rule applies: colour means something or it isn't used.
 ## 2. Structure (top to bottom)
 
 1. **Black band.** Nav line (jrny wordmark left → jrny.run; "Super shoes ·
-   jrny.run" right), Large Title **alphabuys** (one word, lowercase like
+   jrny.run" right), Large Title **alpha buys** (two words, lowercase like
    jrny, "buys" on the neon block; Kevin, 21 Oct), one context line of facts
    ("357 pairs of super shoes in stock at 7 Irish shops · checked 2h ago"), then
    the **shoe pills** in jrny's week-pill style: one line, semibold, the
@@ -100,7 +102,7 @@ jrny's motion tokens. Light only (jrny has no dark mode yet).
   top of the page? (Not the sash: see §1.)
 - Shoe photos come from the shops on different backgrounds (white, grey,
   lifestyle). A consistent tile would need our own cut-outs.
-- ~~Name~~ Decided 21 Oct: **alphabuys**, one word, lowercase.
+- ~~Name~~ Decided 21 Oct: **alpha buys**, two words, lowercase.
 - Affiliate links (Awin) and the disclosure line.
 
 ## 5. Rejected along the way
