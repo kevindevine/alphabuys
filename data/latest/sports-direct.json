@@ -1,23 +1,6 @@
 {
- "checked": "2026-10-20T18:17:51+00:00",
+ "checked": "2026-10-21T11:05:02+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "White/Platinum",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
-  },
   {
    "shoe": "alphafly",
    "shop": "Sports Direct",
@@ -36,6 +19,23 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "White/Platinum",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -71,29 +71,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Green/Volt",
-   "gender": "men",
-   "price": 225.0,
-   "was": 310.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -138,6 +115,29 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228224",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228224_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Green/Volt",
+   "gender": "men",
+   "price": 225.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -313,6 +313,49 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4 Womens",
+   "colour": "Sand/Purple",
+   "gender": "women",
+   "price": 180.0,
+   "was": 250.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220670",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21220670_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
+   "name": "Men's Adios Pro 4 Road Running Shoes",
+   "colour": "Dark Bl/Yllw",
+   "gender": "men",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198418",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21198418_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4 Shoes Mens",
    "colour": "Solar Yellow",
    "gender": "men",
@@ -335,22 +378,20 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4 Womens",
-   "colour": "Sand/Purple",
-   "gender": "women",
-   "price": 180.0,
-   "was": 250.0,
+   "name": "Adios Pro 4",
+   "colour": "Black/White",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
    "sizes": [
-    "4",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
     "7",
-    "8"
+    "8",
+    "9",
+    "10",
+    "11"
    ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220670",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220670_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/y3-adios-pro-4-211482#colcode=21148203",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21148203_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -370,25 +411,6 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220632",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220632_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adios Pro 4",
-   "colour": "Black/White",
-   "gender": "men",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://ie.sportsdirect.com/y3-adios-pro-4-211482#colcode=21148203",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21148203_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -478,28 +500,6 @@
    ],
    "url": "https://ie.sportsdirect.com/y3-adios-pro-4-211482#colcode=21148202",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21148202_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Men's Adios Pro 4 Road Running Shoes",
-   "colour": "Dark Bl/Yllw",
-   "gender": "men",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198418",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21198418_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -640,10 +640,10 @@
    "price": 215.0,
    "was": 270.0,
    "sizes": [
+    "7",
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "11",
     "12"
@@ -665,7 +665,8 @@
     "5.5",
     "6",
     "6.5",
-    "7"
+    "7",
+    "8"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
@@ -695,21 +696,16 @@
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Black",
-   "gender": "women",
-   "price": 185.0,
-   "was": 260.0,
+   "name": "Vaporfly 4  Mens Running Shoes",
+   "colour": "Green",
+   "gender": "men",
+   "price": 88.0,
+   "was": 293.0,
    "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
+    "11.5"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281516",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281516_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -737,16 +733,20 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Platinum",
+   "colour": "White/Black",
    "gender": "women",
-   "price": 129.0,
+   "price": 185.0,
    "was": 260.0,
    "sizes": [
+    "5",
+    "5.5",
     "6",
-    "7"
+    "6.5",
+    "7",
+    "8"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -758,10 +758,28 @@
    "price": 82.0,
    "was": 270.0,
    "sizes": [
-    "4"
+    "4",
+    "5",
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4 Road Running Shoes Womens",
+   "colour": "White/Platinum",
+   "gender": "women",
+   "price": 129.0,
+   "was": 260.0,
+   "sizes": [
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -881,8 +899,7 @@
     "7",
     "8",
     "8.5",
-    "9",
-    "12"
+    "9"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281599",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281599_o?fmt=auto&w=345&h=345&v=1"
@@ -1044,7 +1061,9 @@
    "price": 80.0,
    "was": 263.0,
    "sizes": [
-    "5"
+    "3.5",
+    "5",
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
@@ -1059,8 +1078,7 @@
    "price": 109.0,
    "was": 220.0,
    "sizes": [
-    "4",
-    "5"
+    "4"
    ],
    "url": "https://ie.sportsdirect.com/puma-deviate-nitro-elite-3-road-running-shoes-womens-210810#colcode=21081012",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21081012_o?fmt=auto&w=345&h=345&v=1"
