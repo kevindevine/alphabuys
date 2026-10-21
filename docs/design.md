@@ -1,0 +1,98 @@
+# Alpha Buys design
+
+Alpha Buys follows **jrny's design system**: `docs/design.md` in the jrny repo
+(jrny.run). Font, palette, type scale, spacing, the black band, buttons and
+motion all come from there; when the two disagree, jrny's doc wins. This file
+holds only what's specific to Alpha Buys. Started 21 Oct 2026 from jrny `main`
+at 1a8f413 (fonts and tokens copied then; refresh both if jrny changes them).
+
+## 0. Point of view (draft, Kevin to own)
+
+> **Alpha Buys reports race-shoe prices: which shop, what size, how much, and
+> whether it just dropped.**
+
+Same voice as jrny: it reports, it doesn't sell. No "deal of the day", no
+urgency, no "grab them before they're gone". Facts: "Down €50 since 20 Oct",
+"Lowest price we've seen", "140 pairs · 7 shops".
+
+### 0.1 "They thought of that" details
+
+Add to this list; don't let it shrink.
+
+- **Your size stays when you switch shoes.** Same feet.
+- **Only shops that deliver to Ireland.** Run4It and Pro:Direct's UK site were
+  dropped for that (13 Oct); Pro:Direct's Irish site lists EU sizes, which are
+  converted to UK with each brand's own chart.
+- **"Lowest price we've seen" only after a drop.** A price that has never moved
+  isn't news.
+- **Sold-out pairs are hidden**, but their history still counts for the chart.
+
+## 1. What colour means here
+
+jrny's rule applies: colour means something or it isn't used.
+
+| Colour | Means |
+|---|---|
+| jrny teal `#009ead` | **Your size**: the selected size chip, your size in each row's size line, the price chart's line |
+| Small teal text `#007a87` | **A price fact**: "50% off", "Down €50", "Lowest" |
+| jrny black `#2e2e2e` | Everything else: all text, the Buy button, selected controls ("Any", Men's) |
+| Band `#242424` | The header band |
+
+- **No red, green or yellow** (the v1 site had a volt-yellow highlight, red
+  discount badges and a green "lowest" note; all retired).
+- **"Any" size is black, not teal**: nothing is "yours" until you pick a size.
+- **The sash is not used.** In jrny it means "race"; reusing it for "best
+  price" would blur that. (Open: see §4.)
+
+## 2. Structure (top to bottom)
+
+1. **Black band.** Nav line (jrny wordmark left → jrny.run; "Race shoes ·
+   jrny.run" right), Large Title "Alpha Buys", one context line of facts
+   ("357 pairs of race shoes in stock at 7 Irish shops · checked 2h ago"), then
+   the **shoe pills** in jrny's week-pill style: one line, semibold, the
+   selected shoe a white pill in bold. Scrolls sideways on a phone.
+2. **Filters on white.** Fit as a segmented control (selected in jrny black);
+   the version control (AF3, Pro 4, Sky Tokyo…) only when a shoe has two or
+   more versions in stock. **UK size chips**: 44 × 44, 9 px radius, white with
+   the date-card shadow; your size solid teal.
+3. **Cheapest pair card.** The one card on the page (white, card shadow, 16 px
+   radius). Photo on page grey, then: "Cheapest men's super shoe in UK 9"
+   (Subheadline), brand + model (Title 3), shop · colour, the price as Large
+   Title (34 bold) with the old price struck through and "50% off" in small
+   teal, any price note, and a full-width black **Buy at {shop}** button
+   (48 px, 12 px radius, as jrny's primary button).
+4. **Cheapest each day.** jrny's chart style: teal line that draws itself in,
+   eased teal fill (≈15 stops, never two), lowest day marked with a teal dot.
+   Drawn at the screen's real width so its labels stay 13 px.
+5. **In stock list.** Full width on white, **no dividers** (as jrny's week):
+   64 px photo tile (9 px radius, page grey), Headline brand + model,
+   Subheadline shop · colour, Data line "UK 7 · 8 · **9** · 10" with your size
+   in teal; price on the right (17 semibold), old price struck through
+   (13 regular), then one teal fact.
+6. **Shops we check.** Name (link, semibold) · pairs in stock, and "checked 2h
+   ago" on the right; red (jrny's destructive) only when a shop hasn't been
+   checked for 36 hours.
+7. **Footnote.** How often prices are checked, delivery, confirm on the shop's
+   site, not affiliated, "Made by jrny". (Affiliate disclosure goes here when
+   links start earning.)
+
+## 3. Type, spacing, motion
+
+All from jrny: General Sans only (self-hosted in `fonts/`, 400/500/600/700),
+Apple text styles only, tabular figures everywhere, no grey text, 8-point
+spacing, 20 px side margins, 44 px tap targets, one 720 px column on desktop,
+jrny's motion tokens. Light only (jrny has no dark mode yet).
+
+## 4. Open
+
+- A mark for "the cheapest pair in your size" stronger than its place at the
+  top of the page? (Not the sash: see §1.)
+- Shoe photos come from the shops on different backgrounds (white, grey,
+  lifestyle). A consistent tile would need our own cut-outs.
+- Name: "Alpha Buys" now covers seven shoes from five brands.
+- Affiliate links (Awin) and the disclosure line.
+
+## 5. Rejected along the way
+
+- v1's sneaker-drop look (Anton display font, volt yellow, red badges, big
+  photo cards): loud and fun, but not jrny, and the photos dominated.

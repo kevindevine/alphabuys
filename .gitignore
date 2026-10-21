@@ -3,3 +3,4 @@ __pycache__/
 logs/
 *.html
 !index.html
+!v2.html

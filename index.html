@@ -268,6 +268,7 @@ async function load() {
   for (const o of offers) {
     const h = (history[o.url] || []).sort((a, b) => a.t.localeCompare(b.t));
     o.lowest = Math.min(o.price, ...h.map(r => r.price));
+    o.wasHigher = h.some(r => r.price > o.price);  // "lowest" only means something after a drop
     // most recent earlier price that differs from today's
     for (let i = h.length - 1; i >= 0; i--) {
       if (h[i].price !== o.price) {
@@ -314,7 +315,7 @@ function badgeRow(o) {
 function notes(o) {
   let s = "";
   if (o.dropFrom) s += `<div class="dropnote">↓ ${eur(+(o.dropFrom - o.price).toFixed(2))} price drop${o.dropSince ? " since " + day(o.dropSince) : ""}</div>`;
-  else if (history[o.url]?.length > 3 && o.price <= o.lowest) s += `<div class="lownote">Lowest price we've seen</div>`;
+  else if (o.wasHigher && o.price <= o.lowest) s += `<div class="lownote">Lowest price we've seen</div>`;
   return s;
 }
 
