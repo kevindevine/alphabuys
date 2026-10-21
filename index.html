@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>alpha buys · jrny</title>
 <meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
 <meta name="color-scheme" content="light">
+<meta name="theme-color" content="#242424">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="icons/icon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<!-- Added to the home screen: opens full screen, the black band runs up under the clock -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="alpha buys">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Link previews (WhatsApp, iMessage, Slack, X…) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="alpha buys">
+<meta property="og:title" content="alpha buys: super shoes in Ireland, cheapest first">
+<meta property="og:description" content="Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
+<meta property="og:url" content="https://alphabuys.jrny.run/">
+<meta property="og:image" content="https://alphabuys.jrny.run/icons/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="alpha buys: super shoes in Ireland, cheapest first">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="fonts/GeneralSans-Semibold.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 /* jrny v2 design system: docs/design.md in the jrny repo (fonts and tokens
@@ -53,7 +74,7 @@ button { font: inherit; color: inherit; }
 .data { font: 500 13.5px/18px var(--font); }
 
 /* ---------- The black band ---------- */
-.band { background: var(--band); color: #fff; padding: 24px 0 16px; }
+.band { background: var(--band); color: #fff; padding: calc(24px + env(safe-area-inset-top)) 0 16px; }  /* clears the clock full screen */
 .band .by { margin: 4px 0 0; }
 .band .by a { text-decoration: underline; text-underline-offset: 2px; }
 /* "Buys" on a neon block, as v1's logo */

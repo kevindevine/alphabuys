@@ -26,6 +26,10 @@ Add to this list; don't let it shrink.
 - **"Lowest price we've seen" only after a drop.** A price that has never moved
   isn't news.
 - **Sold-out pairs are hidden**, but their history still counts for the chart.
+- **Icon, link preview, home screen.** The icon is v1's logo in miniature: a white
+  "a" beside a neon "b" block on the band's black. Links preview with `icons/og.png`
+  (the title on black). Added to the home screen it opens full screen, the band
+  running up under the clock.
 - **Share any pair.** A share icon beside Buy and on every row opens the phone's
   share panel (name, price, shop, your size, link); without one it copies the link.
 
