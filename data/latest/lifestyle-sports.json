@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-20T18:15:03+00:00",
+ "checked": "2026-10-21T06:15:02+00:00",
  "offers": [
   {
    "shoe": "adios-pro",
@@ -11,7 +11,6 @@
    "price": 160.0,
    "was": 250.0,
    "sizes": [
-    "8",
     "9"
    ],
    "url": "https://www.lifestylesports.com/ie/mens-adizero-adios-pro-4-12064840.html",
@@ -24,7 +23,7 @@
    "name": "adidas  Mens Adizero Adios Pro 4",
    "colour": "",
    "gender": "men",
-   "price": 160.0,
+   "price": 125.0,
    "was": 250.0,
    "sizes": [
     "8",
@@ -246,6 +245,7 @@
    "price": 300.0,
    "was": null,
    "sizes": [
+    "5",
     "5.5",
     "6",
     "6.5"
