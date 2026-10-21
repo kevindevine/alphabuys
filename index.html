@@ -3,210 +3,216 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alpha Buys</title>
-<meta name="description" content="Race-day super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>alpha buys · jrny</title>
+<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
+<meta name="color-scheme" content="light">
+<link rel="preload" href="fonts/GeneralSans-Semibold.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+/* jrny v2 design system: docs/design.md in the jrny repo (fonts and tokens
+   copied from jrny main, 21 Oct 2026). alpha buys specifics: docs/design.md here. */
+@font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Semibold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "General Sans"; src: url("fonts/GeneralSans-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
 :root {
-  --bg: #f4f3ef;
-  --card: #ffffff;
-  --img: #ebeae5;
-  --ink: #111111;
-  --muted: #6b6a66;
-  --line: #dcdad3;
-  --volt: #d4ff3a;
-  --volt-ink: #111111;
-  --drop: #e8361c;
-  --good: #1f8a4c;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0e0e0e; --card: #181818; --img: #e9e8e3; --ink: #f4f3ef;
-    --muted: #9a9993; --line: #2c2c2a; --drop: #ff5a3c; --good: #4cd388;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0e0e0e; --card: #181818; --img: #e9e8e3; --ink: #f4f3ef;
-  --muted: #9a9993; --line: #2c2c2a; --drop: #ff5a3c; --good: #4cd388;
+  --ink: #2e2e2e;          /* all text */
+  --band: #242424;
+  --teal: #009ead;         /* means: price facts, the chart */
+  --neon: #d4ff3a;         /* means: your size (Kevin's call, 21 Oct) */
+  --teal-text: #007a87;    /* small teal text (AA) */
+  --teal40: #99d8de;
+  --teal10: #e6f5f7;
+  --page: #ffffff;
+  --grey: #f4f5f5;         /* behind photos and panels */
+  --fill: #e4e6e7;         /* segmented control track */
+  --destructive: #b42318;
+  --shadow-card: 0 0.5px 1px rgba(0,0,0,.06), 0 2px 6px rgba(0,0,0,.045);
+  --dur-quick: 150ms; --dur-fast: 240ms; --dur-base: 320ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --font: "General Sans", -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+  --gutter: 20px;
 }
 * { box-sizing: border-box; }
+html { background: var(--page); }
 body {
-  margin: 0; background: var(--bg); color: var(--ink);
-  font: 15px/1.45 Inter, system-ui, sans-serif;
+  margin: 0; background: var(--page); color: var(--ink);
+  font: 400 17px/22px var(--font); font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
 }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
-.display { font-family: Anton, Impact, sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: .01em; }
 a { color: inherit; }
+button { font: inherit; color: inherit; }
+.col { max-width: 720px; margin: 0 auto; padding: 0 var(--gutter); }
 
-/* header */
-header { padding: 28px 0 8px; }
-.brand { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.logo { font-size: clamp(44px, 9vw, 88px); line-height: .9; margin: 0; }
-.logo span { background: var(--volt); color: var(--volt-ink); padding: .04em .12em 0; display: inline-block; }
-.tag { color: var(--muted); font-weight: 500; margin: 18px 0 0; max-width: 520px; }
+/* Apple text styles only */
+.large-title { font: 700 34px/41px var(--font); letter-spacing: -0.02em; margin: 0; }
+.title3 { font: 600 20px/25px var(--font); letter-spacing: -0.01em; margin: 0; }
+.headline { font: 600 17px/22px var(--font); letter-spacing: -0.01em; }
+.subhead { font: 400 15px/20px var(--font); }
+.footnote { font: 400 13px/18px var(--font); }
+.data { font: 500 13.5px/18px var(--font); }
 
-/* filters */
-.filters {
-  position: sticky; top: 0; z-index: 5; background: var(--bg);
-  padding: 14px 0; border-bottom: 1px solid var(--line); margin-top: 6px;
+/* ---------- The black band ---------- */
+.band { background: var(--band); color: #fff; padding: 24px 0 16px; }
+.band .by { margin: 4px 0 0; }
+.band .by a { text-decoration: underline; text-underline-offset: 2px; }
+/* "Buys" on a neon block, as v1's logo */
+.hl { background: var(--neon); color: var(--ink); padding: 0 6px; border-radius: 4px; margin-left: 4px; }
+.band .context { margin: 16px 0 16px; }
+/* Shoe pills: the week-pill style. One line, semibold; selected is a white pill in bold. */
+.pills { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter); }
+.pills::-webkit-scrollbar { display: none; }
+.pills button {
+  flex: none; min-height: 44px; padding: 0 14px; border: 0; border-radius: 999px; cursor: pointer;
+  background: transparent; color: #fff; font: 600 15px/20px var(--font); white-space: nowrap;
+  transition: background var(--dur-quick) ease;
 }
-.shoes { display: flex; gap: 8px; margin-top: 22px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
-.shoes::-webkit-scrollbar { display: none; }
-.shoes button {
-  flex: 1 0 140px; min-width: 0; text-align: left; cursor: pointer; scroll-snap-align: start; color: var(--ink); background: var(--card);
-  border: 1.5px solid var(--line); border-radius: 14px; padding: 10px 16px 9px;
-}
-.shoes button small { display: block; font: 700 11px Inter, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.shoes button span { font-size: 21px; line-height: 1.05; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.shoes button em { font: 500 12px Inter, sans-serif; font-style: normal; color: var(--muted); display: block; margin-top: 2px; }
-.shoes button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
-.shoes button[aria-pressed="true"] small, .shoes button[aria-pressed="true"] em { color: inherit; opacity: .7; }
+.pills button:hover { background: rgba(255,255,255,.08); }
+.pills button[aria-pressed="true"] { background: #fff; color: var(--ink); font-weight: 700; }
+
+/* ---------- Filters (on white) ---------- */
+.filters { padding: 16px 0 8px; }
+.row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.row + .row { margin-top: 12px; }
+.seg { display: inline-flex; background: var(--fill); border-radius: 10px; padding: 2px; }
 .seg[hidden] { display: none; }
-.shoes button:hover { border-color: var(--ink); }
-#model { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
-#model button { white-space: nowrap; }
-.frow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-.frow + .frow { margin-top: 10px; }
-.flabel { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); min-width: 44px; }
-.seg { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 999px; overflow: hidden; }
-.seg button, .chip {
-  font: 600 14px Inter, sans-serif; color: var(--ink); background: transparent;
-  border: 0; padding: 7px 14px; cursor: pointer;
+.seg button {
+  border: 0; background: transparent; border-radius: 8px; min-height: 40px; padding: 0 14px;
+  font: 600 15px/20px var(--font); cursor: pointer; white-space: nowrap;
 }
-.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-.sizes { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; flex: 1; min-width: 0; }
-.sizes::-webkit-scrollbar { display: none; }
-.chip { border: 1.5px solid var(--line); border-radius: 10px; min-width: 46px; padding: 7px 10px; flex: none; }
-.chip[aria-pressed="true"] { background: var(--volt); border-color: var(--ink); color: var(--volt-ink); }
-.chip:hover, .seg button:hover { border-color: var(--ink); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: #fff; font-weight: 700; }
+/* Models of the chosen brand: a quieter second row right under its pills. */
+.models { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 10px calc(-1 * var(--gutter)) 0; padding: 0 var(--gutter); }
+.models::-webkit-scrollbar { display: none; }
+.models[hidden] { display: none; }
+.models button {
+  flex: none; min-height: 36px; padding: 0 12px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.28); font: 500 15px/20px var(--font);
+}
+.models button:hover { border-color: rgba(255,255,255,.6); }
+.models button[aria-pressed="true"] { border-color: #fff; background: rgba(255,255,255,.14); font-weight: 700; }
+.sizes { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 8px; padding: 2px 0 6px; }
+.size {
+  min-width: 44px; height: 44px; padding: 0 4px; border: 0; border-radius: 9px; cursor: pointer;
+  background: var(--page); box-shadow: var(--shadow-card); font: 600 17px/22px var(--font);
+}
+.size.any { font-size: 15px; grid-column: span 2; }
+/* Your size: solid teal, white text (like "today" in jrny). */
+.size[aria-pressed="true"] { background: var(--neon); color: var(--ink); font-weight: 700; box-shadow: inset 0 0 0 1.5px var(--ink); }
+.size.any[aria-pressed="true"] { background: var(--ink); color: #fff; box-shadow: none; }  /* no size picked: not neon */
+.label { font: 600 15px/20px var(--font); }
 
-/* hero */
-.hero {
-  display: grid; grid-template-columns: minmax(200px, 300px) 1fr; gap: 0; margin: 24px 0;
-  background: var(--card); border: 1.5px solid var(--ink); border-radius: 22px; overflow: hidden;
-}
-.hero .pic { background: var(--img); display: grid; place-items: center; min-height: 220px; position: relative; }
-.hero .pic img { width: 90%; max-height: 220px; object-fit: contain; mix-blend-mode: multiply; }
-.hero .info { padding: 28px; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
-.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
-.hero h2 { font-size: clamp(34px, 5vw, 54px); line-height: .95; margin: 0; }
-.hero .price { font-size: clamp(54px, 8vw, 84px); line-height: .9; }
-.was { color: var(--muted); text-decoration: line-through; font-weight: 500; }
-.off { background: var(--drop); color: #fff; font-weight: 700; font-size: 13px; padding: 3px 8px; border-radius: 6px; }
+/* ---------- Cheapest pair ---------- */
+.best { margin: 16px 0 8px; border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; background: var(--page); }
+.best .pic { background: var(--grey); height: 200px; display: grid; place-items: center; }
+.best .pic img { max-width: 80%; max-height: 180px; object-fit: contain; mix-blend-mode: multiply; }
+.best .pic img.fill { max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: cover; }
+.best .info { padding: 16px 20px 20px; }
+.best .what { margin: 2px 0 0; }
+.best-sizes { font: 500 15px/20px var(--font); margin-top: 8px; }
+.price-line { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.price-line .now { font: 700 34px/41px var(--font); letter-spacing: -0.02em; }
+.was { text-decoration: line-through; font-weight: 400; }
+.off { color: var(--teal-text); font: 600 15px/20px var(--font); }
+.note { color: var(--teal-text); font: 600 15px/20px var(--font); margin-top: 4px; }
 .buy {
-  display: inline-flex; align-items: center; gap: 8px; align-self: flex-start;
-  background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 700;
-  padding: 12px 20px; border-radius: 999px; margin-top: 8px;
+  display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 16px;
+  min-height: 48px; border-radius: 12px; background: var(--ink); color: #fff; text-decoration: none;
+  font: 600 17px/22px var(--font); transition: opacity var(--dur-quick) ease;
 }
-.buy:hover { background: var(--volt); color: var(--volt-ink); }
+.buy:hover { opacity: .88; }
 
-/* chart */
-.panel { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 0 0 28px; }
-.panel h3 { margin: 0 0 4px; font-size: 26px; }
-.panel p { margin: 0 0 12px; color: var(--muted); }
-.chart svg { width: 100%; height: auto; display: block; }
-.chart .empty { color: var(--muted); padding: 24px 0; }
+/* ---------- Sections ---------- */
+section { margin-top: 32px; }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 4px; }
 
-/* grid */
-.listhead { display: flex; justify-content: space-between; align-items: baseline; margin: 8px 0 14px; gap: 12px; flex-wrap: wrap; }
-.listhead h3 { margin: 0; font-size: 30px; }
-.count { color: var(--muted); font-weight: 500; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
-.card {
-  background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
-  display: flex; flex-direction: row; text-decoration: none; transition: transform .15s, border-color .15s;
+/* Price chart: teal line, eased fill, draws itself in. */
+.chart svg { width: 100%; height: auto; display: block; margin-top: 12px; overflow: visible; }
+.chart .empty { margin-top: 8px; }
+
+/* The list: full width on white, no dividers; spacing separates rows. */
+.list { margin: 8px 0 0; padding: 0; list-style: none; }
+.list a {
+  display: grid; grid-template-columns: 64px 1fr auto; gap: 14px; align-items: center;
+  min-height: 88px; padding: 12px 0; text-decoration: none;
 }
-.card:hover { transform: translateY(-3px); border-color: var(--ink); }
-.card .pic { background: var(--img); width: 118px; flex: none; display: grid; place-items: center; position: relative; }
-.card .pic img { width: 92%; height: 92%; object-fit: contain; mix-blend-mode: multiply; }
-.pic img.fill { width: 100%; height: 100%; max-height: none; object-fit: cover; }
-.badges { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; gap: 6px; }
-.shop { background: #fff; color: #111; font-size: 12px; font-weight: 700; padding: 4px 9px; border-radius: 999px; }
-.card .body { padding: 12px 14px 12px; min-width: 0; display: flex; flex-direction: column; gap: 4px; flex: 1; }
-.card .model { font-size: 20px; line-height: 1; }
-.card .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-.card .by { font-size: 12px; font-weight: 700; color: var(--ink); white-space: nowrap; }
-.card .colour { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card .prow { display: flex; align-items: baseline; gap: 8px; margin-top: 4px; }
-.card .price { font-size: 28px; line-height: 1; }
-.dropnote { font-size: 13px; font-weight: 700; color: var(--drop); }
-.lownote { font-size: 13px; font-weight: 700; color: var(--good); }
-.szs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; padding-top: 8px; }
-.card .off { position: absolute; top: 8px; left: 8px; font-size: 11px; padding: 2px 6px; }
-.sz { font-size: 11.5px; font-weight: 600; border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; color: var(--muted); }
-.sz.me { background: var(--volt); color: var(--volt-ink); border-color: var(--ink); }
-.none { padding: 40px 0; color: var(--muted); text-align: center; }
+.thumb { width: 64px; height: 64px; border-radius: 9px; background: var(--grey); overflow: hidden; display: grid; place-items: center; }
+.thumb img { width: 92%; height: 92%; object-fit: contain; mix-blend-mode: multiply; }
+.thumb img.fill { width: 100%; height: 100%; object-fit: cover; }
+.list .mid { min-width: 0; }
+.list .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list .sizes-line { margin-top: 2px; }
+.me { background: var(--neon); color: var(--ink); font-weight: 700; border-radius: 4px; padding: 0 4px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.list .right { text-align: right; }
+.list .p { font: 600 17px/22px var(--font); }
+.list .w { font: 400 13px/18px var(--font); text-decoration: line-through; }
+.list .d { color: var(--teal-text); font: 600 13px/18px var(--font); }
+.list a:hover .headline { text-decoration: underline; text-underline-offset: 3px; }
+.none { padding: 24px 0; }
 
-footer { margin: 48px 0 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-.shops { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px 18px; margin: 10px 0 18px; }
-.shops a { color: var(--ink); font-weight: 600; text-decoration: none; }
+/* Shops */
+.shops { margin: 8px 0 0; padding: 0; list-style: none; }
+.shops li { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; padding: 10px 0; }
+.shops a { font-weight: 600; text-decoration: none; }
 .shops a:hover { text-decoration: underline; }
-footer h4 { margin: 0; font-size: 22px; color: var(--ink); }
-.flag { font-size: 10.5px; font-weight: 700; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 6px; color: var(--muted); }
-.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--good); margin-right: 6px; vertical-align: 1px; }
-.dot.stale { background: var(--drop); }
+.stale { color: var(--destructive); }
+footer { margin: 32px 0 48px; }
+footer p { margin: 0 0 8px; }
 
-@media (max-width: 720px) {
-  .hero { grid-template-columns: 1fr; }
-  .hero .pic { min-height: 150px; }
-  .hero .pic img { max-height: 150px; }
-  .grid { grid-template-columns: 1fr; }
-  .card .pic { width: 100px; }
-  .hero .info { padding: 20px; }
-  .flabel { min-width: 0; }
-  .filters { position: static; }
-  .shoes { margin-right: -16px; padding-right: 16px; }
-  .shoes button { flex-basis: 128px; }
-  .shoes button { padding: 8px 10px 7px; }
+@media (min-width: 720px) {
+  .best { display: grid; grid-template-columns: 280px 1fr; }
+  .best .pic { height: auto; min-height: 240px; }
 }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand"><h1 class="logo display">Alpha <span>Buys</span></h1></div>
-    <p class="tag">Race-day super shoes in Ireland, cheapest first. Pick your shoe and size, see who has it, catch the drops.</p>
-  </header>
+<header class="band">
+  <div class="col">
+    <h1 class="large-title">alpha <span class="hl">buys</span></h1>
+    <p class="by footnote">a <a href="https://jrny.run">jrny.run</a> experiment</p>
+    <p class="context subhead" id="context">&nbsp;</p>
+    <nav class="pills" id="shoes" aria-label="Brand"></nav>
+    <nav class="models" id="model" aria-label="Model"></nav>
+  </div>
+</header>
 
-  <nav class="shoes" id="shoes" aria-label="Shoe"></nav>
-
+<main class="col">
   <div class="filters">
-    <div class="frow">
-      <span class="flabel">Fit</span>
-      <div class="seg" id="gender">
+    <div class="row">
+      <div class="seg" id="gender" role="group" aria-label="Fit">
         <button data-v="men">Men's</button><button data-v="women">Women's</button>
       </div>
-      <div class="seg" id="model"></div>
     </div>
-    <div class="frow">
-      <span class="flabel">UK size</span>
-      <div class="sizes" id="sizes"></div>
-    </div>
+    <div class="row"><span class="label">UK size</span></div>
+    <div class="sizes" id="sizes" role="group" aria-label="UK size"></div>
   </div>
 
-  <section id="hero"></section>
+  <div id="best"></div>
 
-  <section class="panel chart">
-    <h3 class="display" id="chartTitle">Cheapest price over time</h3>
-    <p id="chartSub"></p>
+  <section class="chart">
+    <h2 class="title3">Cheapest each day</h2>
+    <p class="subhead" id="chartSub"></p>
     <div id="chart"></div>
   </section>
 
-  <div class="listhead">
-    <h3 class="display" id="listTitle">All Alphaflys</h3>
-    <span class="count" id="count"></span>
-  </div>
-  <section class="grid" id="grid"></section>
+  <section>
+    <div class="section-head">
+      <h2 class="title3" id="listTitle">In stock</h2>
+      <span class="subhead" id="count"></span>
+    </div>
+    <ul class="list" id="grid"></ul>
+  </section>
 
-  <footer>
-    <h4 class="display">Shops we check</h4>
-    <div class="shops" id="shops"></div>
-    Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site. Not affiliated with any shoe brand or retailer.
+  <section>
+    <h2 class="title3">Shops we check</h2>
+    <ul class="shops" id="shops"></ul>
+  </section>
+
+  <footer class="footnote">
+    <p>Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site.</p>
+    <p>Not affiliated with any shoe brand or retailer. A <a href="https://jrny.run">jrny.run</a> experiment.</p>
   </footer>
-</div>
+</main>
 
 <script>
 // [file name, shop, country, home page]
@@ -219,34 +225,32 @@ const SHOPS = [
   ["zalando", "Zalando", "IE", "https://www.zalando.ie"],
   ["pro-direct", "Pro:Direct", "IE", "https://www.prodirectsport.ie"],
 ];
-// Shoes we track; ids match "shoe" in the data files.
-const SHOES = [
-  { id: "all", brand: "Every brand", name: "All shoes", short: m => m },
-  { id: "alphafly", brand: "Nike", name: "Alphafly", short: m => m.replace("Alphafly ", "AF") },
-  { id: "adios-pro", brand: "adidas", name: "Adios Pro", short: m => m.replace("Adios Pro ", "Pro ").replace("Pro Evo", "Evo") },
-  { id: "metaspeed", brand: "ASICS", name: "Metaspeed", short: m => m.replace("Metaspeed ", "") },
-  { id: "vaporfly", brand: "Nike", name: "Vaporfly", short: m => m.replace("Vaporfly ", "VF") },
-  { id: "puma-elite", brand: "Puma", name: "Nitro Elite", short: m => m.replace(" Nitro Elite", "") },
-  { id: "saucony-endorphin", brand: "Saucony", name: "Endorphin", short: m => m.replace("Endorphin ", "") },
-];
-const shoe = () => SHOES.find(x => x.id === state.shoe) || SHOES[0];
-const isShoe = o => state.shoe === "all" || (o.shoe || "alphafly") === state.shoe;
-// "Cheapest men's Alphafly" / "Cheapest men's super shoe"
-const shoeWord = (plural) => state.shoe === "all" ? (plural ? "super shoes" : "super shoe") : shoe().name + (plural ? "s" : "");
+// Brands we track; "shoe" in the data files says which brand a pair is.
+const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
+const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony"];
+const brandOf = o => BRAND[o.shoe || "alphafly"];
+// Model buttons drop words the brand already says: "Deviate 4", not "Deviate Nitro Elite 4".
+const shortModel = m => m.replace(" Nitro Elite", "").replace("Metaspeed ", "").replace("Endorphin ", "");
+const isShoe = o => state.brand === "all" || brandOf(o) === state.brand;
+// "Cheapest men's Nike super shoe" / "Cheapest men's super shoe"
+const shoeWord = (plural) => (state.brand === "all" ? "" : state.brand + " ") + (plural ? "super shoes" : "super shoe");
 const sizeKey = x => { const m = /^(\d+)(.*)$/.exec(x); return m ? +m[1] + ({ ".5": .5, "⅓": .33, "⅔": .67 }[m[2]] || 0) : 99; };
 const $ = id => document.getElementById(id);
 const eur = n => "€" + (Number.isInteger(n) ? n : n.toFixed(2));
 const imgClass = o => ["Nike", "Pro:Direct"].includes(o.shop) ? ' class="fill"' : "";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const cap = s => s ? s[0].toUpperCase() + s.slice(1) : s;
 const day = t => new Date(t).toLocaleDateString("en-IE", { day: "numeric", month: "short" });
 const ago = t => {
   const h = (Date.now() - new Date(t)) / 36e5;
   return h < 1 ? "under an hour ago" : h < 24 ? Math.round(h) + "h ago" : Math.round(h / 24) + "d ago";
 };
+const fit = () => state.gender === "men" ? "men's" : "women's";
 
 let offers = [], history = {}, checked = {};
-const state = { shoe: "all", gender: "men", size: null, model: "all" };
+const state = { brand: "all", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
+if (state.shoe) { state.brand = BRAND[state.shoe] || "all"; delete state.shoe; }  // saved by the model-based picker
 const save = () => { try { localStorage.setItem("alphabuys", JSON.stringify(state)); } catch (e) {} };
 
 async function load() {
@@ -269,7 +273,6 @@ async function load() {
     const h = (history[o.url] || []).sort((a, b) => a.t.localeCompare(b.t));
     o.lowest = Math.min(o.price, ...h.map(r => r.price));
     o.wasHigher = h.some(r => r.price > o.price);  // "lowest" only means something after a drop
-    // most recent earlier price that differs from today's
     for (let i = h.length - 1; i >= 0; i--) {
       if (h[i].price !== o.price) {
         if (h[i].price > o.price) { o.dropFrom = h[i].price; o.dropSince = h[i + 1]?.t; }
@@ -289,80 +292,90 @@ function matches(o, withSize = true) {
     && (!withSize || !state.size || o.sizes.includes(state.size));
 }
 
-function renderFilters() {
-  $("shoes").innerHTML = SHOES.map(x => {
-    const n = offers.filter(o => (x.id === "all" || (o.shoe || "alphafly") === x.id) && o.sizes.length).length;
-    return `<button data-v="${x.id}" aria-pressed="${x.id === state.shoe}"><small>${x.brand}</small><span class="display">${x.name}</span><em>${n} in stock</em></button>`;
-  }).join("");
-  for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
-
-  const models = state.shoe === "all" ? [] : [...new Set(offers.filter(o => isShoe(o) && o.sizes.length).map(o => o.model))].sort();
-  $("model").hidden = !models.length;
+function renderBand() {
+  // One sentence of facts.
+  const inStock = offers.filter(o => o.sizes.length);
+  const shops = new Set(inStock.map(o => o.shop)).size;
+  const last = Object.values(checked).sort().at(-1);
+  $("context").textContent = `${inStock.length} pairs of super shoes in stock at ${shops} Irish shops${last ? " · checked " + ago(last) : ""}`;
+  $("shoes").innerHTML = ["all", ...BRANDS].map(b =>
+    `<button data-v="${b}" aria-pressed="${b === state.brand}">${b === "all" ? "All" : b}</button>`).join("");
+  $("shoes").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  // The chosen brand's models, in line order (Alphafly before Vaporfly), newest last.
+  const models = state.brand === "all" ? [] : [...new Set(offers.filter(o => isShoe(o) && o.sizes.length).map(o => o.model))]
+    .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+  $("model").hidden = models.length < 2;
   if (state.model !== "all" && !models.includes(state.model)) state.model = "all";
   $("model").innerHTML = ["all", ...models].map(m =>
-    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All" : esc(shoe().short(m))}</button>`).join("");
+    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All " + esc(state.brand) : esc(shortModel(m))}</button>`).join("");
+}
 
+function renderFilters() {
+  for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
   const sizes = [...new Set(offers.filter(o => isShoe(o) && o.gender === state.gender && o.sizes.length).flatMap(o => o.sizes))];
   if (state.size && !sizes.includes(state.size)) sizes.push(state.size);
   sizes.sort((a, b) => sizeKey(a) - sizeKey(b));
-  $("sizes").innerHTML = [`<button class="chip" data-v="" aria-pressed="${!state.size}">Any</button>`,
-    ...sizes.map(s => `<button class="chip" data-v="${s}" aria-pressed="${s === state.size}">${s}</button>`)].join("");
+  $("sizes").innerHTML = [`<button class="size any" data-v="" aria-pressed="${!state.size}">Any</button>`,
+    ...sizes.map(s => `<button class="size" data-v="${s}" aria-pressed="${s === state.size}">${s}</button>`)].join("");
 }
 
-function badgeRow(o) {
-  return `<div class="badges"><span class="shop">${esc(o.shop)}</span>${o.offPct >= 5 ? `<span class="off">−${o.offPct}%</span>` : ""}</div>`;
+function note(o) {
+  if (o.dropFrom) return `Down ${eur(+(o.dropFrom - o.price).toFixed(2))}${o.dropSince ? " since " + day(o.dropSince) : ""}`;
+  if (o.wasHigher && o.price <= o.lowest) return "Lowest price we've seen";
+  return "";
 }
-function notes(o) {
-  let s = "";
-  if (o.dropFrom) s += `<div class="dropnote">↓ ${eur(+(o.dropFrom - o.price).toFixed(2))} price drop${o.dropSince ? " since " + day(o.dropSince) : ""}</div>`;
-  else if (o.wasHigher && o.price <= o.lowest) s += `<div class="lownote">Lowest price we've seen</div>`;
-  return s;
-}
+const fullName = o => `${brandOf(o) || ""} ${o.model}`.trim();
+// "UK 7 · 8 · 9 · 10" with your size in teal
+const sizeLine = o => "UK " + o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
 
-function renderHero(list) {
+function renderBest(list) {
   const o = list[0];
-  if (!o) { $("hero").innerHTML = ""; return; }
-  const sizeTxt = state.size ? `in UK ${state.size}` : "right now";
-  $("hero").innerHTML = `
-    <div class="hero">
-      <div class="pic">${badgeRow(o)}${o.image ? `<img${imgClass(o)} src="${esc(o.image)}" alt="${esc(o.model)} ${esc(o.colour)}">` : ""}</div>
+  if (!o) { $("best").innerHTML = ""; return; }
+  const n = note(o);
+  $("best").innerHTML = `
+    <article class="best">
+      <div class="pic">${o.image ? `<img${imgClass(o)} src="${esc(o.image)}" alt="${esc(fullName(o))}, ${esc(o.colour)}">` : ""}</div>
       <div class="info">
-        <div class="eyebrow">Cheapest ${state.gender === "men" ? "men's" : "women's"} ${shoeWord(false)} ${sizeTxt}</div>
-        <h2 class="display">${esc(o.model)}</h2>
-        <div class="colour" style="color:var(--muted)">${esc(o.colour)} · ${esc(o.shop)}</div>
-        <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
-          <span class="price display">${eur(o.price)}</span>
-          ${o.was ? `<span class="was">${eur(o.was)}</span>` : ""}
+        <div class="subhead">Cheapest ${fit()} ${shoeWord(false)}${state.size ? " in UK " + esc(state.size) : ""}</div>
+        <div class="title3 what">${esc(fullName(o))}</div>
+        <div class="subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
+        <div class="best-sizes"><span class="label">In stock</span> ${sizeLine(o)}</div>
+        <div class="price-line">
+          <span class="now">${eur(o.price)}</span>
+          ${o.was ? `<span class="was subhead">${eur(o.was)}</span><span class="off">${o.offPct}% off</span>` : ""}
         </div>
-        ${notes(o)}
-        <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)} →</a>
+        ${n ? `<div class="note">${n}</div>` : ""}
+        <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)}</a>
       </div>
-    </div>`;
+    </article>`;
 }
 
-function renderGrid(list) {
-  const g = state.gender === "men" ? "Men's" : "Women's";
-  $("listTitle").textContent = state.size ? `${g} UK ${state.size} in stock` : `${g} ${shoeWord(true)} in stock`;
-  $("count").textContent = `${list.length} ${list.length === 1 ? "pair" : "pairs"} across ${new Set(list.map(o => o.shop)).size} shops`;
+function renderList(list) {
+  $("listTitle").textContent = state.size ? `UK ${state.size} in stock` : `${cap(fit())} in stock`;
+  $("count").textContent = `${list.length} ${list.length === 1 ? "pair" : "pairs"} · ${new Set(list.map(o => o.shop)).size} shops`;
   if (!list.length) {
-    $("grid").innerHTML = `<div class="none" style="grid-column:1/-1">No shop has this in stock right now. We check four times a day.</div>`;
+    $("grid").innerHTML = `<li class="none subhead">No shop has this in stock right now. Prices are checked four times a day.</li>`;
     return;
   }
-  $("grid").innerHTML = list.map(o => `
-    <a class="card" href="${esc(o.url)}" target="_blank" rel="noopener">
-      <div class="pic">${o.offPct >= 5 ? `<span class="off">−${o.offPct}%</span>` : ""}${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="${esc(o.model)} ${esc(o.colour)}">` : ""}</div>
-      <div class="body">
-        <div class="top"><span class="model display">${esc(o.model)}</span><span class="by">${esc(o.shop)}</span></div>
-        <div class="colour">${esc(o.colour) || "&nbsp;"}</div>
-        <div class="prow"><span class="price display">${eur(o.price)}</span>${o.was ? `<span class="was">${eur(o.was)}</span>` : ""}</div>
-        ${notes(o)}
-        <div class="szs">${o.sizes.map(s => `<span class="sz${s === state.size ? " me" : ""}">${s}</span>`).join("")}</div>
+  $("grid").innerHTML = list.map(o => {
+    const n = note(o);
+    return `<li><a href="${esc(o.url)}" target="_blank" rel="noopener">
+      <div class="thumb">${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="">` : ""}</div>
+      <div class="mid">
+        <div class="headline">${esc(fullName(o))}</div>
+        <div class="sub subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
+        <div class="sizes-line data">${sizeLine(o)}</div>
       </div>
-    </a>`).join("");
+      <div class="right">
+        <div class="p">${eur(o.price)}</div>
+        ${o.was ? `<div class="w">${eur(o.was)}</div>` : ""}
+        ${n ? `<div class="d">${n.startsWith("Down") ? n.split(" since")[0] : "Lowest"}</div>` : o.offPct >= 5 ? `<div class="d">${o.offPct}% off</div>` : ""}
+      </div>
+    </a></li>`;
+  }).join("");
 }
 
 function renderChart() {
-  // Cheapest in-stock price per day for the current filters, from every saved check.
   const meta = Object.fromEntries(offers.map(o => [o.url, o]));
   const byDay = {};
   for (const [url, rows] of Object.entries(history)) {
@@ -376,66 +389,87 @@ function renderChart() {
     }
   }
   const pts = Object.entries(byDay).sort();
-  const who = `${state.gender === "men" ? "men's" : "women's"} ${state.model === "all" ? shoeWord(false) : state.model}${state.size ? ", UK " + state.size : ""}`;
-  $("chartSub").textContent = `Lowest in-stock price each day for ${who}, across all ${SHOPS.length} shops.`;
+  const who = `${fit()} ${state.model === "all" ? shoeWord(false) : state.model}${state.size ? " in UK " + state.size : ""}`;
+  $("chartSub").textContent = `Lowest in-stock price for a ${who}, across all ${SHOPS.length} shops.`;
   if (pts.length < 2) {
-    $("chart").innerHTML = `<div class="empty">${pts.length ? `Today's low: <b style="color:var(--ink)">${eur(pts[0][1])}</b>. ` : ""}The line fills in as we collect a few days of prices.</div>`;
+    $("chart").innerHTML = `<p class="empty subhead">${pts.length ? `Today: <b>${eur(pts[0][1])}</b>. ` : ""}The line fills in as prices are collected.</p>`;
     return;
   }
-  const W = 760, H = 200, L = 46, R = 12, T = 14, B = 26;
+  const W = Math.round($("chart").clientWidth) || 680, H = 180, L = 52, R = 8, T = 12, B = 26;  // drawn at real width so text stays 13px
   const ys = pts.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys);
-  const pad = Math.max(5, (hi - lo) * .15), y0 = lo - pad, y1 = hi + pad;
+  const pad = Math.max(5, (hi - lo) * .2), y0 = lo - pad, y1 = hi + pad;
   const x = i => L + (W - L - R) * (i / (pts.length - 1));
   const y = v => T + (H - T - B) * (1 - (v - y0) / (y1 - y0));
-  const path = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join("");
+  const line = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join("");
+  const area = `${line}L${x(pts.length - 1).toFixed(1)},${H - B}L${L},${H - B}Z`;
+  // Eased fill: ~15 stops on an ease-in-out curve, never a two-stop gradient.
+  const stops = Array.from({ length: 16 }, (_, i) => {
+    const t = i / 15, e = t < .5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2;
+    return `<stop offset="${(t * 100).toFixed(1)}%" stop-color="#009ead" stop-opacity="${(0.22 * (1 - e)).toFixed(3)}"/>`;
+  }).join("");
   const minI = ys.indexOf(lo);
   $("chart").innerHTML = `
-    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cheapest price per day">
-      <line x1="${L}" x2="${W - R}" y1="${y(lo)}" y2="${y(lo)}" stroke="var(--line)" stroke-dasharray="3 4"/>
-      <line x1="${L}" x2="${W - R}" y1="${y(hi)}" y2="${y(hi)}" stroke="var(--line)" stroke-dasharray="3 4"/>
-      <text x="${L - 8}" y="${y(hi) + 4}" text-anchor="end" font-size="12" fill="var(--muted)">${eur(Math.round(hi))}</text>
-      <text x="${L - 8}" y="${y(lo) + 4}" text-anchor="end" font-size="12" fill="var(--muted)">${eur(Math.round(lo))}</text>
-      <path d="${path}" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
-      ${pts.map((p, i) => `<circle cx="${x(i)}" cy="${y(p[1])}" r="${i === minI ? 6 : 3.5}" fill="${i === minI ? "var(--volt)" : "var(--ink)"}" stroke="var(--ink)" stroke-width="1.5"><title>${day(p[0])}: ${eur(p[1])}</title></circle>`).join("")}
-      <text x="${L}" y="${H - 6}" font-size="12" fill="var(--muted)">${day(pts[0][0])}</text>
-      <text x="${W - R}" y="${H - 6}" text-anchor="end" font-size="12" fill="var(--muted)">${day(pts.at(-1)[0])}</text>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cheapest price each day, ${eur(lo)} lowest">
+      <defs><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">${stops}</linearGradient></defs>
+      <text x="${L - 10}" y="${y(hi) + 5}" text-anchor="end" font-size="13" font-weight="500" fill="#2e2e2e">${eur(Math.round(hi))}</text>
+      <text x="${L - 10}" y="${y(lo) + 5}" text-anchor="end" font-size="13" font-weight="500" fill="#2e2e2e">${eur(Math.round(lo))}</text>
+      <path d="${area}" fill="url(#fade)"/>
+      <path class="line" d="${line}" fill="none" stroke="#009ead" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="${x(minI)}" cy="${y(lo)}" r="5" fill="#009ead" stroke="#fff" stroke-width="2"><title>${day(pts[minI][0])}: ${eur(lo)}</title></circle>
+      <text x="${L}" y="${H - 6}" font-size="13" font-weight="500" fill="#2e2e2e">${day(pts[0][0])}</text>
+      <text x="${W - R}" y="${H - 6}" text-anchor="end" font-size="13" font-weight="500" fill="#2e2e2e">${day(pts.at(-1)[0])}</text>
     </svg>`;
+  // The line draws itself in. Its resting state is fully drawn, so if the
+  // animation never runs the line is still all there.
+  const ln = $("chart").querySelector(".line");
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+    const seen = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return;
+      seen.disconnect();
+      const len = Math.ceil(ln.getTotalLength());
+      ln.style.strokeDasharray = len;
+      ln.animate([{ strokeDashoffset: len }, { strokeDashoffset: 0 }], { duration: 900, easing: "cubic-bezier(0.2, 0.8, 0.2, 1)" });
+      setTimeout(() => { ln.style.strokeDasharray = "none"; }, 1000);  // always ends fully drawn
+    }, { threshold: 0.5 });
+    seen.observe(ln.ownerSVGElement);
+  }
 }
 
 function renderShops() {
-  $("shops").innerHTML = SHOPS.map(([, name, country, url]) => {
+  $("shops").innerHTML = SHOPS.map(([, name, , url]) => {
     const t = checked[name];
     const stale = !t || (Date.now() - new Date(t)) > 36 * 36e5;
     const n = offers.filter(o => o.shop === name && isShoe(o) && o.sizes.length).length;
-    return `<div><i class="dot${stale ? " stale" : ""}"></i><a href="${url}" target="_blank" rel="noopener">${name}</a><span class="flag">${country}</span><br>
-      <span>${n ? n + (n === 1 ? " pair" : " pairs") + " in stock" : `no ${shoeWord(true)} in stock`} · ${t ? "checked " + ago(t) : "no data yet"}</span></div>`;
+    return `<li><span><a href="${url}" target="_blank" rel="noopener">${name}</a><span class="subhead"> · ${n || "none"} in stock</span></span>
+      <span class="footnote${stale ? " stale" : ""}">${t ? "checked " + ago(t) : "not checked yet"}</span></li>`;
   }).join("");
 }
 
 function render() {
+  renderBand();
   renderFilters();
   const list = offers.filter(o => matches(o)).sort((a, b) => a.price - b.price);
-  renderHero(list);
+  renderBest(list);
   renderChart();
-  renderGrid(list);
+  renderList(list);
   renderShops();
 }
 
 $("shoes").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.shoe = v; state.model = "all"; save(); render();  // size stays: same feet
+  state.brand = v; state.model = "all"; save(); render();  // size stays: same feet
 });
 $("gender").addEventListener("click", e => {
-  const v = e.target.dataset?.v; if (!v) return;
+  const v = e.target.closest("button")?.dataset.v; if (!v) return;
   state.gender = v; state.size = null; save(); render();
 });
 $("model").addEventListener("click", e => {
-  const v = e.target.dataset?.v; if (!v) return;
+  const v = e.target.closest("button")?.dataset.v; if (!v) return;
   state.model = v; save(); render();
 });
 $("sizes").addEventListener("click", e => {
-  if (!e.target.classList.contains("chip")) return;
-  state.size = e.target.dataset.v || null; save(); render();
+  const b = e.target.closest("button"); if (!b) return;
+  state.size = b.dataset.v || null; save(); render();
 });
 load();
 </script>
