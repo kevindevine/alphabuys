@@ -55,9 +55,10 @@ jrny's rule applies: colour means something or it isn't used.
 
 ## 2. Structure (top to bottom)
 
-1. **Black band.** Nav line (jrny wordmark left → jrny.run; "Super shoes ·
-   jrny.run" right), Large Title **alpha buys** (two words, lowercase like
-   jrny, "buys" on the neon block; Kevin, 21 Oct), one context line of facts
+1. **Black band.** No jrny wordmark or nav line (Kevin, 21 Oct: it's a side
+   project, not a jrny screen). Large Title **alpha buys** (two words, lowercase like
+   jrny, "buys" on the neon block; Kevin, 21 Oct) at the very top, then a
+   Footnote "a jrny.run experiment" (jrny.run links home), one context line of facts
    ("357 pairs of super shoes in stock at 7 Irish shops · checked 2h ago"), then
    the **shoe pills** in jrny's week-pill style: one line, semibold, the
    selected shoe a white pill in bold. Scrolls sideways on a phone.
@@ -86,7 +87,7 @@ jrny's rule applies: colour means something or it isn't used.
    ago" on the right; red (jrny's destructive) only when a shop hasn't been
    checked for 36 hours.
 7. **Footnote.** How often prices are checked, delivery, confirm on the shop's
-   site, not affiliated, "Made by jrny". (Affiliate disclosure goes here when
+   site, not affiliated, "A jrny.run experiment". (Affiliate disclosure goes here when
    links start earning.)
 
 ## 3. Type, spacing, motion
