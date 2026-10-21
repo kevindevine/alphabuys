@@ -60,11 +60,15 @@ jrny's rule applies: colour means something or it isn't used.
    jrny, "buys" on the neon block; Kevin, 21 Oct) at the very top, then a
    Footnote "a jrny.run experiment" (jrny.run links home), one context line of facts
    ("357 pairs of super shoes in stock at 7 Irish shops · checked 2h ago"), then
-   the **shoe pills** in jrny's week-pill style: one line, semibold, the
-   selected shoe a white pill in bold. Scrolls sideways on a phone.
-2. **Filters on white.** Fit as a segmented control (selected in jrny black);
-   the version control (AF3, Pro 4, Sky Tokyo…) only when a shoe has two or
-   more versions in stock. **UK size chips**: 44 × 44, 9 px radius, white with
+   the **brand pills** (All · Nike · adidas · ASICS · Puma · Saucony; Kevin,
+   21 Oct: brands, not models) in jrny's week-pill style: one line, semibold,
+   the selected brand a white pill in bold. Right under them, still in the
+   band, the **models** of the chosen brand as a quieter row (thin white
+   outline, medium weight; selected a brighter outline in bold): "All Nike ·
+   Alphafly 3 · Alphafly 4 · Vaporfly 4". Kept next to the brand so the two
+   read as one choice (Kevin). Words the brand already says are dropped
+   ("Deviate 4", "Sky Tokyo", "Pro 5"); rows in the list keep the full name.
+2. **Filters on white.** Fit as a segmented control (selected in jrny black). **UK size chips**: 44 × 44, 9 px radius, white with
    the date-card shadow; your size neon. **All sizes visible, wrapping onto
    rows, never a sideways scroll** (Kevin, 21 Oct); "Any" spans two.
 3. **Cheapest pair card.** The one card on the page (white, card shadow, 16 px

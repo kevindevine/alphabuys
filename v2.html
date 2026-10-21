@@ -81,7 +81,16 @@ button { font: inherit; color: inherit; }
   font: 600 15px/20px var(--font); cursor: pointer; white-space: nowrap;
 }
 .seg button[aria-pressed="true"] { background: var(--ink); color: #fff; font-weight: 700; }
-#model { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+/* Models of the chosen brand: a quieter second row right under its pills. */
+.models { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 10px calc(-1 * var(--gutter)) 0; padding: 0 var(--gutter); }
+.models::-webkit-scrollbar { display: none; }
+.models[hidden] { display: none; }
+.models button {
+  flex: none; min-height: 36px; padding: 0 12px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.28); font: 500 15px/20px var(--font);
+}
+.models button:hover { border-color: rgba(255,255,255,.6); }
+.models button[aria-pressed="true"] { border-color: #fff; background: rgba(255,255,255,.14); font-weight: 700; }
 .sizes { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 8px; padding: 2px 0 6px; }
 .size {
   min-width: 44px; height: 44px; padding: 0 4px; border: 0; border-radius: 9px; cursor: pointer;
@@ -162,7 +171,8 @@ footer p { margin: 0 0 8px; }
     <h1 class="large-title">alpha <span class="hl">buys</span></h1>
     <p class="by footnote">a <a href="https://jrny.run">jrny.run</a> experiment</p>
     <p class="context subhead" id="context">&nbsp;</p>
-    <nav class="pills" id="shoes" aria-label="Shoe"></nav>
+    <nav class="pills" id="shoes" aria-label="Brand"></nav>
+    <nav class="models" id="model" aria-label="Model"></nav>
   </div>
 </header>
 
@@ -172,7 +182,6 @@ footer p { margin: 0 0 8px; }
       <div class="seg" id="gender" role="group" aria-label="Fit">
         <button data-v="men">Men's</button><button data-v="women">Women's</button>
       </div>
-      <div class="seg" id="model" role="group" aria-label="Version"></div>
     </div>
     <div class="row"><span class="label">UK size</span></div>
     <div class="sizes" id="sizes" role="group" aria-label="UK size"></div>
@@ -216,20 +225,15 @@ const SHOPS = [
   ["zalando", "Zalando", "IE", "https://www.zalando.ie"],
   ["pro-direct", "Pro:Direct", "IE", "https://www.prodirectsport.ie"],
 ];
-// Shoes we track; ids match "shoe" in the data files.
-const SHOES = [
-  { id: "all", brand: "", name: "All shoes", short: m => m },
-  { id: "alphafly", brand: "Nike", name: "Alphafly", short: m => m.replace("Alphafly ", "AF") },
-  { id: "adios-pro", brand: "adidas", name: "Adios Pro", short: m => m.replace("Adios Pro ", "Pro ").replace("Pro Evo", "Evo") },
-  { id: "metaspeed", brand: "ASICS", name: "Metaspeed", short: m => m.replace("Metaspeed ", "") },
-  { id: "vaporfly", brand: "Nike", name: "Vaporfly", short: m => m.replace("Vaporfly ", "VF") },
-  { id: "puma-elite", brand: "Puma", name: "Nitro Elite", short: m => m.replace(" Nitro Elite", "") },
-  { id: "saucony-endorphin", brand: "Saucony", name: "Endorphin", short: m => m.replace("Endorphin ", "") },
-];
+// Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
-const shoe = () => SHOES.find(x => x.id === state.shoe) || SHOES[0];
-const isShoe = o => state.shoe === "all" || (o.shoe || "alphafly") === state.shoe;
-const shoeWord = (plural) => state.shoe === "all" ? (plural ? "super shoes" : "super shoe") : shoe().name + (plural ? "s" : "");
+const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony"];
+const brandOf = o => BRAND[o.shoe || "alphafly"];
+// Model buttons drop words the brand already says: "Deviate 4", not "Deviate Nitro Elite 4".
+const shortModel = m => m.replace(" Nitro Elite", "").replace("Metaspeed ", "").replace("Endorphin ", "");
+const isShoe = o => state.brand === "all" || brandOf(o) === state.brand;
+// "Cheapest men's Nike super shoe" / "Cheapest men's super shoe"
+const shoeWord = (plural) => (state.brand === "all" ? "" : state.brand + " ") + (plural ? "super shoes" : "super shoe");
 const sizeKey = x => { const m = /^(\d+)(.*)$/.exec(x); return m ? +m[1] + ({ ".5": .5, "⅓": .33, "⅔": .67 }[m[2]] || 0) : 99; };
 const $ = id => document.getElementById(id);
 const eur = n => "€" + (Number.isInteger(n) ? n : n.toFixed(2));
@@ -244,8 +248,9 @@ const ago = t => {
 const fit = () => state.gender === "men" ? "men's" : "women's";
 
 let offers = [], history = {}, checked = {};
-const state = { shoe: "all", gender: "men", size: null, model: "all" };
+const state = { brand: "all", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
+if (state.shoe) { state.brand = BRAND[state.shoe] || "all"; delete state.shoe; }  // saved by the model-based picker
 const save = () => { try { localStorage.setItem("alphabuys", JSON.stringify(state)); } catch (e) {} };
 
 async function load() {
@@ -293,18 +298,20 @@ function renderBand() {
   const shops = new Set(inStock.map(o => o.shop)).size;
   const last = Object.values(checked).sort().at(-1);
   $("context").textContent = `${inStock.length} pairs of super shoes in stock at ${shops} Irish shops${last ? " · checked " + ago(last) : ""}`;
-  $("shoes").innerHTML = SHOES.map(x =>
-    `<button data-v="${x.id}" aria-pressed="${x.id === state.shoe}">${x.name}</button>`).join("");
+  $("shoes").innerHTML = ["all", ...BRANDS].map(b =>
+    `<button data-v="${b}" aria-pressed="${b === state.brand}">${b === "all" ? "All" : b}</button>`).join("");
   $("shoes").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  // The chosen brand's models, in line order (Alphafly before Vaporfly), newest last.
+  const models = state.brand === "all" ? [] : [...new Set(offers.filter(o => isShoe(o) && o.sizes.length).map(o => o.model))]
+    .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+  $("model").hidden = models.length < 2;
+  if (state.model !== "all" && !models.includes(state.model)) state.model = "all";
+  $("model").innerHTML = ["all", ...models].map(m =>
+    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All " + esc(state.brand) : esc(shortModel(m))}</button>`).join("");
 }
 
 function renderFilters() {
   for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
-  const models = state.shoe === "all" ? [] : [...new Set(offers.filter(o => isShoe(o) && o.sizes.length).map(o => o.model))].sort();
-  $("model").hidden = models.length < 2;
-  if (state.model !== "all" && !models.includes(state.model)) state.model = "all";
-  $("model").innerHTML = ["all", ...models].map(m =>
-    `<button data-v="${esc(m)}" aria-pressed="${m === state.model}">${m === "all" ? "All" : esc(shoe().short(m))}</button>`).join("");
   const sizes = [...new Set(offers.filter(o => isShoe(o) && o.gender === state.gender && o.sizes.length).flatMap(o => o.sizes))];
   if (state.size && !sizes.includes(state.size)) sizes.push(state.size);
   sizes.sort((a, b) => sizeKey(a) - sizeKey(b));
@@ -317,7 +324,7 @@ function note(o) {
   if (o.wasHigher && o.price <= o.lowest) return "Lowest price we've seen";
   return "";
 }
-const fullName = o => `${BRAND[o.shoe] || ""} ${o.model}`.trim();
+const fullName = o => `${brandOf(o) || ""} ${o.model}`.trim();
 // "UK 7 · 8 · 9 · 10" with your size in teal
 const sizeLine = o => "UK " + o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
 
@@ -450,7 +457,7 @@ function render() {
 
 $("shoes").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.shoe = v; state.model = "all"; save(); render();  // size stays: same feet
+  state.brand = v; state.model = "all"; save(); render();  // size stays: same feet
 });
 $("gender").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
