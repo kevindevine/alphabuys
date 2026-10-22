@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-21T18:54:10+00:00",
+ "checked": "2026-10-22T11:05:09+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -16,6 +16,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/23706-nike-alphafly-3-white-purple-running-shoes-aw26.html",
@@ -40,19 +41,6 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/23707-nike-alphafly-3-pink-purple-aw26-womens-running-shoes.html",
    "image": "https://www.365rider.com/113898-home_default/nike-alphafly-3-pink-purple-aw26-womens-running-shoes.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "365rider",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4 Shoes Blue White SS26",
-   "colour": "",
-   "gender": "men",
-   "price": 169.95,
-   "was": 250.0,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/21449-adidas-adizero-adios-pro-4-shoes-blue-white-ss26.html",
-   "image": "https://www.365rider.com/100953-home_default/adidas-adizero-adios-pro-4-shoes-blue-white-ss26.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -148,7 +136,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "10",
     "10.5",
@@ -174,7 +161,6 @@
     "9",
     "9.5",
     "10",
-    "10.5",
     "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20791-asics-metaspeed-sky-tokyo-white-blue-ss26-unisex-shoes.html",
@@ -190,7 +176,6 @@
    "price": 205.95,
    "was": 270.0,
    "sizes": [
-    "4",
     "5.5",
     "6",
     "6.5",
@@ -452,7 +437,7 @@
    "name": "Puma Deviate NITRO Elite 4 Red White AW26",
    "colour": "",
    "gender": "men",
-   "price": 174.95,
+   "price": 169.95,
    "was": 249.99,
    "sizes": [
     "7",
@@ -569,8 +554,7 @@
     "8.5",
     "9",
     "9.5",
-    "10",
-    "10.5"
+    "10"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21216-puma-deviate-nitro-elite-4-rc-blue-orange-ss26-running-shoes.html",
    "image": "https://www.365rider.com/105554-home_default/puma-deviate-nitro-elite-4-rc-blue-orange-ss26-running-shoes.jpg"
@@ -602,7 +586,7 @@
    "name": "Puma Deviate NITRO Elite 4 SAYSKY Black Blue AW26",
    "colour": "",
    "gender": "men",
-   "price": 209.95,
+   "price": 205.95,
    "was": 259.99,
    "sizes": [
     "7.5",
@@ -647,8 +631,7 @@
    "was": 249.99,
    "sizes": [
     "5",
-    "6",
-    "6.5"
+    "6"
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22095-puma-deviate-nitro-elite-4-rc-blue-orange-ss26-womens-running-shoes.html",
    "image": "https://www.365rider.com/105311-home_default/puma-deviate-nitro-elite-4-rc-blue-orange-ss26-womens-running-shoes.jpg"
@@ -697,6 +680,21 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22394-puma-deviate-nitro-elite-4-green-black-aw26-women-s.html",
    "image": "https://www.365rider.com/112119-home_default/puma-deviate-nitro-elite-4-green-black-aw26-women-s.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 HYROX Shoes Pink Black SS26",
+   "colour": "",
+   "gender": "men",
+   "price": 209.95,
+   "was": 249.99,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/21220-puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.html",
+   "image": "https://www.365rider.com/102695-home_default/puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -808,6 +806,21 @@
   {
    "shoe": "puma-elite",
    "shop": "365rider",
+   "model": "Fast-R Nitro Elite 2",
+   "name": "Puma Fast-R NITRO Elite 2 Purple Yellow Women's Shoes",
+   "colour": "",
+   "gender": "women",
+   "price": 119.95,
+   "was": 260.0,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/20483-puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.html",
+   "image": "https://www.365rider.com/98160-home_default/puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
    "model": "Fast-R Nitro Elite 3",
    "name": "Puma FAST-R NITRO Elite 3 Showtime Pink Blue SS26",
    "colour": "",
@@ -847,21 +860,6 @@
    "shoe": "puma-elite",
    "shop": "365rider",
    "model": "Fast-R Nitro Elite 2",
-   "name": "Puma Fast-R NITRO Elite 2 Purple Yellow Women's Shoes",
-   "colour": "",
-   "gender": "women",
-   "price": 119.95,
-   "was": 260.0,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://www.365rider.com/en/women-s-running-shoes/20483-puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.html",
-   "image": "https://www.365rider.com/98160-home_default/puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "365rider",
-   "model": "Fast-R Nitro Elite 2",
    "name": "Puma Fast-R NITRO Elite 2 Orange Black Women's Shoes",
    "colour": "",
    "gender": "women",
@@ -874,23 +872,6 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/19085-puma-fast-r-nitro-elite-2-orange-black-women-s-shoes.html",
    "image": "https://www.365rider.com/89110-home_default/puma-fast-r-nitro-elite-2-orange-black-women-s-shoes.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Shoes White Black SS26 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 156.95,
-   "was": 300.0,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/21125-saucony-endorphin-elite-2-shoes-white-black-ss26-unisex.html",
-   "image": "https://www.365rider.com/99409-home_default/saucony-endorphin-elite-2-shoes-white-black-ss26-unisex.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -912,6 +893,23 @@
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21127-saucony-endorphin-elite-2-blue-yellow-ss26-unisex-sneakers.html",
    "image": "https://www.365rider.com/99437-home_default/saucony-endorphin-elite-2-blue-yellow-ss26-unisex-sneakers.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Shoes White Black SS26 Unisex",
+   "colour": "",
+   "gender": "men",
+   "price": 156.95,
+   "was": 300.0,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/21125-saucony-endorphin-elite-2-shoes-white-black-ss26-unisex.html",
+   "image": "https://www.365rider.com/99409-home_default/saucony-endorphin-elite-2-shoes-white-black-ss26-unisex.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1337,6 +1335,30 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Shoes Orange White AW26",
+   "colour": "",
+   "gender": "men",
+   "price": 219.95,
+   "was": 270.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/running/22780-saucony-endorphin-pro-5-shoes-orange-white-aw26.html",
+   "image": "https://www.365rider.com/110961-home_default/saucony-endorphin-pro-5-shoes-orange-white-aw26.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 White Blue AW26",
    "colour": "",
    "gender": "men",
@@ -1362,30 +1384,6 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Shoes Orange White AW26",
-   "colour": "",
-   "gender": "men",
-   "price": 219.95,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
-   ],
-   "url": "https://www.365rider.com/en/running/22780-saucony-endorphin-pro-5-shoes-orange-white-aw26.html",
-   "image": "https://www.365rider.com/110961-home_default/saucony-endorphin-pro-5-shoes-orange-white-aw26.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Shoes Yellow Grey AW26 Women",
    "colour": "",
    "gender": "women",
@@ -1399,19 +1397,6 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Shoes Red AW26 Women's",
-   "colour": "",
-   "gender": "women",
-   "price": 214.95,
-   "was": 270.0,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/women-s-running-shoes/22756-saucony-endorphin-pro-5-shoes-red-aw26-women-s.html",
-   "image": "https://www.365rider.com/112650-home_default/saucony-endorphin-pro-5-shoes-red-aw26-women-s.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 White Pink AW26",
    "colour": "",
    "gender": "women",
@@ -1420,6 +1405,19 @@
    "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22758-saucony-endorphin-pro-5-white-pink-aw26-women-s-running-shoes.html",
    "image": "https://www.365rider.com/112648-home_default/saucony-endorphin-pro-5-white-pink-aw26-women-s-running-shoes.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Shoes Red AW26 Women's",
+   "colour": "",
+   "gender": "women",
+   "price": 214.95,
+   "was": 270.0,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/22756-saucony-endorphin-pro-5-shoes-red-aw26-women-s.html",
+   "image": "https://www.365rider.com/112650-home_default/saucony-endorphin-pro-5-shoes-red-aw26-women-s.jpg"
   },
   {
    "shoe": "saucony-endorphin",
