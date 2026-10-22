@@ -278,7 +278,7 @@ const SHOPS = [
 ];
 // Affiliate links (Awin). Fill in the publisher ID and each approved shop's
 // advertiser ID ("awinmid"); shops left out link straight to the shop.
-const AWIN = { publisher: null, shops: { /* "Sports Direct": 12345 */ } };
+const AWIN = { publisher: 3131255, shops: { /* "Sports Direct": 12345 */ } };
 const buyUrl = o => {
   const mid = AWIN.publisher && AWIN.shops[o.shop];
   return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}&ued=${encodeURIComponent(o.url)}` : o.url;
