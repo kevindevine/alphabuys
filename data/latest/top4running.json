@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-22T06:15:06+00:00",
+ "checked": "2026-10-22T10:15:02+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -125,11 +125,9 @@
    "name": "Nike Alphafly 3",
    "colour": "red",
    "gender": "women",
-   "price": 167.1,
+   "price": 309.99,
    "was": null,
-   "sizes": [
-    "4"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/nike-alphafly-3-road-racing-running-shoe-women-fd8315-600",
    "image": "https://i1.t4s.cz/products/fd8315-600/nike-alphafly-3-888155-fd8315-602.png"
   },
@@ -143,8 +141,7 @@
    "price": 224.0,
    "was": null,
    "sizes": [
-    "3.5",
-    "5"
+    "3.5"
    ],
    "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-women-im6365-600",
    "image": "https://i1.t4s.cz/products/im6365-600/nike-alphafly-3-eliud-kipchoge-1016112-im6365-6003.png"
@@ -207,12 +204,18 @@
    "price": 279.99,
    "was": null,
    "sizes": [
+    "6",
+    "6.5",
     "7",
+    "7.5",
     "8.5",
     "9",
     "9.5",
     "10",
-    "10.5"
+    "10.5",
+    "11",
+    "11.5",
+    "12"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
    "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
@@ -227,10 +230,15 @@
    "price": 279.99,
    "was": null,
    "sizes": [
+    "4",
     "4.5",
     "5",
     "5.5",
-    "6.5"
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-women-iz9609-002",
    "image": "https://i1.t4s.cz/products/iz9609-002/nike-alphafly-4-proto-running-shoe-women-1228461-iz9609-0023.png"
@@ -730,6 +738,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11",
     "11.5",
     "12"
@@ -1098,7 +1107,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
    "gender": "men",
-   "price": 210.56,
+   "price": 259.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1122,7 +1131,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "yellow",
    "gender": "men",
-   "price": 192.46,
+   "price": 249.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1245,11 +1254,33 @@
   {
    "shoe": "puma-elite",
    "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 249.95,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
+   "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
    "model": "Deviate Nitro Elite 3",
    "name": "Puma Deviate NITRO Elite 3",
    "colour": "green",
    "gender": "women",
-   "price": 160.97,
+   "price": 229.95,
    "was": null,
    "sizes": [
     "4",
@@ -1299,28 +1330,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-wns-312908-01",
    "image": "https://i1.t4s.cz/products/312908-01/puma-deviate-nitro-elite-4-rc-1106348-312908-011.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "",
-   "gender": "men",
-   "price": 172.08,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
-   "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
   },
   {
    "shoe": "puma-elite",
@@ -1396,7 +1405,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "purple",
    "gender": "men",
-   "price": 233.96,
+   "price": 299.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1420,7 +1429,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "red",
    "gender": "men",
-   "price": 242.96,
+   "price": 299.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1546,7 +1555,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 288.0,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "5",
@@ -1574,7 +1583,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "red",
    "gender": "men",
-   "price": 288.0,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1647,7 +1656,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 288.0,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1676,7 +1685,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 288.0,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1698,7 +1707,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "green",
    "gender": "men",
-   "price": 288.0,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "5",
@@ -1725,7 +1734,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "blue",
    "gender": "men",
-   "price": 210.0,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "7",
@@ -1746,7 +1755,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "silver",
    "gender": "men",
-   "price": 210.0,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "11.5"
@@ -1854,7 +1863,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "men",
-   "price": 205.2,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7",
@@ -2003,7 +2012,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "women",
-   "price": 218.7,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -2028,7 +2037,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "yellow",
    "gender": "women",
-   "price": 216.0,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -2115,7 +2124,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "women",
-   "price": 243.0,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -2140,7 +2149,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "yellow",
    "gender": "men",
-   "price": 216.0,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7",
@@ -2190,7 +2199,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "women",
-   "price": 243.0,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "4",
@@ -2229,7 +2238,7 @@
    "name": "Saucony Endorphin Pro 4",
    "colour": "silver",
    "gender": "women",
-   "price": 162.5,
+   "price": 250.0,
    "was": null,
    "sizes": [
     "3.5"
