@@ -97,8 +97,11 @@ jrny's rule applies: colour means something or it isn't used.
    ago" on the right; red (jrny's destructive) only when a shop hasn't been
    checked for 36 hours.
 7. **Footnote.** How often prices are checked, delivery, confirm on the shop's
-   site, not affiliated, "A jrny.run experiment". (Affiliate disclosure goes here when
-   links start earning.)
+   site; **how alpha buys pays for itself** (affiliate links never change the
+   price or the order: cheapest first, always); **privacy** (no accounts, no
+   tracking, no cookies of our own); contact hello@jrny.run; not affiliated;
+   "A jrny.run experiment". Added 22 Oct for the Awin application. Buy links
+   to affiliate shops carry `rel="sponsored"`.
 
 ## 3. Type, spacing, motion
 

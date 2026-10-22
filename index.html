@@ -253,6 +253,9 @@ footer p { margin: 0 0 8px; }
 
   <footer class="footnote">
     <p>Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site.</p>
+    <p><b>How alpha buys pays for itself.</b> Some links to shops are affiliate links: if you buy, the shop may pay alpha buys a small commission. It never changes the price you pay, and it never changes the order: the cheapest pair always comes first.</p>
+    <p><b>Privacy.</b> No accounts, no tracking, no cookies of our own. Your fit, brand and size are remembered in your own browser only. A shop or affiliate network may set its own cookies once you click through to it.</p>
+    <p>Questions, or a shop we're missing? <a href="mailto:hello@jrny.run">hello@jrny.run</a></p>
     <p>Not affiliated with any shoe brand or retailer. A <a href="https://jrny.run">jrny.run</a> experiment.</p>
   </footer>
 </main>
@@ -273,6 +276,13 @@ const SHOPS = [
   ["365rider", "365rider", "ES", "https://www.365rider.com/en/"],
   ["sportsshoes", "SportsShoes", "UK", "https://www.sportsshoes.com"],
 ];
+// Affiliate links (Awin). Fill in the publisher ID and each approved shop's
+// advertiser ID ("awinmid"); shops left out link straight to the shop.
+const AWIN = { publisher: null, shops: { /* "Sports Direct": 12345 */ } };
+const buyUrl = o => {
+  const mid = AWIN.publisher && AWIN.shops[o.shop];
+  return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}&ued=${encodeURIComponent(o.url)}` : o.url;
+};
 // Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
 const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony"];
@@ -417,7 +427,7 @@ function renderBest(list) {
         </div>
         ${n ? `<div class="note">${n}</div>` : ""}
         <div class="actions">
-          <a class="buy" href="${esc(o.url)}" target="_blank" rel="noopener">Buy at ${esc(o.shop)}</a>
+          <a class="buy" href="${esc(buyUrl(o))}" target="_blank" rel="noopener sponsored">Buy at ${esc(o.shop)}</a>
           ${shareButton(0)}
         </div>
       </div>
@@ -433,7 +443,7 @@ function renderList(list) {
   }
   $("grid").innerHTML = list.map((o, i) => {
     const n = note(o);
-    return `<li><a href="${esc(o.url)}" target="_blank" rel="noopener">
+    return `<li><a href="${esc(buyUrl(o))}" target="_blank" rel="noopener sponsored">
       <div class="thumb">${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="">` : ""}</div>
       <div class="mid">
         <div class="headline">${esc(fullName(o))}</div>
