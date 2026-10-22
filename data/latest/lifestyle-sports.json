@@ -1,6 +1,40 @@
 {
- "checked": "2026-10-21T18:15:05+00:00",
+ "checked": "2026-10-22T06:15:06+00:00",
  "offers": [
+  {
+   "shoe": "alphafly",
+   "shop": "Lifestyle Sports",
+   "model": "Alphafly 3",
+   "name": "Nike  Mens Alphafly 3",
+   "colour": "",
+   "gender": "men",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "8.5",
+    "10.5"
+   ],
+   "url": "https://www.lifestylesports.com/ie/mens-alphafly-3-12051070.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12051070.json?_i=AG"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Lifestyle Sports",
+   "model": "Alphafly 3",
+   "name": "Nike  Womens Nike Alphafly 3",
+   "colour": "",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "7"
+   ],
+   "url": "https://www.lifestylesports.com/ie/womens-nike-alphafly-3-21752043.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21752043.json?_i=AG"
+  },
   {
    "shoe": "adios-pro",
    "shop": "Lifestyle Sports",
@@ -60,7 +94,7 @@
    "name": "Nike  Womens Nike Vaporfly 4",
    "colour": "",
    "gender": "women",
-   "price": 150.0,
+   "price": 130.0,
    "was": 260.0,
    "sizes": [
     "4",
@@ -94,50 +128,6 @@
    ],
    "url": "https://www.lifestylesports.com/ie/mens-deviate-nitro-elite-4-hyrox-12050040.html",
    "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12050040.json?_i=AG"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Lifestyle Sports",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma  Womens Deviate NITRO Elite 4",
-   "colour": "",
-   "gender": "women",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://www.lifestylesports.com/ie/womens-deviate-nitro-elite-4-21748820.html",
-   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21748820.json?_i=AG"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Lifestyle Sports",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma  Mens Deviate Nitro Elite 4",
-   "colour": "",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://www.lifestylesports.com/ie/mens-deviate-nitro-elite-4-12049020.html",
-   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12049020.json?_i=AG"
   },
   {
    "shoe": "puma-elite",
@@ -187,16 +177,61 @@
    "shoe": "puma-elite",
    "shop": "Lifestyle Sports",
    "model": "Deviate Nitro Elite 4",
+   "name": "Puma  Mens Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://www.lifestylesports.com/ie/mens-deviate-nitro-elite-4-12049020.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12049020.json?_i=AG"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Lifestyle Sports",
+   "model": "Deviate Nitro Elite 4",
    "name": "Puma  Womens Deviate NITRO Elite 4",
    "colour": "",
    "gender": "women",
    "price": 250.0,
    "was": null,
    "sizes": [
+    "5",
     "7.5"
    ],
    "url": "https://www.lifestylesports.com/ie/womens-deviate-nitro-elite-4-21749640.html",
    "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21749640.json?_i=AG"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Lifestyle Sports",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma  Womens Deviate NITRO Elite 4",
+   "colour": "",
+   "gender": "women",
+   "price": 125.0,
+   "was": 250.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://www.lifestylesports.com/ie/womens-deviate-nitro-elite-4-21748820.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21748820.json?_i=AG"
   },
   {
    "shoe": "puma-elite",
@@ -212,27 +247,6 @@
    ],
    "url": "https://www.lifestylesports.com/ie/womens-deviate-nitro-elite-4-21748900.html",
    "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21748900.json?_i=AG"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Lifestyle Sports",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Puma  Womens FAST-R Nitro Elite 3",
-   "colour": "",
-   "gender": "women",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://www.lifestylesports.com/ie/womens-fast-r-nitro-elite-3-21748530.html",
-   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21748530.json?_i=AG"
   },
   {
    "shoe": "puma-elite",
@@ -256,23 +270,6 @@
    "shoe": "puma-elite",
    "shop": "Lifestyle Sports",
    "model": "Fast-R Nitro Elite 3",
-   "name": "Puma  FAST-R Nitro Elite 3 Wns",
-   "colour": "",
-   "gender": "men",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "7"
-   ],
-   "url": "https://www.lifestylesports.com/ie/fast-r-nitro-elite-3-wns-21749320.html",
-   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21749320.json?_i=AG"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Lifestyle Sports",
-   "model": "Fast-R Nitro Elite 3",
    "name": "Puma  Mens FAST-R Nitro Elite 3 ST",
    "colour": "",
    "gender": "men",
@@ -285,27 +282,42 @@
    "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12050240.json?_i=AG"
   },
   {
-   "shoe": "saucony-endorphin",
+   "shoe": "puma-elite",
    "shop": "Lifestyle Sports",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony  Mens Endorphin Pro 5",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma  Womens FAST-R Nitro Elite 3",
+   "colour": "",
+   "gender": "women",
+   "price": 150.0,
+   "was": 300.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://www.lifestylesports.com/ie/womens-fast-r-nitro-elite-3-21748530.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21748530.json?_i=AG"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Lifestyle Sports",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma  FAST-R Nitro Elite 3 Wns",
    "colour": "",
    "gender": "men",
-   "price": 270.0,
-   "was": null,
+   "price": 150.0,
+   "was": 300.0,
    "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
+    "4",
+    "4.5",
+    "7"
    ],
-   "url": "https://www.lifestylesports.com/ie/mens-endorphin-pro-5-12063441.html",
-   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12063441.json?_i=AG"
+   "url": "https://www.lifestylesports.com/ie/fast-r-nitro-elite-3-wns-21749320.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/21749320.json?_i=AG"
   },
   {
    "shoe": "saucony-endorphin",
@@ -337,7 +349,30 @@
    "name": "Saucony  Mens Endorphin Pro 5",
    "colour": "",
    "gender": "men",
-   "price": 200.0,
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://www.lifestylesports.com/ie/mens-endorphin-pro-5-12063441.html",
+   "image": "https://media.lifestylesports.com/image/list/fn_select:jq:first%28.%5B%5D%7Cif%20has%28%22metadata%22%29%20then%20select%28any%28.metadata%5B%5D%3B%20.external_id%20%3D%3D%20%22sfcc-is-main%22%20and%20.value.value%20%3D%3D%20%22True%22%29%29%20else%20empty%20end%29/f_auto,q_auto,dpr_auto,c_fill,g_auto/w_530/12063441.json?_i=AG"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Lifestyle Sports",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony  Mens Endorphin Pro 5",
+   "colour": "",
+   "gender": "men",
+   "price": 135.0,
    "was": 270.0,
    "sizes": [
     "11"
@@ -352,7 +387,7 @@
    "name": "Saucony  Womens Endorphin Pro 5",
    "colour": "",
    "gender": "women",
-   "price": 190.0,
+   "price": 135.0,
    "was": 270.0,
    "sizes": [
     "6"
