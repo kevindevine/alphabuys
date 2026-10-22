@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-22T11:05:09+00:00",
+ "checked": "2026-10-22T18:14:59+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -534,9 +534,7 @@
    "gender": "women",
    "price": 99.0,
    "was": 230.0,
-   "sizes": [
-    "3.5"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/21608-puma-deviate-nitro-elite-3-shoe-blue-orange-ss26-women.html",
    "image": "https://www.365rider.com/102237-home_default/puma-deviate-nitro-elite-3-shoe-blue-orange-ss26-women.jpg"
   },
@@ -812,9 +810,7 @@
    "gender": "women",
    "price": 119.95,
    "was": 260.0,
-   "sizes": [
-    "4"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/20483-puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.html",
    "image": "https://www.365rider.com/98160-home_default/puma-fast-r-nitro-elite-2-purple-yellow-women-s-shoes.jpg"
   },
@@ -888,7 +884,6 @@
     "8.5",
     "9",
     "9.5",
-    "10",
     "10.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21127-saucony-endorphin-elite-2-blue-yellow-ss26-unisex-sneakers.html",
@@ -1150,8 +1145,7 @@
     "9.5",
     "10",
     "10.5",
-    "11",
-    "11.5"
+    "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20543-saucony-endorphin-pro-5-shoes-yellow-black-ss26.html",
    "image": "https://www.365rider.com/104553-home_default/saucony-endorphin-pro-5-shoes-yellow-black-ss26.jpg"
