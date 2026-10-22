@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-22T10:15:02+00:00",
+ "checked": "2026-10-22T14:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -208,6 +208,7 @@
     "6.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "9",
     "9.5",
@@ -215,7 +216,8 @@
     "10.5",
     "11",
     "11.5",
-    "12"
+    "12",
+    "13"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
    "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
@@ -230,6 +232,7 @@
    "price": 279.99,
    "was": null,
    "sizes": [
+    "3.5",
     "4",
     "4.5",
     "5",
@@ -278,8 +281,7 @@
    "was": null,
    "sizes": [
     "9",
-    "9.5",
-    "10.5"
+    "9.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-js2579",
    "image": "https://i1.t4s.cz/products/js2579/adidas-adizero-adios-pro-4-1054720-js25791.png"
@@ -1047,6 +1049,7 @@
    "was": null,
    "sizes": [
     "7",
+    "7.5",
     "8",
     "8.5",
     "9",
