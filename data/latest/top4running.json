@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-23T14:21:46+00:00",
+ "checked": "2026-10-23T18:15:02+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -113,7 +113,8 @@
    "price": 224.0,
    "was": null,
    "sizes": [
-    "3.5"
+    "3.5",
+    "5"
    ],
    "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-women-im6365-600",
    "image": "https://i1.t4s.cz/products/im6365-600/nike-alphafly-3-eliud-kipchoge-1016112-im6365-6003.png"
@@ -1077,6 +1078,7 @@
    "price": 215.8,
    "was": null,
    "sizes": [
+    "8.5",
     "9",
     "9.5",
     "10",
