@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-23T10:57:03+00:00",
+ "checked": "2026-10-23T18:04:42+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -85,8 +85,7 @@
    "was": 250.0,
    "sizes": [
     "8.5",
-    "9",
-    "11"
+    "9"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/23048-adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.html",
    "image": "https://www.365rider.com/109635-home_default/adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.jpg"
@@ -113,6 +112,7 @@
     "8.5",
     "9",
     "10",
+    "10.5",
     "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19486-asics-metaspeed-sky-tokyo-red-white-aw25-unisex.html",
@@ -136,6 +136,7 @@
     "6.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "10",
     "10.5",
@@ -154,6 +155,7 @@
    "price": 202.95,
    "was": 270.0,
    "sizes": [
+    "6",
     "7",
     "7.5",
     "8",
@@ -161,6 +163,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20791-asics-metaspeed-sky-tokyo-white-blue-ss26-unisex-shoes.html",
@@ -185,6 +188,7 @@
     "8.5",
     "9",
     "9.5",
+    "10",
     "10.5",
     "11"
    ],
@@ -568,6 +572,8 @@
    "price": 189.95,
    "was": 249.99,
    "sizes": [
+    "3.5",
+    "4",
     "5",
     "5.5",
     "6",
@@ -750,7 +756,6 @@
    "price": 209.95,
    "was": 299.99,
    "sizes": [
-    "6.5",
     "7",
     "7.5",
     "8",

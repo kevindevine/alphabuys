@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-23T10:57:03+00:00",
+ "checked": "2026-10-23T18:04:42+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -104,7 +104,6 @@
     "7",
     "7.5",
     "8",
-    "9",
     "9.5",
     "10",
     "11",
@@ -153,12 +152,8 @@
    "price": 216.99,
    "was": 309.99,
    "sizes": [
-    "5.5",
     "7",
-    "7.5",
-    "8.5",
     "9.5",
-    "10.5",
     "11",
     "12"
    ],
@@ -316,8 +311,6 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
-    "10",
-    "10.5",
     "11.5",
     "14"
    ],
@@ -536,9 +529,7 @@
     "8",
     "8.5",
     "9.5",
-    "10",
-    "11",
-    "12"
+    "10"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-300",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/80c08194-8ae0-42c3-a878-531a2c730f7b/ZOOMX+VAPORFLY+NEXT%25+4.png"
@@ -583,7 +574,6 @@
    "price": 181.99,
    "was": 259.99,
    "sizes": [
-    "5.5",
     "6",
     "7",
     "7.5",
@@ -638,7 +628,6 @@
    "price": 269.99,
    "was": null,
    "sizes": [
-    "8.5",
     "10",
     "11",
     "11.5"
