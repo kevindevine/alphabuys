@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-23T18:04:42+00:00",
+ "checked": "2026-10-24T10:12:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -30,7 +30,8 @@
    "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "5"
+    "5",
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
@@ -74,6 +75,26 @@
    "shoe": "alphafly",
    "shop": "Sports Direct",
    "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Hyper Pink",
+   "gender": "women",
+   "price": 219.0,
+   "was": 310.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
    "colour": "Green/Volt",
    "gender": "men",
@@ -92,48 +113,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Platinum/Purple",
-   "gender": "men",
-   "price": 245.0,
-   "was": 310.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228224",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228224_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Hyper Pink",
-   "gender": "women",
-   "price": 219.0,
-   "was": 310.0,
-   "sizes": [
-    "4",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -183,6 +162,28 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Platinum/Purple",
+   "gender": "men",
+   "price": 245.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228224",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228224_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
    "colour": "Blue/White",
    "gender": "men",
    "price": 245.0,
@@ -217,7 +218,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "12"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
@@ -378,8 +378,8 @@
    "name": "Adios Pro 4",
    "colour": "Black/White",
    "gender": "men",
-   "price": 300.0,
-   "was": null,
+   "price": 209.0,
+   "was": 300.0,
    "sizes": [
     "7",
     "8",
@@ -491,6 +491,7 @@
    "was": 300.0,
    "sizes": [
     "7",
+    "8",
     "9",
     "10",
     "11"
@@ -602,6 +603,22 @@
    "shop": "Sports Direct",
    "model": "Adios Pro 1",
    "name": "Men's Adios Pro Everyday Neutral Road Running Shoes",
+   "colour": "Utility Black",
+   "gender": "men",
+   "price": 209.0,
+   "was": 300.0,
+   "sizes": [
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/y3-mens-adios-pro-everyday-neutral-road-running-shoes-116640#colcode=11664003",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/11664003_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 1",
+   "name": "Men's Adios Pro Everyday Neutral Road Running Shoes",
    "colour": "Off White",
    "gender": "men",
    "price": 300.0,
@@ -641,7 +658,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "11",
     "12"
@@ -720,7 +736,6 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
-    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
@@ -1012,7 +1027,8 @@
    "price": 80.0,
    "was": 263.0,
    "sizes": [
-    "3.5"
+    "3.5",
+    "5"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
@@ -1150,7 +1166,6 @@
    "price": 125.0,
    "was": 250.0,
    "sizes": [
-    "7",
     "8",
     "9",
     "10",
@@ -1210,21 +1225,18 @@
    "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "Black/Shock",
+   "colour": "White/Aqua",
    "gender": "men",
    "price": 195.0,
    "was": 270.0,
    "sizes": [
+    "7",
     "8",
-    "8.5",
     "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
+    "10"
    ],
-   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242940",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21242940_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242901",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21242901_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1251,6 +1263,27 @@
    "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
+   "colour": "Black/Shock",
+   "gender": "men",
+   "price": 195.0,
+   "was": 270.0,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242940",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21242940_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
    "colour": "Citron/Black",
    "gender": "men",
    "price": 215.0,
@@ -1267,24 +1300,6 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242903",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21242903_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Aqua",
-   "gender": "men",
-   "price": 195.0,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "8",
-    "9",
-    "10"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242901",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21242901_o?fmt=auto&w=345&h=345&v=1"
   }
  ]
 }
