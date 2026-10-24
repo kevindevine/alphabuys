@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24T17:10:09+00:00",
+ "checked": "2026-10-24T20:08:24+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -1037,22 +1037,6 @@
    "shoe": "puma-elite",
    "shop": "Sports Direct",
    "model": "Deviate Nitro Elite 3",
-   "name": "Puma Deviate Nitro Elite 3 Saysky Wns Road Running Shoes Womens",
-   "colour": "Cool Light Grey",
-   "gender": "women",
-   "price": 80.0,
-   "was": 263.0,
-   "sizes": [
-    "3.5",
-    "4.5"
-   ],
-   "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Sports Direct",
-   "model": "Deviate Nitro Elite 3",
    "name": "Deviate Nitro Elite 3 Road Running Shoes Womens",
    "colour": "Mint Melt",
    "gender": "women",
@@ -1096,6 +1080,22 @@
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-everyday-neutral-road-running-shoes-210335#colcode=21033501",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21033501_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Sports Direct",
+   "model": "Deviate Nitro Elite 3",
+   "name": "Puma Deviate Nitro Elite 3 Saysky Wns Road Running Shoes Womens",
+   "colour": "Cool Light Grey",
+   "gender": "women",
+   "price": 80.0,
+   "was": 263.0,
+   "sizes": [
+    "3.5",
+    "4.5"
+   ],
+   "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
