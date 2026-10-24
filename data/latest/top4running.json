@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24T14:15:06+00:00",
+ "checked": "2026-10-24T18:22:45+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -129,7 +129,8 @@
    "price": 217.0,
    "was": null,
    "sizes": [
-    "5.5"
+    "5.5",
+    "6"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-101",
    "image": "https://i1.t4s.cz/products/fd8315-101/nike-alphafly-3-913946-fd8315-103.png"
@@ -367,7 +368,6 @@
    "price": 260.0,
    "was": null,
    "sizes": [
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -786,7 +786,8 @@
     "7.5",
     "8",
     "8.5",
-    "9"
+    "9",
+    "9.5"
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-300",
    "image": "https://i1.t4s.cz/products/1013a162-300/asics-metaspeed-sky-tokyo-ekiden-1035106-1013a162-3005.png"
@@ -806,6 +807,7 @@
     "5",
     "5.5",
     "6",
+    "6.5",
     "7",
     "7.5",
     "8",
@@ -876,9 +878,7 @@
    "gender": "men",
    "price": 300.0,
    "was": null,
-   "sizes": [
-    "7.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/asics-metaspeed-ray-1013a176-300",
    "image": "https://i1.t4s.cz/products/1013a176-300/asics-metaspeed-ray-ekiden-1042527-1013a176-3005.png"
   },
@@ -908,6 +908,7 @@
    "was": null,
    "sizes": [
     "4.5",
+    "5.5",
     "6",
     "7"
    ],
@@ -999,33 +1000,6 @@
    "shop": "Top4Running",
    "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 259.99,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-106",
-   "image": "https://i1.t4s.cz/products/hf6414-106/nike-vaporfly-4-running-shoe-1228397-hf6414-1063.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
    "colour": "",
    "gender": "men",
    "price": 259.99,
@@ -1047,6 +1021,33 @@
    ],
    "url": "https://top4running.ie/p/nike-vaporfly-4-se-running-shoe-iv4079-001",
    "image": "https://i1.t4s.cz/products/iv4079-001/nike-vaporfly-4-se-running-shoe-1227099-iv4079-0013.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Top4Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 259.99,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-106",
+   "image": "https://i1.t4s.cz/products/hf6414-106/nike-vaporfly-4-running-shoe-1228397-hf6414-1063.png"
   },
   {
    "shoe": "puma-elite",
@@ -1834,7 +1835,6 @@
    "was": null,
    "sizes": [
     "7.5",
-    "8",
     "9",
     "9.5",
     "10",
