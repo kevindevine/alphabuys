@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24T10:12:50+00:00",
+ "checked": "2026-10-24T17:10:09+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -123,21 +123,6 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-chalkpurple-dynastyhyper-crimsonfennelspruce-aurapalest-purple-n1241a1ev-h12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a0d5e388c48144dd8f90e4a9660fa4e5/7bfd6fc62c1442efa2a979d1ed950f82.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Zalando",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
-   "colour": "bright crimson/cave purple/lime blast/mint foam/sunset tint/green strike",
-   "gender": "women",
-   "price": 247.95,
-   "was": 310.0,
-   "sizes": [
-    "3"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-bright-crimsoncave-purplelime-blastmint-foamsunset-tintgreen-strike-n1241a1ev-g11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/6e78595fffb44e1fa2db01d119044a14/5d49f614cf964125adbed8c33fcc0682.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "alphafly",
@@ -303,8 +288,7 @@
     "11.5",
     "12",
     "12.5",
-    "13",
-    "14"
+    "13"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-solar-yellow-aurora-plum-powder-plum-ad542a5gq-e12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6d7cee61b0c742a59fb70e4be59228be/3c45158539704f27af466584ab4b36ea.jpg?imwidth=400&filter=packshot"
@@ -464,26 +448,6 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-solar-yellowaurora-plumpowder-plum-ad541a2fg-e12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/0487e3c31b1e4bb193d0aa79cadd216e/4b9fe88860174b928917ce6f82b38885.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "off white/light blue/bright red",
-   "gender": "women",
-   "price": 212.95,
-   "was": 250.0,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/0247cda343cc4a7eb1bb87e7941ab84b/4462b46a05a24ee7a4ce4b3e4b99ac18.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "adios-pro",
@@ -677,6 +641,25 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteiron-metallicpulse-mint-ad541a2fg-m11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/23f943fd1cb148008e54449cf0083442/4c4264f791e046c69be2cbf140dbab1e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "off white/light blue/bright red",
+   "gender": "women",
+   "price": 212.95,
+   "was": 250.0,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/0247cda343cc4a7eb1bb87e7941ab84b/4462b46a05a24ee7a4ce4b3e4b99ac18.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "adios-pro",
@@ -1204,7 +1187,7 @@
    "name": "Deviate Nitro Elite",
    "colour": "light lavender/ultra red/inky depths",
    "gender": "men",
-   "price": 250.0,
+   "price": 241.0,
    "was": null,
    "sizes": [
     "6",
@@ -1404,7 +1387,6 @@
     "4",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7",
     "7.5",
@@ -1485,7 +1467,7 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "white/multi",
+   "colour": "vizired",
    "gender": "women",
    "price": 270.0,
    "was": null,
@@ -1503,86 +1485,10 @@
     "8",
     "8.5",
     "9",
-    "10"
+    "9.5"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitemulti-s2341a09w-a11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/7db72177ecaf4453812baa7b30ca2156/d4727247c3134ca1b212e251b527fa66.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "black/silver-coloured",
-   "gender": "men",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "7.5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blacksilver-coloured-s2342a0b2-q12.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/a680665aa5df47a48267476850556390/101de66d78ad4945a3511aa64f7cd3e0.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "fuego",
-   "gender": "men",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-fuego-s2342a0bc-h11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/52660ee44e0b4e58b84d2b38a77ba0f1/a69bf2b017b645f99dc8b97870fab0a5.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "white/black",
-   "gender": "men",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "6",
-    "11",
-    "12"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2342a0b2-a12.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/d25820a029c24118a1553f15531f8b28/57709e2dee6d46deb1b656f43e390375.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "black/shock",
-   "gender": "men",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "10.5",
-    "13"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blackshock-s2342a0b2-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/6bac091d5c9046c49aeb37550c7399db/8e95c07e70ed474c94b2c50f4db92649.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-vizired-s2341a09w-g11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/af005f9f9ab140b6a3015f48a5c0dc27/cd38ac1a732744e3aae40e6cacc6ef2b.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1617,27 +1523,35 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "white/crimson",
+   "colour": "white/multi-coloured",
    "gender": "men",
    "price": 270.0,
    "was": null,
    "sizes": [
     "6",
     "6.5",
+    "7",
+    "7.5",
     "8",
     "8.5",
+    "9",
+    "9.5",
+    "10",
     "10.5",
-    "14"
+    "11",
+    "11.5",
+    "12",
+    "13"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitecrimson-s2342a0b2-a11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/1f80a92f43c3460c89fb68952b79d3d7/5fd4932d54f249ae95ab81c50b14ebba.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-whitemulti-coloured-s2342a0bc-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/fb11e66cebd24e969c116e03cfc00262/2b3f0ea497564cf88cdceedb4e1e5f15.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "vizired",
+   "colour": "white/multi",
    "gender": "women",
    "price": 270.0,
    "was": null,
@@ -1655,34 +1569,10 @@
     "8",
     "8.5",
     "9",
-    "9.5"
+    "10"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-vizired-s2341a09w-g11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/af005f9f9ab140b6a3015f48a5c0dc27/cd38ac1a732744e3aae40e6cacc6ef2b.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "black/syrup",
-   "gender": "women",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blacksyrup-s2341a09w-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/810eeddde059407bab61d9d915ad1990/1fdac36399c548c79f592620ff1df136.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitemulti-s2341a09w-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/7db72177ecaf4453812baa7b30ca2156/d4727247c3134ca1b212e251b527fa66.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1717,7 +1607,7 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "fatigue/black",
+   "colour": "fuego",
    "gender": "men",
    "price": 270.0,
    "was": null,
@@ -1737,23 +1627,60 @@
     "12",
     "13"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-fatigueblack-s2342a0bc-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/b494931c8af94954b6180928fc1c0a8b/763ebdea537d4ae5b2b00614fa41bc7e.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-fuego-s2342a0bc-h11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/52660ee44e0b4e58b84d2b38a77ba0f1/a69bf2b017b645f99dc8b97870fab0a5.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "white/black",
+   "colour": "black/syrup",
    "gender": "women",
-   "price": 215.95,
-   "was": 270.0,
+   "price": 270.0,
+   "was": null,
    "sizes": [
-    "3.5"
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7.5",
+    "8",
+    "8.5"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2341a09o-a11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/ce92ff1f5dd6404d89acd72930929b82/3895716c419542099312df82183725b3.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blacksyrup-s2341a09w-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/810eeddde059407bab61d9d915ad1990/1fdac36399c548c79f592620ff1df136.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "white/tranquil",
+   "gender": "men",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-whitetranquil-s2342a0bc-a12.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/46017a425cdd4c97a0e542900ec5ce22/a39439cc9b544c2581a301e25a1ee82a.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1788,7 +1715,7 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "white/multi-coloured",
+   "colour": "fatigue/black",
    "gender": "men",
    "price": 270.0,
    "was": null,
@@ -1808,8 +1735,23 @@
     "12",
     "13"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-whitemulti-coloured-s2342a0bc-a11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/fb11e66cebd24e969c116e03cfc00262/2b3f0ea497564cf88cdceedb4e1e5f15.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-fatigueblack-s2342a0bc-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/b494931c8af94954b6180928fc1c0a8b/763ebdea537d4ae5b2b00614fa41bc7e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "black/silver-coloured",
+   "gender": "men",
+   "price": 215.95,
+   "was": 270.0,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blacksilver-coloured-s2342a0b2-q12.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/a680665aa5df47a48267476850556390/101de66d78ad4945a3511aa64f7cd3e0.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1833,28 +1775,67 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "white/tranquil",
+   "colour": "black/shock",
+   "gender": "men",
+   "price": 215.95,
+   "was": 270.0,
+   "sizes": [
+    "13"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blackshock-s2342a0b2-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/6bac091d5c9046c49aeb37550c7399db/8e95c07e70ed474c94b2c50f4db92649.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "white/crimson",
    "gender": "men",
    "price": 270.0,
    "was": null,
    "sizes": [
     "6",
     "6.5",
-    "7",
-    "7.5",
     "8",
     "8.5",
-    "9",
-    "9.5",
-    "10",
     "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
+    "14"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-trail-running-shoes-whitetranquil-s2342a0bc-a12.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/46017a425cdd4c97a0e542900ec5ce22/a39439cc9b544c2581a301e25a1ee82a.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitecrimson-s2342a0b2-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/1f80a92f43c3460c89fb68952b79d3d7/5fd4932d54f249ae95ab81c50b14ebba.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "white/black",
+   "gender": "women",
+   "price": 215.95,
+   "was": 270.0,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2341a09o-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/ce92ff1f5dd6404d89acd72930929b82/3895716c419542099312df82183725b3.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "white/black",
+   "gender": "men",
+   "price": 215.95,
+   "was": 270.0,
+   "sizes": [
+    "6",
+    "11",
+    "12"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2342a0b2-a12.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/d25820a029c24118a1553f15531f8b28/57709e2dee6d46deb1b656f43e390375.jpg?imwidth=400&filter=packshot"
   }
  ]
 }

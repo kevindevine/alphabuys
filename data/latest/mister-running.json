@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24T10:12:50+00:00",
+ "checked": "2026-10-24T17:10:09+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -274,19 +274,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-sand-rich-purple-jr7410.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-12/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-sand-jr7410_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "Ftwr White/Iron Metallic/Solar Yellow",
-   "gender": "men",
-   "price": 149.9,
-   "was": 250.0,
-   "sizes": [],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-ftwr-white-kj7036.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-03/kj7036_A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -568,27 +555,6 @@
    "shop": "Mister Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
-   "colour": "Off White/Collegiate Green/Team Royal Blue",
-   "gender": "men",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "11",
-    "11.5",
-    "12.5"
-   ],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
    "colour": "Off White/Shadow Red/Team Royal Blue",
    "gender": "women",
    "price": 260.0,
@@ -630,6 +596,27 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-clear-sky-carbon-kj7040.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/adidas-adizero-adios-pro-5-scarpe-da-running-uomo-clear-sky-kj7040_A-600x600.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Mister Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
+   "colour": "Off White/Collegiate Green/Team Royal Blue",
+   "gender": "men",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -988,30 +975,6 @@
    "shop": "Mister Running",
    "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
-   "colour": "White/True Berry/Energy/Vivid Purple",
-   "gender": "women",
-   "price": 259.99,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-white-true-berry-energy-hf6412-102.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/nike-vaporfly-4-scarpe-da-running-donna-white-true-berry-energy-hf6412-102_A-600x600.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Mister Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
    "colour": "Barely Green/Purple Dynasty/Chalk",
    "gender": "women",
    "price": 207.5,
@@ -1032,6 +995,30 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-barely-green-hf6412-300.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/nike-vaporfly-4-scarpe-running-donna-barely-green-hf6412-300-A-600x600.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Mister Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
+   "colour": "White/True Berry/Energy/Vivid Purple",
+   "gender": "women",
+   "price": 259.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-white-true-berry-energy-hf6412-102.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/nike-vaporfly-4-scarpe-da-running-donna-white-true-berry-energy-hf6412-102_A-600x600.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -1114,6 +1101,25 @@
    "shop": "Mister Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
+   "colour": "Light Lavender/Ultra Red/Inky Depths",
+   "gender": "men",
+   "price": 187.5,
+   "was": 250.0,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://www.misterrunning.com/en/puma-deviate-nitro-elite-4-mens-running-shoes-light-lavender-312127-08.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-06/puma-deviate-nitro-elite-4-scarpe-da-running-uomo-light-lavender-312127-08_A-600x600.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Mister Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
    "colour": "Ultra Red/Inky Depths/White",
    "gender": "men",
    "price": 174.9,
@@ -1126,26 +1132,6 @@
    ],
    "url": "https://www.misterrunning.com/en/puma-deviate-nitro-elite-4-mens-running-shoes-ultra-red-312127-07.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/puma-deviate-nitro-elite-4-scarpe-da-running-uomo-ultra-red-312127-07_A-600x600.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Mister Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "Light Lavender/Ultra Red/Inky Depths",
-   "gender": "men",
-   "price": 187.5,
-   "was": 250.0,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://www.misterrunning.com/en/puma-deviate-nitro-elite-4-mens-running-shoes-light-lavender-312127-08.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/puma-deviate-nitro-elite-4-scarpe-da-running-uomo-light-lavender-312127-08_A-600x600.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -1487,32 +1473,6 @@
    "shop": "Mister Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Multi",
-   "gender": "men",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-white-multi-s101360-1010.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-white-multi-s101360-1010_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "Ivory/Silk",
    "gender": "women",
    "price": 189.9,
@@ -1537,7 +1497,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "Vizired/Black",
    "gender": "men",
-   "price": 229.9,
+   "price": 212.5,
    "was": 270.0,
    "sizes": [
     "6.5",
@@ -1563,7 +1523,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "White/Tranquil",
    "gender": "men",
-   "price": 229.9,
+   "price": 189.9,
    "was": 270.0,
    "sizes": [
     "6.5",
@@ -1589,7 +1549,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "Fuego",
    "gender": "men",
-   "price": 229.9,
+   "price": 189.9,
    "was": 270.0,
    "sizes": [
     "6.5",
@@ -1607,6 +1567,29 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-fuego-s101360-1001.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-fuego-s101360-1001_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Tart",
+   "gender": "women",
+   "price": 189.9,
+   "was": 270.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-tart-s101308-1003.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-08/S101308-1003-A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1633,6 +1616,32 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-fatigue-black-s101360-1002.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-08/saucony-endorphin-pro-5-scarpe-da-running-uomo-fatigue-black-s101360-1002_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "White/Multi",
+   "gender": "men",
+   "price": 199.9,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-white-multi-s101360-1010.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-white-multi-s101360-1010_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1679,29 +1688,6 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-vizired-s101308-1005.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-vizired-s101308-1005_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Tart",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-tart-s101308-1003.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-08/S101308-1003-A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
