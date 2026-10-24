@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-24T06:15:05+00:00",
+ "checked": "2026-10-24T10:15:02+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -156,11 +156,9 @@
    "name": "Nike Alphafly 3",
    "colour": "black",
    "gender": "men",
-   "price": 266.5,
+   "price": 319.99,
    "was": null,
-   "sizes": [
-    "10"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-ir1996-001",
    "image": "https://i1.t4s.cz/products/ir1996-001/nike-alphafly-3-1088482-ir1996-0013.png"
   },
@@ -322,7 +320,6 @@
    "price": 180.1,
    "was": null,
    "sizes": [
-    "8.5",
     "9",
     "9.5",
     "10",
@@ -973,7 +970,6 @@
     "7",
     "7.5",
     "9",
-    "9.5",
     "10",
     "10.5",
     "11"
