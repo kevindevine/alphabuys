@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T07:15:06+00:00",
+ "checked": "2026-10-25T11:31:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -375,8 +375,7 @@
     "9",
     "9.5",
     "10",
-    "10.5",
-    "11.5"
+    "10.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
    "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
@@ -755,21 +754,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-hq9524",
    "image": "https://i1.t4s.cz/products/hq9524/adidas-adizero-adios-pro-5-m-1230963-hq95241.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "women",
-   "price": 162.5,
-   "was": null,
-   "sizes": [
-    "6.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-jr7087",
-   "image": "https://i1.t4s.cz/products/jr7087/adidas-adizero-adios-pro-4-1032034-jr70871.png"
   },
   {
    "shoe": "metaspeed",
@@ -1334,7 +1318,6 @@
     "4.5",
     "5",
     "5.5",
-    "6",
     "7",
     "7.5",
     "8",
@@ -1567,21 +1550,6 @@
    "shop": "Top4Running",
    "model": "Fast-R Nitro Elite 3",
    "name": "Puma Fast-R Nitro Elite 3",
-   "colour": "purple",
-   "gender": "women",
-   "price": 201.0,
-   "was": null,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-light-lavender-inky-312061-10",
-   "image": "https://i1.t4s.cz/products/312061-10/puma-fast-r-nitro-elite-3-light-lavender-inky-1122216-312061-101.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Puma Fast-R Nitro Elite 3",
    "colour": "yellow",
    "gender": "women",
    "price": 299.0,
@@ -1591,6 +1559,21 @@
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-wns-312061-13",
    "image": "https://i1.t4s.cz/products/312061-13/puma-fast-r-nitro-elite-3-wns-1217619-312061-131.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma Fast-R Nitro Elite 3",
+   "colour": "purple",
+   "gender": "women",
+   "price": 201.0,
+   "was": null,
+   "sizes": [
+    "5"
+   ],
+   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-light-lavender-inky-312061-10",
+   "image": "https://i1.t4s.cz/products/312061-10/puma-fast-r-nitro-elite-3-light-lavender-inky-1122216-312061-101.png"
   },
   {
    "shoe": "saucony-endorphin",
