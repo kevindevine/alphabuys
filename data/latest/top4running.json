@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T15:15:03+00:00",
+ "checked": "2026-10-25T19:15:04+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -414,7 +414,6 @@
    "price": 179.9,
    "was": null,
    "sizes": [
-    "8",
     "9",
     "9.5",
     "10",
@@ -667,8 +666,7 @@
    "price": 187.5,
    "was": null,
    "sizes": [
-    "5.5",
-    "6.5"
+    "5.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-ki3467",
    "image": "https://i1.t4s.cz/products/ki3467/adidas-adizero-adios-pro-4-1089101-ki34671.png"
@@ -842,21 +840,6 @@
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-400",
    "image": "https://i1.t4s.cz/products/1013a163-400/asics-metaspeed-edge-tokyo-1130377-1013a163-4005.png"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "Top4Running",
-   "model": "Metaspeed Sky Tokyo",
-   "name": "ASICS Metaspeed Sky Tokyo",
-   "colour": "white",
-   "gender": "men",
-   "price": 188.1,
-   "was": null,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-101",
-   "image": "https://i1.t4s.cz/products/1013a162-101/asics-metaspeed-sky-tokyo-1060680-1013a162-1015.png"
   },
   {
    "shoe": "metaspeed",
