@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T17:22:56+00:00",
+ "checked": "2026-10-25T20:20:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -480,7 +480,6 @@
     "4.5",
     "5",
     "5.5",
-    "6",
     "6.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
@@ -610,6 +609,7 @@
    "was": null,
    "sizes": [
     "4.5",
+    "5",
     "6"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteiron-metallicpulse-mint-ad541a2fg-m11.html",
@@ -993,6 +993,21 @@
    "shoe": "vaporfly",
    "shop": "Zalando",
    "model": "Vaporfly 4",
+   "name": "Vaporfly 4",
+   "colour": "bright crimson/mint foam/cave purple/lime blast",
+   "gender": "men",
+   "price": 207.95,
+   "was": 260.0,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-bright-crimsonlime-blastmint-foamcave-purplehyper-orangeember-glow-n1242a2yu-g11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/8880528a01f24e938ed52bd426c68a5c/4f9d62b96c804428bcb77a454eb7dc6b.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Zalando",
+   "model": "Vaporfly 4",
    "name": "W Zoomx Vaporfly Next% 4",
    "colour": "white/black/hyper pink/mint foam/silt red/glacier blue",
    "gender": "women",
@@ -1018,21 +1033,6 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-silt-redgreen-shockfire-pinkbright-ceramicpersian-violetspruce-aura-n1241a1fa-b11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/5740d8e64fe14ab0afb234080fa0b908/711799abef4249b5b3bebb56a5b63742.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Zalando",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4",
-   "colour": "barely green/black spruce/volt tint/sapphire/volt ice/saffron quartz",
-   "gender": "men",
-   "price": 207.95,
-   "was": 260.0,
-   "sizes": [
-    "14"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-barely-greenblack-sprucevolt-tintsapphirevolt-icesaffron-quartz-n1242a2yu-m11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/313bc16f263848fc8bc357eff41ebe04/0ded4dedeb554bf1b98ba8db5c74697f.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "puma-elite",
@@ -1350,7 +1350,6 @@
     "10",
     "10.5",
     "11",
-    "12",
     "13"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-3-unisex-road-running-shoes-whiteeggplant-s2344a00e-a11.html",
@@ -1706,21 +1705,6 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-citronblack-s2342a0b2-e11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/2d4e54d9789e4cbba60067a67dc38674/19161ed4c25e452e8e55a13b4f5015c6.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "black/shock",
-   "gender": "men",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "13"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blackshock-s2342a0b2-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/6bac091d5c9046c49aeb37550c7399db/8e95c07e70ed474c94b2c50f4db92649.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",

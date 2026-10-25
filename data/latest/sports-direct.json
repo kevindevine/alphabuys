@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T17:22:56+00:00",
+ "checked": "2026-10-25T20:20:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -486,25 +486,6 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4 Womens",
-   "colour": "Lemn/Blk/Slvr",
-   "gender": "women",
-   "price": 199.0,
-   "was": 250.0,
-   "sizes": [
-    "4",
-    "5",
-    "6",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220614",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220614_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
    "name": "Adios Pro 4",
    "colour": "Classic Wht",
    "gender": "men",
@@ -523,16 +504,20 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4 Shoes Mens",
-   "colour": "White/Blue",
-   "gender": "men",
+   "name": "Adizero Adios Pro 4 Womens",
+   "colour": "Lemn/Blk/Slvr",
+   "gender": "women",
    "price": 199.0,
    "was": 250.0,
    "sizes": [
-    "7"
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
    ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-shoes-mens-212048#colcode=21204830",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21204830_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220614",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21220614_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -619,21 +604,6 @@
    "image": "https://cdn.media.amplience.net/i/frasersdev/21061918_o?fmt=auto&w=345&h=345&v=1"
   },
   {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 1",
-   "name": "Men's Adios Pro Runners",
-   "colour": "Black",
-   "gender": "men",
-   "price": 245.0,
-   "was": 350.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/y3-mens-adios-pro-runners-116319#colcode=11631903",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/11631903_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
    "shoe": "metaspeed",
    "shop": "Sports Direct",
    "model": "Metaspeed Sky Tokyo",
@@ -711,6 +681,21 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4 Road Running Shoes Womens",
+   "colour": "EK Red/Green",
+   "gender": "women",
+   "price": 82.0,
+   "was": 270.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",

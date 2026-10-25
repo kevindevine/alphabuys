@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T17:22:56+00:00",
+ "checked": "2026-10-25T20:20:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -994,32 +994,6 @@
    "shoe": "vaporfly",
    "shop": "Mister Running",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "Barely Green/Purple Dynasty/Chalk",
-   "gender": "women",
-   "price": 207.5,
-   "was": 259.99,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-barely-green-hf6412-300.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/nike-vaporfly-4-scarpe-running-donna-barely-green-hf6412-300-A-600x600.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Mister Running",
-   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4 Se",
    "colour": "Black/White/Smoke Grey/Grey Fog",
    "gender": "men",
@@ -1041,6 +1015,32 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-running-shoes-black-white-smoke-grey-iv4079-001.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-09/IV4079-001_A-600x600.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Mister Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
+   "colour": "Barely Green/Purple Dynasty/Chalk",
+   "gender": "women",
+   "price": 207.5,
+   "was": 259.99,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-barely-green-hf6412-300.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/nike-vaporfly-4-scarpe-running-donna-barely-green-hf6412-300-A-600x600.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -1595,26 +1595,23 @@
    "shop": "Mister Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "Fatigue/Black",
-   "gender": "men",
-   "price": 229.9,
+   "colour": "White/Multi",
+   "gender": "women",
+   "price": 199.9,
    "was": 270.0,
    "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
     "6.5",
     "7",
     "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
+    "8"
    ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-fatigue-black-s101360-1002.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-08/saucony-endorphin-pro-5-scarpe-da-running-uomo-fatigue-black-s101360-1002_A-600x600.jpg"
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1644,29 +1641,6 @@
    "shop": "Mister Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Multi",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "Tart",
    "gender": "women",
    "price": 189.9,
@@ -1684,6 +1658,32 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-tart-s101308-1003.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-08/S101308-1003-A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Fatigue/Black",
+   "gender": "men",
+   "price": 229.9,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-fatigue-black-s101360-1002.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-08/saucony-endorphin-pro-5-scarpe-da-running-uomo-fatigue-black-s101360-1002_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
