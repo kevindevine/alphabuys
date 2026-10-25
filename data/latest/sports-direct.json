@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T10:37:59+00:00",
+ "checked": "2026-10-25T17:22:56+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -67,6 +67,7 @@
     "5",
     "5.5",
     "6",
+    "6.5",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
@@ -152,7 +153,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "11",
     "12"
@@ -199,6 +199,7 @@
     "9.5",
     "10",
     "10.5",
+    "11",
     "12"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
@@ -362,10 +363,12 @@
    "was": 250.0,
    "sizes": [
     "7",
+    "8",
     "8.5",
     "9",
     "9.5",
     "10",
+    "10.5",
     "11",
     "12"
    ],
@@ -398,9 +401,11 @@
    "name": "Adizero Adios Pro 4 Womens",
    "colour": "Solar Yellow",
    "gender": "women",
-   "price": 125.0,
+   "price": 175.0,
    "was": 250.0,
    "sizes": [
+    "5",
+    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220669",
@@ -507,7 +512,6 @@
    "was": 300.0,
    "sizes": [
     "7",
-    "8",
     "9",
     "10",
     "11"
@@ -701,6 +705,8 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
+    "5",
+    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
@@ -717,9 +723,6 @@
    "was": 260.0,
    "sizes": [
     "4",
-    "5",
-    "5.5",
-    "6",
     "6.5",
     "7",
     "8"
@@ -845,8 +848,7 @@
     "7",
     "8",
     "8.5",
-    "9",
-    "10"
+    "9"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281599",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281599_o?fmt=auto&w=345&h=345&v=1"
@@ -1008,6 +1010,7 @@
     "8",
     "8.5",
     "9",
+    "9.5",
     "10",
     "11",
     "12"
@@ -1042,7 +1045,8 @@
    "price": 109.0,
    "was": 220.0,
    "sizes": [
-    "4"
+    "4",
+    "5"
    ],
    "url": "https://ie.sportsdirect.com/puma-deviate-nitro-elite-3-road-running-shoes-womens-210810#colcode=21081012",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21081012_o?fmt=auto&w=345&h=345&v=1"
@@ -1090,7 +1094,13 @@
    "was": 263.0,
    "sizes": [
     "3.5",
-    "4.5"
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7.5"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
@@ -1177,10 +1187,9 @@
    "name": "Endorphin Pro 4",
    "colour": "Lapis/Citron",
    "gender": "men",
-   "price": 175.0,
+   "price": 125.0,
    "was": 250.0,
    "sizes": [
-    "7",
     "8",
     "9",
     "10",

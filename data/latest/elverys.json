@@ -1,39 +1,6 @@
 {
- "checked": "2026-10-25T10:37:59+00:00",
+ "checked": "2026-10-25T17:22:56+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
-   "colour": "orange",
-   "gender": "men",
-   "price": 186.0,
-   "was": 310.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-yellow-orange-1170155",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170155-636Wx636H.jpg?v=1765906525"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
-   "colour": "blue",
-   "gender": "men",
-   "price": 248.0,
-   "was": 310.0,
-   "sizes": [
-    "8",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
-  },
   {
    "shoe": "alphafly",
    "shop": "Elverys",
@@ -72,6 +39,117 @@
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175564-636Wx636H.jpg?v=1781525537"
   },
   {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "blue",
+   "gender": "men",
+   "price": 248.0,
+   "was": 310.0,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "orange",
+   "gender": "men",
+   "price": 186.0,
+   "was": 310.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-yellow-orange-1170155",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170155-636Wx636H.jpg?v=1765906525"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Womens Running Shoes",
+   "colour": "white",
+   "gender": "women",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "6.5"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-white-1170123",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170123-636Wx636H.jpg?v=1765819874"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Womens Running Shoes",
+   "colour": "blue",
+   "gender": "women",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-blue-1170121",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170121-636Wx636H.jpg?v=1773335118"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-yellow-1170120",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170120-636Wx636H.jpg?v=1765819874"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4 Mens Running Shoes",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-yellow-1170135",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170135-636Wx636H.jpg?v=1765819872"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Elverys",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4 Mens Lightweight Running Shoes",
+   "colour": "white",
+   "gender": "men",
+   "price": 150.0,
+   "was": 250.0,
+   "sizes": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-white-1170136",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170136-636Wx636H.jpg?v=1765819855"
+  },
+  {
    "shoe": "adios-pro",
    "shop": "Elverys",
    "model": "Adios Pro 4",
@@ -93,36 +171,6 @@
    "shoe": "adios-pro",
    "shop": "Elverys",
    "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Womens Running Shoes",
-   "colour": "white",
-   "gender": "women",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "6.5"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-white-1170123",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170123-636Wx636H.jpg?v=1765819874"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Womens Lightweight Running Shoes",
-   "colour": "yellow",
-   "gender": "women",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-yellow-1170120",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170120-636Wx636H.jpg?v=1765819874"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4 Mens Running Shoes",
    "colour": "black",
    "gender": "men",
@@ -133,39 +181,6 @@
    ],
    "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-black-1170137",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170137-636Wx636H.jpg?v=1765819849"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Womens Running Shoes",
-   "colour": "blue",
-   "gender": "women",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-womens-blue-1170121",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170121-636Wx636H.jpg?v=1773335118"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Elverys",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4 Mens Lightweight Running Shoes",
-   "colour": "white",
-   "gender": "men",
-   "price": 150.0,
-   "was": 250.0,
-   "sizes": [
-    "6",
-    "7",
-    "8",
-    "9"
-   ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-white-1170136",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170136-636Wx636H.jpg?v=1765819855"
   },
   {
    "shoe": "adios-pro",
@@ -192,19 +207,23 @@
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1176110-636Wx636H.jpg?v=1775228419"
   },
   {
-   "shoe": "adios-pro",
+   "shoe": "vaporfly",
    "shop": "Elverys",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4 Mens Running Shoes",
-   "colour": "yellow",
+   "model": "Vaporfly 4",
+   "name": "Nike ZoomX Vaporfly Next 4 Mens Road Racing Shoes",
+   "colour": "blue",
    "gender": "men",
-   "price": 150.0,
-   "was": 250.0,
+   "price": 156.0,
+   "was": 260.0,
    "sizes": [
-    "6"
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
    ],
-   "url": "https://www.elverys.ie/products/adidas-adizero-adios-pro-4-mens-yellow-1170135",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1170135-636Wx636H.jpg?v=1765819872"
+   "url": "https://www.elverys.ie/products/nike-zoomx-vaporfly-next-4-fk-mens-blue-1175540",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175540-636Wx636H.jpg?v=1782816020"
   },
   {
    "shoe": "vaporfly",
@@ -225,20 +244,17 @@
    "shoe": "vaporfly",
    "shop": "Elverys",
    "model": "Vaporfly 4",
-   "name": "Nike ZoomX Vaporfly Next 4 Mens Road Racing Shoes",
-   "colour": "blue",
-   "gender": "men",
-   "price": 156.0,
+   "name": "Nike Vaporfly Next 4 Womens Road Racing Shoes",
+   "colour": "green",
+   "gender": "women",
+   "price": 208.0,
    "was": 260.0,
    "sizes": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
+    "5.5",
+    "6.5"
    ],
-   "url": "https://www.elverys.ie/products/nike-zoomx-vaporfly-next-4-fk-mens-blue-1175540",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175540-636Wx636H.jpg?v=1782816020"
+   "url": "https://www.elverys.ie/products/nike-zoomx-vaporfly-next-4-fk-wmns-green-1175563",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175563-636Wx636H.jpg?v=1787139628"
   },
   {
    "shoe": "vaporfly",
@@ -263,20 +279,42 @@
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1178919-636Wx636H.jpg?v=1790247616"
   },
   {
-   "shoe": "vaporfly",
+   "shoe": "puma-elite",
    "shop": "Elverys",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly Next 4 Womens Road Racing Shoes",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4 Mens Road Running Shoes",
    "colour": "green",
-   "gender": "women",
-   "price": 208.0,
-   "was": 260.0,
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
    "sizes": [
-    "5.5",
-    "6.5"
+    "8",
+    "9",
+    "9.5",
+    "10",
+    "11"
    ],
-   "url": "https://www.elverys.ie/products/nike-zoomx-vaporfly-next-4-fk-wmns-green-1175563",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175563-636Wx636H.jpg?v=1787139628"
+   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-green-1175604",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175604-636Wx636H.jpg?v=1790942168"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Elverys",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 Mens Running Shoes",
+   "colour": "purple",
+   "gender": "men",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "8",
+    "9",
+    "9.5",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-purple-1175602",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175602-636Wx636H.jpg?v=1786374726"
   },
   {
    "shoe": "puma-elite",
@@ -304,25 +342,6 @@
    "shoe": "puma-elite",
    "shop": "Elverys",
    "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4 Mens Road Running Shoes",
-   "colour": "green",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-green-1175604",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175604-636Wx636H.jpg?v=1790942168"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Elverys",
-   "model": "Deviate Nitro Elite 4",
    "name": "Puma x Hyrox Deviate Nitro Elite 4 Womens Running Shoes",
    "colour": "grn",
    "gender": "women",
@@ -339,25 +358,6 @@
    ],
    "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-hyrox-wmn-grn-1175625",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175625-636Wx636H.jpg?v=1782212656"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Elverys",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate NITRO Elite 4 Mens Running Shoes",
-   "colour": "purple",
-   "gender": "men",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "8",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-purple-1175602",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175602-636Wx636H.jpg?v=1786374726"
   },
   {
    "shoe": "puma-elite",
@@ -467,22 +467,6 @@
    "shop": "Elverys",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Womens Running Shoes",
-   "colour": "white",
-   "gender": "women",
-   "price": 162.0,
-   "was": 270.0,
-   "sizes": [
-    "5",
-    "7"
-   ],
-   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-5-womens-white-1169913",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169913-636Wx636H.jpg?v=1771416344"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Elverys",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Womens Running Shoes",
    "colour": "black",
    "gender": "women",
    "price": 162.0,
@@ -493,21 +477,6 @@
    ],
    "url": "https://www.elverys.ie/products/saucony-endorphin-pro-5-womens-black-1169912",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169912-636Wx636H.jpg?v=1771416344"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Elverys",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Mens Running Shoes",
-   "colour": "black",
-   "gender": "men",
-   "price": 162.0,
-   "was": 270.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-5-mens-black-1169924",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169924-636Wx636H.jpg?v=1771416917"
   },
   {
    "shoe": "saucony-endorphin",
@@ -534,6 +503,21 @@
    "shop": "Elverys",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Mens Running Shoes",
+   "colour": "black",
+   "gender": "men",
+   "price": 162.0,
+   "was": 270.0,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-5-mens-black-1169924",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169924-636Wx636H.jpg?v=1771416917"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Elverys",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Mens Running Shoes",
    "colour": "white",
    "gender": "men",
    "price": 216.0,
@@ -548,6 +532,22 @@
    ],
    "url": "https://www.elverys.ie/products/saucony-endorphin-pro-white-1176876",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1176876-636Wx636H.jpg?v=1785941525"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Elverys",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Womens Running Shoes",
+   "colour": "white",
+   "gender": "women",
+   "price": 162.0,
+   "was": 270.0,
+   "sizes": [
+    "5",
+    "7"
+   ],
+   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-5-womens-white-1169913",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169913-636Wx636H.jpg?v=1771416344"
   }
  ]
 }
