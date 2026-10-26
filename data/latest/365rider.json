@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26T12:10:47+00:00",
+ "checked": "2026-10-26T19:42:45+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -476,7 +476,6 @@
    "price": 189.95,
    "was": 249.99,
    "sizes": [
-    "7",
     "7.5",
     "8",
     "8.5",
@@ -515,8 +514,7 @@
    "price": 209.95,
    "was": 249.99,
    "sizes": [
-    "7.5",
-    "9.5"
+    "7.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21220-puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.html",
    "image": "https://www.365rider.com/102695-home_default/puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.jpg"
@@ -551,8 +549,7 @@
     "8",
     "8.5",
     "9",
-    "9.5",
-    "10"
+    "9.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21216-puma-deviate-nitro-elite-4-rc-blue-orange-ss26-running-shoes.html",
    "image": "https://www.365rider.com/105554-home_default/puma-deviate-nitro-elite-4-rc-blue-orange-ss26-running-shoes.jpg"

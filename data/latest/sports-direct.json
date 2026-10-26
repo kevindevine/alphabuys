@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26T12:10:47+00:00",
+ "checked": "2026-10-26T19:42:45+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -41,23 +41,6 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Coconut",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Glacier Blue",
    "gender": "women",
    "price": 155.0,
@@ -70,6 +53,23 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Coconut",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -198,6 +198,7 @@
     "9.5",
     "10",
     "10.5",
+    "11",
     "12"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
@@ -574,12 +575,28 @@
     "8",
     "8.5",
     "9",
+    "9.5",
     "10",
     "11",
     "12"
    ],
    "url": "https://ie.sportsdirect.com/asics-mens-metaspeed-sky-tokyo-fast-neutral-road-running-shoes-210651#colcode=21065115",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21065115_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "Sports Direct",
+   "model": "Metaspeed Sky Tokyo",
+   "name": "Metaspeed Sky Tokyo Running Shoes Mens",
+   "colour": "Flash Red",
+   "gender": "men",
+   "price": 189.0,
+   "was": 270.0,
+   "sizes": [
+    "11"
+   ],
+   "url": "https://ie.sportsdirect.com/asics-metaspeed-sky-tokyo-running-shoes-mens-210226#colcode=21022608",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21022608_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -608,7 +625,7 @@
    "name": "Vaporfly 4 Road Running Shoes Womens",
    "colour": "White/Black",
    "gender": "women",
-   "price": 185.0,
+   "price": 78.0,
    "was": 260.0,
    "sizes": [
     "5",
@@ -798,6 +815,7 @@
    "price": 190.0,
    "was": 260.0,
    "sizes": [
+    "7",
     "8",
     "8.5",
     "9",
@@ -882,6 +900,28 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4  Mens Running Shoes",
+   "colour": "White/Lemon",
+   "gender": "men",
+   "price": 190.0,
+   "was": 260.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281503",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281503_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4  Mens Running Shoes",
    "colour": "Spruce/Grey",
    "gender": "men",
    "price": 190.0,
@@ -957,7 +997,8 @@
    "was": 263.0,
    "sizes": [
     "3.5",
-    "4.5"
+    "4.5",
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
