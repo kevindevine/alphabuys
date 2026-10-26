@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26T11:15:05+00:00",
+ "checked": "2026-10-26T15:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -103,6 +103,21 @@
    ],
    "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-women-im6365-600",
    "image": "https://i1.t4s.cz/products/im6365-600/nike-alphafly-3-eliud-kipchoge-1016112-im6365-6003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "",
+   "gender": "men",
+   "price": 217.0,
+   "was": null,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-premium-running-shoe-ih3575-999",
+   "image": "https://i1.t4s.cz/products/ih3575-999/nike-alphafly-3-premium-987641-ih3575-001.png"
   },
   {
    "shoe": "alphafly",
@@ -822,6 +837,7 @@
     "3.5",
     "4.5",
     "5",
+    "8",
     "9.5",
     "10",
     "10.5",
@@ -1379,7 +1395,6 @@
    "price": 234.3,
    "was": null,
    "sizes": [
-    "9.5",
     "10.5"
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-st-313615-01",
@@ -1485,21 +1500,6 @@
    "shop": "Top4Running",
    "model": "Fast-R Nitro Elite 3",
    "name": "Puma Fast-R Nitro Elite 3",
-   "colour": "yellow",
-   "gender": "women",
-   "price": 299.0,
-   "was": null,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-wns-312061-13",
-   "image": "https://i1.t4s.cz/products/312061-13/puma-fast-r-nitro-elite-3-wns-1217619-312061-131.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Puma Fast-R Nitro Elite 3",
    "colour": "purple",
    "gender": "women",
    "price": 201.0,
@@ -1509,6 +1509,21 @@
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-light-lavender-inky-312061-10",
    "image": "https://i1.t4s.cz/products/312061-10/puma-fast-r-nitro-elite-3-light-lavender-inky-1122216-312061-101.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma Fast-R Nitro Elite 3",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 299.0,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-wns-312061-13",
+   "image": "https://i1.t4s.cz/products/312061-13/puma-fast-r-nitro-elite-3-wns-1217619-312061-131.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1791,6 +1806,7 @@
    "sizes": [
     "7.5",
     "8",
+    "8.5",
     "9",
     "9.5"
    ],
