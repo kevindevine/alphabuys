@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T20:20:06+00:00",
+ "checked": "2026-10-26T12:10:47+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -213,6 +213,7 @@
     "6",
     "6.5",
     "7",
+    "7.5",
     "8"
    ],
    "url": "https://www.sportsshoes.com/product/nik24606/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
@@ -333,6 +334,21 @@
    "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
    "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
+   "gender": "men",
+   "price": 169.99,
+   "was": 309.99,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.sportsshoes.com/product/nik23721/nike-air-zoom-alphafly-next%25-3-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NIK23721/NIK23721_800_1.jpg"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "SportsShoes",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next% 3",
+   "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
    "gender": "women",
    "price": 169.99,
    "was": 309.99,
@@ -347,21 +363,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/nik23777/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK23777/NIK23777_800_1.jpg"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "SportsShoes",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
-   "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
-   "gender": "men",
-   "price": 169.99,
-   "was": 309.99,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.sportsshoes.com/product/nik23721/nike-air-zoom-alphafly-next%25-3-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NIK23721/NIK23721_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -468,19 +469,6 @@
   {
    "shoe": "adios-pro",
    "shop": "SportsShoes",
-   "model": "Adios Pro Evo 3",
-   "name": "Adizero Adios Pro Evo 3",
-   "colour": "Cloud White / Core Black / Solar Turbo",
-   "gender": "men",
-   "price": 557.99,
-   "was": null,
-   "sizes": [],
-   "url": "https://www.sportsshoes.com/product/adi19314/adidas-adizero-adios-pro-evo-3-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI19314/ADI19314_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
    "model": "Adios Pro 5",
    "name": "Adizero Adios Pro 5",
    "colour": "Solar Turbo / Core Black / Lucid Red",
@@ -511,7 +499,6 @@
    "sizes": [
     "4",
     "5",
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -1240,27 +1227,11 @@
     "7.5",
     "8",
     "8.5",
-    "9"
+    "9",
+    "12"
    ],
    "url": "https://www.sportsshoes.com/product/adi18286/adidas-adizero-adios-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18286/ADI18286_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "Crystal Sand/Flash Orange/Flash Aqua",
-   "gender": "women",
-   "price": 174.99,
-   "was": 249.99,
-   "sizes": [
-    "4",
-    "7.5",
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1280,6 +1251,40 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Crystal Sand/Flash Orange/Flash Aqua",
+   "gender": "women",
+   "price": 174.99,
+   "was": 249.99,
+   "sizes": [
+    "3.5",
+    "4",
+    "7.5",
+    "9.5",
+    "10"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Shock Pink/Zero Metallic/Aurora Plum",
+   "gender": "men",
+   "price": 174.99,
+   "was": 249.99,
+   "sizes": [
+    "12.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi18071/adidas-adizero-adios-pro-4-men's-running-shoes---aw25",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI18071/ADI18071_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1319,8 +1324,7 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
-    "6.5",
-    "9"
+    "6.5"
    ],
    "url": "https://www.sportsshoes.com/product/adi17864/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17864/ADI17864_800_1.jpg"
@@ -1493,8 +1497,7 @@
     "4.5",
     "5.5",
     "6",
-    "6.5",
-    "7.5"
+    "6.5"
    ],
    "url": "https://www.sportsshoes.com/product/adi17532/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17532/ADI17532_800_1.jpg"
@@ -1624,6 +1627,22 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Metaspeed Edge Tokyo",
+   "colour": "WHITE/COBALT BURST",
+   "gender": "men",
+   "price": 194.99,
+   "was": 269.99,
+   "sizes": [
+    "3",
+    "3.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
+   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "SportsShoes",
    "model": "Metaspeed Sky Tokyo",
    "name": "Metaspeed Sky Tokyo",
    "colour": "WHITE/COBALT BURST",
@@ -1650,22 +1669,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/asi16465/asics-metaspeed-sky-tokyo-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/A/ASI16465/ASI16465_800_1.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Metaspeed Edge Tokyo",
-   "colour": "WHITE/COBALT BURST",
-   "gender": "men",
-   "price": 194.99,
-   "was": 269.99,
-   "sizes": [
-    "3",
-    "3.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
   },
   {
    "shoe": "metaspeed",
@@ -2709,6 +2712,21 @@
    "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 3",
    "name": "Fast-R Nitro Elite 3",
+   "colour": "Ultra Red / Inky Depths",
+   "gender": "men",
+   "price": 299.99,
+   "was": null,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3111/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3111/PUM3111_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Fast-R Nitro Elite 3",
    "colour": "Sunny Lim",
    "gender": "women",
    "price": 299.99,
@@ -2725,21 +2743,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3208/puma-fast-r-nitro-elite-3-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3208/PUM3208_800_1.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Fast-R Nitro Elite 3",
-   "colour": "Ultra Red / Inky Depths",
-   "gender": "men",
-   "price": 299.99,
-   "was": null,
-   "sizes": [
-    "7.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3111/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3111/PUM3111_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -4068,7 +4071,8 @@
    "sizes": [
     "6",
     "6.5",
-    "7.5"
+    "7.5",
+    "8"
    ],
    "url": "https://www.sportsshoes.com/product/sau5234/saucony-endorphin-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5234/SAU5234_800_1.jpg"

@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-25T20:20:06+00:00",
+ "checked": "2026-10-26T12:10:47+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -100,6 +100,7 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
+    "10",
     "11",
     "11.5"
    ],
@@ -146,8 +147,6 @@
    "price": 216.99,
    "was": 309.99,
    "sizes": [
-    "7",
-    "11",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-300",
@@ -225,7 +224,6 @@
     "7",
     "8",
     "8.5",
-    "9",
     "9.5",
     "10",
     "10.5",
@@ -349,11 +347,10 @@
    "was": 319.99,
    "sizes": [
     "3.5",
-    "5",
+    "4",
     "5.5",
     "6",
     "6.5",
-    "7",
     "8"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-womens-road-racing-shoes-c0BiSuME/IO9559-800",
@@ -572,6 +569,7 @@
     "9.5",
     "10",
     "11",
+    "11.5",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-800",
