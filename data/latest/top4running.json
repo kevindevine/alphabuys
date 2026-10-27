@@ -1,21 +1,6 @@
 {
- "checked": "2026-10-27T15:15:02+00:00",
+ "checked": "2026-10-27T19:15:05+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "green",
-   "gender": "men",
-   "price": 224.0,
-   "was": null,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://top4running.ie/p/nike-alphafly-3-ekiden-im8066-999",
-   "image": "https://i1.t4s.cz/products/im8066-999/nike-alphafly-3-ekiden-1037794-im8066-9993.png"
-  },
   {
    "shoe": "alphafly",
    "shop": "Top4Running",
@@ -34,6 +19,21 @@
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
    "image": "https://i1.t4s.cz/products/fd8315-800/nike-alphafly-3-1063527-fd8315-8003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "green",
+   "gender": "men",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-ekiden-im8066-999",
+   "image": "https://i1.t4s.cz/products/im8066-999/nike-alphafly-3-ekiden-1037794-im8066-9993.png"
   },
   {
    "shoe": "alphafly",
@@ -668,6 +668,8 @@
    "price": 260.0,
    "was": null,
    "sizes": [
+    "7",
+    "7.5",
     "8",
     "8.5",
     "9",
