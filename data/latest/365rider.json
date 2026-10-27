@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-27T11:32:27+00:00",
+ "checked": "2026-10-27T19:11:24+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -65,7 +65,6 @@
    "price": 172.95,
    "was": 250.0,
    "sizes": [
-    "7",
     "9",
     "10.5"
    ],
@@ -131,6 +130,7 @@
     "6",
     "6.5",
     "7",
+    "7.5",
     "8",
     "8.5",
     "10",
@@ -211,8 +211,7 @@
     "9.5",
     "10",
     "10.5",
-    "11.5",
-    "12"
+    "11.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20653-asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.html",
    "image": "https://www.365rider.com/98456-home_default/asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.jpg"
@@ -458,7 +457,6 @@
    "price": 169.95,
    "was": 249.99,
    "sizes": [
-    "8",
     "9"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21221-puma-deviate-nitro-elite-4-showtime-pink-yellow-ss26-shoes.html",
@@ -623,8 +621,7 @@
    "price": 145.95,
    "was": 249.99,
    "sizes": [
-    "5",
-    "6"
+    "5"
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22095-puma-deviate-nitro-elite-4-rc-blue-orange-ss26-womens-running-shoes.html",
    "image": "https://www.365rider.com/105311-home_default/puma-deviate-nitro-elite-4-rc-blue-orange-ss26-womens-running-shoes.jpg"
@@ -1074,7 +1071,6 @@
    "was": 270.0,
    "sizes": [
     "6",
-    "6.5",
     "7",
     "7.5",
     "8",
