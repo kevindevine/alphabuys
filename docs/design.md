@@ -32,15 +32,12 @@ Add to this list; don't let it shrink.
   running up under the clock.
 - **Share any pair.** A share icon beside Buy and on every row opens the phone's
   share panel (name, price, shop, your size, link); without one it copies the link.
-  The link is alpha buys' own (`?pair=<id>&size=9`), never the shop's: the friend
-  lands on that pair as "Shared with you", with today's price, the shoe, fit and
-  size picked, and the other shops below. If it has sold out since, they get the
-  cheapest of that shoe now. Their own saved size never hides the shared pair, and
-  comes back as soon as they tap anything. The title goes home (all brands; fit and
-  size stay). Buys from a shared visit carry Awin `clickref=share`.
-
-## 0.2 Words
-
+  The link is alpha buys' own (`?pair=<id>&size=9`), never the shop's. The friend
+  gets a temporary **Shared with you** section on top (× closes it, so does the
+  title) with exactly that pair, whatever their own size; a line says when it isn't
+  in their size. The rest of the page stays theirs (brand, fit, size untouched;
+  Chris O'Sullivan, 28 Oct). No modal: it's a one-pager. If the pair sold out
+  since, the section says so. Buys from a shared visit carry Awin `clickref=share`.
 - **Super shoes**, everywhere (never "race shoes": that could mean spikes or
   any racing flat). Kevin, 21 Oct.
 - **alpha buys**: two words, lowercase. Not tied to super shoes, so it can
