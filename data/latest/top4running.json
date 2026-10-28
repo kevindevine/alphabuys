@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-28T11:15:06+00:00",
+ "checked": "2026-10-28T15:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -50,6 +50,7 @@
     "4.5",
     "5",
     "5.5",
+    "6.5",
     "7.5"
    ],
    "url": "https://top4running.ie/p/nike-air-zm-alphafly-next-3-glam-running-shoe-women-io9559-800",
@@ -337,7 +338,6 @@
    "price": 183.5,
    "was": null,
    "sizes": [
-    "8",
     "9",
     "9.5",
     "10",
@@ -545,7 +545,6 @@
    "price": 260.0,
    "was": null,
    "sizes": [
-    "3.5",
     "4.5",
     "5",
     "5.5",
@@ -595,8 +594,7 @@
     "5.5",
     "6",
     "6.5",
-    "7",
-    "7.5"
+    "7"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-jr7416",
    "image": "https://i1.t4s.cz/products/jr7416/adidas-adizero-adios-pro-4-1086001-jr74161.png"
@@ -1225,13 +1223,20 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
-   "colour": "blue",
+   "colour": "red",
    "gender": "women",
-   "price": 249.95,
+   "price": 190.5,
    "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-women-312128-03",
-   "image": "https://i1.t4s.cz/products/312128-03/puma-deviate-nitro-elite-4-1074776-312128-031.png"
+   "sizes": [
+    "4.5",
+    "5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312128-07",
+   "image": "https://i1.t4s.cz/products/312128-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122222-312128-071.png"
   },
   {
    "shoe": "puma-elite",
@@ -1247,26 +1252,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
    "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "red",
-   "gender": "women",
-   "price": 190.5,
-   "was": null,
-   "sizes": [
-    "4.5",
-    "5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312128-07",
-   "image": "https://i1.t4s.cz/products/312128-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122222-312128-071.png"
   },
   {
    "shoe": "puma-elite",
@@ -1449,21 +1434,6 @@
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-running-shoe-312060-07",
    "image": "https://i1.t4s.cz/products/312060-07/puma-fast-r-nitro-elite-3-1059563-312060-071.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Puma Fast-R Nitro Elite 3",
-   "colour": "purple",
-   "gender": "women",
-   "price": 201.0,
-   "was": null,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-light-lavender-inky-312061-10",
-   "image": "https://i1.t4s.cz/products/312061-10/puma-fast-r-nitro-elite-3-light-lavender-inky-1122216-312061-101.png"
   },
   {
    "shoe": "puma-elite",
