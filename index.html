@@ -164,7 +164,6 @@ button { font: inherit; color: inherit; }
   transition: opacity var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }
 .gone { margin: 16px 0 8px; }
-#best { scroll-margin-top: 16px; }  /* a shared link scrolls to the card */
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------- Sections ---------- */
@@ -351,7 +350,6 @@ async function load() {
   }
   openShared();
   render();
-  if (fromShare) $("best").scrollIntoView({ block: "start" });
 }
 
 // Short, stable id for a pair: a hash of its shop link.
@@ -465,6 +463,10 @@ document.addEventListener("click", e => {
 });
 
 function renderBest(list) {
+  // A shared pair sits right under the header (no scrolling, the header stays in
+  // view); otherwise the cheapest pair follows the filters.
+  const filters = document.querySelector(".filters");
+  if (shared || sharedGone) filters.before($("best")); else filters.after($("best"));
   const o = shared || list[0];
   if (!o) { $("best").innerHTML = sharedGone ? `<p class="subhead gone">The shared pair has sold out.</p>` : ""; return; }
   const n = note(o);
