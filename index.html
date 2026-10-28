@@ -162,6 +162,8 @@ button { font: inherit; color: inherit; }
   background: var(--ink); color: #fff; border-radius: 999px; padding: 10px 16px; font: 600 15px/20px var(--font);
   transition: opacity var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }
+.gone { margin: 16px 0 8px; }
+#best { scroll-margin-top: 16px; }  /* a shared link scrolls to the card */
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------- Sections ---------- */
@@ -279,9 +281,12 @@ const SHOPS = [
 // Affiliate links (Awin). Fill in the publisher ID and each approved shop's
 // advertiser ID ("awinmid"); shops left out link straight to the shop.
 const AWIN = { publisher: 3131255, shops: { /* "Sports Direct": 12345 */ } };
+// Buys from a visit that came in through a shared link carry clickref=share,
+// so Awin's reports show what sharing earns.
 const buyUrl = o => {
   const mid = AWIN.publisher && AWIN.shops[o.shop];
-  return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}&ued=${encodeURIComponent(o.url)}` : o.url;
+  return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}`
+    + `${fromShare ? "&clickref=share" : ""}&ued=${encodeURIComponent(o.url)}` : o.url;
 };
 // Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
@@ -306,6 +311,9 @@ const ago = t => {
 const fit = () => state.gender === "men" ? "men's" : "women's";
 
 let offers = [], history = {}, checked = {};
+// A shared link (?pair=…&size=…) opens on that pair. `shared` is the pair while the
+// shared view lasts; `sharedGone` says the pair sold out (or vanished) since.
+let shared = null, sharedGone = false, fromShare = false;
 const state = { brand: "all", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
 if (state.shoe) { state.brand = BRAND[state.shoe] || "all"; delete state.shoe; }  // saved by the model-based picker
@@ -339,7 +347,38 @@ async function load() {
     }
     o.offPct = o.was ? Math.round((1 - o.price / o.was) * 100) : 0;
   }
+  openShared();
   render();
+  if (fromShare) $("best").scrollIntoView({ block: "start" });
+}
+
+// Short, stable id for a pair: a hash of its shop link.
+const pairId = o => {
+  let h = 2166136261;
+  for (const c of o.url) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); }
+  return (h >>> 0).toString(36);
+};
+const pairLink = o => `${location.origin}${location.pathname}?pair=${pairId(o)}`
+  + (state.size && o.sizes.includes(state.size) ? `&size=${encodeURIComponent(state.size)}` : "");
+
+function openShared() {
+  const q = new URLSearchParams(location.search);
+  const id = q.get("pair");
+  if (!id) return;
+  fromShare = true;
+  const o = offers.find(x => pairId(x) === id);
+  const size = q.get("size");
+  // The sharer's shoe, fit and size (their friend may still change any of it).
+  if (o) { state.brand = brandOf(o) || "all"; state.gender = o.gender; state.model = o.model; }
+  if (size && /^\d+(\.5|⅓|⅔)?$/.test(size)) state.size = size;
+  if (o && o.sizes.length && (!state.size || o.sizes.includes(state.size))) shared = o;
+  else sharedGone = true;
+}
+// Any filter tap ends the shared view (the link stops pointing at one pair).
+function leaveShared() {
+  if (!shared && !sharedGone) return;
+  shared = null; sharedGone = false;
+  window.history.replaceState(null, "", location.pathname);  // (`history` here is the price history)
 }
 
 function matches(o, withSize = true) {
@@ -387,17 +426,19 @@ const fullName = o => `${brandOf(o) || ""} ${o.model}`.trim();
 const sizeLine = o => "UK " + o.sizes.map(s => s === state.size ? `<span class="me">${s}</span>` : s).join(" · ");
 
 // ---------- Share a pair: the phone's share panel, else copy to the clipboard.
-let shown = [];  // the pairs on screen, cheapest first (share buttons point into it)
 const SHARE_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="m7.5 7.5 4.5-4.5 4.5 4.5"/><path d="M8 10H6.5A1.5 1.5 0 0 0 5 11.5v8A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-8a1.5 1.5 0 0 0-1.5-1.5H16"/></svg>`;
-const shareButton = i => `<button class="share" type="button" data-share="${i}" aria-label="Share">${SHARE_ICON}</button>`;
+const shareButton = o => `<button class="share" type="button" data-share="${pairId(o)}" aria-label="Share">${SHARE_ICON}</button>`;
+// Shares the alpha buys link for the pair, not the shop's: the friend sees today's
+// price (and the other shops), and buys through our Buy button.
 async function share(o) {
   const text = `${fullName(o)}, ${eur(o.price)}${o.was ? ` (was ${eur(o.was)})` : ""} at ${o.shop}`
-    + `${state.size ? " in UK " + state.size : ""}. Found on alpha buys.`;
+    + `${state.size && o.sizes.includes(state.size) ? " in UK " + state.size : ""}, on alpha buys`;
+  const url = pairLink(o);
   if (navigator.share) {
-    try { await navigator.share({ title: fullName(o), text, url: o.url }); } catch (e) { /* closed the panel */ }
+    try { await navigator.share({ title: fullName(o), text, url }); } catch (e) { /* closed the panel */ }
     return;
   }
-  try { await navigator.clipboard.writeText(`${text} ${o.url}`); toast("Link copied"); }
+  try { await navigator.clipboard.writeText(`${text} ${url}`); toast("Link copied"); }
   catch (e) { toast("Couldn't copy the link"); }
 }
 function toast(msg) {
@@ -406,18 +447,21 @@ function toast(msg) {
 }
 document.addEventListener("click", e => {
   const b = e.target.closest("[data-share]"); if (!b) return;
-  share(shown[+b.dataset.share]);
+  share(offers.find(o => pairId(o) === b.dataset.share));
 });
 
 function renderBest(list) {
-  const o = list[0];
-  if (!o) { $("best").innerHTML = ""; return; }
+  const o = shared || list[0];
+  if (!o) { $("best").innerHTML = sharedGone ? `<p class="subhead gone">The shared pair has sold out.</p>` : ""; return; }
   const n = note(o);
+  const sizeIn = state.size ? " in UK " + esc(state.size) : "";
+  const sub = shared ? "Shared with you"
+    : `${sharedGone ? "The shared pair has sold out" + sizeIn + ". " : ""}Cheapest ${fit()} ${shoeWord(false)}${sizeIn}${sharedGone ? " now" : ""}`;
   $("best").innerHTML = `
     <article class="best">
       <div class="pic">${o.image ? `<img${imgClass(o)} src="${esc(o.image)}" alt="${esc(fullName(o))}, ${esc(o.colour)}">` : ""}</div>
       <div class="info">
-        <div class="subhead">Cheapest ${fit()} ${shoeWord(false)}${state.size ? " in UK " + esc(state.size) : ""}</div>
+        <div class="subhead">${sub}</div>
         <div class="title3 what">${esc(fullName(o))}</div>
         <div class="subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
         <div class="best-sizes"><span class="label">In stock</span> ${sizeLine(o)}</div>
@@ -428,7 +472,7 @@ function renderBest(list) {
         ${n ? `<div class="note">${n}</div>` : ""}
         <div class="actions">
           <a class="buy" href="${esc(buyUrl(o))}" target="_blank" rel="noopener sponsored">Buy at ${esc(o.shop)}</a>
-          ${shareButton(0)}
+          ${shareButton(o)}
         </div>
       </div>
     </article>`;
@@ -441,7 +485,7 @@ function renderList(list) {
     $("grid").innerHTML = `<li class="none subhead">No shop has this in stock right now. Prices are checked four times a day.</li>`;
     return;
   }
-  $("grid").innerHTML = list.map((o, i) => {
+  $("grid").innerHTML = list.map(o => {
     const n = note(o);
     return `<li><a href="${esc(buyUrl(o))}" target="_blank" rel="noopener sponsored">
       <div class="thumb">${o.image ? `<img${imgClass(o)} loading="lazy" src="${esc(o.image)}" alt="">` : ""}</div>
@@ -455,7 +499,7 @@ function renderList(list) {
         ${o.was ? `<div class="w">${eur(o.was)}</div>` : ""}
         ${n ? `<div class="d">${n.startsWith("Down") ? n.split(" since")[0] : "Lowest"}</div>` : o.offPct >= 5 ? `<div class="d">${o.offPct}% off</div>` : ""}
       </div>
-    </a>${shareButton(i)}</li>`;
+    </a>${shareButton(o)}</li>`;
   }).join("");
 }
 
@@ -533,7 +577,6 @@ function render() {
   renderBand();
   renderFilters();
   const list = offers.filter(o => matches(o)).sort((a, b) => a.price - b.price);
-  shown = list;
   renderBest(list);
   renderChart();
   renderList(list);
@@ -542,19 +585,19 @@ function render() {
 
 $("shoes").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.brand = v; state.model = "all"; save(); render();  // size stays: same feet
+  state.brand = v; state.model = "all"; leaveShared(); save(); render();  // size stays: same feet
 });
 $("gender").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.gender = v; state.size = null; save(); render();
+  state.gender = v; state.size = null; leaveShared(); save(); render();
 });
 $("model").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.model = v; save(); render();
+  state.model = v; leaveShared(); save(); render();
 });
 $("sizes").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  state.size = b.dataset.v || null; save(); render();
+  state.size = b.dataset.v || null; leaveShared(); save(); render();
 });
 load();
 </script>

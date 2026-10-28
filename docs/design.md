@@ -32,6 +32,10 @@ Add to this list; don't let it shrink.
   running up under the clock.
 - **Share any pair.** A share icon beside Buy and on every row opens the phone's
   share panel (name, price, shop, your size, link); without one it copies the link.
+  The link is alpha buys' own (`?pair=<id>&size=9`), never the shop's: the friend
+  lands on that pair as "Shared with you", with today's price, the shoe, fit and
+  size picked, and the other shops below. If it has sold out since, they get the
+  cheapest of that shoe now. Buys from a shared visit carry Awin `clickref=share`.
 
 ## 0.2 Words
 
