@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-28T12:01:55+00:00",
+ "checked": "2026-10-28T19:18:52+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -157,12 +157,14 @@
    "price": 205.95,
    "was": 270.0,
    "sizes": [
+    "4",
+    "4.5",
+    "5",
     "5.5",
     "6",
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -266,6 +268,7 @@
    "price": 189.95,
    "was": 270.0,
    "sizes": [
+    "5",
     "6",
     "7",
     "7.5",
@@ -790,6 +793,7 @@
    "price": 197.95,
    "was": 299.99,
    "sizes": [
+    "8",
     "10"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21222-puma-fast-r-nitro-elite-3-showtime-pink-blue-ss26-running-shoes.html",

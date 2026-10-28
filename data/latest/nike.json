@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-28T12:01:55+00:00",
+ "checked": "2026-10-28T19:18:52+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -101,7 +101,6 @@
    "was": 319.99,
    "sizes": [
     "7",
-    "8",
     "9.5",
     "10.5",
     "11",
@@ -134,8 +133,7 @@
     "11",
     "11.5",
     "12",
-    "13",
-    "14"
+    "13"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae088d22-67d0-49c0-a1b6-b308f2b53ad4/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
@@ -151,7 +149,6 @@
    "was": 309.99,
    "sizes": [
     "7.5",
-    "10",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-300",
@@ -229,6 +226,8 @@
     "5.5",
     "7",
     "8",
+    "9",
+    "9.5",
     "10",
     "10.5",
     "11",
@@ -536,7 +535,6 @@
    "price": 181.99,
    "was": 259.99,
    "sizes": [
-    "6",
     "7",
     "7.5",
     "8",
@@ -544,6 +542,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11",
     "11.5"
    ],
@@ -751,6 +750,33 @@
    "shop": "Nike",
    "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
+   "colour": "Citron Pulse/Laser Orange/Volt Ice/Indigo Burst",
+   "gender": "women",
+   "price": 181.99,
+   "was": 259.99,
+   "sizes": [
+    "2.5",
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8",
+    "8.5",
+    "9.5"
+   ],
+   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-800",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70ecf291-a18e-4655-9145-146830589c65/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Nike",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
    "colour": "White/Energy/Vivid Purple/True Berry",
    "gender": "women",
    "price": 259.99,
@@ -774,33 +800,6 @@
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-102",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac1735d6-1443-40e8-8f57-5bb816da14e4/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Nike",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "Citron Pulse/Laser Orange/Volt Ice/Indigo Burst",
-   "gender": "women",
-   "price": 181.99,
-   "was": 259.99,
-   "sizes": [
-    "2.5",
-    "3",
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8",
-    "8.5",
-    "9.5"
-   ],
-   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-800",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70ecf291-a18e-4655-9145-146830589c65/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
   },
   {
    "shoe": "vaporfly",
