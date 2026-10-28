@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-27T19:11:24+00:00",
+ "checked": "2026-10-28T12:01:55+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -348,6 +348,21 @@
    "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
    "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
+   "gender": "men",
+   "price": 169.99,
+   "was": 309.99,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.sportsshoes.com/product/nik23721/nike-air-zoom-alphafly-next%25-3-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NIK23721/NIK23721_800_1.jpg"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "SportsShoes",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next% 3",
+   "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
    "gender": "women",
    "price": 169.99,
    "was": 309.99,
@@ -362,21 +377,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/nik23777/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK23777/NIK23777_800_1.jpg"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "SportsShoes",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
-   "colour": "Bright Crimson/Lime Blast/Mint Foam/Cave Purple",
-   "gender": "men",
-   "price": 169.99,
-   "was": 309.99,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.sportsshoes.com/product/nik23721/nike-air-zoom-alphafly-next%25-3-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NIK23721/NIK23721_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -492,7 +492,6 @@
    "sizes": [
     "7",
     "8",
-    "9",
     "10.5",
     "11",
     "12",
@@ -609,6 +608,7 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
+    "4.5",
     "5",
     "5.5",
     "6",
@@ -736,7 +736,6 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
-    "4",
     "5",
     "5.5",
     "6",
@@ -1239,11 +1238,34 @@
     "7",
     "7.5",
     "8",
+    "8.5",
     "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
     "12"
    ],
    "url": "https://www.sportsshoes.com/product/adi18286/adidas-adizero-adios-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18286/ADI18286_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Crystal Sand/Flash Orange/Flash Aqua",
+   "gender": "women",
+   "price": 174.99,
+   "was": 249.99,
+   "sizes": [
+    "3.5",
+    "4",
+    "7.5",
+    "9.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1263,24 +1285,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "Crystal Sand/Flash Orange/Flash Aqua",
-   "gender": "women",
-   "price": 174.99,
-   "was": 249.99,
-   "sizes": [
-    "3.5",
-    "4",
-    "7.5",
-    "9.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1338,7 +1342,8 @@
     "7.5",
     "8",
     "8.5",
-    "9"
+    "9",
+    "10.5"
    ],
    "url": "https://www.sportsshoes.com/product/adi17972/adidas-adizero-adios-pro-4-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17972/ADI17972_800_1.jpg"
@@ -1415,6 +1420,7 @@
    "price": 249.99,
    "was": null,
    "sizes": [
+    "4",
     "5",
     "5.5",
     "6",
@@ -1672,22 +1678,6 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Metaspeed Edge Tokyo",
-   "colour": "WHITE/COBALT BURST",
-   "gender": "men",
-   "price": 194.99,
-   "was": 269.99,
-   "sizes": [
-    "3",
-    "3.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
    "model": "Metaspeed Sky Tokyo",
    "name": "Metaspeed Sky Tokyo",
    "colour": "WHITE/COBALT BURST",
@@ -1718,6 +1708,22 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Metaspeed Edge Tokyo",
+   "colour": "WHITE/COBALT BURST",
+   "gender": "men",
+   "price": 194.99,
+   "was": 269.99,
+   "sizes": [
+    "3",
+    "3.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
+   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "SportsShoes",
    "model": "Metaspeed Sky Tokyo",
    "name": "Metaspeed Sky Tokyo",
    "colour": "Green Gecko / Black",
@@ -1725,9 +1731,7 @@
    "price": 269.99,
    "was": null,
    "sizes": [
-    "4",
-    "6",
-    "8"
+    "4"
    ],
    "url": "https://www.sportsshoes.com/product/asi16202/asics-metaspeed-sky-tokyo-running-shoes---ss26",
    "image": "https://cdn.sportsshoes.com/product/A/ASI16202/ASI16202_800_1.jpg"
@@ -2036,7 +2040,6 @@
     "7",
     "7.5",
     "8.5",
-    "10",
     "11",
     "11.5",
     "12",
@@ -2920,7 +2923,8 @@
     "8.5",
     "9",
     "9.5",
-    "10"
+    "10",
+    "11"
    ],
    "url": "https://www.sportsshoes.com/product/pum3299/puma-fast-r-nitro-elite-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3299/PUM3299_800_1.jpg"
@@ -3200,6 +3204,7 @@
    "price": 319.99,
    "was": null,
    "sizes": [
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -4153,8 +4158,7 @@
    "sizes": [
     "6",
     "6.5",
-    "7.5",
-    "8"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/sau5234/saucony-endorphin-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5234/SAU5234_800_1.jpg"
