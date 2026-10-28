@@ -38,6 +38,9 @@ Add to this list; don't let it shrink.
   in their size. The rest of the page stays theirs (brand, fit, size untouched;
   Chris O'Sullivan, 28 Oct). No modal: it's a one-pager. If the pair sold out
   since, the section says so. Buys from a shared visit carry Awin `clickref=share`.
+
+## 0.2 Words
+
 - **Super shoes**, everywhere (never "race shoes": that could mean spikes or
   any racing flat). Kevin, 21 Oct.
 - **alpha buys**: two words, lowercase. Not tied to super shoes, so it can
