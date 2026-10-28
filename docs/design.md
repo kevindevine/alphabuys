@@ -35,7 +35,9 @@ Add to this list; don't let it shrink.
   The link is alpha buys' own (`?pair=<id>&size=9`), never the shop's: the friend
   lands on that pair as "Shared with you", with today's price, the shoe, fit and
   size picked, and the other shops below. If it has sold out since, they get the
-  cheapest of that shoe now. Buys from a shared visit carry Awin `clickref=share`.
+  cheapest of that shoe now. Their own saved size never hides the shared pair, and
+  comes back as soon as they tap anything. The title goes home (all brands; fit and
+  size stay). Buys from a shared visit carry Awin `clickref=share`.
 
 ## 0.2 Words
 

@@ -76,6 +76,7 @@ button { font: inherit; color: inherit; }
 /* ---------- The black band ---------- */
 .band { background: var(--band); color: #fff; padding: calc(24px + env(safe-area-inset-top)) 0 16px; }  /* clears the clock full screen */
 .band .by { margin: 4px 0 0; }
+.home { color: inherit; text-decoration: none; }
 .band .by a { text-decoration: underline; text-underline-offset: 2px; }
 /* "Buys" on a neon block, as v1's logo */
 .hl { background: var(--neon); color: var(--ink); padding: 0 6px; border-radius: 4px; margin-left: 4px; }
@@ -213,7 +214,7 @@ footer p { margin: 0 0 8px; }
 <body>
 <header class="band">
   <div class="col">
-    <h1 class="large-title">alpha <span class="hl">buys</span></h1>
+    <h1 class="large-title"><a class="home" href="./">alpha <span class="hl">buys</span></a></h1>
     <p class="by footnote">a <a href="https://jrny.run">jrny.run</a> experiment</p>
     <p class="context subhead" id="context">&nbsp;</p>
     <nav class="pills" id="shoes" aria-label="Brand"></nav>
@@ -314,6 +315,7 @@ let offers = [], history = {}, checked = {};
 // A shared link (?pair=…&size=…) opens on that pair. `shared` is the pair while the
 // shared view lasts; `sharedGone` says the pair sold out (or vanished) since.
 let shared = null, sharedGone = false, fromShare = false;
+let ownSize;  // the friend's own size, put back when they leave the shared view
 const state = { brand: "all", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
 if (state.shoe) { state.brand = BRAND[state.shoe] || "all"; delete state.shoe; }  // saved by the model-based picker
@@ -368,16 +370,28 @@ function openShared() {
   fromShare = true;
   const o = offers.find(x => pairId(x) === id);
   const size = q.get("size");
-  // The sharer's shoe, fit and size (their friend may still change any of it).
+  const linkSize = size && /^\d+(\.5|⅓|⅔)?$/.test(size) ? size : null;
+  // The sharer's shoe and fit (their friend may still change any of it).
   if (o) { state.brand = brandOf(o) || "all"; state.gender = o.gender; state.model = o.model; }
-  if (size && /^\d+(\.5|⅓|⅔)?$/.test(size)) state.size = size;
-  if (o && o.sizes.length && (!state.size || o.sizes.includes(state.size))) shared = o;
-  else sharedGone = true;
+  ownSize = state.size;
+  if (!o || !o.sizes.length) {  // gone since: the cheapest of that shoe now
+    if (linkSize) state.size = linkSize;
+    sharedGone = true;
+    return;
+  }
+  if (linkSize) {
+    state.size = linkSize;
+    if (!o.sizes.includes(linkSize)) { sharedGone = true; return; }
+  } else if (state.size && !o.sizes.includes(state.size)) {
+    state.size = null;  // the friend's saved size isn't in this pair: show the pair anyway
+  }
+  shared = o;
 }
 // Any filter tap ends the shared view (the link stops pointing at one pair).
 function leaveShared() {
   if (!shared && !sharedGone) return;
   shared = null; sharedGone = false;
+  state.size = ownSize;
   window.history.replaceState(null, "", location.pathname);  // (`history` here is the price history)
 }
 
@@ -585,19 +599,25 @@ function render() {
 
 $("shoes").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.brand = v; state.model = "all"; leaveShared(); save(); render();  // size stays: same feet
+  leaveShared(); state.brand = v; state.model = "all"; save(); render();  // size stays: same feet
 });
 $("gender").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.gender = v; state.size = null; leaveShared(); save(); render();
+  leaveShared(); state.gender = v; state.size = null; save(); render();
 });
 $("model").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
-  state.model = v; leaveShared(); save(); render();
+  leaveShared(); state.model = v; save(); render();
+});
+// The title goes home: all brands, top of the page. Fit and size stay (same feet).
+document.querySelector(".home").addEventListener("click", e => {
+  e.preventDefault();
+  leaveShared(); state.brand = "all"; state.model = "all"; save(); render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 $("sizes").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  state.size = b.dataset.v || null; leaveShared(); save(); render();
+  leaveShared(); state.size = b.dataset.v || null; save(); render();
 });
 load();
 </script>
