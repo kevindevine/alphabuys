@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-29T12:13:22+00:00",
+ "checked": "2026-10-29T19:24:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -86,6 +86,7 @@
     "3.5",
     "4",
     "4.5",
+    "5",
     "5.5",
     "6.5",
     "7",
@@ -119,8 +120,7 @@
     "7.5",
     "8",
     "8.5",
-    "10",
-    "11"
+    "10"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
    "image": "https://www.365rider.com/90513-home_default/asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.jpg"
@@ -551,7 +551,6 @@
     "3.5",
     "4",
     "5",
-    "5.5",
     "6",
     "6.5",
     "7"
@@ -593,7 +592,6 @@
    "sizes": [
     "3.5",
     "4",
-    "4.5",
     "6"
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/21712-puma-deviate-nitro-elite-4-blue-yellow-ss26-women-s.html",
@@ -896,7 +894,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "11.5"
    ],
    "url": "https://www.365rider.com/en/running/22691-saucony-endorphin-elite-3-shoes-white-red-aw26-unisex.html",
@@ -1181,7 +1178,9 @@
    "sizes": [
     "7.5",
     "8",
-    "8.5"
+    "8.5",
+    "10",
+    "10.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20541-saucony-endorphin-pro-5-shoes-black-white-ss26.html",
    "image": "https://www.365rider.com/104727-home_default/saucony-endorphin-pro-5-shoes-black-white-ss26.jpg"
