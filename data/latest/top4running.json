@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-29T07:15:02+00:00",
+ "checked": "2026-10-29T11:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -129,7 +129,6 @@
    "price": 217.0,
    "was": null,
    "sizes": [
-    "5.5",
     "6"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-101",
@@ -163,20 +162,8 @@
    "price": 279.99,
    "was": null,
    "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
     "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
+    "9"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
    "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
@@ -199,8 +186,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-women-iz9609-002",
    "image": "https://i1.t4s.cz/products/iz9609-002/nike-alphafly-4-proto-running-shoe-women-1228461-iz9609-0023.png"
@@ -316,7 +302,6 @@
    "price": 213.2,
    "was": null,
    "sizes": [
-    "7.5",
     "8",
     "8.5",
     "9",
@@ -327,24 +312,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kh7343",
    "image": "https://i1.t4s.cz/products/kh7343/adidas-adizero-adios-pro-4-running-shoe-1130202-kh73431.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "pink",
-   "gender": "men",
-   "price": 169.5,
-   "was": null,
-   "sizes": [
-    "9",
-    "9.5",
-    "10",
-    "11.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
-   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
   },
   {
    "shoe": "adios-pro",
@@ -387,6 +354,24 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
    "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "pink",
+   "gender": "men",
+   "price": 169.5,
+   "was": null,
+   "sizes": [
+    "9",
+    "9.5",
+    "10",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
+   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
   },
   {
    "shoe": "adios-pro",
@@ -611,8 +596,7 @@
     "4",
     "4.5",
     "5",
-    "6",
-    "6.5"
+    "6"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-kj0802",
    "image": "https://i1.t4s.cz/products/kj0802/adidas-adizero-adios-pro-4-w-1139608-kj08021.png"
@@ -717,6 +701,19 @@
    "image": "https://i1.t4s.cz/products/kh7344/adidas-adizero-adios-pro-4-running-shoe-women-1139233-kh73441.png"
   },
   {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro Evo 3",
+   "name": "adidas Adizero Adios Pro Evo 3",
+   "colour": "white",
+   "gender": "men",
+   "price": 500.0,
+   "was": null,
+   "sizes": [],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-e-ftwwht-cblack-soltur-kh7678",
+   "image": "https://i1.t4s.cz/products/kh7678/adidas-adizero-adios-pro-e-ftwwht-cblack-soltur-1122239-kh76781.png"
+  },
+  {
    "shoe": "metaspeed",
    "shop": "Top4Running",
    "model": "Metaspeed Sky Tokyo",
@@ -786,7 +783,6 @@
     "4.5",
     "5",
     "5.5",
-    "6.5",
     "7",
     "7.5",
     "8",
