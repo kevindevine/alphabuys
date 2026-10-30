@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-30T07:15:05+00:00",
+ "checked": "2026-10-30T11:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -255,7 +255,8 @@
    "was": null,
    "sizes": [
     "5.5",
-    "6.5"
+    "6.5",
+    "7.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-ki4781",
    "image": "https://i1.t4s.cz/products/ki4781/adidas-adizero-adios-pro-4-w-1138869-ki47811.png"
@@ -274,7 +275,6 @@
     "8.5",
     "9",
     "9.5",
-    "10",
     "12"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
@@ -328,11 +328,9 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "yellow",
    "gender": "men",
-   "price": 174.9,
+   "price": 250.0,
    "was": null,
-   "sizes": [
-    "9.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6623",
    "image": "https://i1.t4s.cz/products/jp6623/adidas-adizero-adios-pro-4-1032135-jp66231.png"
   },
@@ -556,7 +554,7 @@
    "name": "ASICS Metaspeed Sky Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 180.9,
+   "price": 202.9,
    "was": null,
    "sizes": [
     "3.5",
@@ -662,7 +660,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 207.5,
+   "price": 202.9,
    "was": null,
    "sizes": [
     "3.5",
