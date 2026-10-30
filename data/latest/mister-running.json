@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-29T19:24:05+00:00",
+ "checked": "2026-10-30T12:03:42+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -11,16 +11,11 @@
    "price": 279.99,
    "was": null,
    "sizes": [
-    "6.5",
     "7",
     "7.5",
     "8",
-    "8.5",
     "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11"
+    "10.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-4-mens-running-shoes-sea-glass-burgundy-ash-iu4686-002.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-10/nike-alphafly-next-4-scarpe-da-running-uomo-sea-glass-iu4686-002_A-600x600.jpg"
@@ -69,16 +64,11 @@
    "price": 214.9,
    "was": 309.99,
    "sizes": [
-    "6.5",
-    "7",
     "7.5",
     "8",
     "8.5",
     "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
+    "10"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-mens-running-shoes-racer-blue-white-fd8311-402.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/FD8311-402_A-600x600.jpg"
@@ -116,16 +106,10 @@
    "price": 214.9,
    "was": 309.99,
    "sizes": [
-    "4",
-    "4.5",
     "5",
     "5.5",
-    "6",
     "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-womens-running-shoes-chalk-fd8315-105.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/FD8315-105_A-600x600.jpg"
@@ -177,8 +161,7 @@
     "4.5",
     "5.5",
     "6",
-    "6.5",
-    "8"
+    "6.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-se-womens-running-shoes-team-red-ir2312-600.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-03/ir2312-600_A-600x600.jpg"
@@ -220,8 +203,7 @@
     "5.5",
     "6",
     "6.5",
-    "7",
-    "7.5"
+    "7"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-4-womens-running-shoes-sea-glass-iz9609-002.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-10/nike-alphafly-next-4-scarpe-da-running-donna-sea-glass-iz9609-002_A-600x600.jpg"
@@ -292,6 +274,7 @@
    "price": 149.9,
    "was": 250.0,
    "sizes": [
+    "8.5",
     "9"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-ftwr-white-blue-ki9388.html",
@@ -312,19 +295,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-sand-rich-purple-jr7410.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-12/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-sand-jr7410_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "Lucid Pink/Lucid Orange/Iron Metallic",
-   "gender": "men",
-   "price": 149.9,
-   "was": 250.0,
-   "sizes": [],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-lucid-pink-kj3062.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-03/kj3062_A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -368,6 +338,32 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-purple-tint-kj0802.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/KJ0802_A-600x600.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Mister Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
+   "colour": "Solar Turbo/Core Black/Lucid Red",
+   "gender": "men",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-solar-turbo-ki8294.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/adidas-adizero-adios-pro-5-scarpe-da-running-uomo-solar-turbo-ki8294-A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -515,32 +511,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-sand-jr7416.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/jr7416_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "Solar Turbo/Core Black/Lucid Red",
-   "gender": "men",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "12.5"
-   ],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-solar-turbo-ki8294.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/adidas-adizero-adios-pro-5-scarpe-da-running-uomo-solar-turbo-ki8294-A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -718,8 +688,7 @@
     "7.5",
     "8",
     "8.5",
-    "9",
-    "11"
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/asics-metaspeed-sky-tokyo-running-shoes-aquarium-white-1013a162-400.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/asics-metaspeed-sky-tokyo-scarpe-da-running-aquarium-white-1013a162-400_A-600x600.jpg"
@@ -901,7 +870,6 @@
     "4.5",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7.5",
     "8"
@@ -1096,9 +1064,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-white-true-berry-energy-hf6412-102.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-09/nike-vaporfly-4-scarpe-da-running-donna-white-true-berry-energy-hf6412-102_A-600x600.jpg"
@@ -1208,7 +1174,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "11.5",
     "12"
    ],
@@ -1246,7 +1211,6 @@
    "was": 250.0,
    "sizes": [
     "4",
-    "4.5",
     "5",
     "5.5",
     "6",
@@ -1290,8 +1254,6 @@
    "sizes": [
     "7",
     "7.5",
-    "8",
-    "8.5",
     "9",
     "9.5",
     "10",
@@ -1530,6 +1492,29 @@
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
    "colour": "White/Multi",
+   "gender": "women",
+   "price": 199.9,
+   "was": 270.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "White/Multi",
    "gender": "men",
    "price": 199.9,
    "was": 270.0,
@@ -1721,29 +1706,6 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-tart-s101308-1003.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-08/S101308-1003-A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Multi",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
