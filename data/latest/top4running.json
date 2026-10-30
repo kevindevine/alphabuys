@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-30T15:15:04+00:00",
+ "checked": "2026-10-30T19:15:04+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -279,7 +279,6 @@
     "9.5",
     "10",
     "11",
-    "11.5",
     "12"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
@@ -973,6 +972,22 @@
   {
    "shoe": "puma-elite",
    "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 3",
+   "name": "Puma Deviate Nitro Elite 3",
+   "colour": "orange",
+   "gender": "men",
+   "price": 176.3,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-running-shoe-309809-09",
+   "image": "https://i1.t4s.cz/products/309809-09/puma-deviate-nitro-elite-3-993232-309809-09.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
@@ -990,22 +1005,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-saysky-wns-313943-01",
    "image": "https://i1.t4s.cz/products/313943-01/puma-deviate-nitro-elite-4-saysky-wns-1159423-313943-011.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 3",
-   "name": "Puma Deviate Nitro Elite 3",
-   "colour": "orange",
-   "gender": "men",
-   "price": 176.3,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-running-shoe-309809-09",
-   "image": "https://i1.t4s.cz/products/309809-09/puma-deviate-nitro-elite-3-993232-309809-09.png"
   },
   {
    "shoe": "puma-elite",
@@ -1681,6 +1680,7 @@
    "was": null,
    "sizes": [
     "7.5",
+    "8.5",
     "9",
     "9.5",
     "10",
@@ -1807,7 +1807,6 @@
     "4",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7",
     "7.5",
