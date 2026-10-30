@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-30T12:03:42+00:00",
+ "checked": "2026-10-30T18:57:29+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -71,8 +71,7 @@
    "price": 172.95,
    "was": 250.0,
    "sizes": [
-    "9",
-    "10.5"
+    "9"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/22342-adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.html",
    "image": "https://www.365rider.com/106421-home_default/adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.jpg"
@@ -155,6 +154,7 @@
     "6.5",
     "7",
     "7.5",
+    "8.5",
     "10"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
@@ -280,12 +280,10 @@
     "7",
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5",
     "10",
-    "10.5",
-    "11"
+    "10.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20673-asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.html",
    "image": "https://www.365rider.com/99021-home_default/asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.jpg"
@@ -516,9 +514,7 @@
    "gender": "men",
    "price": 204.95,
    "was": 249.99,
-   "sizes": [
-    "7.5"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21220-puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.html",
    "image": "https://www.365rider.com/102695-home_default/puma-deviate-nitro-elite-4-hyrox-shoes-pink-black-ss26.jpg"
   },
@@ -548,7 +544,6 @@
    "was": 249.99,
    "sizes": [
     "3.5",
-    "5",
     "6"
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22393-puma-deviate-nitro-elite-4-purple-pink-aw26-women-s-shoes.html",
@@ -566,7 +561,6 @@
    "sizes": [
     "8",
     "8.5",
-    "9",
     "9.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21216-puma-deviate-nitro-elite-4-rc-blue-orange-ss26-running-shoes.html",
@@ -1258,7 +1252,8 @@
     "9",
     "9.5",
     "10",
-    "10.5"
+    "10.5",
+    "11.5"
    ],
    "url": "https://www.365rider.com/en/running/22782-saucony-endorphin-pro-5-shoes-white-green-aw26.html",
    "image": "https://www.365rider.com/109035-home_default/saucony-endorphin-pro-5-shoes-white-green-aw26.jpg"
