@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31T11:37:50+00:00",
+ "checked": "2026-10-31T18:08:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -1335,24 +1335,6 @@
    "shop": "SportsShoes",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
-   "colour": "Shock Pink/Zero Metallic/Aurora Plum",
-   "gender": "women",
-   "price": 174.99,
-   "was": 249.99,
-   "sizes": [
-    "4",
-    "5",
-    "7",
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
    "colour": "Crystal Sand/Flash Orange/Flash Aqua",
    "gender": "women",
    "price": 174.99,
@@ -1365,6 +1347,24 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Shock Pink/Zero Metallic/Aurora Plum",
+   "gender": "women",
+   "price": 174.99,
+   "was": 249.99,
+   "sizes": [
+    "4",
+    "5",
+    "7",
+    "8.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1405,8 +1405,7 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
-    "6.5",
-    "7"
+    "6.5"
    ],
    "url": "https://www.sportsshoes.com/product/adi17864/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17864/ADI17864_800_1.jpg"
@@ -2133,7 +2132,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik25104/nike-zoomx-vaporfly-next%25-4-women's-running-shoes",
@@ -3015,24 +3013,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3302/puma-fast-r-nitro-elite-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3302/PUM3302_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 1",
-   "name": "Fast-R Nitro Elite",
-   "colour": "Fireglow",
-   "gender": "men",
-   "price": 148.59,
-   "was": 285.19,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "9.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3301/puma-fast-r-nitro-elite-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3301/PUM3301_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -4200,8 +4180,7 @@
    "was": 249.99,
    "sizes": [
     "6",
-    "6.5",
-    "7.5"
+    "6.5"
    ],
    "url": "https://www.sportsshoes.com/product/sau5234/saucony-endorphin-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5234/SAU5234_800_1.jpg"

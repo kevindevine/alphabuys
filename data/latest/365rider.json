@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31T11:37:50+00:00",
+ "checked": "2026-10-31T18:08:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -126,7 +126,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "9",
     "10",
@@ -152,8 +151,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
    "image": "https://www.365rider.com/90513-home_default/asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.jpg"
@@ -281,8 +279,7 @@
     "8.5",
     "9",
     "9.5",
-    "10",
-    "10.5"
+    "10"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/20653-asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.html",
    "image": "https://www.365rider.com/98456-home_default/asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.jpg"
@@ -1138,9 +1135,7 @@
    "gender": "men",
    "price": 137.95,
    "was": 250.0,
-   "sizes": [
-    "8"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/19226-saucony-endorphin-pro-4-shoes-white-blue-aw25.html",
    "image": "https://www.365rider.com/89996-home_default/saucony-endorphin-pro-4-shoes-white-blue-aw25.jpg"
   },
@@ -1173,9 +1168,7 @@
    "gender": "women",
    "price": 85.0,
    "was": 250.0,
-   "sizes": [
-    "6"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/16946-saucony-endorphin-pro-4-navy-blue-green-aw24-women-s-running-shoes.html",
    "image": "https://www.365rider.com/74653-home_default/saucony-endorphin-pro-4-navy-blue-green-aw24-women-s-running-shoes.jpg"
   },

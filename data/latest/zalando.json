@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31T11:37:50+00:00",
+ "checked": "2026-10-31T18:08:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -46,7 +46,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "11.5",
     "12",
@@ -715,7 +714,6 @@
    "price": 250.0,
    "was": null,
    "sizes": [
-    "7",
     "7.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-road-running-shoes-dark-blueyellow-tintclear-pink-ad542a5gq-k13.html",
@@ -1064,21 +1062,6 @@
    "shoe": "vaporfly",
    "shop": "Zalando",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Ek",
-   "colour": "silt red/green shock/fire pink/bright ceramic/persian violet/spruce aura",
-   "gender": "men",
-   "price": 188.95,
-   "was": 270.0,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-ek-road-running-shoes-silt-redgreen-shockfire-pinkbright-ceramicpersian-violetspruce-aura-n1242a30j-g11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/1022519e9e294b85ace5816e42413b14/9d92f9ddd0eb4b35b891552e00e62a00.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Zalando",
-   "model": "Vaporfly 4",
    "name": "Vaporfly 4",
    "colour": "barely green/black spruce/volt tint/sapphire/volt ice/saffron quartz",
    "gender": "men",
@@ -1342,7 +1325,6 @@
     "6.5",
     "7.5",
     "8",
-    "9",
     "9.5",
     "10.5",
     "12",
