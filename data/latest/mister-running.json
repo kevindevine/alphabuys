@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-30T18:57:29+00:00",
+ "checked": "2026-10-31T11:37:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -237,6 +237,21 @@
    "shop": "Mister Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "Frozen Purple/Solar Purple/Signal Green",
+   "gender": "men",
+   "price": 149.9,
+   "was": 250.0,
+   "sizes": [
+    "9"
+   ],
+   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-frozen-purple-kj0803.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-05/KJ0803_A-600x600.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Mister Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "Solar Yellow/Aurora Plum/Powder Plum",
    "gender": "men",
    "price": 149.9,
@@ -247,21 +262,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-solar-yellow-jp6623.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-09/jp6623_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "Frozen Purple/Solar Purple/Signal Green",
-   "gender": "men",
-   "price": 149.9,
-   "was": 250.0,
-   "sizes": [
-    "9"
-   ],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-frozen-purple-kj0803.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-05/KJ0803_A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1271,7 +1271,6 @@
     "8.5",
     "9",
     "9.5",
-    "10",
     "11.5"
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-elite-3-running-shoes-white-multi-s100981-1021.html",
@@ -1459,6 +1458,32 @@
    "shop": "Mister Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
+   "colour": "Vizired/Black",
+   "gender": "men",
+   "price": 212.5,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-vizired-black-s101360-1011.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-vizired-black-s101360-1011_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
    "colour": "White/Multi",
    "gender": "men",
    "price": 199.9,
@@ -1527,32 +1552,6 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-white-tranquil-s101360-1034.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-white-tranquil-s101360-1034_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Vizired/Black",
-   "gender": "men",
-   "price": 212.5,
-   "was": 270.0,
-   "sizes": [
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-vizired-black-s101360-1011.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-vizired-black-s101360-1011_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1690,8 +1689,7 @@
     "7.5",
     "8",
     "8.5",
-    "9",
-    "9.5"
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-black-silver-s21064-100.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/s21064-100-A-600x600.jpg"

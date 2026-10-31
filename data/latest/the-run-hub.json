@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-30T18:57:29+00:00",
+ "checked": "2026-10-31T11:37:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -57,20 +57,15 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "White, Green & Royal Blue",
+   "colour": "Clear Sky, Carbon & Silver Metallic",
    "gender": "men",
    "price": 260.0,
    "was": null,
    "sizes": [
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11"
+    "8.5"
    ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-8",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Green_RoyalBlueTheRunHub_2.png?v=1790169242"
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-11",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Carbon_SilverMetallicTheRunHub_2.png?v=1790594387"
   },
   {
    "shoe": "adios-pro",
@@ -95,15 +90,20 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "Clear Sky, Carbon & Silver Metallic",
+   "colour": "White, Green & Royal Blue",
    "gender": "men",
    "price": 260.0,
    "was": null,
    "sizes": [
-    "8.5"
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
    ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-11",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Carbon_SilverMetallicTheRunHub_2.png?v=1790594387"
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-8",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Green_RoyalBlueTheRunHub_2.png?v=1790169242"
   },
   {
    "shoe": "adios-pro",
@@ -185,6 +185,38 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "The Run Hub",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Fire & Orchid",
+   "gender": "women",
+   "price": 175.0,
+   "was": 270.0,
+   "sizes": [
+    "5.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://therunhub.ie/products/saucony-endorphin-pro-11",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Fire_OrchidTheRunHub_2.png?v=1773662095"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "The Run Hub",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Citron & Black",
+   "gender": "men",
+   "price": 175.0,
+   "was": 270.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://therunhub.ie/products/saucony-endorphin-pro-6",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Citron_BlackTheRunHub_2.png?v=1773661258"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "The Run Hub",
    "model": "Endorphin Elite 3",
    "name": "Saucony Endorphin Elite 3",
    "colour": "White & Multi",
@@ -218,38 +250,6 @@
    ],
    "url": "https://therunhub.ie/products/saucony-endorphin-pro-13",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5FuegoTheRunHub_2.png?v=1787240413"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "The Run Hub",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Fire & Orchid",
-   "gender": "women",
-   "price": 175.0,
-   "was": 270.0,
-   "sizes": [
-    "5.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://therunhub.ie/products/saucony-endorphin-pro-11",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Fire_OrchidTheRunHub_2.png?v=1773662095"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "The Run Hub",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Citron & Black",
-   "gender": "men",
-   "price": 175.0,
-   "was": 270.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://therunhub.ie/products/saucony-endorphin-pro-6",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Citron_BlackTheRunHub_2.png?v=1773661258"
   }
  ]
 }
