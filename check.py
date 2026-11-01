@@ -21,13 +21,18 @@ BROWSER_HEADERS = [
 
 def get(url, headers=(), browser=False):
     # --fail: a blocked page (403 etc.) is an error, so the last good prices are kept.
-    # --retry: shops sometimes say "slow down" (429); wait and try again.
-    cmd = ["curl", "-s", "-L", "--fail", "--retry", "4", "--retry-delay", "10", "--max-time", "30", "-A", UA]
+    # --retry: shops sometimes say "slow down" (429); wait and try again, but never
+    # more than 90s in all, or one shop's long "come back later" stalls the whole check.
+    cmd = ["curl", "-s", "-L", "--fail", "--retry", "4", "--retry-delay", "10", "--retry-max-time", "90",
+           "--max-time", "30", "-A", UA]
     if browser:  # Sports Direct only answers requests that look fully like Chrome
         cmd += ["--http2", "--compressed"] + [x for h in BROWSER_HEADERS for x in ("-H", h)]
     for h in headers:
         cmd += ["-H", h]
-    r = subprocess.run(cmd + [url], capture_output=True, text=True)
+    try:  # a hard stop too, whatever wait the shop asks for
+        r = subprocess.run(cmd + [url], capture_output=True, text=True, timeout=150)
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"fetch timed out: {url}")
     if r.returncode or not r.stdout:
         raise RuntimeError(f"fetch failed ({r.returncode}): {url}")
     return r.stdout
@@ -135,14 +140,20 @@ def offer(shoe, shop, name, colour, price, was, sizes, url, image=None, gender=N
 
 
 def each_page(fn, items, workers=4):
-    """fn over items in parallel; a page that fails (gone, blocked) is skipped, not fatal."""
+    """fn over items in parallel; a page that fails (gone, blocked) is skipped, not fatal.
+    If every page fails the shop is blocking us: raise, so its last good prices stay."""
+    items, failed = list(items), []
     def safe(x):
         try:
             return fn(x)
         except Exception as e:
+            failed.append(x)
             print("   skipped a page:", str(e)[:120])
     with ThreadPoolExecutor(workers) as ex:
-        return [o for o in ex.map(safe, items) if o]
+        got = [o for o in ex.map(safe, items) if o]
+    if items and len(failed) == len(items):
+        raise RuntimeError(f"all {len(items)} product pages failed")
+    return got
 
 
 # ---------------------------------------------------------------- Nike
@@ -250,20 +261,31 @@ def misterrunning(shoe):
 
 
 # ---------------------------------------------------------------- 365rider
-DOOFINDER_365 = "16f08ec90ecf186ae58eab6f667fc98d"  # 365rider's English search, prices in euro
+DOOFINDER_365 = "16f08ec90ecf186ae58eab6f667fc98d"  # 365rider's English search
+# 365rider's euro prices carry Spanish VAT (21%); shipped to Ireland they charge
+# Irish VAT (23%): €175.95 on the page is €178.86 for an Irish buyer.
+IE_VAT_365 = 1.23 / 1.21
 
 
 def rider365(shoe):
-    # Spanish shop (PrestaShop). Search through Doofinder for the euro prices (the
-    # product page shows dollars to GitHub's US servers), then read the in-stock
-    # sizes off the product page (EU ones converted with the brand's chart).
+    # Spanish shop (PrestaShop). Doofinder finds the shoes; prices and in-stock sizes
+    # come off the product page, asked for in euro (it shows dollars to GitHub's US
+    # servers otherwise). Doofinder's own sale price can be wrong (31 Oct: €118.06
+    # for a €175.95 shoe). EU sizes are converted with the brand's chart.
     d = json.loads(get(f"https://eu1-search.doofinder.com/5/search?hashid={DOOFINDER_365}"
                        f"&query={shoe['q'].replace(' ', '+')}&rpp=50",
                        ["Origin: https://www.365rider.com"]))
     hits = [r for r in d.get("results", []) if is_shoe(shoe, r.get("title", ""))]
 
     def one(r):
-        page = get(r["link"])
+        time.sleep(0.5)  # gently: quick bursts get slowed down to minutes per page
+        page = get(r["link"] + "?SubmitCurrency=1&id_currency=1")
+        now = re.search(r'current-price-value" content="([\d.]+)"', page)
+        if not now or '"currency":{"label":"currency","value":"EUR"}' not in page:
+            raise RuntimeError("no euro price on " + r["link"])
+        reg = re.search(r'class="regular-price"[^>]*>\s*€\s*([\d.,]+)', page)
+        price = float(now.group(1)) * IE_VAT_365
+        was = float(reg.group(1).replace(",", "")) * IE_VAT_365 if reg else None
         # Unisex shoes sit in both men's and women's categories: those count as men's
         cats = " ".join(r.get("categories", []))
         women_only = "Women's" in cats and not re.search(r"(?<!Wo)Men's", cats)
@@ -277,9 +299,9 @@ def rider365(shoe):
             eu = re.match(r"([\d.,]+)\s*-\s*EUR", label)
             sizes.append(uk.group(1).replace(",", ".") if uk else eu and eu_to_uk(shoe, gender, eu.group(1).replace(",", ".")))
         name = re.sub(r"\s*(Women's\s*)?Running Shoes.*$", "", r["title"], flags=re.I)
-        return offer(shoe, "365rider", name, "", r.get("sale_price") or r["price"], r["price"],
+        return offer(shoe, "365rider", name, "", price, was,
                      [x for x in sizes if x], r["link"], r.get("image_link2") or r.get("image_link"), gender)
-    return each_page(one, hits)
+    return each_page(one, hits, workers=2)
 
 
 # ---------------------------------------------------------------- SportsShoes
