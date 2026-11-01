@@ -1,6 +1,133 @@
 {
- "checked": "2026-11-01T07:30:39+00:00",
+ "checked": "2026-11-01T11:15:06+00:00",
  "offers": [
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 223.2,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
+   "image": "https://i1.t4s.cz/products/fd8315-800/nike-alphafly-3-1063527-fd8315-8003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "",
+   "gender": "women",
+   "price": 231.7,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/nike-air-zm-alphafly-next-3-glam-running-shoe-women-io9559-800",
+   "image": "https://i1.t4s.cz/products/io9559-800/nike-alphafly-3-glam-1063522-io9559-8002.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "red",
+   "gender": "women",
+   "price": 232.5,
+   "was": null,
+   "sizes": [
+    "5",
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/nike-w-air-zm-alphafly-next-3-se-ir2312-600",
+   "image": "https://i1.t4s.cz/products/ir2312-600/nike-alphafly-3-se-1093121-ir2312-6003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "white",
+   "gender": "men",
+   "price": 255.9,
+   "was": null,
+   "sizes": [
+    "11"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-iq0309-094",
+   "image": "https://i1.t4s.cz/products/iq0309-094/nike-alphafly-3-1063100-iq0309-0943.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "pink",
+   "gender": "women",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "5"
+   ],
+   "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-women-im6365-600",
+   "image": "https://i1.t4s.cz/products/im6365-600/nike-alphafly-3-eliud-kipchoge-1016112-im6365-6003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-women-iz9609-002",
+   "image": "https://i1.t4s.cz/products/iz9609-002/nike-alphafly-4-proto-running-shoe-women-1228461-iz9609-0023.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "purple",
+   "gender": "women",
+   "price": 217.0,
+   "was": null,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "4.5"
+   ],
+   "url": "https://top4running.ie/p/nike-w-air-zoom-alphafly-next-3-running-shoe-women-fd8315-500",
+   "image": "https://i1.t4s.cz/products/fd8315-500/nike-alphafly-3-1081551-fd8315-5003.png"
+  },
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
@@ -113,6 +240,7 @@
    "price": 187.4,
    "was": null,
    "sizes": [
+    "7",
     "8.5",
     "9",
     "9.5",
@@ -833,11 +961,9 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "white",
    "gender": "men",
-   "price": 225.0,
+   "price": 249.95,
    "was": null,
-   "sizes": [
-    "9.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-06",
    "image": "https://i1.t4s.cz/products/312127-06/puma-deviate-nitro-elite-4-1061136-312127-061.png"
   },
