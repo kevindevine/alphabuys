@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-02T11:15:06+00:00",
+ "checked": "2026-11-02T15:15:18+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -243,6 +243,7 @@
     "8.5",
     "9",
     "9.5",
+    "10.5",
     "11"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
@@ -1220,6 +1221,30 @@
    "image": "https://i1.t4s.cz/products/312061-08/puma-fast-r-nitro-elite-3-1083595-312061-081.png"
   },
   {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma Fast-R Nitro Elite 3",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 299.0,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-312060-15",
+   "image": "https://i1.t4s.cz/products/312060-15/puma-fast-r-nitro-elite-3-1238067-312060-151.png"
+  },
+  {
    "shoe": "saucony-endorphin",
    "shop": "Top4Running",
    "model": "Endorphin Elite 3",
@@ -1843,21 +1868,6 @@
    "shoe": "saucony-endorphin",
    "shop": "Top4Running",
    "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4",
-   "colour": "silver",
-   "gender": "women",
-   "price": 225.0,
-   "was": null,
-   "sizes": [
-    "3.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-4-running-shoe-s10939-30",
-   "image": "https://i1.t4s.cz/products/s10939-30/saucony-endorphin-pro-4-901563-s10939-30.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 4",
    "name": "Saucony ENDORPHIN PRO 4",
    "colour": "red",
    "gender": "women",
@@ -1870,6 +1880,21 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-4-s10939-342",
    "image": "https://i1.t4s.cz/products/s10939-342/saucony-endorphin-pro-4-958678-s10939-342.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4",
+   "colour": "silver",
+   "gender": "women",
+   "price": 225.0,
+   "was": null,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-4-running-shoe-s10939-30",
+   "image": "https://i1.t4s.cz/products/s10939-30/saucony-endorphin-pro-4-901563-s10939-30.png"
   },
   {
    "shoe": "saucony-endorphin",
