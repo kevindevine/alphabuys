@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-01T18:43:44+00:00",
+ "checked": "2026-11-02T14:39:56+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -47,6 +47,24 @@
    "shoe": "adios-pro",
    "shop": "365rider",
    "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4",
+   "colour": "",
+   "gender": "men",
+   "price": 178.86,
+   "was": 254.13,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/22878-adidas-adizero-adios-pro-4-running-shoes-white-orange-aw26.html",
+   "image": "https://www.365rider.com/108541-home_default/adidas-adizero-adios-pro-4-running-shoes-white-orange-aw26.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "365rider",
+   "model": "Adios Pro 4",
    "name": "Adidas Adizero Adios Pro 4 Shoes Blue White SS26",
    "colour": "",
    "gender": "men",
@@ -58,21 +76,6 @@
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21449-adidas-adizero-adios-pro-4-shoes-blue-white-ss26.html",
    "image": "https://www.365rider.com/100953-home_default/adidas-adizero-adios-pro-4-shoes-blue-white-ss26.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "365rider",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4 Pink Orange",
-   "colour": "",
-   "gender": "men",
-   "price": 175.81,
-   "was": 254.13,
-   "sizes": [
-    "9"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/22342-adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.html",
-   "image": "https://www.365rider.com/106421-home_default/adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -93,19 +96,16 @@
    "shoe": "adios-pro",
    "shop": "365rider",
    "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4 Pink Orange",
    "colour": "",
    "gender": "men",
-   "price": 178.86,
+   "price": 175.81,
    "was": 254.13,
    "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5"
+    "9"
    ],
-   "url": "https://www.365rider.com/en/men-running-shoes/22878-adidas-adizero-adios-pro-4-running-shoes-white-orange-aw26.html",
-   "image": "https://www.365rider.com/108541-home_default/adidas-adizero-adios-pro-4-running-shoes-white-orange-aw26.jpg"
+   "url": "https://www.365rider.com/en/men-running-shoes/22342-adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.html",
+   "image": "https://www.365rider.com/106421-home_default/adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.jpg"
   },
   {
    "shoe": "metaspeed",
@@ -122,13 +122,17 @@
     "4.5",
     "5",
     "5.5",
+    "6",
     "6.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "9",
+    "9.5",
     "10",
-    "11"
+    "11",
+    "11.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19486-asics-metaspeed-sky-tokyo-red-white-aw25-unisex.html",
    "image": "https://www.365rider.com/94113-home_default/asics-metaspeed-sky-tokyo-red-white-aw25-unisex.jpg"
@@ -150,7 +154,13 @@
     "6",
     "6.5",
     "7",
-    "7.5"
+    "7.5",
+    "8",
+    "8.5",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
    "image": "https://www.365rider.com/90513-home_default/asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.jpg"

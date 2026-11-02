@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-01T18:43:44+00:00",
+ "checked": "2026-11-02T14:39:56+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -20,6 +20,21 @@
   {
    "shoe": "adios-pro",
    "shop": "The Run Hub",
+   "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4",
+   "colour": "Blue, Cloud White & Lime Burst",
+   "gender": "men",
+   "price": 195.0,
+   "was": 250.0,
+   "sizes": [
+    "8.5"
+   ],
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-6",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro4Blue_CloudWhite_LimeBurstTheRunHub_2.png?v=1775039306"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
    "colour": "White, Shared & Royal Blue",
@@ -36,6 +51,21 @@
    ],
    "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-9",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Shared_RoyalBlueTheRunHub_2.png?v=1790169460"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "The Run Hub",
+   "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4",
+   "colour": "",
+   "gender": "men",
+   "price": 175.0,
+   "was": 250.0,
+   "sizes": [
+    "11"
+   ],
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-4",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro4LucidPink_LucidOrange_IronMetallicTheRunHub_2.png?v=1782380774"
   },
   {
    "shoe": "adios-pro",
@@ -78,36 +108,6 @@
   {
    "shoe": "adios-pro",
    "shop": "The Run Hub",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4",
-   "colour": "Blue, Cloud White & Lime Burst",
-   "gender": "men",
-   "price": 195.0,
-   "was": 250.0,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-6",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro4Blue_CloudWhite_LimeBurstTheRunHub_2.png?v=1775039306"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "The Run Hub",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4",
-   "colour": "",
-   "gender": "men",
-   "price": 175.0,
-   "was": 250.0,
-   "sizes": [
-    "11"
-   ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-4",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro4LucidPink_LucidOrange_IronMetallicTheRunHub_2.png?v=1782380774"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
    "colour": "Clear Sky, Carbon & Silver Metallic",
@@ -141,21 +141,6 @@
    "shop": "The Run Hub",
    "model": "Vaporfly 4",
    "name": "Nike ZoomX Vaporfly Next% 4",
-   "colour": "Obsidian, White-Persian Violet",
-   "gender": "men",
-   "price": 155.0,
-   "was": 260.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-6",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4Obsidian_White-PersianVioletTheRunHub.png?v=1760348293"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "The Run Hub",
-   "model": "Vaporfly 4",
-   "name": "Nike ZoomX Vaporfly Next% 4",
    "colour": "Citron Pulse, Indigo Burst & Laser Orange",
    "gender": "women",
    "price": 155.0,
@@ -181,6 +166,21 @@
    ],
    "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-8",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4White_MidnightNavyTheRunHub_2.png?v=1774520593"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "The Run Hub",
+   "model": "Vaporfly 4",
+   "name": "Nike ZoomX Vaporfly Next% 4",
+   "colour": "Obsidian, White-Persian Violet",
+   "gender": "men",
+   "price": 155.0,
+   "was": 260.0,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-6",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4Obsidian_White-PersianVioletTheRunHub.png?v=1760348293"
   },
   {
    "shoe": "saucony-endorphin",
@@ -220,6 +220,25 @@
    "shop": "The Run Hub",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
+   "colour": "Fuego",
+   "gender": "men",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://therunhub.ie/products/saucony-endorphin-pro-13",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5FuegoTheRunHub_2.png?v=1787240413"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "The Run Hub",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
    "colour": "Citron & Black",
    "gender": "men",
    "price": 175.0,
@@ -229,26 +248,6 @@
    ],
    "url": "https://therunhub.ie/products/saucony-endorphin-pro-6",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Citron_BlackTheRunHub_2.png?v=1773661258"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "The Run Hub",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Fuego",
-   "gender": "men",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://therunhub.ie/products/saucony-endorphin-pro-13",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5FuegoTheRunHub_2.png?v=1787240413"
   }
  ]
 }
