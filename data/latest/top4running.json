@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T15:15:06+00:00",
+ "checked": "2026-11-03T19:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -570,28 +570,6 @@
    "shop": "Top4Running",
    "model": "Metaspeed Edge Tokyo",
    "name": "ASICS Metaspeed Edge Tokyo",
-   "colour": "white",
-   "gender": "men",
-   "price": 233.3,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4.5",
-    "5",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
-   ],
-   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-101",
-   "image": "https://i1.t4s.cz/products/1013a163-101/asics-metaspeed-edge-tokyo-1059489-1013a163-1015.png"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "Top4Running",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "green",
    "gender": "men",
    "price": 211.0,
@@ -610,6 +588,28 @@
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-300",
    "image": "https://i1.t4s.cz/products/1013a163-300/asics-metaspeed-edge-tokyo-ekiden-1035141-1013a163-3005.png"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "Top4Running",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "ASICS Metaspeed Edge Tokyo",
+   "colour": "white",
+   "gender": "men",
+   "price": 233.3,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4.5",
+    "5",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-101",
+   "image": "https://i1.t4s.cz/products/1013a163-101/asics-metaspeed-edge-tokyo-1059489-1013a163-1015.png"
   },
   {
    "shoe": "metaspeed",
@@ -1081,7 +1081,7 @@
    "price": 167.0,
    "was": null,
    "sizes": [
-    "4"
+    "5.5"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-wns-312908-01",
    "image": "https://i1.t4s.cz/products/312908-01/puma-deviate-nitro-elite-4-rc-1106348-312908-011.png"
@@ -1908,11 +1908,9 @@
    "name": "Saucony ENDORPHIN PRO 4",
    "colour": "white",
    "gender": "women",
-   "price": 137.5,
+   "price": 250.0,
    "was": null,
-   "sizes": [
-    "3.5"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-4-s10939-97",
    "image": "https://i1.t4s.cz/products/s10939-97/saucony-endorphin-pro-4-958662-s10939-97.png"
   }
