@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T07:15:12+00:00",
+ "checked": "2026-11-03T11:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -342,19 +342,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7042",
    "image": "https://i1.t4s.cz/products/kj7042/adidas-adizero-adios-pro-5-w-1194263-kj70421.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "women",
-   "price": 250.0,
-   "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-jq1691",
-   "image": "https://i1.t4s.cz/products/jq1691/adidas-adizero-adios-pro-4-1071161-jq16911.png"
   },
   {
    "shoe": "adios-pro",
@@ -1069,6 +1056,21 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-wns-312128-10",
    "image": "https://i1.t4s.cz/products/312128-10/puma-deviate-nitro-elite-4-wns-1217607-312128-101.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "women",
+   "price": 167.0,
+   "was": null,
+   "sizes": [
+    "4"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-wns-312908-01",
+   "image": "https://i1.t4s.cz/products/312908-01/puma-deviate-nitro-elite-4-rc-1106348-312908-011.png"
   },
   {
    "shoe": "puma-elite",
