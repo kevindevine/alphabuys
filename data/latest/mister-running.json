@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T00:26:44+00:00",
+ "checked": "2026-11-03T13:33:00+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -234,9 +234,7 @@
    "gender": "men",
    "price": 149.9,
    "was": 250.0,
-   "sizes": [
-    "11"
-   ],
+   "sizes": [],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-hi-res-aqua-js2579.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-hi-res-aqua-js2579_A-600x600.jpg"
   },
@@ -412,7 +410,7 @@
    "price": 149.9,
    "was": 250.0,
    "sizes": [
-    "8.5"
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-blue-ftwr-white-jp6622.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-12/adidas-adizero-adios-pro-4-scarpe-running-uomo-blue-ftwr-white-jp6622_A-600x600.jpg"
@@ -442,7 +440,7 @@
    "price": 149.9,
    "was": 250.0,
    "sizes": [
-    "10.5"
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-ftwr-white-blue-ki9388.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-ftwr-white-ki9388_A-600x600.jpg"
@@ -557,6 +555,7 @@
    "was": null,
    "sizes": [
     "4",
+    "4.5",
     "5",
     "5.5",
     "6",
@@ -778,8 +777,7 @@
    "was": 259.99,
    "sizes": [
     "6.5",
-    "7",
-    "11.5"
+    "7"
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-mens-running-shoes-sea-glass-sequoia-hf6414-004.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/nike-vaporfly-4-scarpe-da-running-uomo-sea-glass-sequoia-hf6414-004_A-600x600.jpg"
@@ -1304,7 +1302,6 @@
    "was": 320.0,
    "sizes": [
     "6",
-    "6.5",
     "7",
     "7.5",
     "8",

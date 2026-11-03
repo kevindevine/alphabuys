@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T00:26:44+00:00",
+ "checked": "2026-11-03T13:33:00+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -64,7 +64,6 @@
    "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "5",
     "6"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
@@ -75,7 +74,7 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Laser Orange",
+   "colour": "Green/Volt",
    "gender": "men",
    "price": 225.0,
    "was": 310.0,
@@ -90,8 +89,8 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228212_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -185,7 +184,7 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Green/Volt",
+   "colour": "Laser Orange",
    "gender": "men",
    "price": 225.0,
    "was": 310.0,
@@ -200,8 +199,8 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228212",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228212_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -299,6 +298,7 @@
    "sizes": [
     "4",
     "5",
+    "5.5",
     "6",
     "6.5",
     "7"
@@ -364,6 +364,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11",
     "12"
    ],
@@ -603,9 +604,9 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "Blue Void",
+   "colour": "White/Purple",
    "gender": "women",
-   "price": 129.0,
+   "price": 190.0,
    "was": 260.0,
    "sizes": [
     "4",
@@ -613,39 +614,17 @@
     "5.5",
     "6",
     "6.5",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
-   "colour": "Citron Pulse",
-   "gender": "men",
-   "price": 190.0,
-   "was": 260.0,
-   "sizes": [
     "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
+    "8"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281513",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281513_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281930",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281930_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Green/Volt",
    "gender": "men",
    "price": 190.0,
@@ -661,8 +640,31 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281515",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281515",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281515_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
+   "colour": "Citron Pulse",
+   "gender": "men",
+   "price": 190.0,
+   "was": 260.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281513",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281513_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -689,7 +691,7 @@
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "White/Lemon",
    "gender": "men",
    "price": 190.0,
@@ -704,14 +706,14 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281530",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281530",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281530_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Blue/White",
    "gender": "men",
    "price": 190.0,
@@ -726,14 +728,14 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281520",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281520",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281520_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Spruce/Grey",
    "gender": "men",
    "price": 190.0,
@@ -747,14 +749,14 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281502",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281502",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281502_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Sea Glass",
    "gender": "men",
    "price": 210.0,
@@ -770,7 +772,7 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281570",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281570",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281570_o?fmt=auto&w=345&h=345&v=1"
   },
   {
@@ -778,9 +780,9 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Purple",
+   "colour": "Blue Void",
    "gender": "women",
-   "price": 190.0,
+   "price": 129.0,
    "was": 260.0,
    "sizes": [
     "4",
@@ -788,11 +790,10 @@
     "5.5",
     "6",
     "6.5",
-    "7",
-    "8"
+    "7"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281930",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281930_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -899,7 +900,7 @@
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "EK Red/Green",
    "gender": "men",
    "price": 189.0,
@@ -911,29 +912,14 @@
     "9",
     "11"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281599",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281599",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281599_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
-   "colour": "Blue Void",
-   "gender": "men",
-   "price": 129.0,
-   "was": 260.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281518",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4  Mens Running Shoes",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "White/Lemon",
    "gender": "men",
    "price": 190.0,
@@ -948,7 +934,7 @@
     "11",
     "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281503",
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281503",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281503_o?fmt=auto&w=345&h=345&v=1"
   },
   {
@@ -1087,7 +1073,8 @@
    "sizes": [
     "8",
     "9",
-    "10"
+    "10",
+    "11"
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-210472#colcode=21047219",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047219_o?fmt=auto&w=345&h=345&v=1"
