@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-02T14:39:56+00:00",
+ "checked": "2026-11-03T00:26:44+00:00",
  "offers": [
   {
    "shoe": "vaporfly",
@@ -330,15 +330,16 @@
    "shoe": "vaporfly",
    "shop": "Nike",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4 Glam",
-   "colour": "Dark Obsidian/Purple Dynasty/Flash Crimson/Black",
+   "name": "Nike Vaporfly 4",
+   "colour": "White/Energy/Vivid Purple/True Berry",
    "gender": "women",
-   "price": 188.99,
-   "was": 269.99,
+   "price": 259.99,
+   "was": null,
    "sizes": [
     "2.5",
     "3",
     "3.5",
+    "4",
     "4.5",
     "5",
     "5.5",
@@ -351,8 +352,8 @@
     "9",
     "9.5"
    ],
-   "url": "https://www.nike.com/ie/t/vaporfly-4-glam-womens-road-racing-shoes-nUJzqPSE/IO9560-400",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f92b1d1f-c232-4e88-980c-fe935fd09c52/W+ZOOMX+VAPORFLY+NEXT%25+4+GLAM.png"
+   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-102",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac1735d6-1443-40e8-8f57-5bb816da14e4/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
   },
   {
    "shoe": "vaporfly",
@@ -385,16 +386,15 @@
    "shoe": "vaporfly",
    "shop": "Nike",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "White/Energy/Vivid Purple/True Berry",
+   "name": "Nike Vaporfly 4 Glam",
+   "colour": "Dark Obsidian/Purple Dynasty/Flash Crimson/Black",
    "gender": "women",
-   "price": 259.99,
-   "was": null,
+   "price": 188.99,
+   "was": 269.99,
    "sizes": [
     "2.5",
     "3",
     "3.5",
-    "4",
     "4.5",
     "5",
     "5.5",
@@ -407,8 +407,8 @@
     "9",
     "9.5"
    ],
-   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-102",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac1735d6-1443-40e8-8f57-5bb816da14e4/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
+   "url": "https://www.nike.com/ie/t/vaporfly-4-glam-womens-road-racing-shoes-nUJzqPSE/IO9560-400",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f92b1d1f-c232-4e88-980c-fe935fd09c52/W+ZOOMX+VAPORFLY+NEXT%25+4+GLAM.png"
   },
   {
    "shoe": "vaporfly",
@@ -449,7 +449,6 @@
    "price": 188.99,
    "was": 269.99,
    "sizes": [
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -463,8 +462,7 @@
     "11",
     "11.5",
     "12",
-    "13",
-    "14"
+    "13"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/IM8068-999",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/641e05bb-389c-4a5f-9934-d252de108682/ZOOMX+VAPORFLY+NEXT%25+4.png"

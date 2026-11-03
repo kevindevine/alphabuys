@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-02T14:39:56+00:00",
+ "checked": "2026-11-03T00:26:44+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -359,6 +359,7 @@
    "was": 250.0,
    "sizes": [
     "7",
+    "8",
     "8.5",
     "9",
     "9.5",
@@ -607,6 +608,7 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
+    "4",
     "5",
     "5.5",
     "6",
@@ -906,10 +908,26 @@
     "7",
     "8",
     "8.5",
-    "9"
+    "9",
+    "11"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281599",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281599_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4  Mens Running Shoes",
+   "colour": "Blue Void",
+   "gender": "men",
+   "price": 129.0,
+   "was": 260.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281518",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -932,6 +950,23 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-mens-running-shoes-212815#colcode=21281503",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281503_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Sports Direct",
+   "model": "Deviate Nitro Elite 3",
+   "name": "Women's Deviate Nitro Elite 3 Everyday Neutral Road Running Shoes",
+   "colour": "White-Speedb",
+   "gender": "women",
+   "price": 109.0,
+   "was": 220.0,
+   "sizes": [
+    "3.5",
+    "4",
+    "5"
+   ],
+   "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-everyday-neutral-road-running-shoes-210335#colcode=21033501",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21033501_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "puma-elite",
@@ -964,23 +999,6 @@
    ],
    "url": "https://ie.sportsdirect.com/puma-deviate-nitro-elite-3-road-running-shoes-womens-210810#colcode=21081012",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21081012_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Sports Direct",
-   "model": "Deviate Nitro Elite 3",
-   "name": "Women's Deviate Nitro Elite 3 Everyday Neutral Road Running Shoes",
-   "colour": "White-Speedb",
-   "gender": "women",
-   "price": 109.0,
-   "was": 220.0,
-   "sizes": [
-    "3.5",
-    "4",
-    "5"
-   ],
-   "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-everyday-neutral-road-running-shoes-210335#colcode=21033501",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21033501_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1125,6 +1143,28 @@
    "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
+   "colour": "Citron/Black",
+   "gender": "men",
+   "price": 195.0,
+   "was": 270.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242903",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21242903_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
    "colour": "White/Aqua",
    "gender": "men",
    "price": 195.0,
@@ -1178,28 +1218,6 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242940",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21242940_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Citron/Black",
-   "gender": "men",
-   "price": 195.0,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242903",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21242903_o?fmt=auto&w=345&h=345&v=1"
   }
  ]
 }
