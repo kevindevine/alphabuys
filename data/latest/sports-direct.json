@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-04T13:43:53+00:00",
+ "checked": "2026-11-04T20:39:22+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -360,7 +360,6 @@
    "was": 250.0,
    "sizes": [
     "7",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -427,21 +426,6 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220632",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220632_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4 Womens",
-   "colour": "Flash Aqua",
-   "gender": "women",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-212206#colcode=21220615",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220615_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -980,8 +964,7 @@
    "was": 220.0,
    "sizes": [
     "3.5",
-    "4",
-    "5"
+    "4"
    ],
    "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-everyday-neutral-road-running-shoes-210335#colcode=21033501",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21033501_o?fmt=auto&w=345&h=345&v=1"
