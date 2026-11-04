@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T20:23:57+00:00",
+ "checked": "2026-11-04T13:43:53+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -12,7 +12,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-black-metallic-medium-ash-olive-aura-mens-shoes-1027744",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027744_main.jpg?v=1793661998"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027744_main.jpg?v=1793794814"
   },
   {
    "shoe": "alphafly",
@@ -23,9 +23,11 @@
    "gender": "men",
    "price": 230.0,
    "was": 319.99,
-   "sizes": [],
+   "sizes": [
+    "8"
+   ],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-black-mtlc-silver-brt-crimson-wolf-grey-iron-grey-mens-shoes-1052334",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1052334_main.jpg?v=1793705233"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1052334_main.jpg?v=1793794599"
   },
   {
    "shoe": "alphafly",
@@ -38,7 +40,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-bright-crimson-cave-purple-lime-blast-mens-shoes-1027745",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027745_main.jpg?v=1793693218"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027745_main.jpg?v=1793795465"
   },
   {
    "shoe": "alphafly",
@@ -60,7 +62,7 @@
     "11"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-glam-orange-pulse-black-purple-dynasty-electric-green-pink-blast-flash-crimson-mens-shoes-1050965",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050965_main.jpg?v=1793705361"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050965_main.jpg?v=1793795577"
   },
   {
    "shoe": "alphafly",
@@ -84,7 +86,7 @@
     "12"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-laser-orange-indigo-burst-citron-pulse-volt-ice-vivid-purple-sapphire-mens-shoes-1050962",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050962_main.jpg?v=1793659667"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050962_main.jpg?v=1793795597"
   },
   {
    "shoe": "alphafly",
@@ -107,7 +109,7 @@
     "12"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-phantom-sequoia-ultralime-citron-tint-iron-purple-football-grey-mens-shoes-1050963",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050963_main.jpg?v=1793660120"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050963_main.jpg?v=1793795412"
   },
   {
    "shoe": "alphafly",
@@ -125,7 +127,7 @@
     "12"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-3-platinum-tint-mtlc-silver-grey-fog-iron-grey-mtlc-silver-mens-shoes-1050964",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050964_main.jpg?v=1793692653"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1050964_main.jpg?v=1793793561"
   },
   {
    "shoe": "alphafly",
@@ -138,7 +140,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-percent-2-scream-green-black-bright-crimson-mens-shoes-280027",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/280027_main.jpg?v=1793660718"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/280027_main.jpg?v=1793795356"
   },
   {
    "shoe": "alphafly",
@@ -151,7 +153,7 @@
    "was": 322.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-percent-2-white-deep-jungle-clear-jade-mens-shoes-1002251",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002251_main.jpg?v=1793661548"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002251_main.jpg?v=1793793881"
   },
   {
    "shoe": "alphafly",
@@ -164,7 +166,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-air-zoom-alphafly-next-percent-3-premium-white-habanero-red-black-university-red-mens-shoes-1023624",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023624_main.jpg?v=1793661334"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023624_main.jpg?v=1793795292"
   },
   {
    "shoe": "alphafly",
@@ -177,7 +179,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-electric-multi-color-multi-color-mens-shoes-1022523",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1022523_main.jpg?v=1793661737"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1022523_main.jpg?v=1793794318"
   },
   {
    "shoe": "alphafly",
@@ -190,7 +192,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-football-grey-blue-void-ghost-mens-shoes-1026490",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1026490_main.jpg?v=1793661360"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1026490_main.jpg?v=1793793847"
   },
   {
    "shoe": "alphafly",
@@ -203,7 +205,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-glacier-blue-black-mint-foam-green-shock-mens-shoes-1035080",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035080_main.jpg?v=1793661308"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035080_main.jpg?v=1793794405"
   },
   {
    "shoe": "alphafly",
@@ -216,7 +218,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-obsidian-white-doll-persian-violet-mens-shoes-1042388",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042388_main.jpg?v=1793660064"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042388_main.jpg?v=1793793950"
   },
   {
    "shoe": "alphafly",
@@ -229,7 +231,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-premium-multi-color-clear-starfish-aloe-verde-mens-shoes-1035081",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035081_main.jpg?v=1793660205"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035081_main.jpg?v=1793792944"
   },
   {
    "shoe": "alphafly",
@@ -242,7 +244,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-white-black-hyper-turq-concord-mens-shoes-1042389",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042389_main.jpg?v=1793659828"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042389_main.jpg?v=1793794098"
   },
   {
    "shoe": "alphafly",
@@ -255,7 +257,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-3-white-gridiron-pure-platinum-mens-shoes-1026491",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1026491_main.jpg?v=1793659654"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1026491_main.jpg?v=1793794904"
   },
   {
    "shoe": "alphafly",
@@ -268,7 +270,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-3-multi-color-black-volt-white-mens-shoes-1042508",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042508_main.jpg?v=1793673331"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042508_main.jpg?v=1793796296"
   },
   {
    "shoe": "alphafly",
@@ -281,7 +283,7 @@
    "was": 325.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-2-black-mtlc-gold-grain-sail-mens-shoes-1006877",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006877_main.jpg?v=1793661032"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006877_main.jpg?v=1793795579"
   },
   {
    "shoe": "alphafly",
@@ -294,7 +296,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-2-hyper-pink-black-laser-orange-white-mens-shoes-282048",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282048_main.jpg?v=1793660826"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282048_main.jpg?v=1793795745"
   },
   {
    "shoe": "alphafly",
@@ -307,7 +309,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-2-white-black-chile-red-coconut-milk-mens-shoes-1002252",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002252_main.jpg?v=1793661634"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002252_main.jpg?v=1793795041"
   },
   {
    "shoe": "alphafly",
@@ -320,7 +322,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-3-multi-colour-multi-colour-multi-color-multi-color-mens-shoes-1016261",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1016261_main.jpg?v=1793660012"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1016261_main.jpg?v=1793795328"
   },
   {
    "shoe": "alphafly",
@@ -333,7 +335,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-3-sail-black-crimson-tint-guava-ice-mens-shoes-1023622",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023622_main.jpg?v=1793659914"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023622_main.jpg?v=1793795712"
   },
   {
    "shoe": "alphafly",
@@ -346,7 +348,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-3-white-black-purple-agate-vivid-grape-mens-shoes-1017894",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017894_main.jpg?v=1793660060"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017894_main.jpg?v=1793795517"
   },
   {
    "shoe": "alphafly",
@@ -359,7 +361,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-alphafly-next-percent-flyknit-2-luminous-green-black-crimson-tint-volt-mens-shoes-1006878",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006878_main.jpg?v=1793660228"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006878_main.jpg?v=1793793143"
   },
   {
    "shoe": "alphafly",
@@ -372,7 +374,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-eliud-kipchoge-alphafly-3-silt-red-green-shock-bright-ceramic-mens-shoes-1042499",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042499_main.jpg?v=1793659564"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042499_main.jpg?v=1793795309"
   },
   {
    "shoe": "alphafly",
@@ -427,7 +429,7 @@
     "7.5"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-womens-air-zoom-alphafly-next-3-coconut-milk-off-noir-dusty-amethyst-glacier-blue-hot-lava-womens-shoes-1032541",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032541_main.jpg?v=1793705198"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032541_main.jpg?v=1793752688"
   },
   {
    "shoe": "alphafly",
@@ -450,7 +452,7 @@
     "8"
    ],
    "url": "https://www.prodirectsport.ie/products/nike-womens-air-zoom-alphafly-next-3-fuchsia-glow-purple-dynasty-brt-violet-sapphire-hot-lava-chalk-womens-shoes-1051017",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051017_main.jpg?v=1793737363"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051017_main.jpg?v=1793789393"
   },
   {
    "shoe": "alphafly",
@@ -485,7 +487,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-womens-air-zoom-alphafly-next-3-laser-orange-indigo-burst-citron-pulse-volt-ice-vivid-purple-sapphire-womens-shoes-1051018",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051018_main.jpg?v=1793721431"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051018_main.jpg?v=1793758647"
   },
   {
    "shoe": "alphafly",
@@ -802,7 +804,7 @@
     "8"
    ],
    "url": "https://www.prodirectsport.ie/products/adidas-adizero-adios-pro-4-core-black-iron-met-carbon-mens-shoes-1038305",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1038305_main.jpg?v=1793703765"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1038305_main.jpg?v=1793764676"
   },
   {
    "shoe": "adios-pro",
@@ -867,7 +869,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/adidas-adizero-adios-pro-4-hi-res-aqua-iron-met-grey-one-mens-shoes-1051150",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051150_main.jpg?v=1793731601"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051150_main.jpg?v=1793744635"
   },
   {
    "shoe": "adios-pro",
@@ -893,7 +895,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/adidas-adizero-adios-pro-4-lucid-lemon-core-black-halo-silver-mens-shoes-445241",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/445241_main.jpg?v=1793717923"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/445241_main.jpg?v=1793775890"
   },
   {
    "shoe": "adios-pro",
@@ -906,7 +908,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/adidas-adizero-adios-pro-4-lucid-pink-lucid-orange-iron-met-mens-shoes-1052186",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1052186_main.jpg?v=1793675256"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1052186_main.jpg?v=1793791583"
   },
   {
    "shoe": "adios-pro",
@@ -945,7 +947,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/adidas-adizero-adios-pro-4-solar-yellow-aurora-plum-powder-plum-mens-shoes-1047530",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1047530_main.jpg?v=1793735091"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1047530_main.jpg?v=1793796523"
   },
   {
    "shoe": "adios-pro",
@@ -971,7 +973,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/adidas-mens-adizero-adios-pro-4-shoes-mens-shoes-446758",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/446758_main.jpg?v=1793728663"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/446758_main.jpg?v=1793744588"
   },
   {
    "shoe": "metaspeed",
@@ -1075,7 +1077,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-3-electric-multi-color-multi-color-mens-shoes-1022524",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1022524_main.jpg?v=1793660988"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1022524_main.jpg?v=1793795691"
   },
   {
    "shoe": "vaporfly",
@@ -1088,7 +1090,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-3-sail-black-crimson-tint-guava-ice-mens-shoes-1023736",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023736_main.jpg?v=1793661120"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023736_main.jpg?v=1793793973"
   },
   {
    "shoe": "vaporfly",
@@ -1101,7 +1103,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-4-multi-color-clear-mountain-blue-fire-red-mens-shoes-1035121",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035121_main.jpg?v=1793659770"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1035121_main.jpg?v=1793794786"
   },
   {
    "shoe": "vaporfly",
@@ -1114,7 +1116,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-4-obsidian-white-persian-violet-mens-shoes-1042420",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042420_main.jpg?v=1793660205"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042420_main.jpg?v=1793795366"
   },
   {
    "shoe": "vaporfly",
@@ -1127,7 +1129,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-4-multi-color-black-volt-white-mens-shoes-1042509",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042509_main.jpg?v=1793672899"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1042509_main.jpg?v=1793793607"
   },
   {
    "shoe": "vaporfly",
@@ -1140,7 +1142,7 @@
    "was": 260.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-black-mtlc-gold-grain-black-oatmeal-mens-shoes-1006944",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006944_main.jpg?v=1793660129"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006944_main.jpg?v=1793793869"
   },
   {
    "shoe": "vaporfly",
@@ -1153,7 +1155,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-flyknit-white-speed-red-pure-platinum-mens-shoes-1017912",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017912_main.jpg?v=1793661854"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017912_main.jpg?v=1793794539"
   },
   {
    "shoe": "vaporfly",
@@ -1166,7 +1168,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-football-grey-racer-blue-green-strike-mens-shoes-1006945",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006945_main.jpg?v=1793659906"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006945_main.jpg?v=1793795598"
   },
   {
    "shoe": "vaporfly",
@@ -1179,7 +1181,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-premium-sail-hyper-royal-safety-orange-mens-shoes-1006946",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006946_main.jpg?v=1793660183"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006946_main.jpg?v=1793794576"
   },
   {
    "shoe": "vaporfly",
@@ -1192,7 +1194,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-sail-cobalt-bliss-total-orange-volt-mens-shoes-282090",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282090_main.jpg?v=1793661928"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282090_main.jpg?v=1793795818"
   },
   {
    "shoe": "vaporfly",
@@ -1205,7 +1207,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-volt-black-scream-green-barely-volt-mens-shoes-1011190",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1011190_main.jpg?v=1793661857"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1011190_main.jpg?v=1793794818"
   },
   {
    "shoe": "vaporfly",
@@ -1218,7 +1220,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-white-black-chile-red-coconut-milk-mens-shoes-1002268",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002268_main.jpg?v=1793660011"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002268_main.jpg?v=1793794562"
   },
   {
    "shoe": "vaporfly",
@@ -1231,7 +1233,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-white-black-vivid-purple-purple-agate-mens-shoes-1017911",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017911_main.jpg?v=1793660030"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1017911_main.jpg?v=1793793444"
   },
   {
    "shoe": "vaporfly",
@@ -1244,7 +1246,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-white-deep-jungle-jade-ice-clear-jade-mens-shoes-1002269",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002269_main.jpg?v=1793659621"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1002269_main.jpg?v=1793795206"
   },
   {
    "shoe": "vaporfly",
@@ -1257,7 +1259,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-3-white-dk-smoke-grey-particle-grey-mens-shoes-282091",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282091_main.jpg?v=1793660539"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/282091_main.jpg?v=1793794912"
   },
   {
    "shoe": "vaporfly",
@@ -1270,7 +1272,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-flyknit-3-luminous-green-black-crimson-tint-volt-mens-shoes-1006947",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006947_main.jpg?v=1793660929"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006947_main.jpg?v=1793795224"
   },
   {
    "shoe": "vaporfly",
@@ -1283,7 +1285,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-flyknit-3-sea-glass-black-sundial-bright-crimson-mens-shoes-1006948",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006948_main.jpg?v=1793660772"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006948_main.jpg?v=1793793155"
   },
   {
    "shoe": "vaporfly",
@@ -1296,7 +1298,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-vaporfly-next-percent-flyknit-3-white-pro-green-volt-sail-mens-shoes-1006949",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006949_main.jpg?v=1793660198"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1006949_main.jpg?v=1793794584"
   },
   {
    "shoe": "vaporfly",
@@ -1487,7 +1489,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-womens-zoomx-vaporfly-next-4-glacier-blue-gridiron-blue-tint-amethyst-tint-barely-volt-hot-lava-womens-shoes-1032562",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032562_main.jpg?v=1793150979"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032562_main.jpg?v=1793762239"
   },
   {
    "shoe": "vaporfly",
@@ -1536,7 +1538,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-womens-zoomx-vaporfly-next-4-violet-mist-purple-dynasty-persian-violet-hot-lava-brt-violet-mineral-slate-womens-shoes-1051040",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051040_main.jpg?v=1793703684"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1051040_main.jpg?v=1793799307"
   },
   {
    "shoe": "vaporfly",
@@ -1611,7 +1613,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-3-black-metallic-medium-ash-olive-aura-mens-shoes-1027770",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027770_main.jpg?v=1793660095"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1027770_main.jpg?v=1793793900"
   },
   {
    "shoe": "vaporfly",
@@ -1624,7 +1626,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-4-sail-med-ash-mtlc-gold-grain-phantom-lt-bone-lt-silver-mens-shoes-1032529",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032529_main.jpg?v=1793660240"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032529_main.jpg?v=1793793223"
   },
   {
    "shoe": "vaporfly",
@@ -1637,7 +1639,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-4-white-gridiron-obsidian-mist-pure-platinum-brt-crimson-mtlc-silver-mens-shoes-1032530",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032530_main.jpg?v=1793660946"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1032530_main.jpg?v=1793793160"
   },
   {
    "shoe": "vaporfly",
@@ -1650,7 +1652,7 @@
    "was": 266.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-2-bright-spruce-barely-green-white-mens-shoes-274994",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274994_main.jpg?v=1793661155"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274994_main.jpg?v=1793793342"
   },
   {
    "shoe": "vaporfly",
@@ -1663,7 +1665,7 @@
    "was": 268.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-2-scream-green-black-bright-crimson-mens-shoes-280028",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/280028_main.jpg?v=1793661182"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/280028_main.jpg?v=1793793349"
   },
   {
    "shoe": "vaporfly",
@@ -1676,7 +1678,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-2-white-black-coconut-milk-ghost-green-mens-shoes-274995",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274995_main.jpg?v=1793659558"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274995_main.jpg?v=1793793850"
   },
   {
    "shoe": "vaporfly",
@@ -1689,7 +1691,7 @@
    "was": 250.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-2-white-black-metallic-silver-mens-shoes-245786",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/245786_main.jpg?v=1793661944"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/245786_main.jpg?v=1793793098"
   },
   {
    "shoe": "vaporfly",
@@ -1702,7 +1704,7 @@
    "was": 266.0,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-2-white-black-volt-racer-blue-mens-shoes-274993",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274993_main.jpg?v=1793660338"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/274993_main.jpg?v=1793794007"
   },
   {
    "shoe": "vaporfly",
@@ -1715,7 +1717,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-3-fly-knit-premium-white-habanero-red-black-university-red-mens-shoes-1023739",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023739_main.jpg?v=1793660076"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/1023739_main.jpg?v=1793795488"
   },
   {
    "shoe": "vaporfly",
@@ -1728,7 +1730,7 @@
    "was": null,
    "sizes": [],
    "url": "https://www.prodirectsport.ie/products/nike-zoomx-vaporfly-next-percent-electric-green-black-guava-ice-mens-shoes-205595",
-   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/205595_main.jpg?v=1793659832"
+   "image": "https://cdn.shopify.com/s/files/1/0781/2900/4760/files/205595_main.jpg?v=1793793169"
   },
   {
    "shoe": "saucony-endorphin",
