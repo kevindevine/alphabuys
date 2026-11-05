@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05T15:15:05+00:00",
+ "checked": "2026-11-05T19:16:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -96,8 +96,7 @@
    "price": 279.99,
    "was": null,
    "sizes": [
-    "10.5",
-    "11"
+    "10.5"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
    "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
@@ -112,8 +111,7 @@
    "price": 217.0,
    "was": null,
    "sizes": [
-    "7.5",
-    "9.5"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-premium-running-shoe-ih3575-999",
    "image": "https://i1.t4s.cz/products/ih3575-999/nike-alphafly-3-premium-987641-ih3575-001.png"
@@ -491,6 +489,21 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 174.9,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6623",
+   "image": "https://i1.t4s.cz/products/jp6623/adidas-adizero-adios-pro-4-1032135-jp66231.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "women",
    "price": 168.4,
@@ -543,21 +556,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7041",
    "image": "https://i1.t4s.cz/products/kj7041/adidas-adizero-adios-pro-5-w-1215861-kj70411.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 174.9,
-   "was": null,
-   "sizes": [
-    "9.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6623",
-   "image": "https://i1.t4s.cz/products/jp6623/adidas-adizero-adios-pro-4-1032135-jp66231.png"
   },
   {
    "shoe": "adios-pro",
@@ -670,6 +668,7 @@
     "6.5",
     "7",
     "7.5",
+    "8",
     "8.5",
     "9",
     "9.5",
@@ -715,6 +714,29 @@
    "shop": "Top4Running",
    "model": "Metaspeed Edge Tokyo",
    "name": "ASICS Metaspeed Edge Tokyo",
+   "colour": "green",
+   "gender": "men",
+   "price": 210.9,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "7",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-300",
+   "image": "https://i1.t4s.cz/products/1013a163-300/asics-metaspeed-edge-tokyo-ekiden-1035141-1013a163-3005.png"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "Top4Running",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "white",
    "gender": "men",
    "price": 228.6,
@@ -747,29 +769,6 @@
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-101",
    "image": "https://i1.t4s.cz/products/1013a162-101/asics-metaspeed-sky-tokyo-1060680-1013a162-1015.png"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "Top4Running",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "ASICS Metaspeed Edge Tokyo",
-   "colour": "green",
-   "gender": "men",
-   "price": 210.9,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4.5",
-    "5",
-    "5.5",
-    "7",
-    "8.5",
-    "9",
-    "9.5",
-    "10"
-   ],
-   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-300",
-   "image": "https://i1.t4s.cz/products/1013a163-300/asics-metaspeed-edge-tokyo-ekiden-1035141-1013a163-3005.png"
   },
   {
    "shoe": "metaspeed",
@@ -1448,6 +1447,7 @@
     "3.5",
     "4",
     "4.5",
+    "5.5",
     "7",
     "7.5",
     "8"
