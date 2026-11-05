@@ -265,8 +265,8 @@ footer p { margin: 0 0 8px; }
 
   <footer class="footnote">
     <p>Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site.</p>
-    <p><b>Helps keep the jrny.run app running.</b> Buying through a link here may earn jrny a small commission. Same price for you, and the cheapest pair is always first.</p>
-    <p><b>Privacy.</b> No accounts, no tracking, no cookies of our own. Your fit, brand and size are remembered in your own browser only. A shop or affiliate network may set its own cookies once you click through to it.</p>
+    <p class="aff" hidden><b>Helps keep the jrny.run app running.</b> Buying through a link here may earn jrny a small commission. Same price for you, and the cheapest pair is always first.</p>
+    <p><b>Privacy.</b> No accounts, no tracking, no cookies of our own. Your fit, brand and size are remembered in your own browser only. A shop<span class="aff" hidden> or affiliate network</span> may set its own cookies once you click through to it.</p>
     <p>Questions, or a shop we're missing? <a href="mailto:hello@jrny.run">hello@jrny.run</a></p>
     <p>Not affiliated with any shoe brand or retailer. A <a href="https://jrny.run">jrny.run</a> experiment.</p>
   </footer>
@@ -293,6 +293,8 @@ const SHOPS = [
 const AWIN = { publisher: 3131255, shops: { /* "Sports Direct": 12345 */ } };
 // Buys from a visit that came in through a shared link carry clickref=share,
 // so Awin's reports show what sharing earns.
+// The commission line shows only once a shop earns one (none approved yet).
+if (Object.keys(AWIN.shops).length) document.querySelectorAll(".aff").forEach(e => e.hidden = false);
 const buyUrl = o => {
   const mid = AWIN.publisher && AWIN.shops[o.shop];
   return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}`

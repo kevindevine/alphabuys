@@ -108,6 +108,9 @@ jrny's rule applies: colour means something or it isn't used.
    tracking, no cookies of our own); contact hello@jrny.run; not affiliated;
    "A jrny.run experiment". Added 22 Oct for the Awin application. Buy links
    to affiliate shops carry `rel="sponsored"`.
+   The commission line (and "or affiliate network" under privacy) stays hidden
+   until the first shop is in `AWIN.shops`, then shows by itself (Kevin, 5 Nov:
+   no affiliate links yet, so no claim of one).
 
 ## 3. Type, spacing, motion
 
