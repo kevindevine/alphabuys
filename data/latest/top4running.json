@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05T11:15:02+00:00",
+ "checked": "2026-11-05T15:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -89,6 +89,22 @@
   {
    "shoe": "alphafly",
    "shop": "Top4Running",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "10.5",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
+   "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
    "colour": "",
@@ -156,21 +172,6 @@
    ],
    "url": "https://top4running.ie/p/nike-w-air-zoom-alphafly-next-3-running-shoe-women-fd8315-500",
    "image": "https://i1.t4s.cz/products/fd8315-500/nike-alphafly-3-1081551-fd8315-5003.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "white",
-   "gender": "men",
-   "price": 247.7,
-   "was": null,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-fd8311-104",
-   "image": "https://i1.t4s.cz/products/fd8311-104/nike-alphafly-3-1013064-fd8311-1043.png"
   },
   {
    "shoe": "alphafly",
@@ -296,6 +297,7 @@
    "price": 169.5,
    "was": null,
    "sizes": [
+    "9",
     "11.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
@@ -426,7 +428,8 @@
    "was": null,
    "sizes": [
     "8.5",
-    "9.5"
+    "9.5",
+    "10"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
    "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
@@ -486,6 +489,21 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 168.4,
+   "was": null,
+   "sizes": [
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-jq1691",
+   "image": "https://i1.t4s.cz/products/jq1691/adidas-adizero-adios-pro-4-1071161-jq16911.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
    "colour": "white",
@@ -531,12 +549,26 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 174.9,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6623",
+   "image": "https://i1.t4s.cz/products/jp6623/adidas-adizero-adios-pro-4-1032135-jp66231.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "purple",
    "gender": "women",
    "price": 175.0,
    "was": null,
    "sizes": [
-    "6.5",
     "7"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-kj0802",
@@ -1272,6 +1304,21 @@
   {
    "shoe": "puma-elite",
    "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 187.5,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-white-chambray-312128-09",
+   "image": "https://i1.t4s.cz/products/312128-09/puma-deviate-nitro-elite-white-chambray-1116439-312128-091.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
    "model": "Fast-R Nitro Elite 3",
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "purple",
@@ -1950,9 +1997,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8",
-    "8.5"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
    "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
