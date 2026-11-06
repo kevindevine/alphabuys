@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T07:15:21+00:00",
+ "checked": "2026-11-06T11:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -312,6 +312,7 @@
    "was": null,
    "sizes": [
     "9",
+    "10",
     "11.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
@@ -345,7 +346,6 @@
    "was": null,
    "sizes": [
     "7",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -530,6 +530,7 @@
     "8.5",
     "9",
     "9.5",
+    "10",
     "10.5",
     "11.5",
     "12"
@@ -639,7 +640,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -829,7 +829,8 @@
     "10",
     "10.5",
     "11",
-    "11.5"
+    "11.5",
+    "12"
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-102",
    "image": "https://i1.t4s.cz/products/1013a162-102/asics-metaspeed-sky-tokyo-1239163-1013a162-1025.png"
