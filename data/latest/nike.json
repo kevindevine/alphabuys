@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05T20:55:42+00:00",
+ "checked": "2026-11-06T13:40:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -57,7 +57,6 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
-    "8",
     "11.5",
     "13"
    ],
@@ -91,7 +90,8 @@
    "sizes": [
     "5.5",
     "6",
-    "7"
+    "7",
+    "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae088d22-67d0-49c0-a1b6-b308f2b53ad4/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
@@ -212,7 +212,6 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
-    "8",
     "11",
     "14"
    ],
@@ -270,7 +269,6 @@
     "7",
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5"
    ],
@@ -380,8 +378,7 @@
    "price": 279.99,
    "was": null,
    "sizes": [
-    "3",
-    "3.5"
+    "3"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-4-womens-road-racing-shoes-CyIf9r63/IZ9609-002",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a5f947fe-3648-45fc-8bbe-ef73d03af660/W+AIR+ZM+ALPHAFLY+NEXT%25+4.png"
@@ -513,7 +510,6 @@
    "price": 181.99,
    "was": 259.99,
    "sizes": [
-    "8",
     "8.5",
     "9",
     "9.5"
@@ -613,6 +609,7 @@
    "was": null,
    "sizes": [
     "6",
+    "8",
     "8.5",
     "10",
     "11.5"
