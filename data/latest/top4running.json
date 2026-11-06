@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T15:15:04+00:00",
+ "checked": "2026-11-06T19:15:03+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -22,24 +22,6 @@
    "shop": "Top4Running",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
-   "colour": "yellow",
-   "gender": "women",
-   "price": 223.2,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "6.5"
-   ],
-   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
-   "image": "https://i1.t4s.cz/products/fd8315-800/nike-alphafly-3-1063527-fd8315-8003.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
    "colour": "",
    "gender": "women",
    "price": 244.8,
@@ -54,6 +36,24 @@
    ],
    "url": "https://top4running.ie/p/nike-air-zm-alphafly-next-3-glam-running-shoe-women-io9559-800",
    "image": "https://i1.t4s.cz/products/io9559-800/nike-alphafly-3-glam-1063522-io9559-8002.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 223.2,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
+   "image": "https://i1.t4s.cz/products/fd8315-800/nike-alphafly-3-1063527-fd8315-8003.png"
   },
   {
    "shoe": "alphafly",
@@ -185,21 +185,6 @@
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-400",
    "image": "https://i1.t4s.cz/products/fd8311-400/nike-alphafly-3-981425-fd8311-402.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "red",
-   "gender": "women",
-   "price": 155.0,
-   "was": null,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://top4running.ie/p/nike-alphafly-3-road-racing-running-shoe-women-fd8315-600",
-   "image": "https://i1.t4s.cz/products/fd8315-600/nike-alphafly-3-888155-fd8315-602.png"
   },
   {
    "shoe": "adios-pro",
@@ -426,7 +411,8 @@
    "was": null,
    "sizes": [
     "8.5",
-    "9"
+    "9",
+    "9.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
    "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
@@ -715,29 +701,6 @@
    "shop": "Top4Running",
    "model": "Metaspeed Edge Tokyo",
    "name": "ASICS Metaspeed Edge Tokyo",
-   "colour": "green",
-   "gender": "men",
-   "price": 206.7,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4.5",
-    "5",
-    "5.5",
-    "7",
-    "8.5",
-    "9",
-    "9.5",
-    "10"
-   ],
-   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-300",
-   "image": "https://i1.t4s.cz/products/1013a163-300/asics-metaspeed-edge-tokyo-ekiden-1035141-1013a163-3005.png"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "Top4Running",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "white",
    "gender": "men",
    "price": 224.0,
@@ -770,6 +733,29 @@
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-101",
    "image": "https://i1.t4s.cz/products/1013a162-101/asics-metaspeed-sky-tokyo-1060680-1013a162-1015.png"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "Top4Running",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "ASICS Metaspeed Edge Tokyo",
+   "colour": "green",
+   "gender": "men",
+   "price": 206.7,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "7",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-300",
+   "image": "https://i1.t4s.cz/products/1013a163-300/asics-metaspeed-edge-tokyo-ekiden-1035141-1013a163-3005.png"
   },
   {
    "shoe": "metaspeed",
@@ -1309,11 +1295,9 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "white",
    "gender": "women",
-   "price": 187.5,
+   "price": 249.0,
    "was": null,
-   "sizes": [
-    "7"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-white-chambray-312128-09",
    "image": "https://i1.t4s.cz/products/312128-09/puma-deviate-nitro-elite-white-chambray-1116439-312128-091.png"
   },
@@ -1704,8 +1688,7 @@
     "4",
     "4.5",
     "5",
-    "6.5",
-    "10.5"
+    "6.5"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-285",
    "image": "https://i1.t4s.cz/products/s30994-285/saucony-endorphin-elite-2-964267-s30994-285.png"
