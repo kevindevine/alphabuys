@@ -185,6 +185,11 @@ def nike(shoe):
             f"https://api.nike.com/deliver/available_gtins/v3?filter=styleColor({code})&filter=merchGroup(XP)",
             ["nike-api-caller-id: com.nike.commerce.nikedotcom.web"]))
         sizes = [gtin_to_uk[o["gtin"]] for o in stock.get("objects", []) if o["available"] and o["gtin"] in gtin_to_uk]
+        # Not on sale yet: the stock feed already says every size is available, but
+        # the page only offers "Notify Me" (7 Nov: the orange Alphafly 4).
+        status = re.search(r'"statusModifier"\s*:\s*"([A-Z_]+)"', page[max(0, page.find('"selectedProduct":')):])
+        if "COMING_SOON" in (p.get("featuredAttributes") or []) or (status and status.group(1) == "NOTIFY_ME"):
+            sizes = []
         return offer(shoe, "Nike", p["copy"]["title"], p["displayColors"]["colorDescription"],
                      p["prices"]["currentPrice"], p["prices"]["initialPrice"], sizes,
                      p["pdpUrl"]["url"], p["colorwayImages"]["squarishURL"], gender_of(p["copy"]["subTitle"]))
