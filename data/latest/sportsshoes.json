@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T20:14:05+00:00",
+ "checked": "2026-11-07T12:22:43+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -108,9 +108,7 @@
    "gender": "women",
    "price": 169.99,
    "was": 309.99,
-   "sizes": [
-    "6"
-   ],
+   "sizes": [],
    "url": "https://www.sportsshoes.com/product/nik25397/nike-air-zoom-alphafly-next%25-3-se-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25397/NIK25397_800_1.jpg"
   },
@@ -248,7 +246,6 @@
     "5",
     "6",
     "6.5",
-    "7",
     "8"
    ],
    "url": "https://www.sportsshoes.com/product/nik24606/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
@@ -1272,8 +1269,7 @@
     "7",
     "7.5",
     "8",
-    "9",
-    "12"
+    "9"
    ],
    "url": "https://www.sportsshoes.com/product/adi18286/adidas-adizero-adios-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18286/ADI18286_800_1.jpg"
@@ -1488,8 +1484,7 @@
    "sizes": [
     "6",
     "6.5",
-    "7",
-    "12"
+    "7"
    ],
    "url": "https://www.sportsshoes.com/product/adi17710/adidas-adizero-adios-pro-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17710/ADI17710_800_1.jpg"
@@ -2027,7 +2022,6 @@
     "6.5",
     "7",
     "7.5",
-    "8.5",
     "11.5",
     "12",
     "13"
@@ -2609,30 +2603,6 @@
    "shop": "SportsShoes",
    "model": "Deviate Nitro Elite 4",
    "name": "Deviate Nitro Elite 4",
-   "colour": "Ultra Red / Inky Depths / Puma White",
-   "gender": "women",
-   "price": 249.99,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3212/puma-deviate-nitro-elite-4-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3212/PUM3212_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Deviate Nitro Elite 4",
    "colour": "Ultra Red-Inky Depths-PUMA White",
    "gender": "men",
    "price": 249.99,
@@ -2659,12 +2629,35 @@
    "shop": "SportsShoes",
    "model": "Deviate Nitro Elite 4",
    "name": "Deviate Nitro Elite 4",
+   "colour": "Ultra Red / Inky Depths / Puma White",
+   "gender": "women",
+   "price": 249.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3212/puma-deviate-nitro-elite-4-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3212/PUM3212_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Deviate Nitro Elite 4",
    "colour": "Puma White / Puma Black",
    "gender": "men",
    "price": 249.99,
    "was": null,
    "sizes": [
-    "7.5",
     "8",
     "9.5",
     "10",
@@ -2793,21 +2786,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3205/puma-fast-r-nitro-elite-3-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3205/PUM3205_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "X Saysky Fast-R Nitro Elite 3",
-   "colour": "Warm White-Honey Butter-Team Regal Red",
-   "gender": "women",
-   "price": 179.99,
-   "was": 299.99,
-   "sizes": [
-    "4"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum2743/puma-x-saysky-fast-r-nitro-elite-3-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM2743/PUM2743_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -3193,7 +3171,6 @@
    "was": null,
    "sizes": [
     "7.5",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -3811,6 +3788,31 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
+   "colour": "White / Navy ",
+   "gender": "women",
+   "price": 269.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "SportsShoes",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
    "colour": "Citron / Black",
    "gender": "men",
    "price": 269.99,
@@ -3888,32 +3890,6 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "Black / Silver",
-   "gender": "men",
-   "price": 269.99,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://www.sportsshoes.com/product/sau5473/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5473/SAU5473_800_1.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "SportsShoes",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
    "colour": "White / Black",
    "gender": "men",
    "price": 269.99,
@@ -3966,25 +3942,26 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "White / Navy ",
-   "gender": "women",
+   "colour": "Black / Silver",
+   "gender": "men",
    "price": 269.99,
    "was": null,
    "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
     "7",
     "7.5",
     "8",
     "8.5",
-    "9"
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
    ],
-   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/sau5473/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5473/SAU5473_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
