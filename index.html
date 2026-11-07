@@ -497,7 +497,7 @@ function renderShared() {
   if ($("shared").hidden) return;
   const head = `<div class="section-head"><h2 class="title3">Shared with you</h2>
     <button class="close" type="button" aria-label="Close">${CLOSE_ICON}</button></div>`;
-  if (!shared) { $("shared").innerHTML = head + `<p class="subhead">That pair has sold out since.</p>`; return; }
+  if (!shared) { $("shared").innerHTML = head + `<p class="subhead">That pair isn't in stock right now.</p>`; return; }
   const o = shared;
   // Shown as linked, whatever the friend's own size; a line says how it fits theirs.
   let extra = "";

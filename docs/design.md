@@ -36,8 +36,8 @@ Add to this list; don't let it shrink.
   gets a temporary **Shared with you** section on top (× closes it, so does the
   title) with exactly that pair, whatever their own size; a line says when it isn't
   in their size. The rest of the page stays theirs (brand, fit, size untouched;
-  Chris O'Sullivan, 28 Oct). No modal: it's a one-pager. If the pair sold out
-  since, the section says so. Buys from a shared visit carry Awin `clickref=share`.
+  Chris O'Sullivan, 28 Oct). No modal: it's a one-pager. If the pair isn't in
+  stock (sold out, or not on sale yet), the section says so. Buys from a shared visit carry Awin `clickref=share`.
 
 ## 0.2 Words
 
