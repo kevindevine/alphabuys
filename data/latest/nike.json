@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T12:22:43+00:00",
+ "checked": "2026-11-07T18:27:37+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -16,6 +16,36 @@
    ],
    "url": "https://www.nike.com/ie/t/alphafly-4-mens-road-racing-shoes-nOHkKz9h/IU4686-002",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4868d7a4-594e-488f-afc4-662626aee2fb/AIR+ZM+ALPHAFLY+NEXT%25+4.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Nike",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "Total Orange/Hyper Crimson/Bordeaux/Burgundy Ash",
+   "gender": "men",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13",
+    "14"
+   ],
+   "url": "https://www.nike.com/ie/t/alphafly-4-mens-road-racing-shoes-6CPFBHVa/IM5546-800",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7abad782-87f0-479a-91d3-ee01e94e5682/AIR+ZOOM+ALPHAFLY+NEXT%25+4.png"
   },
   {
    "shoe": "alphafly",
@@ -60,8 +90,6 @@
    "sizes": [
     "5.5",
     "6",
-    "7",
-    "9.5",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
@@ -177,30 +205,17 @@
    "shop": "Nike",
    "model": "Alphafly 4",
    "name": "Nike Alphafly 4",
-   "colour": "Total Orange/Hyper Crimson/Bordeaux/Burgundy Ash",
-   "gender": "men",
+   "colour": "Hyper Pink/Fuchsia Blast/Bright Crimson/Black",
+   "gender": "women",
    "price": 279.99,
    "was": null,
    "sizes": [
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
     "8.5",
     "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13",
-    "14"
+    "9.5"
    ],
-   "url": "https://www.nike.com/ie/t/alphafly-4-mens-road-racing-shoes-6CPFBHVa/IM5546-800",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7abad782-87f0-479a-91d3-ee01e94e5682/AIR+ZOOM+ALPHAFLY+NEXT%25+4.png"
+   "url": "https://www.nike.com/ie/t/alphafly-4-womens-road-racing-shoes-rzUBgdrR/IM5547-600",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d1496282-44e3-40d2-aa3b-8906330c2426/W+AIR+ZOOM+ALPHAFLY+NEXT%25+4.png"
   },
   {
    "shoe": "alphafly",
@@ -334,23 +349,6 @@
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-womens-road-racing-shoes-c0BiSuME/FD8315-105",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/009b4c6f-c025-47ff-9583-b4b3fbc55ccb/W+AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Nike",
-   "model": "Alphafly 4",
-   "name": "Nike Alphafly 4",
-   "colour": "Hyper Pink/Fuchsia Blast/Bright Crimson/Black",
-   "gender": "women",
-   "price": 279.99,
-   "was": null,
-   "sizes": [
-    "8.5",
-    "9",
-    "9.5"
-   ],
-   "url": "https://www.nike.com/ie/t/alphafly-4-womens-road-racing-shoes-rzUBgdrR/IM5547-600",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d1496282-44e3-40d2-aa3b-8906330c2426/W+AIR+ZOOM+ALPHAFLY+NEXT%25+4.png"
   },
   {
    "shoe": "alphafly",
@@ -721,6 +719,35 @@
    "shop": "Nike",
    "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
+   "colour": "White/Energy/Vivid Purple/True Berry",
+   "gender": "women",
+   "price": 259.99,
+   "was": null,
+   "sizes": [
+    "2.5",
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5"
+   ],
+   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-102",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac1735d6-1443-40e8-8f57-5bb816da14e4/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Nike",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
    "colour": "Multi-Colour/Volt/White/Black",
    "gender": "men",
    "price": 188.99,
@@ -745,35 +772,6 @@
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/IM8068-999",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/641e05bb-389c-4a5f-9934-d252de108682/ZOOMX+VAPORFLY+NEXT%25+4.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Nike",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "White/Energy/Vivid Purple/True Berry",
-   "gender": "women",
-   "price": 259.99,
-   "was": null,
-   "sizes": [
-    "2.5",
-    "3",
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5"
-   ],
-   "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-102",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac1735d6-1443-40e8-8f57-5bb816da14e4/W+ZOOMX+VAPORFLY+NEXT%25+4.png"
   },
   {
    "shoe": "vaporfly",

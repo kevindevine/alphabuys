@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T12:22:43+00:00",
+ "checked": "2026-11-07T18:27:37+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -98,68 +98,13 @@
    "name": "Adidas Adizero Adios Pro 4",
    "colour": "",
    "gender": "men",
-   "price": 182.92,
+   "price": 174.25,
    "was": 254.13,
    "sizes": [
     "8.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/23048-adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.html",
    "image": "https://www.365rider.com/109635-home_default/adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "365rider",
-   "model": "Metaspeed Sky Tokyo",
-   "name": "Asics Metaspeed Sky Tokyo Red White AW25 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 192.12,
-   "was": 274.46,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "10",
-    "11",
-    "11.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/19486-asics-metaspeed-sky-tokyo-red-white-aw25-unisex.html",
-   "image": "https://www.365rider.com/94113-home_default/asics-metaspeed-sky-tokyo-red-white-aw25-unisex.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "365rider",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Asics Metaspeed Edge Tokyo Red White AW25 Unisex Shoes",
-   "colour": "",
-   "gender": "men",
-   "price": 194.11,
-   "was": 274.46,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "10.5",
-    "11"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
-   "image": "https://www.365rider.com/90513-home_default/asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.jpg"
   }
  ]
 }

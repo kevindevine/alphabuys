@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T12:22:43+00:00",
+ "checked": "2026-11-07T18:27:37+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -175,7 +175,6 @@
    "was": 309.99,
    "sizes": [
     "5",
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -246,6 +245,7 @@
     "5",
     "6",
     "6.5",
+    "7",
     "8"
    ],
    "url": "https://www.sportsshoes.com/product/nik24606/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
@@ -1441,7 +1441,6 @@
    "was": null,
    "sizes": [
     "5",
-    "5.5",
     "6",
     "7",
     "7.5"
@@ -2158,6 +2157,21 @@
    "model": "Vaporfly 4",
    "name": "ZoomX Vaporfly Next% 4 EK",
    "colour": "SILT RED / GREEN SHOCK / FIRE PINK",
+   "gender": "men",
+   "price": 139.99,
+   "was": 259.99,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://www.sportsshoes.com/product/nik24573/nike-zoomx-vaporfly-next%25-4-ek-men's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NIK24573/NIK24573_800_1.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "SportsShoes",
+   "model": "Vaporfly 4",
+   "name": "ZoomX Vaporfly Next% 4 EK",
+   "colour": "SILT RED / GREEN SHOCK / FIRE PINK",
    "gender": "women",
    "price": 139.99,
    "was": 259.99,
@@ -2167,27 +2181,11 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8",
     "9"
    ],
    "url": "https://www.sportsshoes.com/product/nik24662/nike-zoomx-vaporfly-next%25-4-ek-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK24662/NIK24662_800_1.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "SportsShoes",
-   "model": "Vaporfly 4",
-   "name": "ZoomX Vaporfly Next% 4 EK",
-   "colour": "SILT RED / GREEN SHOCK / FIRE PINK",
-   "gender": "men",
-   "price": 139.99,
-   "was": 259.99,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://www.sportsshoes.com/product/nik24573/nike-zoomx-vaporfly-next%25-4-ek-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NIK24573/NIK24573_800_1.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -3788,31 +3786,6 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "White / Navy ",
-   "gender": "women",
-   "price": 269.99,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9"
-   ],
-   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "SportsShoes",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
    "colour": "Citron / Black",
    "gender": "men",
    "price": 269.99,
@@ -3890,7 +3863,7 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "White / Black",
+   "colour": "Black / Silver",
    "gender": "men",
    "price": 269.99,
    "was": null,
@@ -3908,8 +3881,8 @@
     "12",
     "13"
    ],
-   "url": "https://www.sportsshoes.com/product/sau5474/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5474/SAU5474_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/sau5473/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5473/SAU5473_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3942,7 +3915,7 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "Black / Silver",
+   "colour": "White / Black",
    "gender": "men",
    "price": 269.99,
    "was": null,
@@ -3960,8 +3933,33 @@
     "12",
     "13"
    ],
-   "url": "https://www.sportsshoes.com/product/sau5473/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5473/SAU5473_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/sau5474/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5474/SAU5474_800_1.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "SportsShoes",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "White / Navy ",
+   "gender": "women",
+   "price": 269.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
