@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-08T07:15:58+00:00",
+ "checked": "2026-11-08T11:28:24+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -44,7 +44,7 @@
    "name": "Nike Alphafly 3",
    "colour": "yellow",
    "gender": "women",
-   "price": 238.38,
+   "price": 309.99,
    "was": null,
    "sizes": [
     "3.5",
@@ -232,7 +232,7 @@
    "name": "ASICS Metaspeed Sky Tokyo",
    "colour": "blue",
    "gender": "men",
-   "price": 198.45,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -274,8 +274,7 @@
     "9.5",
     "10",
     "10.5",
-    "11",
-    "11.5"
+    "11"
    ],
    "url": "https://top4running.ie/p/asics-metaspeed-edge-tokyo-1013a163-101",
    "image": "https://i1.t4s.cz/products/1013a163-101/asics-metaspeed-edge-tokyo-1059489-1013a163-1015.png"
@@ -389,7 +388,7 @@
    "name": "ASICS METASPEED SKY PARIS",
    "colour": "blue",
    "gender": "men",
-   "price": 147.25,
+   "price": 250.0,
    "was": null,
    "sizes": [
     "2.5"
@@ -608,7 +607,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
    "gender": "men",
-   "price": 206.92,
+   "price": 259.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -632,7 +631,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "yellow",
    "gender": "men",
-   "price": 187.46,
+   "price": 249.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -690,7 +689,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
    "gender": "women",
-   "price": 173.91,
+   "price": 259.0,
    "was": null,
    "sizes": [
     "5",
@@ -727,7 +726,7 @@
    "name": "Puma Deviate NITRO Elite 3",
    "colour": "green",
    "gender": "women",
-   "price": 149.24,
+   "price": 229.95,
    "was": null,
    "sizes": [
     "4",
@@ -746,7 +745,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "",
    "gender": "women",
-   "price": 149.61,
+   "price": 249.95,
    "was": null,
    "sizes": [
     "5.5"
@@ -803,7 +802,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "",
    "gender": "men",
-   "price": 179.25,
+   "price": 249.95,
    "was": null,
    "sizes": [
     "8",
@@ -856,7 +855,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "purple",
    "gender": "men",
-   "price": 224.06,
+   "price": 299.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -914,7 +913,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "yellow",
    "gender": "men",
-   "price": 200.67,
+   "price": 299.95,
    "was": null,
    "sizes": [
     "6",
@@ -951,7 +950,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "red",
    "gender": "men",
-   "price": 242.96,
+   "price": 299.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1020,7 +1019,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 243.2,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "5",
@@ -1046,7 +1045,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "red",
    "gender": "men",
-   "price": 238.72,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1077,7 +1076,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "blue",
    "gender": "men",
-   "price": 225.0,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "7",
@@ -1098,7 +1097,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "white",
    "gender": "men",
-   "price": 181.5,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1118,7 +1117,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "",
    "gender": "men",
-   "price": 184.5,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "4",
@@ -1140,7 +1139,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 207.36,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1167,7 +1166,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "silver",
    "gender": "men",
-   "price": 260.1,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "11.5"
@@ -1182,7 +1181,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
    "gender": "men",
-   "price": 238.72,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1203,7 +1202,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "green",
    "gender": "men",
-   "price": 238.72,
+   "price": 320.0,
    "was": null,
    "sizes": [
     "5",
@@ -1229,7 +1228,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "blue",
    "gender": "men",
-   "price": 166.5,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1248,7 +1247,7 @@
    "name": "Saucony Endorphin Elite 2",
    "colour": "yellow",
    "gender": "men",
-   "price": 162.3,
+   "price": 300.0,
    "was": null,
    "sizes": [
     "4"
@@ -1279,12 +1278,11 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "men",
-   "price": 187.11,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5"
    ],
@@ -1298,7 +1296,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "men",
-   "price": 191.7,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7",
@@ -1319,7 +1317,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "men",
-   "price": 162.54,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1340,7 +1338,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "men",
-   "price": 202.5,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1384,7 +1382,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "women",
-   "price": 180.63,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "4",
@@ -1425,7 +1423,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "men",
-   "price": 194.4,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1469,7 +1467,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "women",
-   "price": 172.8,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1493,7 +1491,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "women",
-   "price": 201.42,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1518,7 +1516,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "women",
-   "price": 201.42,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1543,7 +1541,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "women",
-   "price": 178.2,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1564,7 +1562,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "yellow",
    "gender": "women",
-   "price": 201.42,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1588,7 +1586,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "yellow",
    "gender": "men",
-   "price": 214.92,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "7.5",
@@ -1612,7 +1610,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "women",
-   "price": 214.92,
+   "price": 270.0,
    "was": null,
    "sizes": [
     "4",
@@ -1636,7 +1634,7 @@
    "name": "Saucony Endorphin Pro 4",
    "colour": "silver",
    "gender": "women",
-   "price": 219.0,
+   "price": 250.0,
    "was": null,
    "sizes": [
     "3.5"
@@ -1651,7 +1649,7 @@
    "name": "Saucony ENDORPHIN PRO 4",
    "colour": "red",
    "gender": "women",
-   "price": 136.25,
+   "price": 250.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -1668,7 +1666,7 @@
    "name": "Saucony ENDORPHIN PRO 4",
    "colour": "white",
    "gender": "men",
-   "price": 148.25,
+   "price": 250.0,
    "was": null,
    "sizes": [
     "9.5"
