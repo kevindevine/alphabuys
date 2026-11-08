@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-08T12:41:14+00:00",
+ "checked": "2026-11-08T18:38:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -48,8 +48,7 @@
    "was": 310.0,
    "sizes": [
     "5",
-    "6",
-    "7"
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
@@ -653,21 +652,6 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Black",
-   "gender": "women",
-   "price": 78.0,
-   "was": 260.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
    "colour": "Team Red",
    "gender": "women",
    "price": 190.0,
@@ -1108,70 +1092,6 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4 (Womens)",
-   "colour": "Mist",
-   "gender": "women",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "5",
-    "6",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047315",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047315_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4",
-   "colour": "Black VO2",
-   "gender": "men",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-210472#colcode=21047203",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047203_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4 (Womens)",
-   "colour": "White/Crocus",
-   "gender": "women",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047330",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047330_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4 (Womens)",
-   "colour": "Mutant",
-   "gender": "women",
-   "price": 175.0,
-   "was": 250.0,
-   "sizes": [
-    "5",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047331",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047331_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
    "colour": "Citron/Black",
@@ -1214,6 +1134,21 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Sports Direct",
+   "model": "Endorphin Pro 4",
+   "name": "Endorphin Pro 4 (Womens)",
+   "colour": "White/Crocus",
+   "gender": "women",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047330",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21047330_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
    "colour": "Black/Shock",
@@ -1235,6 +1170,22 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Sports Direct",
+   "model": "Endorphin Pro 4",
+   "name": "Endorphin Pro 4 (Womens)",
+   "colour": "Mutant",
+   "gender": "women",
+   "price": 175.0,
+   "was": 250.0,
+   "sizes": [
+    "5",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047331",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21047331_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
    "colour": "White/Aqua",
@@ -1249,6 +1200,39 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242901",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21242901_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 4",
+   "name": "Endorphin Pro 4 (Womens)",
+   "colour": "Mist",
+   "gender": "women",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-210473#colcode=21047315",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21047315_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 4",
+   "name": "Endorphin Pro 4",
+   "colour": "Black VO2",
+   "gender": "men",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-210472#colcode=21047203",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21047203_o?fmt=auto&w=345&h=345&v=1"
   }
  ]
 }

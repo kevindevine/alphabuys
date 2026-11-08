@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-08T12:41:14+00:00",
+ "checked": "2026-11-08T18:38:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -21,6 +21,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "11",
     "11.5",
     "13",
@@ -494,8 +495,7 @@
     "8",
     "8.5",
     "9",
-    "9.5",
-    "12"
+    "9.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-shock-pinkmetallicaurora-plum-ad542a5gq-j11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/9990ab0f75224ecf999eff7d55d45239/ec0a7743bea544679319369913a680a6.jpg?imwidth=400&filter=packshot"
@@ -661,21 +661,6 @@
    "shop": "Zalando",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
-   "colour": "dark blue/yellow tint/clear pink",
-   "gender": "men",
-   "price": 199.95,
-   "was": 250.0,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-road-running-shoes-dark-blueyellow-tintclear-pink-ad542a5gq-k13.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/f6d6bfb9481946079e8a5aa308f9d43e/f7b8307380ee419999855babd15bfada.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
    "colour": "footwear white/iron metallic/pulse mint",
    "gender": "women",
    "price": 199.95,
@@ -720,6 +705,25 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-pro-4-road-running-shoes-semi-flash-aqua-lucid-lemon-mint-ton-ad541a2fg-k11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a4fa621b16804602a2e131530dc00250/2ce433806f0d462184c55a9f0a24251e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "core black   iron metallic",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-road-running-shoes-core-black-iron-metallic-ad542a5gq-q12.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/3ac366254fb8470a8adf78fac4f6de18/b9e5feb6abc34712ae2a6b5c58f3a1f6.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "vaporfly",
@@ -957,26 +961,10 @@
     "3",
     "3.5",
     "4",
-    "4.5",
-    "5.5"
+    "4.5"
    ],
    "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-citron-pulseindigo-burstlaser-orangevolt-icehyper-violetsapphire-n1241a1e6-h11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/98973180744a4a3796ba301e825cf591/717d4f51445648f292afd0eb600151ed.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Zalando",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4",
-   "colour": "sea glass/sequoia/ultralime/phantom/iron purple/citron tint",
-   "gender": "men",
-   "price": 181.95,
-   "was": 260.0,
-   "sizes": [
-    "14"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-sea-glasssequoiaultralimephantomiron-purplecitron-tint-n1242a2yu-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/5518e097ce3149b3baedf94bf22e5c8f/81b6a9b0d63e4081bd40c67a9760d2d3.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "vaporfly",
@@ -1265,6 +1253,35 @@
    "shop": "Zalando",
    "model": "Endorphin Elite 3",
    "name": "Endorphin Elite 3 Unisex",
+   "colour": "white/eggplant",
+   "gender": "men",
+   "price": 271.95,
+   "was": 320.0,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10.5",
+    "11",
+    "13"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-elite-3-unisex-road-running-shoes-whiteeggplant-s2344a00e-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/948c80ecea874cfda7906db0bf4d5f3e/aec8b51bc5e54dbba7802b995252c9e7.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Elite 3",
+   "name": "Endorphin Elite 3 Unisex",
    "colour": "white/multi",
    "gender": "men",
    "price": 287.95,
@@ -1290,31 +1307,17 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Zalando",
-   "model": "Endorphin Elite 3",
-   "name": "Endorphin Elite 3 Unisex",
-   "colour": "white/eggplant",
+   "model": "Endorphin Elite 2",
+   "name": "Endorphin Elite 2 Unisex",
+   "colour": "lapis/citron",
    "gender": "men",
-   "price": 271.95,
-   "was": 320.0,
+   "price": 239.95,
+   "was": 300.0,
    "sizes": [
-    "3",
-    "3.5",
-    "4",
-    "5",
-    "5.5",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10.5",
-    "11",
-    "13"
+    "6.5"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-elite-3-unisex-road-running-shoes-whiteeggplant-s2344a00e-a11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/948c80ecea874cfda7906db0bf4d5f3e/aec8b51bc5e54dbba7802b995252c9e7.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-lapiscitron-s2344a00c-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/5881ad58ee504b6da3092132036fd86d/686b557fd6d042ed9a4066cb1a19be3d.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1347,21 +1350,6 @@
    "shop": "Zalando",
    "model": "Endorphin Elite 2",
    "name": "Endorphin Elite 2 Unisex",
-   "colour": "lapis/citron",
-   "gender": "men",
-   "price": 239.95,
-   "was": 300.0,
-   "sizes": [
-    "6.5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-lapiscitron-s2344a00c-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/5881ad58ee504b6da3092132036fd86d/686b557fd6d042ed9a4066cb1a19be3d.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Elite 2",
-   "name": "Endorphin Elite 2 Unisex",
    "colour": "white/crimson",
    "gender": "men",
    "price": 209.95,
@@ -1373,6 +1361,34 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-whitecrimson-s2344a00c-a13.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/5215b12576be45358e81162cf2f1cbd2/8d42c03114da4042bcba3c894093085e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "vizired/black",
+   "gender": "men",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-viziredblack-s2342a0bc-g11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/8a005561499e4fe6aea5e2ba5a20a1d9/f375a5bf93d542378ab42ae144eee634.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1455,34 +1471,6 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitemulti-s2341a09w-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/7db72177ecaf4453812baa7b30ca2156/d4727247c3134ca1b212e251b527fa66.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "vizired/black",
-   "gender": "men",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-viziredblack-s2342a0bc-g11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/8a005561499e4fe6aea5e2ba5a20a1d9/f375a5bf93d542378ab42ae144eee634.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
