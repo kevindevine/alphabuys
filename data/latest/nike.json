@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T20:23:07+00:00",
+ "checked": "2026-11-08T12:41:14+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -137,6 +137,21 @@
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-402",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5a90fe9f-c34c-4460-b856-a06d435a7256/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Nike",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "White/Platinum Violet/Silt Red/Black",
+   "gender": "men",
+   "price": 216.99,
+   "was": 309.99,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/II7290-100",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac239f66-cd66-44b1-a120-d4fcc6cef689/AIR+ZOOM+ALPHAFLY+NEXT%25+3+CM.png"
   },
   {
    "shoe": "alphafly",
@@ -472,8 +487,7 @@
    "was": 259.99,
    "sizes": [
     "8.5",
-    "9",
-    "9.5"
+    "9"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/685cdbbd-24db-4ece-b401-f32c48b04392/ZOOMX+VAPORFLY+NEXT%25+4.png"
