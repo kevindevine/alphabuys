@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-08T18:38:10+00:00",
+ "checked": "2026-11-09T15:02:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -60,6 +60,9 @@
    "sizes": [
     "5.5",
     "6",
+    "7.5",
+    "9.5",
+    "11.5",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
@@ -135,7 +138,7 @@
    "price": 216.99,
    "was": 309.99,
    "sizes": [
-    "8"
+    "10.5"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/II7290-100",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac239f66-cd66-44b1-a120-d4fcc6cef689/AIR+ZOOM+ALPHAFLY+NEXT%25+3+CM.png"
@@ -265,7 +268,6 @@
    "price": 216.99,
    "was": 309.99,
    "sizes": [
-    "2.5",
     "3",
     "3.5",
     "4",
@@ -277,9 +279,7 @@
     "7",
     "7.5",
     "8",
-    "8.5",
-    "9",
-    "9.5"
+    "8.5"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-se-womens-road-racing-shoes-c0BiSuME/IR2312-600",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3bfb831d-f21a-4786-bece-7b022ce7927c/W+AIR+ZM+ALPHAFLY+NEXT%25+3+SE.png"
@@ -296,8 +296,7 @@
    "sizes": [
     "3.5",
     "5.5",
-    "6",
-    "8"
+    "6"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-womens-road-racing-shoes-c0BiSuME/IO9559-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0104eed9-474e-4a65-80e9-4d6e512db867/W+AIR+ZM+ALPHAFLY+NEXT%25+3+GLAM.png"
@@ -505,8 +504,7 @@
     "6",
     "8",
     "8.5",
-    "9.5",
-    "10"
+    "9.5"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-300",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/80c08194-8ae0-42c3-a878-531a2c730f7b/ZOOMX+VAPORFLY+NEXT%25+4.png"
@@ -758,6 +756,7 @@
     "6",
     "6.5",
     "7",
+    "7.5",
     "8",
     "8.5",
     "9.5"
@@ -782,7 +781,6 @@
     "5",
     "5.5",
     "6",
-    "6.5",
     "7",
     "7.5",
     "8",
