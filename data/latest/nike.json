@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-10T01:08:01+00:00",
+ "checked": "2026-11-10T14:14:31+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -60,10 +60,12 @@
    "sizes": [
     "5.5",
     "6",
-    "7.5",
+    "7",
     "9.5",
+    "10",
     "11.5",
-    "12"
+    "12",
+    "13"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae088d22-67d0-49c0-a1b6-b308f2b53ad4/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
@@ -139,8 +141,7 @@
    "was": 309.99,
    "sizes": [
     "7",
-    "8",
-    "9"
+    "8"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/II7290-100",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac239f66-cd66-44b1-a120-d4fcc6cef689/AIR+ZOOM+ALPHAFLY+NEXT%25+3+CM.png"
@@ -185,6 +186,7 @@
    "price": 223.99,
    "was": 319.99,
    "sizes": [
+    "6",
     "14"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-mens-road-racing-shoes-KnKE5jwD/IO9573-800",
@@ -310,7 +312,6 @@
    "was": 319.99,
    "sizes": [
     "3.5",
-    "4.5",
     "5.5",
     "6"
    ],
@@ -508,6 +509,7 @@
    "was": 259.99,
    "sizes": [
     "6",
+    "7.5",
     "8",
     "8.5",
     "9.5"
@@ -619,6 +621,7 @@
    "sizes": [
     "6",
     "6.5",
+    "7",
     "7.5",
     "8.5",
     "10",
@@ -827,6 +830,22 @@
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-glam-womens-road-racing-shoes-nUJzqPSE/IO9560-400",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f92b1d1f-c232-4e88-980c-fe935fd09c52/W+ZOOMX+VAPORFLY+NEXT%25+4+GLAM.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Nike",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 'Eliud Kipchoge'",
+   "colour": "Silt Red/Fire Pink/Bright Ceramic/Green Shock",
+   "gender": "men",
+   "price": 269.99,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "10"
+   ],
+   "url": "https://www.nike.com/ie/t/vaporfly-4-eliud-kipchoge-mens-road-racing-shoes-DeKC4kdI/IH0869-605",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/833fb6e2-e7c9-4a89-b2c4-fdc4ade82b04/ZOOMX+VAPORFLY+NEXT%25+4+EK.png"
   }
  ]
 }
