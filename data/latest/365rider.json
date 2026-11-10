@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-09T15:02:05+00:00",
+ "checked": "2026-11-10T01:08:01+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -69,9 +69,7 @@
    "gender": "men",
    "price": 172.76,
    "was": 254.13,
-   "sizes": [
-    "9"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21449-adidas-adizero-adios-pro-4-shoes-blue-white-ss26.html",
    "image": "https://www.365rider.com/100953-home_default/adidas-adizero-adios-pro-4-shoes-blue-white-ss26.jpg"
   },
@@ -108,34 +106,6 @@
   {
    "shoe": "metaspeed",
    "shop": "365rider",
-   "model": "Metaspeed Sky Tokyo",
-   "name": "Asics Metaspeed Sky Tokyo Red White AW25 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 192.12,
-   "was": 274.46,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "10",
-    "11",
-    "11.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/19486-asics-metaspeed-sky-tokyo-red-white-aw25-unisex.html",
-   "image": "https://www.365rider.com/94113-home_default/asics-metaspeed-sky-tokyo-red-white-aw25-unisex.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "365rider",
    "model": "Metaspeed Edge Tokyo",
    "name": "Asics Metaspeed Edge Tokyo Red White AW25 Unisex Shoes",
    "colour": "",
@@ -158,6 +128,163 @@
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19487-asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.html",
    "image": "https://www.365rider.com/90513-home_default/asics-metaspeed-edge-tokyo-red-white-aw25-unisex-shoes.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "365rider",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Asics Metaspeed Edge Tokyo White Blue SS26 Unisex Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 193.09,
+   "was": 274.46,
+   "sizes": [
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/20790-asics-metaspeed-edge-tokyo-white-blue-ss26-unisex-shoes.html",
+   "image": "https://www.365rider.com/101143-home_default/asics-metaspeed-edge-tokyo-white-blue-ss26-unisex-shoes.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "365rider",
+   "model": "Metaspeed Sky Tokyo",
+   "name": "Asics Metaspeed Sky Tokyo Ekiden Shoes Green White SS26 Unisex",
+   "colour": "",
+   "gender": "men",
+   "price": 193.09,
+   "was": 274.46,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/20653-asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.html",
+   "image": "https://www.365rider.com/98456-home_default/asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "365rider",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Asics Metaspeed Edge Tokyo Ekiden Green White SS26 Unisex Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 193.09,
+   "was": 274.46,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/20673-asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.html",
+   "image": "https://www.365rider.com/99021-home_default/asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "365rider",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "ASICS Metaspeed Edge Tokyo Unisex Sneakers White Coral AW26",
+   "colour": "",
+   "gender": "men",
+   "price": 274.46,
+   "was": null,
+   "sizes": [
+    "5",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10.5",
+    "11"
+   ],
+   "url": "https://www.365rider.com/en/running/22325-asics-metaspeed-edge-tokyo-unisex-sneakers-white-coral-aw26.html",
+   "image": "https://www.365rider.com/117793-home_default/asics-metaspeed-edge-tokyo-unisex-sneakers-white-coral-aw26.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "365rider",
+   "model": "Vaporfly 4",
+   "name": "Women's Nike Vaporfly 4 White Purple Shoes",
+   "colour": "",
+   "gender": "women",
+   "price": 264.29,
+   "was": null,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/24595-women-s-nike-vaporfly-4-white-purple-shoes.html",
+   "image": "https://www.365rider.com/117829-home_default/women-s-nike-vaporfly-4-white-purple-shoes.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 Purple Red AW26 Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 168.69,
+   "was": 254.12,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/22390-puma-deviate-nitro-elite-4-purple-red-aw26-shoes.html",
+   "image": "https://www.365rider.com/107660-home_default/puma-deviate-nitro-elite-4-purple-red-aw26-shoes.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 Shoes White Yellow SS26",
+   "colour": "",
+   "gender": "men",
+   "price": 134.54,
+   "was": 254.12,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/men-running-shoes/21211-puma-deviate-nitro-elite-4-shoes-white-yellow-ss26.html",
+   "image": "https://www.365rider.com/102404-home_default/puma-deviate-nitro-elite-4-shoes-white-yellow-ss26.jpg"
   }
  ]
 }

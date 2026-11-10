@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-09T15:02:05+00:00",
+ "checked": "2026-11-10T01:08:01+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -8,7 +8,7 @@
    "name": "Nike Alphafly 3",
    "colour": "Chalk & Purple Dynasty-Hyper Crimson",
    "gender": "women",
-   "price": 195.0,
+   "price": 185.0,
    "was": 310.0,
    "sizes": [
     "5.5",
@@ -22,38 +22,20 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "Clear Sky, Grey & Silver Metallic",
-   "gender": "women",
+   "colour": "White, Green & Royal Blue",
+   "gender": "men",
    "price": 260.0,
    "was": null,
    "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "7"
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
    ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-10",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Grey_SilverMetallicTheRunHub_2.png?v=1790327966"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "The Run Hub",
-   "model": "Adios Pro 5",
-   "name": "Adidas Adizero Adios Pro 5",
-   "colour": "White, Shared & Royal Blue",
-   "gender": "women",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-9",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Shared_RoyalBlueTheRunHub_2.png?v=1790169460"
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-8",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Green_RoyalBlueTheRunHub_2.png?v=1790169242"
   },
   {
    "shoe": "adios-pro",
@@ -90,20 +72,37 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "White, Green & Royal Blue",
-   "gender": "men",
+   "colour": "White, Shared & Royal Blue",
+   "gender": "women",
    "price": 260.0,
    "was": null,
    "sizes": [
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11"
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
    ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-8",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Green_RoyalBlueTheRunHub_2.png?v=1790169242"
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-9",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Shared_RoyalBlueTheRunHub_2.png?v=1790169460"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "The Run Hub",
+   "model": "Adios Pro 5",
+   "name": "Adidas Adizero Adios Pro 5",
+   "colour": "Clear Sky, Grey & Silver Metallic",
+   "gender": "women",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "7"
+   ],
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-10",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Grey_SilverMetallicTheRunHub_2.png?v=1790327966"
   },
   {
    "shoe": "metaspeed",
