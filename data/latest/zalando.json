@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T13:29:00+00:00",
+ "checked": "2026-11-11T21:02:01+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -17,10 +17,7 @@
     "8",
     "8.5",
     "9",
-    "9.5",
-    "10",
     "11",
-    "11.5",
     "13",
     "14"
    ],
@@ -87,7 +84,6 @@
    "price": 233.95,
    "was": 310.0,
    "sizes": [
-    "7.5",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-alphafly-3-road-running-shoes-platinum-coloured-tintpurple-dynastyocean-cubemoon-particleice-peachspruce-aura-n1242a2z1-q12.html",
@@ -457,8 +453,7 @@
     "11",
     "11.5",
     "12",
-    "12.5",
-    "13"
+    "12.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-ftwr-whitelucid-redshock-purple-ad542a5gq-a16.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/4ed5627ccb9848aea13dcca2e292ea5a/a5e66fac8839437d805e6953104f8314.jpg?imwidth=400&filter=packshot"
@@ -476,7 +471,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8",
     "8.5",
     "9",
@@ -760,7 +754,6 @@
     "5.5",
     "6",
     "6.5",
-    "7.5",
     "8",
     "9",
     "9.5",
@@ -1025,7 +1018,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "10.5",
     "11",
@@ -1047,6 +1039,7 @@
     "3.5",
     "5",
     "6",
+    "6.5",
     "7",
     "8"
    ],
@@ -1066,7 +1059,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8",
     "8.5",
     "9",
@@ -1139,7 +1131,6 @@
    "sizes": [
     "3.5",
     "4",
-    "4.5",
     "5",
     "5.5",
     "6",
@@ -1187,9 +1178,9 @@
    "price": 250.0,
    "was": null,
    "sizes": [
-    "4",
     "5",
     "6",
+    "6.5",
     "7"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-puma-x-hyrox-wns-trainers-intense-mint-light-lavender-pu141a18o-l11.html",
@@ -1229,6 +1220,7 @@
     "6",
     "6.5",
     "8",
+    "9",
     "9.5",
     "10.5",
     "12",
