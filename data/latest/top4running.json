@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T07:15:06+00:00",
+ "checked": "2026-11-11T11:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -544,6 +544,21 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-running-shoe-women-hq9522",
    "image": "https://i1.t4s.cz/products/hq9522/adidas-adizero-adios-pro-5-running-shoe-women-1245671-hq95221.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro Evo 2",
+   "name": "adidas Adizero Adios Pro Evo 2",
+   "colour": "silver",
+   "gender": "men",
+   "price": 500.0,
+   "was": null,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-evo-2-jr7259",
+   "image": "https://i1.t4s.cz/products/jr7259/adidas-adizero-adios-pro-evo-2-924161-jr7259.png"
   },
   {
    "shoe": "metaspeed",
