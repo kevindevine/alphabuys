@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12T14:34:26+00:00",
+ "checked": "2026-11-12T23:09:41+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -140,6 +140,21 @@
    "shoe": "alphafly",
    "shop": "Zalando",
    "model": "Alphafly 3",
+   "name": "Alphafly 3",
+   "colour": "team red/barely green/bright crimson/purple dynasty/atomic pink/steam",
+   "gender": "women",
+   "price": 247.95,
+   "was": 310.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-alphafly-3-se-road-running-shoes-team-redbarely-greenbright-crimsonpurple-dynastyatomic-pinksteam-n1241a1ho-i11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/bb5ecc45e0394d7ab335f0d9010dfe6a/900ab69f0c81433d95f56aa44a200828.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Zalando",
+   "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next 3 Unisex",
    "colour": "barely green/black spruce/volt tint/volt ice/sapphire/steam",
    "gender": "men",
@@ -182,8 +197,8 @@
    "name": "Adizero Adios Pro 4",
    "colour": "lucid pink/lucid orange/iron metallic",
    "gender": "men",
-   "price": 250.0,
-   "was": null,
+   "price": 212.95,
+   "was": 250.0,
    "sizes": [
     "7",
     "7.5",
@@ -597,7 +612,6 @@
    "price": 224.95,
    "was": 250.0,
    "sizes": [
-    "4.5",
     "6"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteiron-metallicpulse-mint-ad541a2fg-m11.html",
@@ -708,7 +722,8 @@
     "4",
     "4.5",
     "5",
-    "5.5"
+    "5.5",
+    "6"
    ],
    "url": "https://www.zalando.ie/adidas-performance-pro-4-road-running-shoes-semi-flash-aqua-lucid-lemon-mint-ton-ad541a2fg-k11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a4fa621b16804602a2e131530dc00250/2ce433806f0d462184c55a9f0a24251e.jpg?imwidth=400&filter=packshot"
@@ -1248,7 +1263,6 @@
     "7.5",
     "8",
     "8.5",
-    "9",
     "9.5",
     "10.5",
     "11",

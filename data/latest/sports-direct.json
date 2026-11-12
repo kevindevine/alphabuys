@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12T14:34:26+00:00",
+ "checked": "2026-11-12T23:09:41+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -584,21 +584,6 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Black",
-   "gender": "women",
-   "price": 78.0,
-   "was": 260.0,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
    "colour": "Team Red",
    "gender": "women",
    "price": 190.0,
@@ -637,6 +622,21 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281513",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281513_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Vaporfly 4 Road Running Shoes Womens",
+   "colour": "EK Red/Green",
+   "gender": "women",
+   "price": 82.0,
+   "was": 270.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281999",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281999_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -942,22 +942,6 @@
    "image": "https://cdn.media.amplience.net/i/frasersdev/21033501_o?fmt=auto&w=345&h=345&v=1"
   },
   {
-   "shoe": "puma-elite",
-   "shop": "Sports Direct",
-   "model": "Deviate Nitro Elite 3",
-   "name": "Puma Deviate Nitro Elite 3 Saysky Wns Road Running Shoes Womens",
-   "colour": "Cool Light Grey",
-   "gender": "women",
-   "price": 80.0,
-   "was": 263.0,
-   "sizes": [
-    "3.5",
-    "4"
-   ],
-   "url": "https://ie.sportsdirect.com/puma-womens-deviate-nitro-elite-3-saysky-everyday-neutral-road-running-shoes-210216#colcode=21021602",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21021602_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
    "shoe": "saucony-endorphin",
    "shop": "Sports Direct",
    "model": "Endorphin Elite 2",
@@ -1026,7 +1010,8 @@
    "sizes": [
     "8",
     "9",
-    "10"
+    "10",
+    "11"
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-mens-road-running-shoes-210472#colcode=21047219",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047219_o?fmt=auto&w=345&h=345&v=1"
