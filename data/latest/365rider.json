@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T21:02:01+00:00",
+ "checked": "2026-11-12T14:34:26+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -14,7 +14,6 @@
     "7.5",
     "8",
     "8.5",
-    "9",
     "9.5",
     "10",
     "10.5"
@@ -46,6 +45,19 @@
    "shoe": "adios-pro",
    "shop": "365rider",
    "model": "Adios Pro 4",
+   "name": "Adidas Adizero Adios Pro 4 Shoes Blue White SS26",
+   "colour": "",
+   "gender": "men",
+   "price": 172.76,
+   "was": 254.13,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/men-running-shoes/21449-adidas-adizero-adios-pro-4-shoes-blue-white-ss26.html",
+   "image": "https://www.365rider.com/100953-home_default/adidas-adizero-adios-pro-4-shoes-blue-white-ss26.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "365rider",
+   "model": "Adios Pro 4",
    "name": "Adidas Adizero Adios Pro 4",
    "colour": "",
    "gender": "men",
@@ -62,14 +74,16 @@
    "shoe": "adios-pro",
    "shop": "365rider",
    "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4 Shoes Blue White SS26",
+   "name": "Adidas Adizero Adios Pro 4",
    "colour": "",
    "gender": "men",
-   "price": 172.76,
+   "price": 174.25,
    "was": 254.13,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/21449-adidas-adizero-adios-pro-4-shoes-blue-white-ss26.html",
-   "image": "https://www.365rider.com/100953-home_default/adidas-adizero-adios-pro-4-shoes-blue-white-ss26.jpg"
+   "sizes": [
+    "8.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/23048-adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.html",
+   "image": "https://www.365rider.com/109635-home_default/adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -85,21 +99,6 @@
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/22342-adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.html",
    "image": "https://www.365rider.com/106421-home_default/adidas-adizero-adios-pro-4-pink-orange-running-shoes-aw26.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "365rider",
-   "model": "Adios Pro 4",
-   "name": "Adidas Adizero Adios Pro 4",
-   "colour": "",
-   "gender": "men",
-   "price": 174.25,
-   "was": 254.13,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/23048-adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.html",
-   "image": "https://www.365rider.com/109635-home_default/adidas-adizero-adios-pro-4-running-shoes-yellow-purple-aw26.jpg"
   }
  ]
 }
