@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T19:15:04+00:00",
+ "checked": "2026-11-12T07:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -14,6 +14,7 @@
     "3.5",
     "4",
     "4.5",
+    "6",
     "6.5"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
@@ -42,7 +43,7 @@
    "name": "Nike Alphafly 3",
    "colour": "white",
    "gender": "men",
-   "price": 209.2,
+   "price": 205.0,
    "was": null,
    "sizes": [
     "11"
@@ -57,7 +58,7 @@
    "name": "Nike Alphafly 3",
    "colour": "",
    "gender": "women",
-   "price": 230.4,
+   "price": 235.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -111,24 +112,9 @@
    "shop": "Top4Running",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
-   "colour": "silver",
-   "gender": "men",
-   "price": 237.6,
-   "was": null,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-running-shoe-fd8311-002",
-   "image": "https://i1.t4s.cz/products/fd8311-002/nike-alphafly-3-1081092-fd8311-0023.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
    "colour": "purple",
    "gender": "women",
-   "price": 227.7,
+   "price": 232.5,
    "was": null,
    "sizes": [
     "3",
@@ -257,21 +243,6 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
-   "colour": "pink",
-   "gender": "men",
-   "price": 169.5,
-   "was": null,
-   "sizes": [
-    "11.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
-   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "women",
    "price": 175.0,
@@ -282,6 +253,19 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-ki4781",
    "image": "https://i1.t4s.cz/products/ki4781/adidas-adizero-adios-pro-4-w-1138869-ki47811.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "pink",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
+   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
   },
   {
    "shoe": "adios-pro",
@@ -365,13 +349,38 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "men",
-   "price": 191.4,
+   "price": 187.6,
    "was": null,
    "sizes": [
     "9"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kz9020",
    "image": "https://i1.t4s.cz/products/kz9020/adidas-adizero-adios-pro-4-1115509-kz90203.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
+   "colour": "white",
+   "gender": "men",
+   "price": 220.9,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-hq9524",
+   "image": "https://i1.t4s.cz/products/hq9524/adidas-adizero-adios-pro-5-m-1230963-hq95241.png"
   },
   {
    "shoe": "adios-pro",
@@ -417,44 +426,6 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "white",
-   "gender": "men",
-   "price": 220.9,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-hq9524",
-   "image": "https://i1.t4s.cz/products/hq9524/adidas-adizero-adios-pro-5-m-1230963-hq95241.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "women",
-   "price": 250.0,
-   "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-jq1691",
-   "image": "https://i1.t4s.cz/products/jq1691/adidas-adizero-adios-pro-4-1071161-jq16911.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
    "colour": "saddlebrown",
@@ -475,7 +446,7 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "blue",
    "gender": "women",
-   "price": 184.0,
+   "price": 180.3,
    "was": null,
    "sizes": [
     "5",
@@ -519,7 +490,9 @@
     "5",
     "5.5",
     "6",
-    "7"
+    "6.5",
+    "7",
+    "7.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-running-shoe-women-hq9522",
    "image": "https://i1.t4s.cz/products/hq9522/adidas-adizero-adios-pro-5-running-shoe-women-1245671-hq95221.png"
@@ -546,7 +519,7 @@
    "name": "ASICS Metaspeed Sky Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 229.9,
+   "price": 202.5,
    "was": null,
    "sizes": [
     "3.5",
@@ -555,7 +528,6 @@
     "5",
     "5.5",
     "6.5",
-    "7.5",
     "8.5",
     "9"
    ],
@@ -601,7 +573,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "blue",
    "gender": "men",
-   "price": 203.3,
+   "price": 207.4,
    "was": null,
    "sizes": [
     "3.5",
@@ -629,7 +601,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "white",
    "gender": "men",
-   "price": 229.4,
+   "price": 229.5,
    "was": null,
    "sizes": [
     "3.5",
@@ -650,7 +622,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 210.8,
+   "price": 215.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -752,33 +724,13 @@
    "name": "Nike Vaporfly 4",
    "colour": "yellow",
    "gender": "women",
-   "price": 187.2,
+   "price": 195.0,
    "was": null,
    "sizes": [
     "4.5"
    ],
    "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-women-hf6412-800",
    "image": "https://i1.t4s.cz/products/hf6412-800/nike-vaporfly-4-1071048-hf6412-8003.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "",
-   "gender": "men",
-   "price": 234.1,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "9",
-    "10",
-    "10.5",
-    "11"
-   ],
-   "url": "https://top4running.ie/p/nike-zoomx-vaporfly-next-4-glam-running-shoe-io9571-400",
-   "image": "https://i1.t4s.cz/products/io9571-400/nike-zoomx-vaporfly-next-4-glam-1046639-io9571-4007.png"
   },
   {
    "shoe": "vaporfly",
@@ -794,6 +746,26 @@
    ],
    "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-800",
    "image": "https://i1.t4s.cz/products/hf6414-800/nike-vaporfly-4-1071043-hf6414-8003.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Top4Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4",
+   "colour": "",
+   "gender": "men",
+   "price": 229.5,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "9",
+    "10",
+    "10.5",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/nike-zoomx-vaporfly-next-4-glam-running-shoe-io9571-400",
+   "image": "https://i1.t4s.cz/products/io9571-400/nike-zoomx-vaporfly-next-4-glam-1046639-io9571-4007.png"
   },
   {
    "shoe": "vaporfly",
@@ -901,7 +873,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "red",
    "gender": "men",
-   "price": 211.9,
+   "price": 199.2,
    "was": null,
    "sizes": [
     "8",
@@ -969,7 +941,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "white",
    "gender": "men",
-   "price": 210.8,
+   "price": 206.6,
    "was": null,
    "sizes": [
     "9",
@@ -987,13 +959,12 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "purple",
    "gender": "men",
-   "price": 190.5,
+   "price": 194.3,
    "was": null,
    "sizes": [
     "9",
     "9.5",
-    "10",
-    "10.5"
+    "10"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-light-lavender-ultra-312127-08",
    "image": "https://i1.t4s.cz/products/312127-08/puma-deviate-nitro-elite-light-lavender-ultra-1120121-312127-084.png"
@@ -1059,21 +1030,6 @@
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "",
-   "gender": "women",
-   "price": 249.95,
-   "was": null,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-wns-312908-01",
-   "image": "https://i1.t4s.cz/products/312908-01/puma-deviate-nitro-elite-4-rc-1106348-312908-011.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "",
    "gender": "men",
    "price": 190.5,
    "was": null,
@@ -1095,6 +1051,21 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "women",
+   "price": 249.95,
+   "was": null,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-wns-312908-01",
+   "image": "https://i1.t4s.cz/products/312908-01/puma-deviate-nitro-elite-4-rc-1106348-312908-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
    "colour": "purple",
    "gender": "women",
    "price": 174.3,
@@ -1105,6 +1076,21 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-light-lavender-ultra-312128-08",
    "image": "https://i1.t4s.cz/products/312128-08/puma-deviate-nitro-elite-light-lavender-ultra-1124575-312128-081.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "blue",
+   "gender": "men",
+   "price": 200.0,
+   "was": null,
+   "sizes": [
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
+   "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
   },
   {
    "shoe": "puma-elite",
@@ -1155,7 +1141,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "yellow",
    "gender": "women",
-   "price": 219.6,
+   "price": 215.2,
    "was": null,
    "sizes": [
     "4.5",
@@ -1234,7 +1220,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "black",
    "gender": "women",
-   "price": 245.7,
+   "price": 250.6,
    "was": null,
    "sizes": [
     "5.5",
@@ -1291,7 +1277,7 @@
    "name": "Puma Fast-R Nitro Elite 3",
    "colour": "yellow",
    "gender": "women",
-   "price": 263.7,
+   "price": 258.4,
    "was": null,
    "sizes": [
     "4.5",
@@ -1409,6 +1395,26 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Top4Running",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2",
+   "colour": "white",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "5.5",
+    "6.5",
+    "7",
+    "9",
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-97",
+   "image": "https://i1.t4s.cz/products/s30994-97/saucony-endorphin-elite-2-961367-s30994-97.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
    "model": "Endorphin Elite 3",
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
@@ -1429,26 +1435,6 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-3-s100981-1021",
    "image": "https://i1.t4s.cz/products/s100981-1021/saucony-endorphin-elite-3-1124725-s100981-10211.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2",
-   "colour": "white",
-   "gender": "men",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "5.5",
-    "6.5",
-    "7",
-    "9",
-    "9.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-97",
-   "image": "https://i1.t4s.cz/products/s30994-97/saucony-endorphin-elite-2-961367-s30994-97.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1697,7 +1683,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "men",
-   "price": 199.4,
+   "price": 203.4,
    "was": null,
    "sizes": [
     "7.5",
@@ -1737,7 +1723,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "men",
-   "price": 195.5,
+   "price": 199.4,
    "was": null,
    "sizes": [
     "7.5",
@@ -1801,7 +1787,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "women",
-   "price": 230.2,
+   "price": 229.5,
    "was": null,
    "sizes": [
     "3.5",
@@ -1817,6 +1803,30 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s11064-131",
    "image": "https://i1.t4s.cz/products/s11064-131/saucony-endorphin-pro-5-1084718-s11064-1311.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "white",
+   "gender": "women",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
+   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1842,30 +1852,6 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1005",
    "image": "https://i1.t4s.cz/products/s101308-1005/saucony-endorphin-pro-5-1187098-s101308-10051.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "white",
-   "gender": "women",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
-   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
   },
   {
    "shoe": "saucony-endorphin",
