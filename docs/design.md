@@ -44,6 +44,11 @@ Add to this list; don't let it shrink.
   price is worked out from it and the order doesn't change: shops don't promise a
   code covers every shoe. Codes spotted on shop sites are left out (Kevin, 11 Nov:
   can't keep track of them). First: 365rider BF6, 13–16 Nov.
+- **Sizes a model doesn't have are faded and can't be tapped** (Kevin, 15 Nov:
+  "so the user doesn't tap and see nothing"). The grid stays the brand's sizes so
+  buttons don't move; a size the chosen model has nowhere in stock is faded (whole
+  button at 40%, hairline outline, no shadow: no grey text). Your own size stays
+  tappable even when faded, so Any is always one tap away.
 
 ## 0.2 Words
 

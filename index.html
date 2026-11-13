@@ -121,6 +121,8 @@ button { font: inherit; color: inherit; }
 .size.any { font-size: 15px; grid-column: span 2; }
 /* Your size: solid teal, white text (like "today" in jrny). */
 .size[aria-pressed="true"] { background: var(--neon); color: var(--ink); font-weight: 700; box-shadow: inset 0 0 0 1.5px var(--ink); }
+/* Not in stock for the chosen model: faded, no shadow, not tappable. */
+.size:disabled { background: transparent; box-shadow: inset 0 0 0 1px var(--fill); opacity: .4; cursor: default; }
 .size.any[aria-pressed="true"] { background: var(--ink); color: #fff; box-shadow: none; }  /* no size picked: not neon */
 .label { font: 600 15px/20px var(--font); }
 
@@ -431,8 +433,13 @@ function renderFilters() {
   const sizes = [...new Set(offers.filter(o => isShoe(o) && o.gender === state.gender && o.sizes.length).flatMap(o => o.sizes))];
   if (state.size && !sizes.includes(state.size)) sizes.push(state.size);
   sizes.sort((a, b) => sizeKey(a) - sizeKey(b));
+  // The grid is the brand's sizes (so it doesn't jump about); sizes the chosen model
+  // has nowhere in stock are greyed out and can't be tapped. Your own size stays
+  // tappable either way, so you can always get back to Any.
+  const have = new Set(offers.filter(o => matches(o, false) && o.sizes.length).flatMap(o => o.sizes));
   $("sizes").innerHTML = [`<button class="size any" data-v="" aria-pressed="${!state.size}">Any</button>`,
-    ...sizes.map(s => `<button class="size" data-v="${s}" aria-pressed="${s === state.size}">${s}</button>`)].join("");
+    ...sizes.map(s => `<button class="size" data-v="${s}" aria-pressed="${s === state.size}"`
+      + `${!have.has(s) && s !== state.size ? " disabled" : ""}>${s}</button>`)].join("");
 }
 
 function note(o) {
