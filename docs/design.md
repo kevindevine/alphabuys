@@ -38,6 +38,12 @@ Add to this list; don't let it shrink.
   in their size. The rest of the page stays theirs (brand, fit, size untouched;
   Chris O'Sullivan, 28 Oct). No modal: it's a one-pager. If the pair isn't in
   stock (sold out, or not on sale yet), the section says so. Buys from a shared visit carry Awin `clickref=share`.
+- **Codes from affiliate programmes only.** When a shop's programme emails a code
+  with an end time, it goes in `CODES` in index.html and shows as one teal line on
+  that shop's pairs ("Extra 6% off: code BF6"), gone by itself at the end time. No
+  price is worked out from it and the order doesn't change: shops don't promise a
+  code covers every shoe. Codes spotted on shop sites are left out (Kevin, 11 Nov:
+  can't keep track of them). First: 365rider BF6, 13–16 Nov.
 
 ## 0.2 Words
 

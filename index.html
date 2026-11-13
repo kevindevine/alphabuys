@@ -139,6 +139,8 @@ button { font: inherit; color: inherit; }
 .was { text-decoration: line-through; font-weight: 400; }
 .off { color: var(--teal-text); font: 600 15px/20px var(--font); }
 .note { color: var(--teal-text); font: 600 15px/20px var(--font); margin-top: 4px; }
+.code { color: var(--teal-text); font: 600 15px/20px var(--font); margin-top: 4px; }  /* a shop's code */
+.list .code { font: 600 13px/18px var(--font); }
 .buy {
   display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 16px;
   min-height: 48px; border-radius: 12px; background: var(--ink); color: #fff; text-decoration: none;
@@ -295,6 +297,14 @@ const AWIN = { publisher: 3131255, shops: { "365rider": 26763 } };  // approved 
 // so Awin's reports show what sharing earns.
 // The commission line shows only once a shop earns one (none approved yet).
 if (Object.keys(AWIN.shops).length) document.querySelectorAll(".aff").forEach(e => e.hidden = false);
+// Codes a shop's affiliate programme sends us, with fixed end times. Each shows as a
+// line on that shop's pairs until it ends. No price is worked out from it: shops
+// don't promise a code covers every shoe.
+const CODES = [
+  { shop: "365rider", text: "Extra 6% off with code BF6, until Sun 16 Nov 8am", short: "Extra 6% off: code BF6",
+    until: "2026-11-16T08:00:00Z" },
+];
+const codeFor = o => CODES.find(c => c.shop === o.shop && Date.now() < Date.parse(c.until));
 const buyUrl = o => {
   const mid = AWIN.publisher && AWIN.shops[o.shop];
   return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}`
@@ -442,7 +452,8 @@ const shareButton = o => `<button class="share" type="button" data-share="${pair
 // price (and the other shops), and buys through our Buy button.
 async function share(o) {
   const text = `${fullName(o)}, ${eur(o.price)}${o.was ? ` (was ${eur(o.was)})` : ""} at ${o.shop}`
-    + `${state.size && o.sizes.includes(state.size) ? " in UK " + state.size : ""}, on alpha buys`;
+    + `${state.size && o.sizes.includes(state.size) ? " in UK " + state.size : ""}`
+    + `${codeFor(o) ? ". " + codeFor(o).text : ""}, on alpha buys`;
   const url = pairLink(o);
   if (navigator.share) {
     try { await navigator.share({ title: fullName(o), text, url }); } catch (e) { /* closed the panel */ }
@@ -478,6 +489,7 @@ function pairCard(o, sub, extra = "") {
           ${o.was ? `<span class="was subhead">${eur(o.was)}</span><span class="off">${o.offPct}% off</span>` : ""}
         </div>
         ${n ? `<div class="note">${n}</div>` : ""}
+        ${codeFor(o) ? `<div class="code">${esc(codeFor(o).text)}</div>` : ""}
         ${extra}
         <div class="actions">
           <a class="buy" href="${esc(buyUrl(o))}" target="_blank" rel="noopener sponsored">Buy at ${esc(o.shop)}</a>
@@ -523,6 +535,7 @@ function renderList(list) {
         <div class="headline">${esc(fullName(o))}</div>
         <div class="sub subhead">${esc(o.shop)}${o.colour ? " · " + esc(cap(o.colour)) : ""}</div>
         <div class="sizes-line data">${sizeLine(o)}</div>
+        ${codeFor(o) ? `<div class="code data">${esc(codeFor(o).short || codeFor(o).text)}</div>` : ""}
       </div>
       <div class="right">
         <div class="p">${eur(o.price)}</div>
