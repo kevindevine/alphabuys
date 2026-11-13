@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T12:35:38+00:00",
+ "checked": "2026-11-13T21:27:49+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -95,6 +95,21 @@
    "shop": "Zalando",
    "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
+   "colour": "glacier blue/black/mint foam/green shock/hyper pink/silt red",
+   "gender": "women",
+   "price": 247.95,
+   "was": 310.0,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-glacier-blueblackmint-foamgreen-shockhyper-pinksilt-red-n1241a1ev-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/dd4f62fc3033437c83f6d4c424b64927/0816e3c5c68041a2b00020e0f6a39320.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Zalando",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next% 3",
    "colour": "laser orange/indigo burst/citron pulse/volt ice/vivid purple/sapphire",
    "gender": "women",
    "price": 310.0,
@@ -153,21 +168,6 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/4820a80d892040b583fee3be28afcbb5/403052dbb19e41728554dab1bd6b30db.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Zalando",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Ek",
-   "colour": "silt red/green shock/bright ceramic/fire pink/persian violet",
-   "gender": "women",
-   "price": 255.95,
-   "was": 320.0,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-ek-road-running-shoes-silt-redgreen-shockbright-ceramicfire-pinkpersian-violet-n1241a1fc-b11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/1a5d39a6601e45e7a45333bf9b3495e5/72232530d32747cb948d59c5ef3db9e3.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "adios-pro",
@@ -536,6 +536,27 @@
    "shoe": "adios-pro",
    "shop": "Zalando",
    "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "off white/light blue/bright red",
+   "gender": "women",
+   "price": 212.95,
+   "was": 250.0,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/0247cda343cc4a7eb1bb87e7941ab84b/4462b46a05a24ee7a4ce4b3e4b99ac18.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
    "name": "Adidas Performance Adizero Adios Pro 4 Running Shoes",
    "colour": "lucid tangerine core black crystal white",
    "gender": "men",
@@ -555,7 +576,6 @@
     "10.5",
     "11",
     "11.5",
-    "12",
     "12.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-road-running-shoes-lucid-tangerine-core-black-crystal-white-ad542a5yy-h11.html",
@@ -616,8 +636,7 @@
    "was": 250.0,
    "sizes": [
     "6",
-    "6.5",
-    "13"
+    "6.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-frozen-purplesolar-purplesignal-green-ad542a5ur-i11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/c2e1024033fc4305af454917185a2324/42372a1e5d414e5ab03a40111be29909.jpg?imwidth=400&filter=packshot"
@@ -711,25 +730,6 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-cloud-white-core-black-silver-metallic-ad541a2fg-a12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/578e876fa5c94e8e95561ccdd0169e29/f480cccc25484b80a2307b65aa3be240.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "off white/light blue/bright red",
-   "gender": "women",
-   "price": 212.95,
-   "was": 250.0,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "6"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/0247cda343cc4a7eb1bb87e7941ab84b/4462b46a05a24ee7a4ce4b3e4b99ac18.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "vaporfly",
@@ -1074,6 +1074,7 @@
     "6",
     "6.5",
     "7",
+    "7.5",
     "8"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-white-chambray-blue-persian-blue-pu141a19l-a11.html",
@@ -1123,7 +1124,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "12",
     "13"
    ],
@@ -1640,17 +1640,17 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Zalando",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin Pro 4",
-   "colour": "white/crocus",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "white/black",
    "gender": "women",
-   "price": 199.95,
-   "was": 250.0,
+   "price": 215.95,
+   "was": 270.0,
    "sizes": [
-    "4"
+    "6"
    ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-4-road-running-shoes-whitecrocus-s2341a06h-a14.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/cae1690826bd4a8ebd5adb284c0085ec/0038c896ae6547c1a8268180593bdfa1.jpg?imwidth=400&filter=packshot"
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whiteblack-s2341a09o-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/ce92ff1f5dd6404d89acd72930929b82/3895716c419542099312df82183725b3.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "nb-sc-elite",
@@ -1769,7 +1769,9 @@
    "gender": "men",
    "price": 199.95,
    "was": 250.0,
-   "sizes": [],
+   "sizes": [
+    "5.5"
+   ],
    "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-alabasterfrost-h1x44a00e-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/c9dad275128c4877a00b0329f714a975/2133e8d7961b44ccbe70fcca6b720c16.jpg?imwidth=400&filter=packshot"
   }
