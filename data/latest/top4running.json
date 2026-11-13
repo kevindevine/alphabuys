@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T07:15:21+00:00",
+ "checked": "2026-11-13T11:15:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -93,6 +93,19 @@
    ],
    "url": "https://top4running.ie/p/nike-w-air-zoom-alphafly-next-3-running-shoe-women-fd8315-500",
    "image": "https://i1.t4s.cz/products/fd8315-500/nike-alphafly-3-1081551-fd8315-5003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "white",
+   "gender": "men",
+   "price": 319.99,
+   "was": null,
+   "sizes": [],
+   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-iq0309-094",
+   "image": "https://i1.t4s.cz/products/iq0309-094/nike-alphafly-3-1063100-iq0309-0943.png"
   },
   {
    "shoe": "alphafly",
@@ -306,7 +319,7 @@
    "name": "adidas Adizero Adios Pro 5",
    "colour": "white",
    "gender": "men",
-   "price": 239.9,
+   "price": 260.0,
    "was": null,
    "sizes": [
     "7",
@@ -393,6 +406,7 @@
    "price": 250.0,
    "was": null,
    "sizes": [
+    "6",
     "6.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-jr7416",
@@ -1748,30 +1762,6 @@
    "shop": "Top4Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "white",
-   "gender": "women",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
-   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "women",
    "price": 270.0,
@@ -1791,6 +1781,30 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1005",
    "image": "https://i1.t4s.cz/products/s101308-1005/saucony-endorphin-pro-5-1187098-s101308-10051.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "white",
+   "gender": "women",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
+   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
   },
   {
    "shoe": "saucony-endorphin",
