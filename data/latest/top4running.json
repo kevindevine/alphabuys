@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T11:15:07+00:00",
+ "checked": "2026-11-13T15:15:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -62,6 +62,19 @@
    "model": "Alphafly 4",
    "name": "Nike Alphafly 4",
    "colour": "white",
+   "gender": "men",
+   "price": 279.99,
+   "was": null,
+   "sizes": [],
+   "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
+   "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "white",
    "gender": "women",
    "price": 279.99,
    "was": null,
@@ -76,6 +89,21 @@
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-women-iz9609-002",
    "image": "https://i1.t4s.cz/products/iz9609-002/nike-alphafly-4-proto-running-shoe-women-1228461-iz9609-0023.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "green",
+   "gender": "men",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-ekiden-im8066-999",
+   "image": "https://i1.t4s.cz/products/im8066-999/nike-alphafly-3-ekiden-1037794-im8066-9993.png"
   },
   {
    "shoe": "alphafly",
@@ -112,15 +140,15 @@
    "shop": "Top4Running",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
-   "colour": "blue",
+   "colour": "yellow",
    "gender": "men",
-   "price": 242.8,
+   "price": 221.3,
    "was": null,
    "sizes": [
-    "6"
+    "8"
    ],
-   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-400",
-   "image": "https://i1.t4s.cz/products/fd8311-400/nike-alphafly-3-981425-fd8311-402.png"
+   "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-fd8311-800",
+   "image": "https://i1.t4s.cz/products/fd8311-800/nike-alphafly-3-1063105-fd8311-8003.png"
   },
   {
    "shoe": "alphafly",
@@ -160,6 +188,21 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-ki8294",
    "image": "https://i1.t4s.cz/products/ki8294/adidas-adizero-adios-pro-5-m-1184083-ki82941.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "blue",
+   "gender": "men",
+   "price": 177.5,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-js2579",
+   "image": "https://i1.t4s.cz/products/js2579/adidas-adizero-adios-pro-4-1054720-js25791.png"
   },
   {
    "shoe": "adios-pro",
@@ -227,6 +270,22 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "pink",
+   "gender": "men",
+   "price": 169.5,
+   "was": null,
+   "sizes": [
+    "9.5",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-kj3062",
+   "image": "https://i1.t4s.cz/products/kj3062/adidas-adizero-adios-pro-4-1092525-kj30622.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "white",
    "gender": "men",
    "price": 250.0,
@@ -282,39 +341,6 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "blue",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5",
-    "9.5",
-    "11"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6622",
-   "image": "https://i1.t4s.cz/products/jp6622/adidas-adizero-adios-pro-4-1071207-jp66221.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "men",
-   "price": 183.8,
-   "was": null,
-   "sizes": [
-    "9"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kz9020",
-   "image": "https://i1.t4s.cz/products/kz9020/adidas-adizero-adios-pro-4-1115509-kz90203.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
    "colour": "white",
@@ -340,22 +366,35 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "blue",
-   "gender": "women",
-   "price": 260.0,
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 183.8,
    "was": null,
    "sizes": [
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
+    "9"
    ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7042",
-   "image": "https://i1.t4s.cz/products/kj7042/adidas-adizero-adios-pro-5-w-1194263-kj70421.png"
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-kz9020",
+   "image": "https://i1.t4s.cz/products/kz9020/adidas-adizero-adios-pro-4-1115509-kz90203.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "blue",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9.5",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6622",
+   "image": "https://i1.t4s.cz/products/jp6622/adidas-adizero-adios-pro-4-1071207-jp66221.png"
   },
   {
    "shoe": "adios-pro",
@@ -377,6 +416,26 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7041",
    "image": "https://i1.t4s.cz/products/kj7041/adidas-adizero-adios-pro-5-w-1215861-kj70411.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
+   "colour": "blue",
+   "gender": "women",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7042",
+   "image": "https://i1.t4s.cz/products/kj7042/adidas-adizero-adios-pro-5-w-1194263-kj70421.png"
   },
   {
    "shoe": "adios-pro",
@@ -845,6 +904,28 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 174.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-poison-pink-yellow-a-313298-01",
+   "image": "https://i1.t4s.cz/products/313298-01/puma-deviate-nitro-elite-4-showtime-1109483-313298-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
    "colour": "yellow",
    "gender": "men",
    "price": 249.0,
@@ -905,28 +986,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-white-chambray-312127-09",
    "image": "https://i1.t4s.cz/products/312127-09/puma-deviate-nitro-elite-4-1102614-312127-091.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "",
-   "gender": "men",
-   "price": 190.5,
-   "was": null,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-poison-pink-yellow-a-313298-01",
-   "image": "https://i1.t4s.cz/products/313298-01/puma-deviate-nitro-elite-4-showtime-1109483-313298-011.png"
   },
   {
    "shoe": "puma-elite",
@@ -1035,21 +1094,6 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
-   "colour": "blue",
-   "gender": "men",
-   "price": 200.0,
-   "was": null,
-   "sizes": [
-    "12"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
-   "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
    "colour": "red",
    "gender": "women",
    "price": 174.3,
@@ -1059,11 +1103,25 @@
     "5",
     "7",
     "7.5",
-    "8",
     "8.5"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312128-07",
    "image": "https://i1.t4s.cz/products/312128-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122222-312128-071.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "blue",
+   "gender": "men",
+   "price": 200.0,
+   "was": null,
+   "sizes": [
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
+   "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
   },
   {
    "shoe": "puma-elite",
@@ -1348,26 +1406,6 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Top4Running",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2",
-   "colour": "white",
-   "gender": "men",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "5.5",
-    "6.5",
-    "7",
-    "9",
-    "9.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-97",
-   "image": "https://i1.t4s.cz/products/s30994-97/saucony-endorphin-elite-2-961367-s30994-97.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
    "model": "Endorphin Elite 3",
    "name": "Saucony Endorphin Elite 3",
    "colour": "white",
@@ -1388,6 +1426,26 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-3-s100981-1021",
    "image": "https://i1.t4s.cz/products/s100981-1021/saucony-endorphin-elite-3-1124725-s100981-10211.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2",
+   "colour": "white",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "5.5",
+    "6.5",
+    "7",
+    "9",
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-97",
+   "image": "https://i1.t4s.cz/products/s30994-97/saucony-endorphin-elite-2-961367-s30994-97.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1762,6 +1820,30 @@
    "shop": "Top4Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
+   "colour": "white",
+   "gender": "women",
+   "price": 270.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
+   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Top4Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
    "colour": "red",
    "gender": "women",
    "price": 270.0,
@@ -1781,30 +1863,6 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1005",
    "image": "https://i1.t4s.cz/products/s101308-1005/saucony-endorphin-pro-5-1187098-s101308-10051.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Top4Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "white",
-   "gender": "women",
-   "price": 270.0,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8.5"
-   ],
-   "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101308-1007",
-   "image": "https://i1.t4s.cz/products/s101308-1007/saucony-endorphin-pro-5-1193371-s101308-10071.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1945,6 +2003,709 @@
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-4-running-shoe-s10939-30",
    "image": "https://i1.t4s.cz/products/s10939-30/saucony-endorphin-pro-4-901563-s10939-30.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-9n3",
+   "image": "https://i1.t4s.cz/products/mrcel-9n3/new-balance-new-balance-supercomp-elite-v6-running-shoe-1153939-mrcel-9n31.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-supercomp-eli-wrcel185",
+   "image": "https://i1.t4s.cz/products/wrcel185/new-balance-tcs-nyc-marathon-supercomp-eli-1196685-wrcel1851.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "pink",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-mrcel6sqd",
+   "image": "https://i1.t4s.cz/products/mrcel6sqd/new-balance-supercomp-elite-v6-1149158-mrcel6sqd1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-8dm",
+   "image": "https://i1.t4s.cz/products/mrcel-8dm/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149445-mrcel-8dm1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "blue",
+   "gender": "women",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-wrcel7uh",
+   "image": "https://i1.t4s.cz/products/wrcel7uh/new-balance-fuelcell-supercomp-elite-v5-1050606-wrcel7uh1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-supercomp-eli-mrcel7rz",
+   "image": "https://i1.t4s.cz/products/mrcel7rz/new-balance-tcs-nyc-marathon-supercomp-eli-1196675-mrcel7rz1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "orange",
+   "gender": "women",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-wrcel4jm",
+   "image": "https://i1.t4s.cz/products/wrcel4jm/new-balance-fuelcell-supercomp-elite-v5-1073111-wrcel4jm1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-2ru",
+   "image": "https://i1.t4s.cz/products/wrcel-2ru/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149450-wrcel-2ru1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "orange",
+   "gender": "men",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "12.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-mrcel3ud",
+   "image": "https://i1.t4s.cz/products/mrcel3ud/new-balance-fuelcell-supercomp-elite-v5-1073138-mrcel3ud1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "4.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelld5-wrcelld5",
+   "image": "https://i1.t4s.cz/products/wrcelld5-wrcelld5/new-balance-fuelcell-supercomp-elite-v5-995269-wrcelld5-wrcelld5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "men",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-mrcelld5-mrcelld5",
+   "image": "https://i1.t4s.cz/products/mrcelld5-mrcelld5/new-balance-fuelcell-supercomp-elite-v5-986346-mrcelld5-mrcelld5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "pink",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-wrcel8ggb",
+   "image": "https://i1.t4s.cz/products/wrcel8ggb/new-balance-supercomp-elite-v6-1154506-wrcel8ggb1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "blue",
+   "gender": "men",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-mrcel79h",
+   "image": "https://i1.t4s.cz/products/mrcel79h/new-balance-fuelcell-supercomp-elite-v5-1050611-mrcel79h1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel598-598",
+   "image": "https://i1.t4s.cz/products/mrcel598-598/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149503-mrcel598-5981.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "1.5",
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
+   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "blue",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "1.5",
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-91c",
+   "image": "https://i1.t4s.cz/products/wrcel-91c/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149455-wrcel-91c1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Ekiden",
+   "colour": "white",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "4",
+    "5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelem5-wrcelem5",
+   "image": "https://i1.t4s.cz/products/wrcelem5-wrcelem5/new-balance-fuelcell-supercomp-elite-v5-999216-wrcelem5-wrcelem5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance TCS NYC Marathon FuelCell SuperComp Elite v5",
+   "colour": "",
+   "gender": "women",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "4.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelny5-wrcelny5",
+   "image": "https://i1.t4s.cz/products/wrcelny5-wrcelny5/new-balance-tcs-nyc-marathon-fuelcell-supercomp-elite-v5-992194-wrcelny5-wrcelny5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "men",
+   "price": 193.7,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-mrcellr5-mrcellr5",
+   "image": "https://i1.t4s.cz/products/mrcellr5-mrcellr5/new-balance-fuelcell-supercomp-elite-v5-972166-mrcellr5-mrcellr5.png"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Top4Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 165.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://top4running.ie/p/hoka-u-rocket-x-3-1168724-nzs",
+   "image": "https://i1.t4s.cz/products/1168724-nzs/hoka-rocket-x-3-1055871-1168724-nzs1.png"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Top4Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "white",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://top4running.ie/p/hoka-u-rocket-x-3-1168724-arfr",
+   "image": "https://i1.t4s.cz/products/1168724-arfr/hoka-rocket-x-3-1074098-1168724-arfr1.png"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Top4Running",
+   "model": "Rocket X 2",
+   "name": "Hoka Rocket X 2",
+   "colour": "white",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5.5",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/hoka-rocket-x-2-running-shoe-1127927-yzc",
+   "image": "https://i1.t4s.cz/products/1127927-yzc/hoka-rocket-x-2-running-shoe-909177-1127927-yzc.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike 2",
+   "name": "shoes On Running Cloudboom Strike 2",
+   "colour": "white",
+   "gender": "men",
+   "price": 225.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "9",
+    "9.5",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-3ug30055076",
+   "image": "https://i1.t4s.cz/products/3ug30055076/on-running-cloudboom-strike-2-1188428-3ug300550761.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike 2",
+   "name": "shoes On Running Cloudboom Strike 2",
+   "colour": "green",
+   "gender": "men",
+   "price": 225.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-3ug30056137",
+   "image": "https://i1.t4s.cz/products/3ug30056137/on-running-cloudboom-strike-2-1148855-3ug300561371.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike 2",
+   "name": "shoes On Running Cloudboom Strike 2",
+   "colour": "white",
+   "gender": "men",
+   "price": 220.4,
+   "was": null,
+   "sizes": [
+    "7",
+    "9.5",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-3ug30052929",
+   "image": "https://i1.t4s.cz/products/3ug30052929/on-running-cloudboom-strike-2-1148862-3ug300529291.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike 2",
+   "name": "shoes On Running Cloudboom Strike 2 LightSpray",
+   "colour": "white",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-ls-3ug30025363",
+   "image": "https://i1.t4s.cz/products/3ug30025363/on-running-cloudboom-strike-2-ls-1148872-3ug300253631.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike 2",
+   "name": "shoes On Running Cloudboom Strike 2 LightSpray",
+   "colour": "white",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-ls-3ug30022929",
+   "image": "https://i1.t4s.cz/products/3ug30022929/on-running-cloudboom-strike-2-ls-1148867-3ug300229291.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "",
+   "gender": "men",
+   "price": 195.9,
+   "was": null,
+   "sizes": [
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3me30484834",
+   "image": "https://i1.t4s.cz/products/3me30484834/on-running-cloudboom-strike-1068785-3me304848341.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "orange",
+   "gender": "women",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3we30474836",
+   "image": "https://i1.t4s.cz/products/3we30474836/on-running-cloudboom-strike-1090374-3we304748361.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "orange",
+   "gender": "men",
+   "price": 195.9,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3me30484836",
+   "image": "https://i1.t4s.cz/products/3me30484836/on-running-cloudboom-strike-1091109-3me304848361.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "black",
+   "gender": "men",
+   "price": 182.0,
+   "was": null,
+   "sizes": [
+    "9",
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-m-3me30480299",
+   "image": "https://i1.t4s.cz/products/3me30480299/on-running-cloudboom-strike-960775-3me30480299.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike LightSpray",
+   "colour": "white",
+   "gender": "men",
+   "price": 291.8,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-ls-3ue30014849",
+   "image": "https://i1.t4s.cz/products/3ue30014849/on-running-cloudboom-strike-lightspray-1094987-3ue300148491.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "",
+   "gender": "women",
+   "price": 168.0,
+   "was": null,
+   "sizes": [
+    "5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3we30470256",
+   "image": "https://i1.t4s.cz/products/3we30470256/on-running-cloudboom-strike-786115-3we30470260.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "black",
+   "gender": "women",
+   "price": 206.6,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-w-3we30470299",
+   "image": "https://i1.t4s.cz/products/3we30470299/on-running-cloudboom-strike-960803-3we30470299.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Echo 3",
+   "name": "shoes On Running Cloudboom Echo 3",
+   "colour": "white",
+   "gender": "women",
+   "price": 299.94,
+   "was": null,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-echo-3-3wd10490256",
+   "image": "https://i1.t4s.cz/products/3wd10490256/on-running-cloudboom-echo-3-727903-3wd10490260.png"
   }
  ]
 }
