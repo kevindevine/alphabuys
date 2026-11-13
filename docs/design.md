@@ -49,6 +49,11 @@ Add to this list; don't let it shrink.
   buttons don't move; a size the chosen model has nowhere in stock is faded (whole
   button at 40%, hairline outline, no shadow: no grey text). Your own size stays
   tappable even when faded, so Any is always one tap away.
+- **Tap a shop to see only its pairs** (Kevin, 13 Nov). The names under "Shops we
+  check" pick a shop; an "Only Zalando ×" chip under the sizes clears it, as does
+  tapping the name again or the title. For the visit only, never remembered. No
+  "ships from Ireland" switch: Nike, Zalando and Sports Direct sell to Ireland but
+  often ship from elsewhere, so the label would mislead.
 
 ## 0.2 Words
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>alpha buys · jrny</title>
-<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
+<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom. Pick your size, see who has it, catch the price drops.">
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#242424">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="alpha buys">
 <meta property="og:title" content="alpha buys: super shoes in Ireland, cheapest first">
-<meta property="og:description" content="Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin. Pick your size, see who has it, catch the price drops.">
+<meta property="og:description" content="Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom. Pick your size, see who has it, catch the price drops.">
 <meta property="og:url" content="https://alphabuys.jrny.run/">
 <meta property="og:image" content="https://alphabuys.jrny.run/icons/og.png">
 <meta property="og:image:width" content="1200">
@@ -211,8 +211,17 @@ section { margin-top: 32px; }
 /* Shops */
 .shops { margin: 8px 0 0; padding: 0; list-style: none; }
 .shops li { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; padding: 10px 0; }
-.shops a { font-weight: 600; text-decoration: none; }
-.shops a:hover { text-decoration: underline; }
+.shops-hint { margin: 4px 0 0; }
+/* A shop's name picks it: only its pairs above, until tapped again (or the chip's ×). */
+.shop-pick { border: 0; background: none; padding: 0; min-height: 44px; font: 600 17px/22px var(--font); color: var(--ink); cursor: pointer; text-align: left; }
+.shop-pick:hover { text-decoration: underline; text-underline-offset: 3px; }
+.shop-pick[aria-pressed="true"] { background: var(--neon); border-radius: 4px; padding: 0 6px; margin-left: -6px; }
+.only-shop { margin-top: 12px; }
+.only-shop button {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 10px 0 14px; border: 0; border-radius: 999px;
+  background: var(--ink); color: #fff; font: 600 15px/20px var(--font); cursor: pointer;
+}
+.only-shop svg { width: 16px; height: 16px; }
 .stale { color: var(--destructive); }
 footer { margin: 32px 0 48px; }
 footer p { margin: 0 0 8px; }
@@ -244,6 +253,7 @@ footer p { margin: 0 0 8px; }
     </div>
     <div class="row"><span class="label">UK size</span></div>
     <div class="sizes" id="sizes" role="group" aria-label="UK size"></div>
+    <div class="only-shop" id="onlyShop" hidden></div>
   </div>
 
   <div id="best"></div>
@@ -264,11 +274,12 @@ footer p { margin: 0 0 8px; }
 
   <section>
     <h2 class="title3">Shops we check</h2>
+    <p class="subhead shops-hint">Tap a shop to see only its pairs.</p>
     <ul class="shops" id="shops"></ul>
   </section>
 
   <footer class="footnote">
-    <p>Prices checked four times a day. Every shop here delivers to Ireland. Always confirm the price on the shop's site.</p>
+    <p>Prices checked every few hours. Every shop here delivers to Ireland. Always confirm the price on the shop's site.</p>
     <p class="aff" hidden><b>Helps keep the jrny.run app running.</b> Buying through a link here may earn jrny a small commission. Same price for you, and the cheapest pair is always first.</p>
     <p><b>Privacy.</b> No accounts, no tracking, no cookies of our own. Your fit, brand and size are remembered in your own browser only. A shop<span class="aff" hidden> or affiliate network</span> may set its own cookies once you click through to it.</p>
     <p>Questions, or a shop we're missing? <a href="mailto:hello@jrny.run">hello@jrny.run</a></p>
@@ -313,11 +324,12 @@ const buyUrl = o => {
     + `${fromShare ? "&clickref=share" : ""}&ued=${encodeURIComponent(o.url)}` : o.url;
 };
 // Brands we track; "shoe" in the data files says which brand a pair is.
-const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma", "saucony-endorphin": "Saucony" };
-const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony"];
+const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma",
+  "saucony-endorphin": "Saucony", "nb-sc-elite": "New Balance", "hoka-rocket-x": "Hoka", "on-cloudboom": "On" };
+const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony", "New Balance", "Hoka", "On"];
 const brandOf = o => BRAND[o.shoe || "alphafly"];
 // Model buttons drop words the brand already says: "Deviate 4", not "Deviate Nitro Elite 4".
-const shortModel = m => m.replace(" Nitro Elite", "").replace("Metaspeed ", "").replace("Endorphin ", "");
+const shortModel = m => m.replace(" Nitro Elite", "").replace("Metaspeed ", "").replace("Endorphin ", "").replace("Cloudboom ", "");
 const isShoe = o => state.brand === "all" || brandOf(o) === state.brand;
 // "Cheapest men's Nike super shoe" / "Cheapest men's super shoe"
 const shoeWord = (plural) => (state.brand === "all" ? "" : state.brand + " ") + (plural ? "super shoes" : "super shoe");
@@ -342,7 +354,8 @@ let shared = null, sharedGone = false, sharedSize = null, fromShare = false;
 const state = { brand: "all", gender: "men", size: null, model: "all" };
 try { Object.assign(state, JSON.parse(localStorage.getItem("alphabuys") || "{}")); } catch (e) {}
 if (state.shoe) { state.brand = BRAND[state.shoe] || "all"; delete state.shoe; }  // saved by the model-based picker
-const save = () => { try { localStorage.setItem("alphabuys", JSON.stringify(state)); } catch (e) {} };
+// `shop` (one shop only, picked under "Shops we check") is for this visit, never saved.
+const save = () => { try { localStorage.setItem("alphabuys", JSON.stringify({ ...state, shop: undefined })); } catch (e) {} };
 
 async function load() {
   await Promise.all(SHOPS.map(async ([slug, name]) => {
@@ -407,6 +420,7 @@ function matches(o, withSize = true) {
     && o.gender === state.gender
     && (!withSize || o.sizes.length > 0)
     && (state.model === "all" || o.model === state.model)
+    && (!state.shop || o.shop === state.shop)
     && (!withSize || !state.size || o.sizes.includes(state.size));
 }
 
@@ -529,9 +543,9 @@ function renderShared() {
 
 function renderList(list) {
   $("listTitle").textContent = state.size ? `UK ${state.size} in stock` : `${cap(fit())} in stock`;
-  $("count").textContent = `${list.length} ${list.length === 1 ? "pair" : "pairs"} · ${new Set(list.map(o => o.shop)).size} shops`;
+  $("count").textContent = `${list.length} ${list.length === 1 ? "pair" : "pairs"} · ${shopCount(list)}`;
   if (!list.length) {
-    $("grid").innerHTML = `<li class="none subhead">No shop has this in stock right now. Prices are checked four times a day.</li>`;
+    $("grid").innerHTML = `<li class="none subhead">No shop has this in stock right now. Prices are checked every few hours.</li>`;
     return;
   }
   $("grid").innerHTML = list.map(o => {
@@ -568,7 +582,7 @@ function renderChart() {
   }
   const pts = Object.entries(byDay).sort();
   const who = `${fit()} ${state.model === "all" ? shoeWord(false) : state.model}${state.size ? " in UK " + state.size : ""}`;
-  $("chartSub").textContent = `Lowest in-stock price for a ${who}, across all ${SHOPS.length} shops.`;
+  $("chartSub").textContent = `Lowest in-stock price for a ${who}, ${state.shop ? "at " + state.shop : `across all ${SHOPS.length} shops`}.`;
   if (pts.length < 2) {
     $("chart").innerHTML = `<p class="empty subhead">${pts.length ? `Today: <b>${eur(pts[0][1])}</b>. ` : ""}The line fills in as prices are collected.</p>`;
     return;
@@ -613,12 +627,19 @@ function renderChart() {
   }
 }
 
+const shopCount = list => { const n = new Set(list.map(o => o.shop)).size; return `${n} ${n === 1 ? "shop" : "shops"}`; };
+
+function renderOnlyShop() {
+  $("onlyShop").hidden = !state.shop;
+  $("onlyShop").innerHTML = state.shop ? `<button type="button" aria-label="Show all shops">Only ${esc(state.shop)} ${CLOSE_ICON}</button>` : "";
+}
+
 function renderShops() {
   $("shops").innerHTML = SHOPS.map(([, name, , url]) => {
     const t = checked[name];
     const stale = !t || (Date.now() - new Date(t)) > 36 * 36e5;
     const n = offers.filter(o => o.shop === name && isShoe(o) && o.sizes.length).length;
-    return `<li><span><a href="${url}" target="_blank" rel="noopener">${name}</a><span class="subhead"> · ${n || "none"} in stock</span></span>
+    return `<li><span><button class="shop-pick" type="button" data-shop="${esc(name)}" aria-pressed="${name === state.shop}">${name}</button><span class="subhead"> · ${n || "none"} in stock</span></span>
       <span class="footnote${stale ? " stale" : ""}">${t ? "checked " + ago(t) : "not checked yet"}</span></li>`;
   }).join("");
 }
@@ -632,6 +653,7 @@ function render() {
   renderChart();
   renderList(list);
   renderShops();
+  renderOnlyShop();
 }
 
 $("shoes").addEventListener("click", e => {
@@ -649,9 +671,16 @@ $("model").addEventListener("click", e => {
 // The title goes home: all brands, top of the page. Fit and size stay (same feet).
 document.querySelector(".home").addEventListener("click", e => {
   e.preventDefault();
-  closeShared(); state.brand = "all"; state.model = "all"; save(); render();
+  closeShared(); state.brand = "all"; state.model = "all"; state.shop = null; save(); render();
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+$("shops").addEventListener("click", e => {
+  const b = e.target.closest(".shop-pick"); if (!b) return;
+  state.shop = state.shop === b.dataset.shop ? null : b.dataset.shop;
+  render();
+  if (state.shop) document.querySelector(".filters").scrollIntoView({ behavior: "smooth", block: "start" });
+});
+$("onlyShop").addEventListener("click", () => { state.shop = null; render(); });
 $("sizes").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.size = b.dataset.v || null; save(); render();

@@ -70,6 +70,21 @@ def saucony_model(name):
     return f"Endorphin {m.group(1).title()} {m.group(2) or 1}"
 
 
+def nb_model(name):
+    m = re.search(r"(?:supercomp|sc)\s*elite\s*v?\s*(\d)?", name, re.I)
+    return f"SC Elite v{m.group(1) or 1}"
+
+
+def hoka_model(name):
+    m = re.search(r"rocket\s*x\s*(\d)?", name, re.I)
+    return f"Rocket X {m.group(1)}" if m.group(1) else "Rocket X"
+
+
+def on_model(name):
+    m = re.search(r"cloudboom\s*(strike|echo)\s*(?:ls\s*)?(\d)?", name, re.I)
+    return f"Cloudboom {m.group(1).title()}" + (f" {m.group(2)}" if m.group(2) else "")
+
+
 # The race shoes we track. `match` decides whether a product title is one of them
 # (so spikes, singlets and lookalike names are skipped). `q` can be a list when
 # one entry covers two shoe lines. `sportsshoes`: that shop's store pages for the line.
@@ -92,6 +107,14 @@ SHOES = [
     {"id": "saucony-endorphin", "brand": "Saucony", "q": ["endorphin elite", "endorphin pro"],
      "match": r"endorphin\s*(elite|pro)", "model": saucony_model, "prodirect_tag": "silo_endorphin",
      "sportsshoes": ["saucony-endorphin-pro", "saucony-endorphin-elite"]},
+    # Added 15 Nov: New Balance's, Hoka's and On's carbon racers.
+    {"id": "nb-sc-elite", "brand": "New Balance", "q": ["supercomp elite", "sc elite"],
+     "match": r"(supercomp|\bsc)\s*elite", "model": nb_model, "prodirect_tag": "silo_supercomp",
+     "sportsshoes": ["new-balance-sc-elite"]},
+    {"id": "hoka-rocket-x", "brand": "Hoka", "q": "rocket x",
+     "match": r"rocket\s*x\b", "model": hoka_model},
+    {"id": "on-cloudboom", "brand": "On", "q": ["cloudboom strike", "cloudboom echo"],
+     "match": r"cloudboom\s*(strike|echo)", "model": on_model, "prodirect_tag": "silo_cloudboom"},
 ]
 NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
              r"|kids|junior|track|spikes?|equipment|trail")
@@ -289,8 +312,12 @@ def rider365(shoe):
         if not now or '"currency":{"label":"currency","value":"EUR"}' not in page:
             raise RuntimeError("no euro price on " + r["link"])
         reg = re.search(r'class="regular-price"[^>]*>\s*€\s*([\d.,]+)', page)
-        price = float(now.group(1)) * IE_VAT_365
-        was = float(reg.group(1).replace(",", "")) * IE_VAT_365 if reg else None
+        reg = float(reg.group(1).replace(",", "")) if reg else None
+        # From an Irish connection (the Mac) the page may already be at Irish VAT:
+        # its full price is then Doofinder's Spanish one times IE_VAT_365.
+        vat = 1 if reg and abs(reg - r["price"] * IE_VAT_365) < 0.5 else IE_VAT_365
+        price = float(now.group(1)) * vat
+        was = reg * vat if reg else None
         # Unisex shoes sit in both men's and women's categories: those count as men's
         cats = " ".join(r.get("categories", []))
         women_only = "Women's" in cats and not re.search(r"(?<!Wo)Men's", cats)
@@ -461,11 +488,16 @@ EU_TO_UK = {
     ("Puma", "women"): {"35.5": "3", "36": "3.5", "37": "4", "37.5": "4.5", "38": "5", "38.5": "5.5", "39": "6", "40": "6.5", "40.5": "7", "41": "7.5", "42": "8", "42.5": "8.5"},
     ("Saucony", "men"): {"35.5": "2.5", "36": "3", "37": "3.5", "37.5": "4", "38": "4.5", "38.5": "5", "39": "5.5", "40": "6", "40.5": "6.5", "41": "7", "42": "7.5", "42.5": "8", "43": "8.5", "44": "9", "44.5": "9.5", "45": "10", "46": "10.5", "46.5": "11", "47": "11.5", "48": "12", "49": "13", "50": "14"},
     ("Saucony", "women"): {"35.5": "3", "36": "3.5", "37": "4", "37.5": "4.5", "38": "5", "38.5": "5.5", "39": "6", "40": "6.5", "40.5": "7", "41": "7.5", "42": "8", "42.5": "8.5", "43": "9", "43.5": "9.5", "44": "10"},
+    # From Mister Running's size buttons (EU and UK on each), 13 Nov 2026
+    ("New Balance", "men"): {"40.5": "7", "41.5": "7.5", "42": "8", "42.5": "8.5", "43": "9", "44": "9.5", "44.5": "10", "45": "10.5", "45.5": "11", "46.5": "11.5", "47": "12", "47.5": "12.5"},
+    ("New Balance", "women"): {"36.5": "4", "37": "4.5", "37.5": "5", "38": "5.5", "39": "6", "40": "6.5", "40.5": "7", "41": "7.5"},
+    ("Hoka", "men"): {"39⅓": "6", "40": "6.5", "40⅔": "7", "41⅓": "7.5", "42": "8", "42⅔": "8.5", "43⅓": "9", "44": "9.5", "44⅔": "10", "45⅓": "10.5", "46": "11", "46⅔": "11.5", "48": "12.5"},
 }
 
 
 def eu_to_uk(shoe, gender, eu):
-    eu = eu.replace(" ½", ".5").replace("½", ".5").replace(" ⅓", "⅓").replace(" ⅔", "⅔").strip()
+    eu = eu.replace(" ½", ".5").replace("½", ".5").replace(" 1/3", "⅓").replace(" 2/3", "⅔")
+    eu = eu.replace(" ⅓", "⅓").replace(" ⅔", "⅔").strip()
     table = EU_TO_UK.get((shoe["brand"], gender)) or EU_TO_UK.get((shoe["brand"], "men"), {})
     return table.get(eu)
 
@@ -482,10 +514,10 @@ def shopify_products(domain, handles):
 def prodirect(shoe):
     # The Irish site: the UK one stopped shipping to the EU in July 2026.
     domain, out, handles = "www.prodirectsport.ie", [], set()
-    if "prodirect_tag" not in shoe:  # Pro:Direct Ireland doesn't stock this line
-        return []
-    # Its quick search stops at 10, so list the shoe line's tag page instead.
-    for page in range(1, 8):
+    if "prodirect_tag" not in shoe:  # no tag page for this line (Hoka): its quick search
+        handles = shopify_find(domain, shoe)
+    # Its quick search stops at 10, so list the shoe line's tag page where there is one.
+    for page in range(1, 8) if "prodirect_tag" in shoe else []:
         h = get(f"https://{domain}/collections/all/{shoe['prodirect_tag']}?page={page}")
         found = {x for x in re.findall(r"/products/([a-z0-9-]+)", h) if is_shoe(shoe, x.replace("-", " "))}
         if not found - handles:

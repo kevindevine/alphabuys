@@ -2,7 +2,9 @@ name: Check prices
 
 on:
   schedule:
-    - cron: "0 6,10,14,18 * * *"   # 4 times a day (UTC)
+    # Every 3 hours, off the hour: GitHub drops scheduled runs when busy (on the hour
+    # most of all), and at 6/10/14/18 only two a day were running, hours late.
+    - cron: "23 */3 * * *"
   workflow_dispatch:                # "Run workflow" button for a manual check
 
 permissions:
@@ -18,8 +20,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check shops
-        # Top4Running and Lifestyle Sports block GitHub servers; the Mac checks them (mac-check.sh)
-        run: python3 check.py Nike Elverys "Sports Direct" Zalando Pro:Direct "The Run Hub" "Mister Running" 365rider SportsShoes
+        # Top4Running, Lifestyle Sports and 365rider block GitHub servers; the Mac checks them (mac-check.sh)
+        run: python3 check.py Nike Elverys "Sports Direct" Zalando Pro:Direct "The Run Hub" "Mister Running" SportsShoes
       - name: Save prices
         run: |
           git config user.name "alpha-buys-bot"
