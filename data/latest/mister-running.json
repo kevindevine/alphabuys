@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12T23:09:41+00:00",
+ "checked": "2026-11-13T12:35:38+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -139,8 +139,7 @@
    "price": 185.9,
    "was": 309.99,
    "sizes": [
-    "7.5",
-    "9.5"
+    "7.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-mens-running-shoes-racer-blue-white-fd8311-402.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/FD8311-402_A-600x600.jpg"
@@ -547,6 +546,27 @@
    "shop": "Mister Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
+   "colour": "Off White/Collegiate Green/Team Royal Blue",
+   "gender": "men",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Mister Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
    "colour": "Clear Sky/Steel Rw/Silver Metallic",
    "gender": "women",
    "price": 260.0,
@@ -563,27 +583,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-womens-running-shoes-clear-sky-kj7042.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/KJ7042_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "Off White/Collegiate Green/Team Royal Blue",
-   "gender": "men",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "11",
-    "11.5",
-    "12.5"
-   ],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -730,7 +729,6 @@
     "8",
     "9.5",
     "10",
-    "10.5",
     "11.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-cm-mens-running-shoes-white-black-racer-blue-ii7203-100.html",
@@ -984,6 +982,32 @@
    "shoe": "vaporfly",
    "shop": "Mister Running",
    "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 Se",
+   "colour": "Black/White/Smoke Grey/Grey Fog",
+   "gender": "men",
+   "price": 207.5,
+   "was": 259.99,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-running-shoes-black-white-smoke-grey-iv4079-001.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/IV4079-001_A-600x600.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Mister Running",
+   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
    "colour": "White/True Berry/Energy/Vivid Purple",
    "gender": "women",
@@ -1027,32 +1051,6 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-barely-green-hf6412-300.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/nike-vaporfly-4-scarpe-running-donna-barely-green-hf6412-300-A-600x600.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Mister Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4 Se",
-   "colour": "Black/White/Smoke Grey/Grey Fog",
-   "gender": "men",
-   "price": 207.5,
-   "was": 259.99,
-   "sizes": [
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-running-shoes-black-white-smoke-grey-iv4079-001.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/IV4079-001_A-600x600.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -1108,24 +1106,6 @@
    "shoe": "puma-elite",
    "shop": "Mister Running",
    "model": "Deviate Nitro Elite 4",
-   "name": "Puma X Hyrox Deviate Nitro Elite 4",
-   "colour": "Intense Mint/Light Lavender",
-   "gender": "men",
-   "price": 199.9,
-   "was": 250.0,
-   "sizes": [
-    "8.5",
-    "9",
-    "9.5",
-    "10"
-   ],
-   "url": "https://www.misterrunning.com/en/puma-x-hyrox-deviate-nitro-elite-4-men-running-shoes-intense-mint-314156-01.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/314156-01_A-600x600.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Mister Running",
-   "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "Ultra Red/Inky Depths/White",
    "gender": "men",
@@ -1144,6 +1124,24 @@
    ],
    "url": "https://www.misterrunning.com/en/puma-deviate-nitro-elite-4-mens-running-shoes-ultra-red-312127-07.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/puma-deviate-nitro-elite-4-scarpe-da-running-uomo-ultra-red-312127-07_A-600x600.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Mister Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma X Hyrox Deviate Nitro Elite 4",
+   "colour": "Intense Mint/Light Lavender",
+   "gender": "men",
+   "price": 199.9,
+   "was": 250.0,
+   "sizes": [
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://www.misterrunning.com/en/puma-x-hyrox-deviate-nitro-elite-4-men-running-shoes-intense-mint-314156-01.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-06/314156-01_A-600x600.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -1637,52 +1635,6 @@
    "shop": "Mister Running",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
-   "colour": "Vizired",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-vizired-s101308-1005.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-vizired-s101308-1005_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Multi",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
    "colour": "Fatigue/Black",
    "gender": "men",
    "price": 214.9,
@@ -1726,6 +1678,443 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-tart-s101308-1003.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-08/S101308-1003-A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Vizired",
+   "gender": "women",
+   "price": 199.9,
+   "was": 270.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-vizired-s101308-1005.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-vizired-s101308-1005_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "White/Multi",
+   "gender": "women",
+   "price": 199.9,
+   "was": 270.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v5",
+   "name": "New Balance Fuelcell Supercomp Elite V5",
+   "colour": "Tangerine Heat/White Peach/Pink Heat",
+   "gender": "men",
+   "price": 154.9,
+   "was": 280.0,
+   "sizes": [
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v5-mens-running-shoes-tangerine-heat-mrcel3ud.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-02/mrcel3ud_F-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Cherry Leather/Pebble",
+   "gender": "men",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-mens-running-shoes-cherry-leather-mrcel2hw.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/new-balance-supercomp-elite-v6-scarpe-running-uomo-cherry-leather-mrcel2hw_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Pink Granite/Field Green",
+   "gender": "men",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-mens-running-shoes-pink-granite-mrcel6sq.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/MRCEL6SQ_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v5",
+   "name": "New Balance Fuelcell Supercomp Elite V5",
+   "colour": "Boysenberry/Afterglow",
+   "gender": "men",
+   "price": 154.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-fuelcell-sc-elite-v5-mens-running-shoes-boysenberry-mrcel79h.html",
+   "image": "https://www.misterrunning.com/media/products/2025-media-12/mrcel79h-A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Satsuma Orange/Digital Mist",
+   "gender": "men",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-mens-running-shoes-satsuma-orange-mrcel8dm.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/mrcel8dm_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Pistachio Butter/Sea Salt",
+   "gender": "men",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v6-mens-running-shoes-pistachio-butter-mrcel9n3.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/mrcel9n3_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Fresh Air/Alkaline Green",
+   "gender": "men",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-mens-running-shoes-fresh-air-mrcel598.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/mrcel598_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v5",
+   "name": "New Balance Fuelcell Supercomp Elite V5",
+   "colour": "Tangerine Heat/White Peach/Pink Heat",
+   "gender": "women",
+   "price": 154.9,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v5-womens-running-shoes-tangerine-heat-wrcel4jm.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-02/wrcel4jm_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v5",
+   "name": "New Balance Fuelcell Supercomp Elite V5",
+   "colour": "Boysenberry/Afterglow",
+   "gender": "women",
+   "price": 154.9,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v5-womens-running-shoes-boysenberry-wrcel7uh.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-01/wrcel7uh_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v5",
+   "name": "New Balance Fuelcell Supercomp Elite V5",
+   "colour": "Grapefruit/Grey Matter/Poppy",
+   "gender": "women",
+   "price": 139.9,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-fuelcell-sc-elite-v5-womens-running-shoes-grapefruit-wrcelny5.html",
+   "image": "https://www.misterrunning.com/media/products/2025-media-09/wrcelny5_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Satsuma Orange/Pink Lemonade",
+   "gender": "women",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v6-womens-running-shoes-satsuma-orange-wrcel2ru.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/wrcel2ru_A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6",
+   "colour": "Fresh Air/Alkaline Green",
+   "gender": "women",
+   "price": 224.9,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-womens-running-shoes-fresh-air-wrcel91c.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/WRCEL91C-A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6 Nyc",
+   "colour": "Blue/Yellow",
+   "gender": "women",
+   "price": 237.5,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v6-nyc-womens-running-shoes-blue-yellow-wrcel185.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/new-balance-sc-elite-v6-nyc-scarpe-running-donna-blue-yellow-wrcel185-A-600x600.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6 Nyc",
+   "colour": "Blue/Yellow",
+   "gender": "men",
+   "price": 237.5,
+   "was": 280.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-supercomp-elite-v6-nyc-mens-running-shoes-blue-mrcel7rz.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-08/new-balance-supercomp-elite-v6-nyc-scarpe-running-uomo-blue-mrcel7rz_A-600x600.jpg"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Mister Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "Neon Yuzu/Squid Ink",
+   "gender": "men",
+   "price": 137.9,
+   "was": 250.0,
+   "sizes": [
+    "6",
+    "7.5",
+    "8",
+    "9",
+    "9.5"
+   ],
+   "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-neon-yuzu-squid-ink-1168724-nzs.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-01/1168724-nzs_A-600x600.jpg"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Mister Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "Alabaster/Frost",
+   "gender": "men",
+   "price": 137.9,
+   "was": 250.0,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9.5"
+   ],
+   "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-alabaster-frost-1168724-arfr.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-02/hoka-rocket-x-3-scarpe-da-running-uomo-alabaster-frost-1168724-arfr-A-600x600.jpg"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Mister Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "Frost/Electric Lime",
+   "gender": "men",
+   "price": 187.5,
+   "was": 250.0,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-frost-electric-lime-1168724-flct.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-06/1168724-FLCT_A-600x600.jpg"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Mister Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "Black/Neon Nebula",
+   "gender": "men",
+   "price": 187.5,
+   "was": 250.0,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-black-neon-nebula-1168724-bnnn.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/hoka-rocket-x-3-scarpe-da-running-uomo-black-neon-nebula-1168724-bnnn_A-600x600.jpg"
   }
  ]
 }
