@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-14T06:45:31+00:00",
+ "checked": "2026-11-14T15:53:25+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -211,10 +211,18 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "Sand/Rich Purple/Gold Metallic",
    "gender": "men",
-   "price": 149.9,
+   "price": 249.9,
    "was": 250.0,
    "sizes": [
-    "9"
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "12.5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-sand-rich-purple-jr7410.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-12/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-sand-jr7410_A-600x600.jpg"
@@ -243,9 +251,7 @@
    "gender": "men",
    "price": 149.9,
    "was": 250.0,
-   "sizes": [
-    "9.5"
-   ],
+   "sizes": [],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-mens-running-shoes-hi-res-aqua-js2579.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/adidas-adizero-adios-pro-4-scarpe-da-running-uomo-hi-res-aqua-js2579_A-600x600.jpg"
   },
@@ -623,8 +629,7 @@
     "7.5",
     "8",
     "8.5",
-    "9",
-    "11"
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/asics-metaspeed-sky-tokyo-running-shoes-aquarium-white-1013a162-400.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/asics-metaspeed-sky-tokyo-scarpe-da-running-aquarium-white-1013a162-400_A-600x600.jpg"
@@ -894,7 +899,6 @@
     "4.5",
     "5",
     "5.5",
-    "6.5",
     "7.5",
     "8"
    ],
