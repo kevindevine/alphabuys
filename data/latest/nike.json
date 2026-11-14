@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T21:27:49+00:00",
+ "checked": "2026-11-14T06:45:31+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -332,8 +332,7 @@
    "was": null,
    "sizes": [
     "6",
-    "7",
-    "7.5"
+    "7"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-4-womens-road-racing-shoes-CyIf9r63/IZ9609-002",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a5f947fe-3648-45fc-8bbe-ef73d03af660/W+AIR+ZM+ALPHAFLY+NEXT%25+4.png"
@@ -482,7 +481,6 @@
    "sizes": [
     "6",
     "8",
-    "8.5",
     "9.5"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-300",
@@ -593,7 +591,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8.5",
     "10",
     "11.5"
