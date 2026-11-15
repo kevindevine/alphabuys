@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-15T16:28:49+00:00",
+ "checked": "2026-11-15T22:59:40+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -17,7 +17,6 @@
     "8",
     "8.5",
     "9",
-    "11",
     "13",
     "14"
    ],
@@ -116,8 +115,7 @@
    "was": null,
    "sizes": [
     "3",
-    "4",
-    "4.5"
+    "4"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-laser-orangeindigo-burstcitron-pulsevolt-icevivid-purplesapphire-n1241a1ev-h11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/bdd957e2c19845bc8eabb0ef49d54b3a/ae1dd1a49cdd46318c4644f6fb54e862.jpg?imwidth=400&filter=packshot"
@@ -312,8 +310,8 @@
    "name": "Adizero Adios Pro 4",
    "colour": "off white   light blue   bright red",
    "gender": "men",
-   "price": 212.95,
-   "was": 250.0,
+   "price": 250.0,
+   "was": null,
    "sizes": [
     "6",
     "7",
@@ -366,8 +364,8 @@
    "name": "Adizero Adios Pro 4",
    "colour": "purple tint/solar purple/signal green",
    "gender": "women",
-   "price": 212.95,
-   "was": 250.0,
+   "price": 250.0,
+   "was": null,
    "sizes": [
     "3.5",
     "4",
@@ -566,7 +564,6 @@
    "was": null,
    "sizes": [
     "5.5",
-    "6",
     "6.5",
     "7",
     "7.5",
@@ -608,8 +605,7 @@
    "price": 212.95,
    "was": 250.0,
    "sizes": [
-    "6",
-    "6.5"
+    "6"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-frozen-purplesolar-purplesignal-green-ad542a5ur-i11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/c2e1024033fc4305af454917185a2324/42372a1e5d414e5ab03a40111be29909.jpg?imwidth=400&filter=packshot"
@@ -769,7 +765,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "11.5",
     "12",
     "13",
@@ -1155,7 +1150,6 @@
     "5.5",
     "6",
     "6.5",
-    "7",
     "7.5",
     "8",
     "8.5"
@@ -1549,6 +1543,21 @@
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-fatigueblack-s2342a0bc-q11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/b494931c8af94954b6180928fc1c0a8b/763ebdea537d4ae5b2b00614fa41bc7e.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "black/silver-coloured",
+   "gender": "men",
+   "price": 215.95,
+   "was": 270.0,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-blacksilver-coloured-s2342a0b2-q12.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/a680665aa5df47a48267476850556390/101de66d78ad4945a3511aa64f7cd3e0.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
