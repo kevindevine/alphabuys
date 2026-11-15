@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-15T06:50:31+00:00",
+ "checked": "2026-11-15T16:28:49+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -157,8 +157,7 @@
     "5",
     "5.5",
     "6",
-    "6.5",
-    "7"
+    "6.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-4-womens-running-shoes-sea-glass-iz9609-002.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-10/nike-alphafly-next-4-scarpe-da-running-donna-sea-glass-iz9609-002_A-600x600.jpg"
@@ -415,8 +414,7 @@
    "was": 250.0,
    "sizes": [
     "4",
-    "4.5",
-    "5"
+    "4.5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-ftwr-white-js2580.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-10/js2580_A-600x600.jpg"
@@ -537,9 +535,10 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "Sand/Rich Purple/Gold Metallic",
    "gender": "women",
-   "price": 137.9,
+   "price": 149.9,
    "was": 250.0,
    "sizes": [
+    "4",
     "5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-sand-jr7416.html",
@@ -1302,7 +1301,6 @@
    "was": 300.0,
    "sizes": [
     "7.5",
-    "8",
     "8.5"
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-elite-2-running-shoes-airy-nightsky-s30994-95.html",
