@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-16T19:43:22+00:00",
+ "checked": "2026-11-16T22:10:39+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -860,7 +860,7 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
-    "8"
+    "9"
    ],
    "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281518",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
@@ -1484,6 +1484,40 @@
    ],
    "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21292424_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Sports Direct",
+   "model": "Hyperion Elite 5",
+   "name": "Hyperion Elite 5 Road Running Shoes Mens",
+   "colour": "Blue/Green",
+   "gender": "men",
+   "price": 205.0,
+   "was": 275.0,
+   "sizes": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://ie.sportsdirect.com/brooks-hyperion-elite-5-road-running-shoes-mens-212887#colcode=21288718",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21288718_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Sports Direct",
+   "model": "Hyperion Elite 5",
+   "name": "Hyperion Elite 5 Road Running Shoes Mens",
+   "colour": "Red/Blue",
+   "gender": "men",
+   "price": 219.0,
+   "was": 275.0,
+   "sizes": [
+    "8.5"
+   ],
+   "url": "https://ie.sportsdirect.com/brooks-hyperion-elite-5-road-running-shoes-mens-212887#colcode=21288708",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21288708_o?fmt=auto&w=345&h=345&v=1"
   }
  ]
 }
