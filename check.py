@@ -85,6 +85,11 @@ def on_model(name):
     return f"Cloudboom {m.group(1).title()}" + (f" {m.group(2)}" if m.group(2) else "")
 
 
+def brooks_model(name):
+    m = re.search(r"hyperion\s*elite\s*(\d)?", name, re.I)
+    return f"Hyperion Elite {m.group(1)}" if m.group(1) else "Hyperion Elite"
+
+
 # The race shoes we track. `match` decides whether a product title is one of them
 # (so spikes, singlets and lookalike names are skipped). `q` can be a list when
 # one entry covers two shoe lines. `sportsshoes`: that shop's store pages for the line.
@@ -115,6 +120,8 @@ SHOES = [
      "match": r"rocket\s*x\b", "model": hoka_model},
     {"id": "on-cloudboom", "brand": "On", "q": ["cloudboom strike", "cloudboom echo"],
      "match": r"cloudboom\s*(strike|echo)", "model": on_model, "prodirect_tag": "silo_cloudboom"},
+    {"id": "brooks-hyperion-elite", "brand": "Brooks", "q": "hyperion elite",
+     "match": r"hyperion\s*elite", "model": brooks_model, "sportsshoes": ["brooks-hyperion-elite"]},
 ]
 NOT_SHOES = (r"singlet|tights?|socks?|calf|shorts?|\btop\b|\bbra\b|\bcap\b|t-shirt|jacket"
              r"|kids|junior|track|spikes?|equipment|trail")
@@ -261,6 +268,31 @@ def runhub(shoe):
                          f"https://therunhub.ie/products/{h}",
                          "https:" + img if img and img.startswith("//") else img,
                          gender_of(j.get("type") or j["title"])))
+    return out
+
+
+# ---------------------------------------------------------------- Amphibian King
+def amphibianking(shoe):
+    # Dublin running shop (Shopify). Each product has colour and "UK 8" size options:
+    # one pair per colour, sizes from that colour's available variants.
+    out = []
+    for h in shopify_find("amphibianking.ie", shoe):
+        time.sleep(1)
+        j = json.loads(get(f"https://amphibianking.ie/products/{h}.js"))
+        names = [o["name"].lower() if isinstance(o, dict) else str(o).lower() for o in j.get("options", [])]
+        si = next((i for i, n in enumerate(names) if "size" in n), len(names) - 1)
+        ci = next((i for i, n in enumerate(names) if "col" in n), None)
+        by_colour = {}
+        for v in j["variants"]:
+            colour = v.get(f"option{ci + 1}") if ci is not None else ""
+            by_colour.setdefault(colour, []).append(v)
+        for colour, vs in by_colour.items():
+            sizes = [re.sub(r"(?i)^uk\s*", "", v.get(f"option{si + 1}") or "") for v in vs if v["available"]]
+            img = (vs[0].get("featured_image") or {}).get("src") or j.get("featured_image")
+            out.append(offer(shoe, "Amphibian King", j["title"], colour or "", min(v["price"] for v in vs) / 100,
+                             max(v["compare_at_price"] or 0 for v in vs) / 100, [x for x in sizes if re.match(r"\d", x)],
+                             f"https://amphibianking.ie/products/{h}?variant={vs[0]['id']}",
+                             "https:" + img if img and img.startswith("//") else img, gender_of(j["title"])))
     return out
 
 
@@ -543,7 +575,7 @@ def prodirect(shoe):
 SHOPS = {"Nike": nike, "Elverys": elverys, "Lifestyle Sports": lifestyle,
          "Top4Running": top4running, "Sports Direct": sportsdirect, "Zalando": zalando,
          "Pro:Direct": prodirect, "The Run Hub": runhub, "Mister Running": misterrunning,
-         "365rider": rider365, "SportsShoes": sportsshoes}
+         "365rider": rider365, "SportsShoes": sportsshoes, "Amphibian King": amphibianking}
 
 
 

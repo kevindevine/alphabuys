@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>alpha buys · jrny</title>
-<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom. Pick your size, see who has it, catch the price drops.">
+<meta name="description" content="Super shoes in Ireland, cheapest first: Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom, Brooks Hyperion Elite. Pick your size, see who has it, catch the price drops.">
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#242424">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="alpha buys">
 <meta property="og:title" content="alpha buys: super shoes in Ireland, cheapest first">
-<meta property="og:description" content="Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom. Pick your size, see who has it, catch the price drops.">
+<meta property="og:description" content="Nike Alphafly and Vaporfly, adidas Adios Pro, ASICS Metaspeed, Puma Nitro Elite, Saucony Endorphin, New Balance SC Elite, Hoka Rocket X, On Cloudboom, Brooks Hyperion Elite. Pick your size, see who has it, catch the price drops.">
 <meta property="og:url" content="https://alphabuys.jrny.run/">
 <meta property="og:image" content="https://alphabuys.jrny.run/icons/og.png">
 <meta property="og:image:width" content="1200">
@@ -302,6 +302,7 @@ const SHOPS = [
   ["mister-running", "Mister Running", "IT", "https://www.misterrunning.com/en/"],
   ["365rider", "365rider", "ES", "https://www.365rider.com/en/"],
   ["sportsshoes", "SportsShoes", "UK", "https://www.sportsshoes.com"],
+  ["amphibian-king", "Amphibian King", "IE", "https://amphibianking.ie"],
 ];
 // Affiliate links (Awin). Fill in the publisher ID and each approved shop's
 // advertiser ID ("awinmid"); shops left out link straight to the shop.
@@ -325,8 +326,9 @@ const buyUrl = o => {
 };
 // Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma",
-  "saucony-endorphin": "Saucony", "nb-sc-elite": "New Balance", "hoka-rocket-x": "Hoka", "on-cloudboom": "On" };
-const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony", "New Balance", "Hoka", "On"];
+  "saucony-endorphin": "Saucony", "nb-sc-elite": "New Balance", "hoka-rocket-x": "Hoka", "on-cloudboom": "On",
+  "brooks-hyperion-elite": "Brooks" };
+const BRANDS = ["Nike", "adidas", "ASICS", "Puma", "Saucony", "New Balance", "Hoka", "On", "Brooks"];
 const brandOf = o => BRAND[o.shoe || "alphafly"];
 // Model buttons drop words the brand already says: "Deviate 4", not "Deviate Nitro Elite 4".
 const shortModel = m => m.replace(" Nitro Elite", "").replace("Metaspeed ", "").replace("Endorphin ", "").replace("Cloudboom ", "");
