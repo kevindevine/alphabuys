@@ -1,6 +1,25 @@
 {
- "checked": "2026-11-16T06:50:46+00:00",
+ "checked": "2026-11-16T19:43:22+00:00",
  "offers": [
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "EK Red/Green",
+   "gender": "men",
+   "price": 159.0,
+   "was": 320.0,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
+  },
   {
    "shoe": "alphafly",
    "shop": "Sports Direct",
@@ -24,6 +43,23 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Glacier Blue",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Crimson",
    "gender": "women",
    "price": 155.0,
@@ -37,23 +73,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Glacier Blue",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -120,26 +139,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228221",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228221_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "EK Red/Green",
-   "gender": "men",
-   "price": 159.0,
-   "was": 320.0,
-   "sizes": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -565,6 +564,27 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
+   "colour": "White/Lemon",
+   "gender": "men",
+   "price": 190.0,
+   "was": 260.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281503",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281503_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Spruce/Grey",
    "gender": "men",
    "price": 190.0,
@@ -740,7 +760,8 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
-    "5"
+    "5",
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
@@ -834,6 +855,21 @@
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
    "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
+   "colour": "Blue Void",
+   "gender": "men",
+   "price": 129.0,
+   "was": 260.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281518",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281518_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
    "colour": "Green/Volt",
    "gender": "men",
    "price": 190.0,
@@ -853,28 +889,6 @@
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281515_o?fmt=auto&w=345&h=345&v=1"
   },
   {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
-   "colour": "White/Lemon",
-   "gender": "men",
-   "price": 190.0,
-   "was": 260.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281503",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281503_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
    "shoe": "puma-elite",
    "shop": "Sports Direct",
    "model": "Deviate Nitro Elite 3",
@@ -885,7 +899,8 @@
    "was": 220.0,
    "sizes": [
     "3.5",
-    "4"
+    "4",
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/puma-deviate-nitro-elite-3-road-running-shoes-womens-210810#colcode=21081015",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21081015_o?fmt=auto&w=345&h=345&v=1"
@@ -988,7 +1003,7 @@
    "was": 250.0,
    "sizes": [
     "8",
-    "11"
+    "10"
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-mens-road-running-shoes-210472#colcode=21047219",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047219_o?fmt=auto&w=345&h=345&v=1"
@@ -1334,8 +1349,8 @@
    "name": "Mens SC Elite V6 FuelCell Carbon Plate Road-Running Shoes",
    "colour": "Cherry Leather",
    "gender": "men",
-   "price": 322.0,
-   "was": null,
+   "price": 260.0,
+   "was": 322.0,
    "sizes": [
     "8",
     "8.5",
