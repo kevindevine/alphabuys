@@ -103,6 +103,12 @@ button { font: inherit; color: inherit; }
   font: 600 15px/20px var(--font); cursor: pointer; white-space: nowrap;
 }
 .seg button[aria-pressed="true"] { background: var(--ink); color: #fff; font-weight: 700; }
+/* An on/off filter beside the fit control: outlined off, ink when on. */
+.toggle {
+  min-height: 40px; padding: 0 14px; border: 0; border-radius: 10px; cursor: pointer; white-space: nowrap;
+  background: transparent; box-shadow: inset 0 0 0 1.5px var(--fill); font: 600 15px/20px var(--font);
+}
+.toggle[aria-pressed="true"] { background: var(--ink); color: #fff; font-weight: 700; box-shadow: none; }
 /* Models of the chosen brand: a quieter second row right under its pills. */
 .models { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 10px calc(-1 * var(--gutter)) 0; padding: 0 var(--gutter); }
 .models::-webkit-scrollbar { display: none; }
@@ -250,6 +256,7 @@ footer p { margin: 0 0 8px; }
       <div class="seg" id="gender" role="group" aria-label="Fit">
         <button data-v="men">Men's</button><button data-v="women">Women's</button>
       </div>
+      <button class="toggle" id="irish" type="button" aria-pressed="false">Irish shops only</button>
     </div>
     <div class="row"><span class="label">UK size</span></div>
     <div class="sizes" id="sizes" role="group" aria-label="UK size"></div>
@@ -324,6 +331,10 @@ const buyUrl = o => {
   return mid ? `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${AWIN.publisher}`
     + `${fromShare ? "&clickref=share" : ""}&ued=${encodeURIComponent(o.url)}` : o.url;
 };
+// Irish shops: based in Ireland, with shops you can walk into (Kevin, 16 Nov).
+// Not Sports Direct (a UK company, though it has Irish stores), nor shops that
+// only deliver here.
+const IRISH = new Set(["Elverys", "Lifestyle Sports", "The Run Hub", "Amphibian King"]);
 // Brands we track; "shoe" in the data files says which brand a pair is.
 const BRAND = { alphafly: "Nike", vaporfly: "Nike", "adios-pro": "adidas", metaspeed: "ASICS", "puma-elite": "Puma",
   "saucony-endorphin": "Saucony", "nb-sc-elite": "New Balance", "hoka-rocket-x": "Hoka", "on-cloudboom": "On",
@@ -422,7 +433,7 @@ function matches(o, withSize = true) {
     && o.gender === state.gender
     && (!withSize || o.sizes.length > 0)
     && (state.model === "all" || o.model === state.model)
-    && (!state.shop || o.shop === state.shop)
+    && (state.shop ? o.shop === state.shop : !state.irish || IRISH.has(o.shop))
     && (!withSize || !state.size || o.sizes.includes(state.size));
 }
 
@@ -446,6 +457,7 @@ function renderBand() {
 
 function renderFilters() {
   for (const b of $("gender").children) b.setAttribute("aria-pressed", b.dataset.v === state.gender);
+  $("irish").setAttribute("aria-pressed", !!state.irish);
   const sizes = [...new Set(offers.filter(o => isShoe(o) && o.gender === state.gender && o.sizes.length).flatMap(o => o.sizes))];
   if (state.size && !sizes.includes(state.size)) sizes.push(state.size);
   sizes.sort((a, b) => sizeKey(a) - sizeKey(b));
@@ -584,7 +596,7 @@ function renderChart() {
   }
   const pts = Object.entries(byDay).sort();
   const who = `${fit()} ${state.model === "all" ? shoeWord(false) : state.model}${state.size ? " in UK " + state.size : ""}`;
-  $("chartSub").textContent = `Lowest in-stock price for a ${who}, ${state.shop ? "at " + state.shop : `across all ${SHOPS.length} shops`}.`;
+  $("chartSub").textContent = `Lowest in-stock price for a ${who}, ${state.shop ? "at " + state.shop : state.irish ? `across the ${IRISH.size} Irish shops` : `across all ${SHOPS.length} shops`}.`;
   if (pts.length < 2) {
     $("chart").innerHTML = `<p class="empty subhead">${pts.length ? `Today: <b>${eur(pts[0][1])}</b>. ` : ""}The line fills in as prices are collected.</p>`;
     return;
@@ -662,6 +674,9 @@ $("shoes").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
   state.brand = v; state.model = "all"; save(); render();  // size stays: same feet
 });
+// Irish shops only: remembered (someone who shops local tends to always want it).
+// Picking one shop under "Shops we check" takes over from it while it lasts.
+$("irish").addEventListener("click", () => { state.irish = !state.irish; state.shop = null; save(); render(); });
 $("gender").addEventListener("click", e => {
   const v = e.target.closest("button")?.dataset.v; if (!v) return;
   state.gender = v; state.size = null; save(); render();

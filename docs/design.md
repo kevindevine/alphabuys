@@ -54,6 +54,10 @@ Add to this list; don't let it shrink.
   tapping the name again or the title. For the visit only, never remembered. No
   "ships from Ireland" switch: Nike, Zalando and Sports Direct sell to Ireland but
   often ship from elsewhere, so the label would mislead.
+- **Irish shops only** (Kevin, 16 Nov): a switch beside Men's/Women's. Irish means
+  based in Ireland with shops you can walk into: Elverys, Lifestyle Sports, The Run
+  Hub, Amphibian King. Not Sports Direct (UK company), nor shops that only deliver
+  here. Remembered between visits; picking one shop by name takes over while it lasts.
 
 ## 0.2 Words
 
