@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T04:00:06+00:00",
+ "checked": "2026-11-17T16:16:28+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -122,8 +122,7 @@
    "sizes": [
     "4.5",
     "5.5",
-    "6",
-    "6.5"
+    "6"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-se-womens-running-shoes-team-red-ir2312-600.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-03/ir2312-600_A-600x600.jpg"
@@ -135,7 +134,7 @@
    "name": "Nike Alphafly Next% 3",
    "colour": "Chalk/Purple Dynasty/Hyper Crimson",
    "gender": "women",
-   "price": 185.9,
+   "price": 214.9,
    "was": 309.99,
    "sizes": [
     "5",
@@ -153,11 +152,10 @@
    "name": "Nike Alphafly Next% 3",
    "colour": "Racer Blue/White/Atomic Pink",
    "gender": "men",
-   "price": 185.9,
+   "price": 214.9,
    "was": 309.99,
    "sizes": [
-    "7.5",
-    "9.5"
+    "7.5"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-mens-running-shoes-racer-blue-white-fd8311-402.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/FD8311-402_A-600x600.jpg"
@@ -235,8 +233,8 @@
    "name": "adidas Adizero Adios Pro 5",
    "colour": "Solar Turbo/Core Black/Lucid Red",
    "gender": "men",
-   "price": 260.0,
-   "was": null,
+   "price": 259.99,
+   "was": 260.0,
    "sizes": [
     "7",
     "7.5",
@@ -277,8 +275,8 @@
    "name": "adidas Adizero Adios Pro 5",
    "colour": "Solar Turbo/Core Black/Lucid Red",
    "gender": "women",
-   "price": 260.0,
-   "was": null,
+   "price": 259.99,
+   "was": 260.0,
    "sizes": [
     "4",
     "4.5",
@@ -313,8 +311,8 @@
    "name": "adidas Adizero Adios Pro 5",
    "colour": "Clear Sky/Carbon/Silver Metallic",
    "gender": "men",
-   "price": 260.0,
-   "was": null,
+   "price": 259.99,
+   "was": 260.0,
    "sizes": [
     "7",
     "7.5",
@@ -381,6 +379,7 @@
     "9.5",
     "10",
     "10.5",
+    "11.5",
     "12.5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-y-3-mens-running-shoes-night-red-ki7791.html",
@@ -517,6 +516,27 @@
    "shop": "Mister Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
+   "colour": "Off White/Collegiate Green/Team Royal Blue",
+   "gender": "men",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "11",
+    "11.5",
+    "12.5"
+   ],
+   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Mister Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
    "colour": "Clear Sky/Steel Rw/Silver Metallic",
    "gender": "women",
    "price": 260.0,
@@ -533,27 +553,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-womens-running-shoes-clear-sky-kj7042.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/KJ7042_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "Off White/Collegiate Green/Team Royal Blue",
-   "gender": "men",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "11",
-    "11.5",
-    "12.5"
-   ],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-off-white-kj7039.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/kj7039_A-600x600.jpg"
   },
   {
    "shoe": "metaspeed",
@@ -584,7 +583,7 @@
    "name": "Asics Metaspeed Edge Tokyo",
    "colour": "Aquarium/White",
    "gender": "men",
-   "price": 194.9,
+   "price": 214.9,
    "was": 270.0,
    "sizes": [
     "5.5",
@@ -799,6 +798,7 @@
     "4.5",
     "6",
     "6.5",
+    "7",
     "8"
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-white-midnight-navy-hf6412-114.html",
@@ -904,8 +904,8 @@
    "name": "Nike Vaporfly 4",
    "colour": "White/Anthracite/Lemon Venom",
    "gender": "men",
-   "price": 207.5,
-   "was": 259.99,
+   "price": 259.99,
+   "was": null,
    "sizes": [
     "6.5",
     "7",
@@ -982,8 +982,8 @@
    "name": "Nike Vaporfly 4",
    "colour": "White/True Berry/Energy/Vivid Purple",
    "gender": "women",
-   "price": 207.5,
-   "was": 259.99,
+   "price": 259.99,
+   "was": null,
    "sizes": [
     "4",
     "4.5",
@@ -1161,7 +1161,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "Sunny Lime/Black",
    "gender": "women",
-   "price": 189.9,
+   "price": 224.89,
    "was": 250.0,
    "sizes": [
     "4",
@@ -1354,7 +1354,7 @@
    "name": "Saucony Endorphin Elite 3",
    "colour": "Vizired",
    "gender": "men",
-   "price": 269.9,
+   "price": 284.89,
    "was": 320.0,
    "sizes": [
     "6",
@@ -1553,7 +1553,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "Vizired/Black",
    "gender": "men",
-   "price": 199.9,
+   "price": 212.5,
    "was": 270.0,
    "sizes": [
     "6.5",
@@ -1571,29 +1571,6 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-mens-running-shoes-vizired-black-s101360-1011.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-06/saucony-endorphin-pro-5-scarpe-da-running-uomo-vizired-black-s101360-1011_A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Vizired",
-   "gender": "women",
-   "price": 199.9,
-   "was": 270.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-vizired-s101308-1005.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-vizired-s101308-1005_A-600x600.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1666,6 +1643,29 @@
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-white-multi-s101308-1006.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-white-multi-s101308-1006_A-600x600.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Mister Running",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Vizired",
+   "gender": "women",
+   "price": 229.9,
+   "was": 270.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.misterrunning.com/en/saucony-endorphin-pro-5-womens-running-shoes-vizired-s101308-1005.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-07/saucony-endorphin-pro-5-scarpe-da-running-donna-vizired-s101308-1005_A-600x600.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -1743,7 +1743,7 @@
    "name": "New Balance Supercomp Elite V6",
    "colour": "Satsuma Orange/Digital Mist",
    "gender": "men",
-   "price": 224.9,
+   "price": 249.9,
    "was": 280.0,
    "sizes": [
     "7",
@@ -1794,7 +1794,7 @@
    "name": "New Balance Supercomp Elite V6",
    "colour": "Fresh Air/Alkaline Green",
    "gender": "men",
-   "price": 224.9,
+   "price": 249.9,
    "was": 280.0,
    "sizes": [
     "7",
@@ -1891,7 +1891,7 @@
    "name": "New Balance Supercomp Elite V6",
    "colour": "Fresh Air/Alkaline Green",
    "gender": "women",
-   "price": 224.9,
+   "price": 249.9,
    "was": 280.0,
    "sizes": [
     "4",
@@ -1916,7 +1916,6 @@
    "was": 280.0,
    "sizes": [
     "7",
-    "8",
     "8.5",
     "9",
     "9.5",
@@ -1963,7 +1962,8 @@
    "sizes": [
     "6",
     "7.5",
-    "8"
+    "8",
+    "9"
    ],
    "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-neon-yuzu-squid-ink-1168724-nzs.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-01/1168724-nzs_A-600x600.jpg"
@@ -1993,7 +1993,7 @@
    "name": "Hoka Rocket X 3",
    "colour": "Frost/Electric Lime",
    "gender": "men",
-   "price": 187.5,
+   "price": 209.9,
    "was": 250.0,
    "sizes": [
     "6",
@@ -2020,7 +2020,7 @@
    "name": "Hoka Rocket X 3",
    "colour": "Black/Neon Nebula",
    "gender": "men",
-   "price": 187.5,
+   "price": 209.9,
    "was": 250.0,
    "sizes": [
     "6",
