@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T15:15:04+00:00",
+ "checked": "2026-11-17T19:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -51,8 +51,7 @@
    "price": 217.0,
    "was": null,
    "sizes": [
-    "5",
-    "6.5"
+    "5"
    ],
    "url": "https://top4running.ie/p/nike-w-air-zm-alphafly-next-3-se-ir2312-600",
    "image": "https://i1.t4s.cz/products/ir2312-600/nike-alphafly-3-se-1093121-ir2312-6003.png"
@@ -227,6 +226,23 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 200.0,
+   "was": null,
+   "sizes": [
+    "5.5",
+    "6.5",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-ki4781",
+   "image": "https://i1.t4s.cz/products/ki4781/adidas-adizero-adios-pro-4-w-1138869-ki47811.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
    "model": "Adios Pro 5",
    "name": "adidas Adizero Adios Pro 5",
    "colour": "white",
@@ -248,23 +264,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-hq9524",
    "image": "https://i1.t4s.cz/products/hq9524/adidas-adizero-adios-pro-5-m-1230963-hq95241.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "white",
-   "gender": "women",
-   "price": 200.0,
-   "was": null,
-   "sizes": [
-    "5.5",
-    "6.5",
-    "7.5"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-ki4781",
-   "image": "https://i1.t4s.cz/products/ki4781/adidas-adizero-adios-pro-4-w-1138869-ki47811.png"
   },
   {
    "shoe": "adios-pro",
@@ -319,7 +318,6 @@
    "price": 187.9,
    "was": null,
    "sizes": [
-    "9",
     "10.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-ki1465",
@@ -479,6 +477,21 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "purple",
+   "gender": "women",
+   "price": 174.9,
+   "was": null,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-kj0802",
+   "image": "https://i1.t4s.cz/products/kj0802/adidas-adizero-adios-pro-4-w-1139608-kj08021.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "saddlebrown",
    "gender": "women",
    "price": 174.9,
@@ -489,21 +502,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-jr7416",
    "image": "https://i1.t4s.cz/products/jr7416/adidas-adizero-adios-pro-4-1086001-jr74161.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "purple",
-   "gender": "women",
-   "price": 174.9,
-   "was": null,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-w-kj0802",
-   "image": "https://i1.t4s.cz/products/kj0802/adidas-adizero-adios-pro-4-w-1139608-kj08021.png"
   },
   {
    "shoe": "adios-pro",
@@ -1509,7 +1507,6 @@
     "5",
     "5.5",
     "6",
-    "8",
     "10"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-3-s100981-1025",
@@ -1709,7 +1706,6 @@
    "price": 243.0,
    "was": null,
    "sizes": [
-    "3.5",
     "4",
     "4.5",
     "5",
@@ -2383,21 +2379,6 @@
    "shop": "Top4Running",
    "model": "Rocket X 3",
    "name": "Hoka Rocket X 3",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 149.9,
-   "was": null,
-   "sizes": [
-    "10"
-   ],
-   "url": "https://top4running.ie/p/hoka-rocket-x-3-shoe-1168724-snlg",
-   "image": "https://i1.t4s.cz/products/1168724-snlg/hoka-rocket-x-3-984500-1168724-snlg.png"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "Top4Running",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3",
    "colour": "white",
    "gender": "men",
    "price": 162.9,
@@ -2412,6 +2393,21 @@
    ],
    "url": "https://top4running.ie/p/hoka-u-rocket-x-3-1168724-arfr",
    "image": "https://i1.t4s.cz/products/1168724-arfr/hoka-rocket-x-3-1074098-1168724-arfr1.png"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Top4Running",
+   "model": "Rocket X 3",
+   "name": "Hoka Rocket X 3",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 149.9,
+   "was": null,
+   "sizes": [
+    "10"
+   ],
+   "url": "https://top4running.ie/p/hoka-rocket-x-3-shoe-1168724-snlg",
+   "image": "https://i1.t4s.cz/products/1168724-snlg/hoka-rocket-x-3-984500-1168724-snlg.png"
   },
   {
    "shoe": "hoka-rocket-x",
@@ -2440,7 +2436,6 @@
    "price": 225.0,
    "was": null,
    "sizes": [
-    "7",
     "7.5",
     "9",
     "9.5",
@@ -2507,7 +2502,6 @@
    "was": null,
    "sizes": [
     "7",
-    "9.5",
     "11.5"
    ],
    "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-3ug30052929",
