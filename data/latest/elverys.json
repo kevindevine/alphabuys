@@ -1,39 +1,6 @@
 {
- "checked": "2026-11-18T11:57:10+00:00",
+ "checked": "2026-11-18T20:43:57+00:00",
  "offers": [
-  {
-   "shoe": "alphafly",
-   "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
-   "colour": "",
-   "gender": "women",
-   "price": 310.0,
-   "was": null,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-road-racing-shoes",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-000000000001150713-636Wx636H.jpg?v=1716389926"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Elverys",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
-   "colour": "blue",
-   "gender": "men",
-   "price": 248.0,
-   "was": 310.0,
-   "sizes": [
-    "8",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
-  },
   {
    "shoe": "alphafly",
    "shop": "Elverys",
@@ -69,6 +36,39 @@
    ],
    "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-pink-1175564",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175564-636Wx636H.jpg?v=1781525537"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Womens Road Racing Shoes",
+   "colour": "",
+   "gender": "women",
+   "price": 310.0,
+   "was": null,
+   "sizes": [
+    "5"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-womens-road-racing-shoes",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-000000000001150713-636Wx636H.jpg?v=1716389926"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Elverys",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3 Mens Road Racing Shoes",
+   "colour": "blue",
+   "gender": "men",
+   "price": 248.0,
+   "was": 310.0,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/nike-alphafly-3-mens-blue-1175541",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175541-636Wx636H.jpg?v=1782816018"
   },
   {
    "shoe": "adios-pro",
@@ -245,6 +245,25 @@
    "shoe": "puma-elite",
    "shop": "Elverys",
    "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4 Mens Road Running Shoes",
+   "colour": "green",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "8",
+    "9",
+    "9.5",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-green-1175604",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175604-636Wx636H.jpg?v=1790942168"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Elverys",
+   "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate NITRO Elite 4 Mens Running Shoes",
    "colour": "purple",
    "gender": "men",
@@ -279,25 +298,6 @@
    ],
    "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-womens-purple-1175624",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175624-636Wx636H.jpg?v=1786374727"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Elverys",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4 Mens Road Running Shoes",
-   "colour": "green",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/puma-deviate-nitro-elite-4-mens-green-1175604",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175604-636Wx636H.jpg?v=1790942168"
   },
   {
    "shoe": "puma-elite",
@@ -385,26 +385,6 @@
    "shoe": "saucony-endorphin",
    "shop": "Elverys",
    "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Mens Running Shoes",
-   "colour": "white",
-   "gender": "men",
-   "price": 216.0,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "9",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-white-1176876",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1176876-636Wx636H.jpg?v=1785941525"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Elverys",
-   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Womens Running Shoes",
    "colour": "white",
    "gender": "women",
@@ -422,11 +402,49 @@
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1176884-636Wx636H.jpg?v=1786115530"
   },
   {
+   "shoe": "saucony-endorphin",
+   "shop": "Elverys",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Mens Running Shoes",
+   "colour": "white",
+   "gender": "men",
+   "price": 216.0,
+   "was": 270.0,
+   "sizes": [
+    "7",
+    "9",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://www.elverys.ie/products/saucony-endorphin-pro-white-1176876",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1176876-636Wx636H.jpg?v=1785941525"
+  },
+  {
+   "shoe": "hoka-rocket-x",
+   "shop": "Elverys",
+   "model": "Rocket X 3",
+   "name": "HOKA Rocket X 3 Adults Running Shoes",
+   "colour": "white",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://www.elverys.ie/products/hoka-u-rocket-x-3-mens-frost-lime-white-1175474",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175474-636Wx636H.jpg?v=1782915390"
+  },
+  {
    "shoe": "hoka-rocket-x",
    "shop": "Elverys",
    "model": "Rocket X 3",
    "name": "HOKA ROCKET X 3 MENS SHOES",
-   "colour": "white",
+   "colour": "yellow",
    "gender": "men",
    "price": 150.0,
    "was": 250.0,
@@ -436,8 +454,8 @@
     "7",
     "8"
    ],
-   "url": "https://www.elverys.ie/products/hoka-rocket-x-3-mens-white-1169785",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169785-636Wx636H.jpg?v=1768302019"
+   "url": "https://www.elverys.ie/products/hoka-rocket-x-3-mens-yellow-1169784",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169784-636Wx636H.jpg?v=1768302032"
   },
   {
    "shoe": "hoka-rocket-x",
@@ -462,7 +480,7 @@
    "shop": "Elverys",
    "model": "Rocket X 3",
    "name": "HOKA ROCKET X 3 MENS SHOES",
-   "colour": "yellow",
+   "colour": "white",
    "gender": "men",
    "price": 150.0,
    "was": 250.0,
@@ -472,47 +490,8 @@
     "7",
     "8"
    ],
-   "url": "https://www.elverys.ie/products/hoka-rocket-x-3-mens-yellow-1169784",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169784-636Wx636H.jpg?v=1768302032"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "Elverys",
-   "model": "Rocket X 3",
-   "name": "HOKA Rocket X 3 Adults Running Shoes",
-   "colour": "white",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://www.elverys.ie/products/hoka-u-rocket-x-3-mens-frost-lime-white-1175474",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1175474-636Wx636H.jpg?v=1782915390"
-  },
-  {
-   "shoe": "brooks-hyperion-elite",
-   "shop": "Elverys",
-   "model": "Hyperion Elite 6",
-   "name": "Brooks Hyperion Elite 6 Mens Cushioned Running Shoes",
-   "colour": "red",
-   "gender": "men",
-   "price": 220.0,
-   "was": 275.0,
-   "sizes": [
-    "8",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://www.elverys.ie/products/brooks-hyperion-elite-6-mens-red-1174978",
-   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1174978-636Wx636H.jpg?v=1781536088"
+   "url": "https://www.elverys.ie/products/hoka-rocket-x-3-mens-white-1169785",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169785-636Wx636H.jpg?v=1768302019"
   },
   {
    "shoe": "brooks-hyperion-elite",
@@ -551,6 +530,27 @@
    ],
    "url": "https://www.elverys.ie/products/brooks-mens-hyperion-elite-5-blue-1169279",
    "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1169279-636Wx636H.jpg?v=1767887736"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Elverys",
+   "model": "Hyperion Elite 6",
+   "name": "Brooks Hyperion Elite 6 Mens Cushioned Running Shoes",
+   "colour": "red",
+   "gender": "men",
+   "price": 220.0,
+   "was": 275.0,
+   "sizes": [
+    "8",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://www.elverys.ie/products/brooks-hyperion-elite-6-mens-red-1174978",
+   "image": "https://cdn.shopify.com/s/files/1/0841/2109/2412/files/C1-1174978-636Wx636H.jpg?v=1781536088"
   }
  ]
 }
