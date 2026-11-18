@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T07:15:06+00:00",
+ "checked": "2026-11-18T11:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -147,6 +147,7 @@
    "sizes": [
     "5.5",
     "6",
+    "6.5",
     "7",
     "8",
     "9"
@@ -245,7 +246,6 @@
     "8.5",
     "9",
     "9.5",
-    "10",
     "10.5",
     "11",
     "12"
@@ -586,8 +586,7 @@
    "price": 134.54,
    "was": 254.12,
    "sizes": [
-    "3.5",
-    "6"
+    "3.5"
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/21712-puma-deviate-nitro-elite-4-blue-yellow-ss26-women-s.html",
    "image": "https://www.365rider.com/103004-home_default/puma-deviate-nitro-elite-4-blue-yellow-ss26-women-s.jpg"
@@ -824,9 +823,7 @@
    "gender": "men",
    "price": 201.22,
    "was": 304.95,
-   "sizes": [
-    "10"
-   ],
+   "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21222-puma-fast-r-nitro-elite-3-showtime-pink-blue-ss26-running-shoes.html",
    "image": "https://www.365rider.com/106127-home_default/puma-fast-r-nitro-elite-3-showtime-pink-blue-ss26-running-shoes.jpg"
   },
@@ -930,6 +927,7 @@
    "sizes": [
     "7.5",
     "8",
+    "8.5",
     "9",
     "9.5"
    ],
@@ -1387,7 +1385,7 @@
    "name": "New Balance SuperComp Elite v6 Beige Grey",
    "colour": "",
    "gender": "men",
-   "price": 256.17,
+   "price": 213.42,
    "was": 284.63,
    "sizes": [
     "7.5",
@@ -1410,7 +1408,7 @@
    "name": "New Balance SuperComp Elite v6 Orange Grey",
    "colour": "",
    "gender": "men",
-   "price": 256.17,
+   "price": 213.42,
    "was": 284.63,
    "sizes": [
     "8",
@@ -1432,7 +1430,7 @@
    "name": "New Balance SuperComp Elite v6 Shoes Yellow Grey AW26",
    "colour": "",
    "gender": "men",
-   "price": 250.02,
+   "price": 213.42,
    "was": 284.63,
    "sizes": [
     "7.5",
@@ -1456,7 +1454,7 @@
    "name": "New Balance FuelCell SuperComp Elite v5 Blue Green SS26 Shoes",
    "colour": "",
    "gender": "men",
-   "price": 168.69,
+   "price": 165.64,
    "was": 284.63,
    "sizes": [
     "9",
@@ -1472,7 +1470,7 @@
    "name": "New Balance SuperComp Elite v6 Blue Yellow AW26 Women\u2019s",
    "colour": "",
    "gender": "women",
-   "price": 173.81,
+   "price": 199.19,
    "was": 284.63,
    "sizes": [
     "5",
