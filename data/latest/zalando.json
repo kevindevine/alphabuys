@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T16:16:28+00:00",
+ "checked": "2026-11-18T01:02:32+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -556,11 +556,30 @@
     "9.5",
     "10",
     "10.5",
-    "11",
-    "12"
+    "11"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-5-road-running-shoes-ftwwhtcblacksoltur-ad542a5x8-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/2008f4c0452743e5a69e8a9ec5edb0e7/f10fa27c8d57467db6201b05b4c18af4.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "semi flash aqua   lucid lemon   mint ton",
+   "gender": "women",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-pro-4-road-running-shoes-semi-flash-aqua-lucid-lemon-mint-ton-ad541a2fg-k11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/a4fa621b16804602a2e131530dc00250/2ce433806f0d462184c55a9f0a24251e.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "adios-pro",
@@ -701,25 +720,6 @@
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-m-road-running-shoes-cloud-white-core-black-silver-metallic-ad542a5gq-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/8135ce2cd5824359a0db6087f7cb1e3b/ea2637ebd75e4a0db6affc9ca0ef20da.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "semi flash aqua   lucid lemon   mint ton",
-   "gender": "women",
-   "price": 250.0,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-pro-4-road-running-shoes-semi-flash-aqua-lucid-lemon-mint-ton-ad541a2fg-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/a4fa621b16804602a2e131530dc00250/2ce433806f0d462184c55a9f0a24251e.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "vaporfly",
@@ -1198,7 +1198,6 @@
     "6",
     "6.5",
     "7.5",
-    "8",
     "8.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-sunny-lime-black-pu141a19r-q11.html",
@@ -1226,7 +1225,6 @@
     "9",
     "9.5",
     "10.5",
-    "12",
     "13"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-unisex-road-running-shoes-whitemulti-s2344a00e-a13.html",

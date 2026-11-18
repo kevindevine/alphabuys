@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T16:16:28+00:00",
+ "checked": "2026-11-18T01:02:32+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -15,8 +15,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik26571/nike-alphafly-4-women's-running-shoes---ho26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK26571/NIK26571_800_1.jpg"
@@ -186,9 +185,7 @@
    "gender": "women",
    "price": 169.99,
    "was": 309.99,
-   "sizes": [
-    "3.5"
-   ],
+   "sizes": [],
    "url": "https://www.sportsshoes.com/product/nik24661/nike-air-zoom-alphafly-next%25-3-ek-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK24661/NIK24661_800_1.jpg"
   },
@@ -203,7 +200,6 @@
    "was": 309.99,
    "sizes": [
     "2.5",
-    "5.5",
     "6",
     "6.5",
     "8"
@@ -1227,22 +1223,6 @@
    "shop": "SportsShoes",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
-   "colour": "Shock Pink/Zero Metallic/Aurora Plum",
-   "gender": "women",
-   "price": 174.99,
-   "was": 249.99,
-   "sizes": [
-    "4",
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
    "colour": "Crystal Sand/Flash Orange/Flash Aqua",
    "gender": "women",
    "price": 174.99,
@@ -1254,6 +1234,22 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi18234/adidas-adizero-adios-pro-4-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18234/ADI18234_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Shock Pink/Zero Metallic/Aurora Plum",
+   "gender": "women",
+   "price": 174.99,
+   "was": 249.99,
+   "sizes": [
+    "4",
+    "8.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi18233/adidas-adizero-adios-pro-4-women's-running-shoes---aw25",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI18233/ADI18233_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1617,6 +1613,21 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Metaspeed Edge Tokyo",
+   "colour": "WHITE/COBALT BURST",
+   "gender": "men",
+   "price": 194.99,
+   "was": 269.99,
+   "sizes": [
+    "3.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
+   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "SportsShoes",
    "model": "Metaspeed Sky Tokyo",
    "name": "Metaspeed Sky Tokyo",
    "colour": "WHITE/COBALT BURST",
@@ -1641,21 +1652,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/asi16465/asics-metaspeed-sky-tokyo-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/A/ASI16465/ASI16465_800_1.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Metaspeed Edge Tokyo",
-   "colour": "WHITE/COBALT BURST",
-   "gender": "men",
-   "price": 194.99,
-   "was": 269.99,
-   "sizes": [
-    "3.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi16466/asics-metaspeed-edge-tokyo-running-shoes---ss26",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI16466/ASI16466_800_1.jpg"
   },
   {
    "shoe": "metaspeed",
@@ -1955,8 +1951,7 @@
     "6.5",
     "7",
     "11.5",
-    "12",
-    "13"
+    "12"
    ],
    "url": "https://www.sportsshoes.com/product/nik24920/nike-zoomx-vaporfly-next%25-4-men's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK24920/NIK24920_800_1.jpg"
@@ -1971,7 +1966,6 @@
    "price": 139.99,
    "was": 259.99,
    "sizes": [
-    "5",
     "5.5",
     "6",
     "6.5",
@@ -2015,7 +2009,6 @@
    "sizes": [
     "6",
     "6.5",
-    "7",
     "7.5",
     "8",
     "13"
@@ -2240,7 +2233,6 @@
     "6",
     "6.5",
     "7",
-    "8",
     "13",
     "14"
    ],
@@ -2430,7 +2422,6 @@
    "was": null,
    "sizes": [
     "7",
-    "7.5",
     "8",
     "10",
     "10.5"
@@ -2593,7 +2584,6 @@
    "was": null,
    "sizes": [
     "8",
-    "9.5",
     "11.5",
     "12",
     "13"
@@ -2649,6 +2639,22 @@
    "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 3",
    "name": "Fast-R Nitro Elite 3",
+   "colour": "Light Lavender-Ultra Red",
+   "gender": "men",
+   "price": 299.99,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3112/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3112/PUM3112_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Fast-R Nitro Elite 3",
    "colour": "Light Lavender / Ultra Red",
    "gender": "women",
    "price": 299.99,
@@ -2664,23 +2670,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3206/puma-fast-r-nitro-elite-3-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3206/PUM3206_800_1.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Fast-R Nitro Elite 3",
-   "colour": "Light Lavender-Ultra Red",
-   "gender": "men",
-   "price": 299.99,
-   "was": null,
-   "sizes": [
-    "7.5",
-    "8",
-    "10.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3112/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3112/PUM3112_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -4209,27 +4198,6 @@
    "shop": "SportsShoes",
    "model": "SC Elite v5",
    "name": "FuelCell SuperComp Elite v5",
-   "colour": "White",
-   "gender": "women",
-   "price": 309.99,
-   "was": null,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696974/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696974/NEW696974_800_1.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v5",
-   "name": "FuelCell SuperComp Elite v5",
    "colour": "Linen with Black",
    "gender": "women",
    "price": 309.99,
@@ -4245,6 +4213,27 @@
    ],
    "url": "https://www.sportsshoes.com/product/new696975/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696975/NEW696975_800_9.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v5",
+   "name": "FuelCell SuperComp Elite v5",
+   "colour": "White",
+   "gender": "women",
+   "price": 309.99,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696974/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696974/NEW696974_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4267,27 +4256,6 @@
    "model": "SC Elite v5",
    "name": "FuelCell SuperComp Elite v5",
    "colour": "Dover Street Market",
-   "gender": "men",
-   "price": 309.99,
-   "was": null,
-   "sizes": [
-    "6.5",
-    "7",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696956/new-balance-fuelcell-supercomp-elite-v5-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696956/NEW696956_800_1.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v5",
-   "name": "FuelCell SuperComp Elite v5",
-   "colour": "Dover Street Market",
    "gender": "women",
    "price": 309.99,
    "was": null,
@@ -4303,6 +4271,27 @@
    ],
    "url": "https://www.sportsshoes.com/product/new696973/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696973/NEW696973_800_1.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v5",
+   "name": "FuelCell SuperComp Elite v5",
+   "colour": "Dover Street Market",
+   "gender": "men",
+   "price": 309.99,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696956/new-balance-fuelcell-supercomp-elite-v5-men's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696956/NEW696956_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4500,31 +4489,6 @@
    "shop": "SportsShoes",
    "model": "SC Elite v6",
    "name": "SuperComp Elite v6",
-   "colour": "Orange",
-   "gender": "women",
-   "price": 285.19,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696940/new-balance-supercomp-elite-v6-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696940/NEW696940_800_1.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v6",
-   "name": "SuperComp Elite v6",
    "colour": "GREY MATTER with NEO FLAME",
    "gender": "women",
    "price": 285.19,
@@ -4544,6 +4508,31 @@
    ],
    "url": "https://www.sportsshoes.com/product/new696794/new-balance-supercomp-elite-v6-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696794/NEW696794_800_1.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v6",
+   "name": "SuperComp Elite v6",
+   "colour": "Orange",
+   "gender": "women",
+   "price": 285.19,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696940/new-balance-supercomp-elite-v6-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696940/NEW696940_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4600,33 +4589,6 @@
    "model": "SC Elite v6",
    "name": "SuperComp Elite v6",
    "colour": "Pink Granite/Field Green",
-   "gender": "men",
-   "price": 279.99,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "12.5",
-    "13.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696874/new-balance-supercomp-elite-v6-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696874/NEW696874_800_1.png"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v6",
-   "name": "SuperComp Elite v6",
-   "colour": "Pink Granite/Field Green",
    "gender": "women",
    "price": 279.99,
    "was": null,
@@ -4651,11 +4613,12 @@
    "shop": "SportsShoes",
    "model": "SC Elite v6",
    "name": "SuperComp Elite v6",
-   "colour": "Fresh Air with Alkaline Green",
+   "colour": "Pink Granite/Field Green",
    "gender": "men",
    "price": 279.99,
    "was": null,
    "sizes": [
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -4669,8 +4632,8 @@
     "12.5",
     "13.5"
    ],
-   "url": "https://www.sportsshoes.com/product/new696740/new-balance-supercomp-elite-v6-men's-running-shoes-(2e-width)---aw26",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696740/NEW696740_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/new696874/new-balance-supercomp-elite-v6-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696874/NEW696874_800_1.png"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4698,6 +4661,32 @@
    ],
    "url": "https://www.sportsshoes.com/product/new696739/new-balance-supercomp-elite-v6-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696739/NEW696739_800_1.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v6",
+   "name": "SuperComp Elite v6",
+   "colour": "Fresh Air with Alkaline Green",
+   "gender": "men",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "12.5",
+    "13.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696740/new-balance-supercomp-elite-v6-men's-running-shoes-(2e-width)---aw26",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696740/NEW696740_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4872,7 +4861,6 @@
     "6",
     "6.5",
     "7.5",
-    "8",
     "9"
    ],
    "url": "https://www.sportsshoes.com/product/new696601/new-balance-fuelcell-supercomp-elite-v5-london-edition-women's-running-shoes---ss26",
@@ -5062,6 +5050,31 @@
    "model": "SC Elite v5",
    "name": "FuelCell SuperComp Elite v5",
    "colour": "Urgent Red with White and Black",
+   "gender": "women",
+   "price": 201.99,
+   "was": 279.99,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696012/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696012/NEW696012_800_1.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v5",
+   "name": "FuelCell SuperComp Elite v5",
+   "colour": "Urgent Red with White and Black",
    "gender": "men",
    "price": 195.99,
    "was": 279.99,
@@ -5081,31 +5094,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/new695999/new-balance-fuelcell-supercomp-elite-v5-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NEW695999/NEW695999_800_1.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v5",
-   "name": "FuelCell SuperComp Elite v5",
-   "colour": "Urgent Red with White and Black",
-   "gender": "women",
-   "price": 201.99,
-   "was": 279.99,
-   "sizes": [
-    "3",
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696012/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696012/NEW696012_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
@@ -5170,8 +5158,7 @@
     "7.5",
     "8",
     "8.5",
-    "9",
-    "9.5"
+    "9"
    ],
    "url": "https://www.sportsshoes.com/product/new695820/new-balance-fuelcell-supercomp-elite-v4-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NEW695820/NEW695820_800_1.jpg"

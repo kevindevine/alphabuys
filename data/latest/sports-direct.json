@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T16:16:28+00:00",
+ "checked": "2026-11-18T01:02:32+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -45,23 +45,6 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Glacier Blue",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Crimson",
    "gender": "women",
    "price": 155.0,
@@ -75,6 +58,23 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Glacier Blue",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -293,6 +293,28 @@
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
    "name": "Adizero Adios PRO 4 Men's Road Running Shoes",
+   "colour": "White/Yellow",
+   "gender": "men",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198401",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21198401_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios PRO 4 Men's Road Running Shoes",
    "colour": "Solar Yellow",
    "gender": "men",
    "price": 199.0,
@@ -334,6 +356,21 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
+   "name": "Adizero Adios PRO 4 Men's Road Running Shoes",
+   "colour": "White/Blue",
+   "gender": "men",
+   "price": 199.0,
+   "was": 250.0,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-mens-road-running-shoes-212048#colcode=21204830",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21204830_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
    "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
    "colour": "Sand/Purple",
    "gender": "women",
@@ -350,45 +387,6 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220670",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220670_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
-   "colour": "White/Blue",
-   "gender": "women",
-   "price": 199.0,
-   "was": 250.0,
-   "sizes": [
-    "4",
-    "5",
-    "6",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220632",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220632_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adios PRO 4 Women's Road Running Shoes",
-   "colour": "White/Mint",
-   "gender": "women",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-womens-adios-pro-4-road-running-shoes-211931#colcode=21193101",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21193101_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -417,36 +415,19 @@
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
    "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
-   "colour": "White/Orange",
+   "colour": "White/Blue",
    "gender": "women",
    "price": 199.0,
    "was": 250.0,
    "sizes": [
     "4",
     "5",
-    "5.5",
     "6",
-    "6.5",
     "7",
     "8"
    ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220631",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220631_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios PRO 4 Men's Road Running Shoes",
-   "colour": "White/Blue",
-   "gender": "men",
-   "price": 199.0,
-   "was": 250.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-mens-road-running-shoes-212048#colcode=21204830",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21204830_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220632",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21220632_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -463,6 +444,27 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220612",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220612_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
+   "colour": "White/Orange",
+   "gender": "women",
+   "price": 199.0,
+   "was": 250.0,
+   "sizes": [
+    "4",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220631",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21220631_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -487,23 +489,21 @@
    "shoe": "adios-pro",
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
-   "name": "Adizero Adios PRO 4 Men's Road Running Shoes",
-   "colour": "White/Yellow",
-   "gender": "men",
+   "name": "Adios PRO 4 Women's Road Running Shoes",
+   "colour": "White/Mint",
+   "gender": "women",
    "price": 200.0,
    "was": 250.0,
    "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
     "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
+    "8"
    ],
-   "url": "https://ie.sportsdirect.com/adidas-mens-adios-pro-4-road-running-shoes-211984#colcode=21198401",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21198401_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/adidas-womens-adios-pro-4-road-running-shoes-211931#colcode=21193101",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21193101_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -756,7 +756,8 @@
    "price": 129.0,
    "was": 260.0,
    "sizes": [
-    "5"
+    "5",
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281901",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281901_o?fmt=auto&w=345&h=345&v=1"
@@ -970,7 +971,8 @@
     "7",
     "8",
     "9",
-    "10"
+    "10",
+    "11"
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-elite-2-unisex-211199#colcode=21119927",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21119927_o?fmt=auto&w=345&h=345&v=1"
@@ -1053,21 +1055,6 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Sports Direct",
-   "model": "Endorphin Pro 4",
-   "name": "Endorphin PRO 4 Women's Road Running Shoes",
-   "colour": "White/Crocus",
-   "gender": "women",
-   "price": 200.0,
-   "was": 250.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-road-running-shoes-210473#colcode=21047330",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21047330_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
    "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5",
    "colour": "Citron/Black",
@@ -1092,6 +1079,21 @@
    "shop": "Sports Direct",
    "model": "Endorphin Pro 4",
    "name": "Endorphin PRO 4 Women's Road Running Shoes",
+   "colour": "White/Crocus",
+   "gender": "women",
+   "price": 200.0,
+   "was": 250.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-road-running-shoes-210473#colcode=21047330",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21047330_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 4",
+   "name": "Endorphin PRO 4 Women's Road Running Shoes",
    "colour": "Mutant",
    "gender": "women",
    "price": 175.0,
@@ -1102,24 +1104,6 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-road-running-shoes-210473#colcode=21047331",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047331_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Sports Direct",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "White/Aqua",
-   "gender": "men",
-   "price": 195.0,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "8",
-    "9",
-    "10"
-   ],
-   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242901",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21242901_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1138,6 +1122,24 @@
    ],
    "url": "https://ie.sportsdirect.com/saucony-endorphin-pro-4-womens-road-running-shoes-210473#colcode=21047315",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21047315_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Sports Direct",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "White/Aqua",
+   "gender": "men",
+   "price": 195.0,
+   "was": 270.0,
+   "sizes": [
+    "7",
+    "8",
+    "9",
+    "10"
+   ],
+   "url": "https://ie.sportsdirect.com/saucony-saucony-endorphin-pro-5-212429#colcode=21242901",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21242901_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "saucony-endorphin",
