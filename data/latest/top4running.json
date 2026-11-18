@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T11:15:06+00:00",
+ "checked": "2026-11-18T15:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -141,15 +141,55 @@
   {
    "shoe": "alphafly",
    "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "red",
-   "gender": "women",
-   "price": 309.99,
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "orange",
+   "gender": "men",
+   "price": 279.99,
    "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/nike-alphafly-3-road-racing-running-shoe-women-fd8315-600",
-   "image": "https://i1.t4s.cz/products/fd8315-600/nike-alphafly-3-888155-fd8315-602.png"
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-4-running-shoe-im5546-800",
+   "image": "https://i1.t4s.cz/products/im5546-800/nike-alphafly-4-running-shoe-1254015-im5546-8003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "pink",
+   "gender": "women",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-4-running-shoe-women-im5547-600",
+   "image": "https://i1.t4s.cz/products/im5547-600/nike-alphafly-4-running-shoe-women-1254037-im5547-6003.png"
   },
   {
    "shoe": "adios-pro",
@@ -349,10 +389,31 @@
    "price": 187.9,
    "was": null,
    "sizes": [
+    "9.5",
     "10.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
    "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 5",
+   "name": "adidas Adizero Adios Pro 5",
+   "colour": "blue",
+   "gender": "women",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7042",
+   "image": "https://i1.t4s.cz/products/kj7042/adidas-adizero-adios-pro-5-w-1194263-kj70421.png"
   },
   {
    "shoe": "adios-pro",
@@ -378,22 +439,15 @@
   {
    "shoe": "adios-pro",
    "shop": "Top4Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "blue",
-   "gender": "women",
-   "price": 260.0,
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "saddlebrown",
+   "gender": "men",
+   "price": 250.0,
    "was": null,
-   "sizes": [
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-w-kj7042",
-   "image": "https://i1.t4s.cz/products/kj7042/adidas-adizero-adios-pro-5-w-1194263-kj70421.png"
+   "sizes": [],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-m-jr7410",
+   "image": "https://i1.t4s.cz/products/jr7410/adidas-adizero-adios-pro-4-1094071-jr74101.png"
   },
   {
    "shoe": "adios-pro",
@@ -680,6 +734,22 @@
    "name": "ASICS Metaspeed Sky Tokyo",
    "colour": "white",
    "gender": "men",
+   "price": 188.1,
+   "was": null,
+   "sizes": [
+    "8.5",
+    "9"
+   ],
+   "url": "https://top4running.ie/p/asics-metaspeed-sky-tokyo-1013a162-101",
+   "image": "https://i1.t4s.cz/products/1013a162-101/asics-metaspeed-sky-tokyo-1060680-1013a162-1015.png"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "Top4Running",
+   "model": "Metaspeed Sky Tokyo",
+   "name": "ASICS Metaspeed Sky Tokyo",
+   "colour": "white",
+   "gender": "men",
    "price": 270.0,
    "was": null,
    "sizes": [
@@ -905,30 +975,6 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 211.9,
-   "was": null,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12",
-    "13"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-312127-10",
-   "image": "https://i1.t4s.cz/products/312127-10/puma-deviate-nitro-elite-4-1188545-312127-101.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
    "gender": "men",
    "price": 220.9,
@@ -947,6 +993,30 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-saysky-313942-01",
    "image": "https://i1.t4s.cz/products/313942-01/puma-deviate-nitro-elite-4-saysky-1159417-313942-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 211.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-312127-10",
+   "image": "https://i1.t4s.cz/products/312127-10/puma-deviate-nitro-elite-4-1188545-312127-101.png"
   },
   {
    "shoe": "puma-elite",
@@ -1027,6 +1097,28 @@
   {
    "shoe": "puma-elite",
    "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 212.9,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
+   "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
    "model": "Deviate Nitro Elite 3",
    "name": "Puma Deviate NITRO Elite 3",
    "colour": "green",
@@ -1057,28 +1149,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
    "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
-   "colour": "",
-   "gender": "men",
-   "price": 212.9,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
-   "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
   },
   {
    "shoe": "puma-elite",
@@ -2428,6 +2498,7 @@
    "was": null,
    "sizes": [
     "7",
+    "7.5",
     "8",
     "9",
     "9.5",
