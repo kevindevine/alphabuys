@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T11:55:24+00:00",
+ "checked": "2026-11-19T20:49:20+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -13,6 +13,7 @@
    "sizes": [
     "5.5",
     "6.5",
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -67,8 +68,7 @@
     "6.5",
     "7",
     "7.5",
-    "8",
-    "9"
+    "8"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-chalkpurple-dynastyhyper-crimsonfennelspruce-aurapalest-purple-n1241a1ev-h12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a0d5e388c48144dd8f90e4a9660fa4e5/7bfd6fc62c1442efa2a979d1ed950f82.jpg?imwidth=400&filter=packshot"
@@ -83,7 +83,6 @@
    "price": 202.95,
    "was": 310.0,
    "sizes": [
-    "9.5",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-alphafly-3-road-running-shoes-platinum-coloured-tintpurple-dynastyocean-cubemoon-particleice-peachspruce-aura-n1242a2z1-q12.html",
@@ -108,21 +107,6 @@
    "shoe": "alphafly",
    "shop": "Zalando",
    "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next 3 Unisex",
-   "colour": "phantom/sequoia/ultralime/citron tint/iron purple/football grey",
-   "gender": "men",
-   "price": 233.95,
-   "was": 310.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-phantomsequoiaultralimecitron-tintiron-purplefootball-grey-n1242a2z1-q11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/c3aa2f2d85fa41c4946553a7bcab2530/a92107932c6344ec8185d5ca8a8a5b21.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Zalando",
-   "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
    "colour": "glacier blue/black/mint foam/green shock/hyper pink/silt red",
    "gender": "women",
@@ -133,6 +117,21 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-glacier-blueblackmint-foamgreen-shockhyper-pinksilt-red-n1241a1ev-k11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/dd4f62fc3033437c83f6d4c424b64927/0816e3c5c68041a2b00020e0f6a39320.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Zalando",
+   "model": "Alphafly 3",
+   "name": "Air Zoom Alphafly Next 3 Unisex",
+   "colour": "phantom/sequoia/ultralime/citron tint/iron purple/football grey",
+   "gender": "men",
+   "price": 233.95,
+   "was": 310.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-phantomsequoiaultralimecitron-tintiron-purplefootball-grey-n1242a2z1-q11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/c3aa2f2d85fa41c4946553a7bcab2530/a92107932c6344ec8185d5ca8a8a5b21.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "alphafly",
@@ -234,7 +233,6 @@
    "price": 187.95,
    "was": 250.0,
    "sizes": [
-    "3.5",
     "4",
     "4.5",
     "5",
@@ -556,27 +554,6 @@
    "shoe": "adios-pro",
    "shop": "Zalando",
    "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "ftwr white/beam orange/lucid red",
-   "gender": "women",
-   "price": 162.5,
-   "was": 250.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-ftwr-whitebeam-orangelucid-red-ad541a2fg-a15.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/2bef2dd20657418fa9ac3ca2d167cd24/1a68a2101655455bbf456024e6adf271.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Zalando",
-   "model": "Adios Pro 4",
    "name": "Adidas Performance Adizero Adios Pro 4 Running Shoes",
    "colour": "acid orange core black crystal white",
    "gender": "women",
@@ -691,10 +668,31 @@
     "3.5",
     "4",
     "4.5",
-    "5"
+    "5",
+    "7"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-off-whitelight-bluebright-red-ad541a2li-k11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/0247cda343cc4a7eb1bb87e7941ab84b/4462b46a05a24ee7a4ce4b3e4b99ac18.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Zalando",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "ftwr white/beam orange/lucid red",
+   "gender": "women",
+   "price": 162.5,
+   "was": 250.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-ftwr-whitebeam-orangelucid-red-ad541a2fg-a15.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/2bef2dd20657418fa9ac3ca2d167cd24/1a68a2101655455bbf456024e6adf271.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "adios-pro",
@@ -721,7 +719,7 @@
    "price": 187.95,
    "was": 250.0,
    "sizes": [
-    "4.5"
+    "8"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-footwear-whiteiron-metallicpulse-mint-ad541a2fg-m11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/23f943fd1cb148008e54449cf0083442/4c4264f791e046c69be2cbf140dbab1e.jpg?imwidth=400&filter=packshot"
@@ -964,8 +962,7 @@
     "3",
     "3.5",
     "4",
-    "4.5",
-    "5.5"
+    "4.5"
    ],
    "url": "https://www.zalando.ie/nike-performance-zoomx-vaporfly-next-4-road-running-shoes-citron-pulseindigo-burstlaser-orangevolt-icehyper-violetsapphire-n1241a1e6-h11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/98973180744a4a3796ba301e825cf591/717d4f51445648f292afd0eb600151ed.jpg?imwidth=400&filter=packshot"
@@ -1013,6 +1010,7 @@
    "sizes": [
     "6",
     "6.5",
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -1083,7 +1081,7 @@
    "sizes": [
     "4",
     "5",
-    "6",
+    "5.5",
     "7",
     "7.5",
     "8"
@@ -1132,8 +1130,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8"
+    "7.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-ultra-red-inky-depths-white-pu141a190-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a1e25df3a0dd4b3b9e2117a9363dca05/93dfd5a002634aad96e26abf876c7f8f.jpg?imwidth=400&filter=packshot"
@@ -1154,7 +1151,6 @@
     "5",
     "5.5",
     "6",
-    "6.5",
     "7",
     "8"
    ],
@@ -1248,7 +1244,6 @@
     "8.5",
     "9.5",
     "10.5",
-    "11",
     "13"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-3-unisex-road-running-shoes-whiteeggplant-s2344a00e-a11.html",
@@ -1291,8 +1286,7 @@
    "sizes": [
     "3",
     "3.5",
-    "4",
-    "6"
+    "4"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-2-unisex-road-running-shoes-whitecrimson-s2344a00c-a13.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/5215b12576be45358e81162cf2f1cbd2/8d42c03114da4042bcba3c894093085e.jpg?imwidth=400&filter=packshot"
@@ -1666,12 +1660,10 @@
     "4.5",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7",
     "7.5",
     "8",
-    "8.5",
     "10"
    ],
    "url": "https://www.zalando.ie/new-balance-sc-elite-v6-nyc-marathon-road-running-shoes-satsuma-orangestreamsong-ne241a0ip-h11.html",
@@ -1732,7 +1724,8 @@
    "price": 162.95,
    "was": 250.0,
    "sizes": [
-    "4.5"
+    "4.5",
+    "7.5"
    ],
    "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-neon-yuzusquid-ink-h1x44a00e-e11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6204ec556e7d47e4a845bbdd706fddb2/9b143103ec8844d09cc9bfd02b46d52b.jpg?imwidth=400&filter=packshot"
@@ -1826,25 +1819,6 @@
    "shop": "Zalando",
    "model": "Hyperion Elite 5",
    "name": "Hyperion Elite 5",
-   "colour": "limpet black green gecko",
-   "gender": "men",
-   "price": 165.0,
-   "was": 275.0,
-   "sizes": [
-    "4.5",
-    "8",
-    "9.5",
-    "10",
-    "12.5"
-   ],
-   "url": "https://www.zalando.ie/brooks-hyperion-elite-5-road-running-shoes-limpet-black-green-gecko-br944a007-m11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/f80e7c2a45894053956dd713b9e17bef/a588e363428f4191976ef2dacb7f35a2.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "brooks-hyperion-elite",
-   "shop": "Zalando",
-   "model": "Hyperion Elite 5",
-   "name": "Hyperion Elite 5",
    "colour": "pink clay atomizer blue",
    "gender": "men",
    "price": 165.0,
@@ -1852,11 +1826,27 @@
    "sizes": [
     "5",
     "8",
-    "10",
-    "11"
+    "10"
    ],
    "url": "https://www.zalando.ie/brooks-trainers-pink-clay-atomizer-blue-br944a007-j11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6fbd2be2322147d69a669a480e528712/096342802f274c938355edf8ad9b8a1c.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Zalando",
+   "model": "Hyperion Elite 5",
+   "name": "Hyperion Elite 5",
+   "colour": "limpet black green gecko",
+   "gender": "men",
+   "price": 165.0,
+   "was": 275.0,
+   "sizes": [
+    "4.5",
+    "8",
+    "12.5"
+   ],
+   "url": "https://www.zalando.ie/brooks-hyperion-elite-5-road-running-shoes-limpet-black-green-gecko-br944a007-m11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/f80e7c2a45894053956dd713b9e17bef/a588e363428f4191976ef2dacb7f35a2.jpg?imwidth=400&filter=packshot"
   }
  ]
 }
