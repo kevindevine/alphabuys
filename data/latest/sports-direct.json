@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T02:40:30+00:00",
+ "checked": "2026-11-19T11:55:24+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -14,8 +14,7 @@
     "7",
     "8",
     "9",
-    "10",
-    "11"
+    "10"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
@@ -555,7 +554,7 @@
    "price": 78.0,
    "was": 260.0,
    "sizes": [
-    "5",
+    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
@@ -1266,7 +1265,8 @@
    "was": 280.0,
    "sizes": [
     "4",
-    "6"
+    "6",
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/new-balance-womens-fuelcell-supercomp-elite-fast-running-shoes-210828#colcode=21082806",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21082806_o?fmt=auto&w=345&h=345&v=1"
@@ -1425,7 +1425,6 @@
     "4",
     "5",
     "6",
-    "7",
     "8"
    ],
    "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
