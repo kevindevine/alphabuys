@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T20:43:57+00:00",
+ "checked": "2026-11-19T02:40:30+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -556,7 +556,7 @@
    "was": 260.0,
    "sizes": [
     "5",
-    "6"
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
@@ -565,16 +565,23 @@
    "shoe": "vaporfly",
    "shop": "Sports Direct",
    "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "White/Black",
-   "gender": "women",
-   "price": 78.0,
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
+   "colour": "White/Lemon",
+   "gender": "men",
+   "price": 190.0,
    "was": 260.0,
    "sizes": [
-    "7"
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
    ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281530",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281530_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -799,28 +806,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281570",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281570_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
-   "colour": "White/Lemon",
-   "gender": "men",
-   "price": 190.0,
-   "was": 260.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281530",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281530_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -1281,8 +1266,7 @@
    "was": 280.0,
    "sizes": [
     "4",
-    "6",
-    "7"
+    "6"
    ],
    "url": "https://ie.sportsdirect.com/new-balance-womens-fuelcell-supercomp-elite-fast-running-shoes-210828#colcode=21082806",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21082806_o?fmt=auto&w=345&h=345&v=1"
@@ -1432,18 +1416,20 @@
    "shoe": "on-cloudboom",
    "shop": "Sports Direct",
    "model": "Cloudboom Strike",
-   "name": "Women's Cloudboom Strike Fast Neutral Road Running Shoes",
-   "colour": "White/Blue",
+   "name": "Womens On Cloudboom Strike Fast Neutral Road Running Shoes",
+   "colour": "Juniper/Lime",
    "gender": "women",
-   "price": 139.0,
+   "price": 205.0,
    "was": 280.0,
    "sizes": [
+    "4",
     "5",
     "6",
+    "7",
     "8"
    ],
-   "url": "https://ie.sportsdirect.com/on-cloudboom-strike-ld53-210912#colcode=21091201",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21091201_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21292424_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "on-cloudboom",
@@ -1471,20 +1457,18 @@
    "shoe": "on-cloudboom",
    "shop": "Sports Direct",
    "model": "Cloudboom Strike",
-   "name": "Womens On Cloudboom Strike Fast Neutral Road Running Shoes",
-   "colour": "Juniper/Lime",
+   "name": "Women's Cloudboom Strike Fast Neutral Road Running Shoes",
+   "colour": "White/Blue",
    "gender": "women",
-   "price": 205.0,
+   "price": 139.0,
    "was": 280.0,
    "sizes": [
-    "4",
     "5",
     "6",
-    "7",
     "8"
    ],
-   "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21292424_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/on-cloudboom-strike-ld53-210912#colcode=21091201",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21091201_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "brooks-hyperion-elite",

@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T20:43:57+00:00",
+ "checked": "2026-11-19T02:40:30+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -68,7 +68,6 @@
    "was": 309.99,
    "sizes": [
     "6.5",
-    "7",
     "8"
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-mens-running-shoes-platinum-tint-fd8311-003.html",
@@ -208,19 +207,6 @@
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-ftwr-white-ki1471.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-03/ki1471_A-600x600.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Mister Running",
-   "model": "Adios Pro 5",
-   "name": "adidas Adizero Adios Pro 5",
-   "colour": "Solar Turbo/Core Black/Lucid Red",
-   "gender": "men",
-   "price": 259.99,
-   "was": 260.0,
-   "sizes": [],
-   "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-5-mens-running-shoes-solar-turbo-ki8294.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/adidas-adizero-adios-pro-5-scarpe-da-running-uomo-solar-turbo-ki8294-A-600x600.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -556,7 +542,6 @@
     "5.5",
     "6",
     "6.5",
-    "7",
     "7.5",
     "8",
     "8.5",
@@ -748,30 +733,6 @@
    "shoe": "vaporfly",
    "shop": "Mister Running",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4 Se",
-   "colour": "Team Red/Barely Green/Atomic Pink",
-   "gender": "women",
-   "price": 142.9,
-   "was": 259.99,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "9"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-womens-running-shoes-team-red-barely-green-ir2311-600.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-02/ir2311-600_A-600x600.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Mister Running",
-   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
    "colour": "Racer Blue/White/Blue Lightning",
    "gender": "men",
@@ -792,6 +753,30 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-mens-running-shoes-racer-blue-white-im8203-400.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-04/im8203-400_A-600x600.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Mister Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 Se",
+   "colour": "Team Red/Barely Green/Atomic Pink",
+   "gender": "women",
+   "price": 142.9,
+   "was": 259.99,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "9"
+   ],
+   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-womens-running-shoes-team-red-barely-green-ir2311-600.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-02/ir2311-600_A-600x600.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -848,32 +833,6 @@
    "shoe": "vaporfly",
    "shop": "Mister Running",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4 Se",
-   "colour": "Black/White/Smoke Grey/Grey Fog",
-   "gender": "men",
-   "price": 207.5,
-   "was": 259.99,
-   "sizes": [
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-running-shoes-black-white-smoke-grey-iv4079-001.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/IV4079-001_A-600x600.jpg"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Mister Running",
-   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
    "colour": "Barely Green/Purple Dynasty/Chalk",
    "gender": "women",
@@ -895,6 +854,32 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-vaporfly-4-womens-running-shoes-barely-green-hf6412-300.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-07/nike-vaporfly-4-scarpe-running-donna-barely-green-hf6412-300-A-600x600.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Mister Running",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 Se",
+   "colour": "Black/White/Smoke Grey/Grey Fog",
+   "gender": "men",
+   "price": 207.5,
+   "was": 259.99,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.misterrunning.com/en/nike-vaporfly-4-se-running-shoes-black-white-smoke-grey-iv4079-001.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/IV4079-001_A-600x600.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -1829,28 +1814,6 @@
    "model": "SC Elite v6",
    "name": "New Balance Supercomp Elite V6 Nyc",
    "colour": "Blue/Yellow",
-   "gender": "women",
-   "price": 237.5,
-   "was": 280.0,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v6-nyc-womens-running-shoes-blue-yellow-wrcel185.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-09/new-balance-sc-elite-v6-nyc-scarpe-running-donna-blue-yellow-wrcel185-A-600x600.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Mister Running",
-   "model": "SC Elite v6",
-   "name": "New Balance Supercomp Elite V6 Nyc",
-   "colour": "Blue/Yellow",
    "gender": "men",
    "price": 237.5,
    "was": 280.0,
@@ -1869,6 +1832,28 @@
    "image": "https://www.misterrunning.com/media/products/2026-media-08/new-balance-supercomp-elite-v6-nyc-scarpe-running-uomo-blue-mrcel7rz_A-600x600.jpg"
   },
   {
+   "shoe": "nb-sc-elite",
+   "shop": "Mister Running",
+   "model": "SC Elite v6",
+   "name": "New Balance Supercomp Elite V6 Nyc",
+   "colour": "Blue/Yellow",
+   "gender": "women",
+   "price": 237.5,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://www.misterrunning.com/en/new-balance-sc-elite-v6-nyc-womens-running-shoes-blue-yellow-wrcel185.html",
+   "image": "https://www.misterrunning.com/media/products/2026-media-09/new-balance-sc-elite-v6-nyc-scarpe-running-donna-blue-yellow-wrcel185-A-600x600.jpg"
+  },
+  {
    "shoe": "hoka-rocket-x",
    "shop": "Mister Running",
    "model": "Rocket X 3",
@@ -1879,7 +1864,6 @@
    "was": 250.0,
    "sizes": [
     "6",
-    "7.5",
     "8"
    ],
    "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-neon-yuzu-squid-ink-1168724-nzs.html",
