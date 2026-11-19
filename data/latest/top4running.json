@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T11:15:02+00:00",
+ "checked": "2026-11-19T15:15:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -166,19 +166,6 @@
    "shop": "Top4Running",
    "model": "Alphafly 3",
    "name": "Nike Alphafly 3",
-   "colour": "white",
-   "gender": "men",
-   "price": 309.99,
-   "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/nike-air-zoom-alphafly-next-3-cm-running-shoe-ii7290-100",
-   "image": "https://i1.t4s.cz/products/ii7290-100/nike-alphafly-3-cm-1115580-ii7290-1003.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Top4Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
    "colour": "pink",
    "gender": "women",
    "price": 223.9,
@@ -311,7 +298,6 @@
     "8",
     "8.5",
     "9.5",
-    "10",
     "10.5"
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jp6624",
@@ -1399,7 +1385,6 @@
    "was": null,
    "sizes": [
     "5",
-    "5.5",
     "6",
     "7.5",
     "8",
@@ -2212,7 +2197,6 @@
     "9",
     "9.5",
     "10",
-    "10.5",
     "12.5"
    ],
    "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-mrcel3ud",
@@ -2498,7 +2482,6 @@
    "sizes": [
     "7",
     "7.5",
-    "8",
     "9.5",
     "11.5",
     "12",

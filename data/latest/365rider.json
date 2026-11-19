@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T11:15:02+00:00",
+ "checked": "2026-11-19T15:15:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -144,7 +144,6 @@
    "price": 193.08,
    "was": 274.46,
    "sizes": [
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -441,6 +440,7 @@
    "price": 168.69,
    "was": 254.12,
    "sizes": [
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -484,7 +484,7 @@
    "name": "Puma Deviate NITRO Elite 4 White Yellow SS26 Women",
    "colour": "",
    "gender": "women",
-   "price": 142.27,
+   "price": 138.2,
    "was": 254.12,
    "sizes": [
     "3.5",
@@ -505,6 +505,7 @@
    "price": 172.75,
    "was": 254.12,
    "sizes": [
+    "7",
     "7.5",
     "8",
     "8.5",
@@ -542,7 +543,7 @@
    "name": "Puma Deviate Nitro Elite 3 Orange Black AW25 Women's Shoe",
    "colour": "",
    "gender": "women",
-   "price": 100.58,
+   "price": 93.52,
    "was": 233.8,
    "sizes": [
     "3.5"
@@ -557,7 +558,7 @@
    "name": "Puma Deviate NITRO Elite 4 HYROX Blue Yellow AW26 Women\u2019s Shoes",
    "colour": "",
    "gender": "women",
-   "price": 188.01,
+   "price": 178.86,
    "was": 254.12,
    "sizes": [
     "3.5",
@@ -592,7 +593,7 @@
    "name": "Puma Deviate NITRO Elite 4 SAYSKY Black Blue AW26",
    "colour": "",
    "gender": "men",
-   "price": 182.93,
+   "price": 177.84,
    "was": 264.29,
    "sizes": [
     "8",
@@ -632,7 +633,7 @@
    "name": "Puma Deviate NITRO Elite 4 Green Black AW26 Women's",
    "colour": "",
    "gender": "women",
-   "price": 168.69,
+   "price": 162.59,
    "was": 254.12,
    "sizes": [
     "3.5",
@@ -692,7 +693,7 @@
    "name": "Puma FAST-R NITRO Elite 3 Shoes Yellow Black SS26",
    "colour": "",
    "gender": "men",
-   "price": 188.01,
+   "price": 172.76,
    "was": 304.95,
    "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21192-puma-fast-r-nitro-elite-3-shoes-yellow-black-ss26.html",
@@ -705,7 +706,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes Red Black AW26",
    "colour": "",
    "gender": "men",
-   "price": 209.35,
+   "price": 203.26,
    "was": 304.95,
    "sizes": [
     "7",
@@ -727,7 +728,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes White Blue AW26",
    "colour": "",
    "gender": "men",
-   "price": 209.36,
+   "price": 203.26,
    "was": 304.95,
    "sizes": [
     "6.5",
@@ -749,7 +750,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes Purple Red AW26",
    "colour": "",
    "gender": "men",
-   "price": 208.34,
+   "price": 199.19,
    "was": 304.95,
    "sizes": [
     "7.5",
@@ -771,7 +772,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Green Black",
    "colour": "",
    "gender": "men",
-   "price": 223.59,
+   "price": 203.25,
    "was": 304.95,
    "sizes": [
     "7",
@@ -794,7 +795,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Black Red",
    "colour": "",
    "gender": "men",
-   "price": 219.52,
+   "price": 203.26,
    "was": 304.95,
    "sizes": [
     "7.5",
@@ -854,7 +855,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Red Black AW26",
    "colour": "",
    "gender": "women",
-   "price": 209.35,
+   "price": 199.19,
    "was": 304.95,
    "sizes": [
     "6"
@@ -961,8 +962,7 @@
     "9",
     "9.5",
     "10",
-    "10.5",
-    "11"
+    "10.5"
    ],
    "url": "https://www.365rider.com/en/running/22690-saucony-endorphin-elite-3-shoes-red-gold-aw26-unisex.html",
    "image": "https://www.365rider.com/111358-home_default/saucony-endorphin-elite-3-shoes-red-gold-aw26-unisex.jpg"
@@ -1558,7 +1558,7 @@
    "name": "Brooks Hyperion Elite 5 Shoes Yellow SS26 Unisex",
    "colour": "",
    "gender": "men",
-   "price": 175.81,
+   "price": 167.68,
    "was": 279.55,
    "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21388-brooks-hyperion-elite-5-shoes-yellow-ss26-unisex.html",
