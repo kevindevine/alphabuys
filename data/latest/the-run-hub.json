@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T20:49:20+00:00",
+ "checked": "2026-11-20T02:25:53+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -42,25 +42,6 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "White, Shared & Royal Blue",
-   "gender": "women",
-   "price": 260.0,
-   "was": null,
-   "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-9",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Shared_RoyalBlueTheRunHub_2.png?v=1790169460"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "The Run Hub",
-   "model": "Adios Pro 5",
-   "name": "Adidas Adizero Adios Pro 5",
    "colour": "White, Green & Royal Blue",
    "gender": "men",
    "price": 260.0,
@@ -80,7 +61,7 @@
    "shop": "The Run Hub",
    "model": "Adios Pro 5",
    "name": "Adidas Adizero Adios Pro 5",
-   "colour": "Clear Sky, Grey & Silver Metallic",
+   "colour": "White, Shared & Royal Blue",
    "gender": "women",
    "price": 260.0,
    "was": null,
@@ -88,10 +69,11 @@
     "5",
     "5.5",
     "6",
+    "6.5",
     "7"
    ],
-   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-10",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Grey_SilverMetallicTheRunHub_2.png?v=1790327966"
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-9",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5White_Shared_RoyalBlueTheRunHub_2.png?v=1790169460"
   },
   {
    "shoe": "adios-pro",
@@ -107,6 +89,24 @@
    ],
    "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-11",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Carbon_SilverMetallicTheRunHub_2.png?v=1790594387"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "The Run Hub",
+   "model": "Adios Pro 5",
+   "name": "Adidas Adizero Adios Pro 5",
+   "colour": "Clear Sky, Grey & Silver Metallic",
+   "gender": "women",
+   "price": 260.0,
+   "was": null,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "7"
+   ],
+   "url": "https://therunhub.ie/products/adidas-adizero-adios-pro-10",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/AdidasAdizeroAdiosPro5ClearSky_Grey_SilverMetallicTheRunHub_2.png?v=1790327966"
   },
   {
    "shoe": "adios-pro",
@@ -166,16 +166,15 @@
    "shop": "The Run Hub",
    "model": "Vaporfly 4",
    "name": "Nike ZoomX Vaporfly Next% 4",
-   "colour": "White & Midnight Navy",
+   "colour": "Obsidian, White-Persian Violet",
    "gender": "men",
-   "price": 195.0,
+   "price": 155.0,
    "was": 260.0,
    "sizes": [
-    "11",
-    "12"
+    "7"
    ],
-   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-8",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4White_MidnightNavyTheRunHub_2.png?v=1774520593"
+   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-6",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4Obsidian_White-PersianVioletTheRunHub.png?v=1760348293"
   },
   {
    "shoe": "vaporfly",
@@ -197,15 +196,16 @@
    "shop": "The Run Hub",
    "model": "Vaporfly 4",
    "name": "Nike ZoomX Vaporfly Next% 4",
-   "colour": "Obsidian, White-Persian Violet",
+   "colour": "White & Midnight Navy",
    "gender": "men",
-   "price": 155.0,
+   "price": 195.0,
    "was": 260.0,
    "sizes": [
-    "7"
+    "11",
+    "12"
    ],
-   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-6",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4Obsidian_White-PersianVioletTheRunHub.png?v=1760348293"
+   "url": "https://therunhub.ie/products/nike-zoomx-vaporfly-next-8",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NikeZoomXVaporflyNext_4White_MidnightNavyTheRunHub_2.png?v=1774520593"
   },
   {
    "shoe": "saucony-endorphin",
@@ -224,6 +224,21 @@
    ],
    "url": "https://therunhub.ie/products/saucony-endorphin-pro-13",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5FuegoTheRunHub_2.png?v=1787240413"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "The Run Hub",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5",
+   "colour": "Fire & Orchid",
+   "gender": "women",
+   "price": 175.0,
+   "was": 270.0,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://therunhub.ie/products/saucony-endorphin-pro-11",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Fire_OrchidTheRunHub_2.png?v=1773662095"
   },
   {
    "shoe": "saucony-endorphin",
@@ -261,36 +276,6 @@
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5White_TranquilTheRunHub_2.png?v=1787240109"
   },
   {
-   "shoe": "saucony-endorphin",
-   "shop": "The Run Hub",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5",
-   "colour": "Fire & Orchid",
-   "gender": "women",
-   "price": 175.0,
-   "was": 270.0,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://therunhub.ie/products/saucony-endorphin-pro-11",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/SauconyEndorphinPro5Fire_OrchidTheRunHub_2.png?v=1773662095"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "The Run Hub",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5",
-   "colour": "Boysenberry with Afterglow",
-   "gender": "women",
-   "price": 195.0,
-   "was": 280.0,
-   "sizes": [
-    "5"
-   ],
-   "url": "https://therunhub.ie/products/new-balance-fuelcell-supercomp-elite-v5",
-   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NewBalanceFuelCellSuperCompElitev5BoysenberrywithAfterglowTheRunHub_2.png?v=1770210394"
-  },
-  {
    "shoe": "nb-sc-elite",
    "shop": "The Run Hub",
    "model": "SC Elite v6",
@@ -307,6 +292,21 @@
    ],
    "url": "https://therunhub.ie/products/new-balance-supercomp-elite-v6-1",
    "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NewBalanceSuperCompElitev6FreshAirwithAlkalineGreenTheRunHub_5.png?v=1785512886"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "The Run Hub",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "Boysenberry with Afterglow",
+   "gender": "women",
+   "price": 195.0,
+   "was": 280.0,
+   "sizes": [
+    "5"
+   ],
+   "url": "https://therunhub.ie/products/new-balance-fuelcell-supercomp-elite-v5",
+   "image": "https://cdn.shopify.com/s/files/1/0550/3267/6435/files/NewBalanceFuelCellSuperCompElitev5BoysenberrywithAfterglowTheRunHub_2.png?v=1770210394"
   },
   {
    "shoe": "nb-sc-elite",
