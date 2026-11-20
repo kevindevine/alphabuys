@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T02:25:53+00:00",
+ "checked": "2026-11-20T11:55:47+00:00",
  "offers": [
   {
    "shoe": "metaspeed",
@@ -30,37 +30,17 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Women's",
-   "colour": "BLACK/SHOCK",
+   "model": "Endorphin Elite 1",
+   "name": "Saucony Endorphin Elite Women's",
+   "colour": "White/ViziRed",
    "gender": "women",
-   "price": 240.0,
-   "was": 270.0,
+   "price": 180.0,
+   "was": null,
    "sizes": [
-    "5",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54046071521609",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Women's",
-   "colour": "WHITE/SPLASH",
-   "gender": "women",
-   "price": 240.0,
-   "was": 270.0,
-   "sizes": [
-    "6.5",
-    "7",
     "8"
    ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54297241715017",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S11064-120.jpg?v=1777559351"
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-womens?variant=51180567396681",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Women_s_White_Vizi.jpg?v=1731925822"
   },
   {
    "shoe": "saucony-endorphin",
@@ -91,138 +71,6 @@
    ],
    "url": "https://amphibianking.ie/products/saucony-endorphin-elite-mens?variant=50489495388489",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Men_s_Viziblue_Citron_Blue.webp?v=1722351926"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Men's",
-   "colour": "CITRON/BLACK",
-   "gender": "men",
-   "price": 240.0,
-   "was": 270.0,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11.5"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-mens?variant=54045948608841",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_142635_saucony.orderwwwbrands.eu.jpg?v=1773844132"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Men's",
-   "colour": "BLACK/SHOCK",
-   "gender": "men",
-   "price": 240.0,
-   "was": 270.0,
-   "sizes": [
-    "7",
-    "7.5",
-    "8.5",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-mens?variant=54060184568137",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 3",
-   "name": "Saucony Endorphin Elite 3 Unisex",
-   "colour": "White/Multi",
-   "gender": "men",
-   "price": 320.0,
-   "was": null,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-3-unisex?variant=54612782940489",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/unnamed_b9c8129c-8f62-4135-9871-8a850736a1c1.jpg?v=1781618551"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "White/Mutant",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52874830053705",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/elite_2_mutant.jpg?v=1769105111"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "Shock /Black",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=53698750841161",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SAU5366_1000_1__27895.jpg?v=1769105142"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "White/Peel",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=51855718449481",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SauconyEndorphinElite2UnisexWhite-Peel.webp?v=1769105142"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "Coral/White",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52558884634953",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_25-6-2025_14515_saucony.orderwwwbrands.eu.jpg?v=1769105111"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "Cinder/Fog",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52095929516361",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_2_Unisex_Cinder-Fog.jpg?v=1769105111"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2 Unisex",
-   "colour": "Lapis/Citron",
-   "gender": "men",
-   "price": 200.0,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52563827556681",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_26-6-2025_1570_saucony.orderwwwbrands.eu.jpg?v=1769105111"
   },
   {
    "shoe": "saucony-endorphin",
@@ -331,17 +179,43 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Amphibian King",
-   "model": "Endorphin Elite 1",
-   "name": "Saucony Endorphin Elite Women's",
-   "colour": "White/ViziRed",
-   "gender": "women",
-   "price": 180.0,
-   "was": null,
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Men's",
+   "colour": "CITRON/BLACK",
+   "gender": "men",
+   "price": 240.0,
+   "was": 270.0,
    "sizes": [
-    "8"
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11.5"
    ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-womens?variant=51180567396681",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Women_s_White_Vizi.jpg?v=1731925822"
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-mens?variant=54045948608841",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_142635_saucony.orderwwwbrands.eu.jpg?v=1773844132"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Men's",
+   "colour": "BLACK/SHOCK",
+   "gender": "men",
+   "price": 240.0,
+   "was": 270.0,
+   "sizes": [
+    "7",
+    "7.5",
+    "8.5",
+    "9",
+    "10",
+    "11"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-mens?variant=54060184568137",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
   },
   {
    "shoe": "saucony-endorphin",
@@ -430,6 +304,223 @@
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S20939-68_796f31fd-bc32-47b2-9467-8bf39c257f66.jpg?v=1742640386"
   },
   {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 3",
+   "name": "Saucony Endorphin Elite 3 Unisex",
+   "colour": "White/Multi",
+   "gender": "men",
+   "price": 320.0,
+   "was": null,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-3-unisex?variant=54612782940489",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/unnamed_b9c8129c-8f62-4135-9871-8a850736a1c1.jpg?v=1781618551"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Women's",
+   "colour": "BLACK/SHOCK",
+   "gender": "women",
+   "price": 240.0,
+   "was": 270.0,
+   "sizes": [
+    "5",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54046071521609",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Women's",
+   "colour": "WHITE/SPLASH",
+   "gender": "women",
+   "price": 240.0,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54297241715017",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S11064-120.jpg?v=1777559351"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "White/Mutant",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52874830053705",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/elite_2_mutant.jpg?v=1769105111"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "Shock /Black",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=53698750841161",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SAU5366_1000_1__27895.jpg?v=1769105142"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "White/Peel",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=51855718449481",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SauconyEndorphinElite2UnisexWhite-Peel.webp?v=1769105142"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "Coral/White",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52558884634953",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_25-6-2025_14515_saucony.orderwwwbrands.eu.jpg?v=1769105111"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "Cinder/Fog",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52095929516361",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_2_Unisex_Cinder-Fog.jpg?v=1769105111"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 2",
+   "name": "Saucony Endorphin Elite 2 Unisex",
+   "colour": "Lapis/Citron",
+   "gender": "men",
+   "price": 200.0,
+   "was": 300.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52563827556681",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_26-6-2025_1570_saucony.orderwwwbrands.eu.jpg?v=1769105111"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Amphibian King",
+   "model": "SC Elite v6",
+   "name": "New Balance FuelCell SuperComp Elite v6 Men's",
+   "colour": "FRESH AIR/ALKALINE GREEN",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [
+    "8.5",
+    "9",
+    "9.5"
+   ],
+   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v6-mens?variant=55324389933385",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcel598_nb_02_i.webp?v=1789204617"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Amphibian King",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Women's",
+   "colour": "Urgent Red with White and Black",
+   "gender": "women",
+   "price": 200.0,
+   "was": 280.0,
+   "sizes": [
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v4-womens-copy?variant=52732450898249",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/wrcellr5_nb_02_i.webp?v=1768579980"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Amphibian King",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Women's",
+   "colour": "BOYSENBERRY / AFTERGLOW",
+   "gender": "women",
+   "price": 200.0,
+   "was": 280.0,
+   "sizes": [
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v4-womens-copy?variant=53666989539657",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/wrcel7uh_nb_02_i.webp?v=1768579980"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Amphibian King",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Men's",
+   "colour": "Boysenberry/Afterglow",
+   "gender": "men",
+   "price": 200.0,
+   "was": 280.0,
+   "sizes": [
+    "8",
+    "8.5",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v5-mens?variant=53666957033801",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcel79h_nb_02_i.webp?v=1768578348"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Amphibian King",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Men's",
+   "colour": "Urgent Red with White and Black",
+   "gender": "men",
+   "price": 200.0,
+   "was": 280.0,
+   "sizes": [
+    "8.5",
+    "9",
+    "10.5",
+    "12"
+   ],
+   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v5-mens?variant=52732186165577",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcellr5_nb_02_i_b0109fb2-b01b-4a82-8c11-42077ec1fefa.webp?v=1768578402"
+  },
+  {
    "shoe": "nb-sc-elite",
    "shop": "Amphibian King",
    "model": "SC Elite v4",
@@ -474,97 +565,6 @@
    ],
    "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v4-mens-copy?variant=51075502342473",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/NewBalanceFuelCellSupercompElitev4Women_s_25bb9c1f-4a21-4579-ad53-bf0c8f962b95.png?v=1738691777"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Amphibian King",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Women's",
-   "colour": "Urgent Red with White and Black",
-   "gender": "women",
-   "price": 200.0,
-   "was": 280.0,
-   "sizes": [
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v4-womens-copy?variant=52732450898249",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/wrcellr5_nb_02_i.webp?v=1768579980"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Amphibian King",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Women's",
-   "colour": "BOYSENBERRY / AFTERGLOW",
-   "gender": "women",
-   "price": 200.0,
-   "was": 280.0,
-   "sizes": [
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v4-womens-copy?variant=53666989539657",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/wrcel7uh_nb_02_i.webp?v=1768579980"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Amphibian King",
-   "model": "SC Elite v6",
-   "name": "New Balance FuelCell SuperComp Elite v6 Men's",
-   "colour": "FRESH AIR/ALKALINE GREEN",
-   "gender": "men",
-   "price": 280.0,
-   "was": null,
-   "sizes": [
-    "8.5",
-    "9",
-    "9.5"
-   ],
-   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v6-mens?variant=55324389933385",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcel598_nb_02_i.webp?v=1789204617"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Amphibian King",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Men's",
-   "colour": "Boysenberry/Afterglow",
-   "gender": "men",
-   "price": 200.0,
-   "was": 280.0,
-   "sizes": [
-    "8",
-    "8.5",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v5-mens?variant=53666957033801",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcel79h_nb_02_i.webp?v=1768578348"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Amphibian King",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Men's",
-   "colour": "Urgent Red with White and Black",
-   "gender": "men",
-   "price": 200.0,
-   "was": 280.0,
-   "sizes": [
-    "8.5",
-    "9",
-    "10.5",
-    "12"
-   ],
-   "url": "https://amphibianking.ie/products/new-balance-fuelcell-supercomp-elite-v5-mens?variant=52732186165577",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/mrcellr5_nb_02_i_b0109fb2-b01b-4a82-8c11-42077ec1fefa.webp?v=1768578402"
   },
   {
    "shoe": "nb-sc-elite",
@@ -660,25 +660,6 @@
   {
    "shoe": "brooks-hyperion-elite",
    "shop": "Amphibian King",
-   "model": "Hyperion Elite 6",
-   "name": "Brooks Hyperion Elite 6 (Unisex)",
-   "colour": "Vaporous Grey/Yellow/Black",
-   "gender": "men",
-   "price": 275.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10"
-   ],
-   "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex-copy?variant=54978966815049",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/brooks_hyperion_max_6.webp?v=1785576022"
-  },
-  {
-   "shoe": "brooks-hyperion-elite",
-   "shop": "Amphibian King",
    "model": "Hyperion Elite 5",
    "name": "Brooks Hyperion Elite 5 Unisex",
    "colour": "Pink Clay / Atomizer Blue",
@@ -715,6 +696,25 @@
    ],
    "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex?variant=53792809255241",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_3-2-2026_11580_fasttrack.brooksrunning.com.jpg?v=1770119916"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Amphibian King",
+   "model": "Hyperion Elite 6",
+   "name": "Brooks Hyperion Elite 6 (Unisex)",
+   "colour": "Vaporous Grey/Yellow/Black",
+   "gender": "men",
+   "price": 275.0,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex-copy?variant=54978966815049",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/brooks_hyperion_max_6.webp?v=1785576022"
   }
  ]
 }
