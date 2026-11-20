@@ -1,6 +1,22 @@
 {
- "checked": "2026-11-20T11:55:47+00:00",
+ "checked": "2026-11-20T20:34:00+00:00",
  "offers": [
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Coconut",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
+  },
   {
    "shoe": "alphafly",
    "shop": "Sports Direct",
@@ -14,8 +30,7 @@
     "7",
     "8",
     "9",
-    "10",
-    "11"
+    "10"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
@@ -44,6 +59,23 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Glacier Blue",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Crimson",
    "gender": "women",
    "price": 155.0,
@@ -57,23 +89,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Glacier Blue",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -270,22 +285,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000809",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000809_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Coconut",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000804",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000804_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -1443,21 +1442,6 @@
    ],
    "url": "https://ie.sportsdirect.com/brooks-hyperion-elite-5-road-running-shoes-mens-212887#colcode=21288718",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21288718_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "brooks-hyperion-elite",
-   "shop": "Sports Direct",
-   "model": "Hyperion Elite 5",
-   "name": "Hyperion Elite 5 Road Running Shoes Mens",
-   "colour": "Red/Blue",
-   "gender": "men",
-   "price": 219.0,
-   "was": 275.0,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://ie.sportsdirect.com/brooks-hyperion-elite-5-road-running-shoes-mens-212887#colcode=21288708",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21288708_o?fmt=auto&w=345&h=345&v=1"
   }
  ]
 }
