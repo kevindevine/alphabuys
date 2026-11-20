@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T07:15:14+00:00",
+ "checked": "2026-11-20T11:16:45+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -107,6 +107,21 @@
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
    "image": "https://i1.t4s.cz/products/fd8315-800/nike-alphafly-3-1063527-fd8315-8003.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 4",
+   "name": "Nike Alphafly 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-iu4686-002",
+   "image": "https://i1.t4s.cz/products/iu4686-002/nike-alphafly-4-proto-running-shoe-1228451-iu4686-0023.png"
   },
   {
    "shoe": "alphafly",
@@ -280,7 +295,6 @@
    "price": 200.0,
    "was": null,
    "sizes": [
-    "5.5",
     "6.5",
     "7.5"
    ],
@@ -616,7 +630,6 @@
     "4.5",
     "5",
     "5.5",
-    "7.5",
     "8.5",
     "9"
    ],
@@ -1053,6 +1066,25 @@
   {
    "shoe": "puma-elite",
    "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 3",
+   "name": "Puma Deviate NITRO Elite 3",
+   "colour": "green",
+   "gender": "women",
+   "price": 160.9,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5.5",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-wns-309810-07",
+   "image": "https://i1.t4s.cz/products/309810-07/puma-deviate-nitro-elite-3-945638-309810-07.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "",
@@ -1071,25 +1103,6 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
    "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 3",
-   "name": "Puma Deviate NITRO Elite 3",
-   "colour": "green",
-   "gender": "women",
-   "price": 160.9,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5.5",
-    "7.5",
-    "8"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-wns-309810-07",
-   "image": "https://i1.t4s.cz/products/309810-07/puma-deviate-nitro-elite-3-945638-309810-07.png"
   },
   {
    "shoe": "puma-elite",
@@ -1414,7 +1427,6 @@
     "4",
     "5",
     "6",
-    "8",
     "9",
     "9.5"
    ],
@@ -1574,7 +1586,8 @@
    "was": null,
    "sizes": [
     "4",
-    "4.5"
+    "4.5",
+    "5.5"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-2-running-shoe-s30994-135",
    "image": "https://i1.t4s.cz/products/s30994-135/saucony-endorphin-elite-2-923250-s30994-135.png"
