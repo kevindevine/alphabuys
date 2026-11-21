@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T11:15:15+00:00",
+ "checked": "2026-11-21T15:19:53+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -510,8 +510,7 @@
     "9.5",
     "10",
     "10.5",
-    "11",
-    "11.5"
+    "11"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/22424-puma-deviate-nitro-elite-4-hyrox-green-yellow-aw26-sneakers.html",
    "image": "https://www.365rider.com/107613-home_default/puma-deviate-nitro-elite-4-hyrox-green-yellow-aw26-sneakers.jpg"
@@ -567,21 +566,6 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22425-puma-deviate-nitro-elite-4-hyrox-blue-yellow-aw26-womens-shoes.html",
    "image": "https://www.365rider.com/107607-home_default/puma-deviate-nitro-elite-4-hyrox-blue-yellow-aw26-womens-shoes.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "365rider",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate NITRO Elite 4 Blue Yellow SS26 Women's",
-   "colour": "",
-   "gender": "women",
-   "price": 134.54,
-   "was": 254.12,
-   "sizes": [
-    "3.5"
-   ],
-   "url": "https://www.365rider.com/en/women-s-running-shoes/21712-puma-deviate-nitro-elite-4-blue-yellow-ss26-women-s.html",
-   "image": "https://www.365rider.com/103004-home_default/puma-deviate-nitro-elite-4-blue-yellow-ss26-women-s.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -1326,40 +1310,6 @@
    "image": "https://www.365rider.com/112650-home_default/saucony-endorphin-pro-5-shoes-red-aw26-women-s.jpg"
   },
   {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 White Green AW26 Women's Shoes",
-   "colour": "",
-   "gender": "women",
-   "price": 177.84,
-   "was": 274.46,
-   "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8"
-   ],
-   "url": "https://www.365rider.com/en/running/22757-saucony-endorphin-pro-5-white-green-aw26-women-s-shoes.html",
-   "image": "https://www.365rider.com/109007-home_default/saucony-endorphin-pro-5-white-green-aw26-women-s-shoes.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Shoes Yellow Grey AW26 Women",
-   "colour": "",
-   "gender": "women",
-   "price": 177.84,
-   "was": 274.46,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/women-s-running-shoes/22755-saucony-endorphin-pro-5-shoes-yellow-grey-aw26-women.html",
-   "image": "https://www.365rider.com/112642-home_default/saucony-endorphin-pro-5-shoes-yellow-grey-aw26-women.jpg"
-  },
-  {
    "shoe": "nb-sc-elite",
    "shop": "365rider",
    "model": "SC Elite v6",
@@ -1410,53 +1360,6 @@
    "shoe": "nb-sc-elite",
    "shop": "365rider",
    "model": "SC Elite v6",
-   "name": "New Balance SuperComp Elite v6 Orange Grey",
-   "colour": "",
-   "gender": "men",
-   "price": 213.42,
-   "was": 284.63,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/23131-new-balance-supercomp-elite-v6-orange-grey-running-shoes-aw26.html",
-   "image": "https://www.365rider.com/110294-home_default/new-balance-supercomp-elite-v6-orange-grey-running-shoes-aw26.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Blue Green SS26 Shoes",
-   "colour": "",
-   "gender": "men",
-   "price": 160.56,
-   "was": 284.63,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/21167-new-balance-fuelcell-supercomp-elite-v5-blue-green-ss26-shoes.html",
-   "image": "https://www.365rider.com/99628-home_default/new-balance-fuelcell-supercomp-elite-v5-blue-green-ss26-shoes.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v6",
    "name": "New Balance SuperComp Elite v6 Blue Yellow AW26 Women\u2019s",
    "colour": "",
    "gender": "women",
@@ -1494,26 +1397,6 @@
    "image": "https://www.365rider.com/94686-home_default/new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.jpg"
   },
   {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Shoes White Red AW25",
-   "colour": "",
-   "gender": "men",
-   "price": 157.51,
-   "was": 284.63,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/19955-112082-new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.html#/117-size-45_eur",
-   "image": "https://www.365rider.com/94686-home_default/new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.jpg"
-  },
-  {
    "shoe": "hoka-rocket-x",
    "shop": "365rider",
    "model": "Rocket X 3",
@@ -1538,32 +1421,6 @@
    "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/21745-hoka-rocket-x-3-shoes-green-red-ss26-unisex.html",
    "image": "https://www.365rider.com/103254-home_default/hoka-rocket-x-3-shoes-green-red-ss26-unisex.jpg"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "365rider",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3 White Green AW26 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 186.99,
-   "was": 254.13,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/23062-hoka-rocket-x-3-white-green-aw26-unisex-running-shoes.html",
-   "image": "https://www.365rider.com/109791-home_default/hoka-rocket-x-3-white-green-aw26-unisex-running-shoes.jpg"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "365rider",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3 Black Green AW26 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 181.91,
-   "was": 254.13,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/23396-hoka-rocket-x-3-black-green-aw26-unisex-running-shoes.html",
-   "image": "https://www.365rider.com/112101-home_default/hoka-rocket-x-3-black-green-aw26-unisex-running-shoes.jpg"
   },
   {
    "shoe": "brooks-hyperion-elite",
