@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T02:33:49+00:00",
+ "checked": "2026-11-21T11:27:21+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -18,6 +18,7 @@
     "8",
     "8.5",
     "9",
+    "9.5",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-racer-blue-atomic-pink-indigo-burst-white-n1242a2z1-k13.html",
@@ -66,8 +67,7 @@
     "5",
     "5.5",
     "6",
-    "6.5",
-    "7"
+    "6.5"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-fuchsia-glowpurple-dynastybright-violetsapphirehot-lavachalk-n1241a1ev-i11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/ffe55665e2f245b29ba8f776723e0196/1dbffcdcec074da6b8f03a1137f8a7cb.jpg?imwidth=400&filter=packshot"
@@ -426,8 +426,8 @@
    "name": "Adizero Adios Pro 4",
    "colour": "purple tint/solar purple/signal green",
    "gender": "women",
-   "price": 187.95,
-   "was": 250.0,
+   "price": 250.0,
+   "was": null,
    "sizes": [
     "3.5",
     "4",
@@ -752,7 +752,6 @@
     "7",
     "7.5",
     "8",
-    "9",
     "10",
     "10.5",
     "11",
@@ -803,7 +802,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8",
     "9",
     "9.5"
@@ -1100,7 +1098,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-white-chambray-blue-persian-blue-pu141a19l-a11.html",
@@ -1143,8 +1140,7 @@
     "5",
     "5.5",
     "6",
-    "6.5",
-    "7.5"
+    "6.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-ultra-red-inky-depths-white-pu141a190-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a1e25df3a0dd4b3b9e2117a9363dca05/93dfd5a002634aad96e26abf876c7f8f.jpg?imwidth=400&filter=packshot"
@@ -1165,8 +1161,7 @@
     "5.5",
     "6",
     "6.5",
-    "7.5",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-sunny-lime-black-pu141a19r-q11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6773ce6629e44eb08abb159343e2a25a/99ceb27381ac4463b79303a1d59c6158.jpg?imwidth=400&filter=packshot"
@@ -1559,7 +1554,6 @@
    "sizes": [
     "8",
     "10.5",
-    "11",
     "14"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitecrimson-s2342a0b2-a11.html",
@@ -1681,27 +1675,10 @@
     "8.5",
     "9.5",
     "10.5",
-    "11.5",
-    "13.5"
+    "11.5"
    ],
    "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-frostelectric-lime-h1x44a00e-a12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a6b6e4db0a60467489bc0e74f9604b3b/89daabd4190a48eeb6f0082d63fb1f4f.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "Zalando",
-   "model": "Rocket X 3",
-   "name": "Rocket X 3 Unisex",
-   "colour": "neon yuzu/squid ink",
-   "gender": "men",
-   "price": 162.95,
-   "was": 250.0,
-   "sizes": [
-    "4.5",
-    "7.5"
-   ],
-   "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-neon-yuzusquid-ink-h1x44a00e-e11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/6204ec556e7d47e4a845bbdd706fddb2/9b143103ec8844d09cc9bfd02b46d52b.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "brooks-hyperion-elite",

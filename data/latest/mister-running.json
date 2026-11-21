@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T02:33:49+00:00",
+ "checked": "2026-11-21T11:27:21+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -291,8 +291,7 @@
    "was": null,
    "sizes": [
     "9.5",
-    "10.5",
-    "11"
+    "10.5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-evo-3-running-shoes-cloud-white-kh7678.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-05/KH7678-A-600x600.jpg"
@@ -441,7 +440,6 @@
    "price": 149.9,
    "was": 250.0,
    "sizes": [
-    "4",
     "4.5"
    ],
    "url": "https://www.misterrunning.com/en/adidas-adizero-adios-pro-4-womens-running-shoes-ftwr-white-js2580.html",
@@ -676,7 +674,6 @@
     "4",
     "4.5",
     "5.5",
-    "6",
     "7",
     "7.5",
     "8"
@@ -741,7 +738,6 @@
    "price": 129.9,
    "was": 259.99,
    "sizes": [
-    "4.5",
     "6",
     "7",
     "8"
@@ -1207,7 +1203,6 @@
    "was": 320.0,
    "sizes": [
     "6",
-    "7.5",
     "8",
     "9",
     "9.5",
@@ -1243,9 +1238,7 @@
    "gender": "men",
    "price": 149.9,
    "was": 300.0,
-   "sizes": [
-    "7.5"
-   ],
+   "sizes": [],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-elite-2-running-shoes-airy-nightsky-s30994-95.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-11/s30994-95_A-600x600.jpg"
   },
