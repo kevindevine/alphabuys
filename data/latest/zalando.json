@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T11:27:21+00:00",
+ "checked": "2026-11-21T19:30:50+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -63,7 +63,6 @@
     "3",
     "3.5",
     "4",
-    "4.5",
     "5",
     "5.5",
     "6",
@@ -71,21 +70,6 @@
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-fuchsia-glowpurple-dynastybright-violetsapphirehot-lavachalk-n1241a1ev-i11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/ffe55665e2f245b29ba8f776723e0196/1dbffcdcec074da6b8f03a1137f8a7cb.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Zalando",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
-   "colour": "glacier blue/black/mint foam/green shock/hyper pink/silt red",
-   "gender": "women",
-   "price": 247.95,
-   "was": 310.0,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-glacier-blueblackmint-foamgreen-shockhyper-pinksilt-red-n1241a1ev-k11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/dd4f62fc3033437c83f6d4c424b64927/0816e3c5c68041a2b00020e0f6a39320.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "alphafly",
@@ -511,8 +495,7 @@
     "7",
     "7.5",
     "8",
-    "8.5",
-    "9"
+    "8.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-ftwr-whitebeam-orangelucid-red-ad541a2fg-a15.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/2bef2dd20657418fa9ac3ca2d167cd24/1a68a2101655455bbf456024e6adf271.jpg?imwidth=400&filter=packshot"
@@ -803,7 +786,6 @@
     "6.5",
     "7",
     "8",
-    "9",
     "9.5"
    ],
    "url": "https://www.zalando.ie/nike-performance-vaporfly-4-road-running-shoes-hyper-pinkblackfuchsia-blast-n1241a1e6-j12.html",
@@ -880,7 +862,6 @@
     "6.5",
     "7",
     "7.5",
-    "8",
     "8.5",
     "9",
     "9.5"
@@ -1010,7 +991,7 @@
    "sizes": [
     "4",
     "5",
-    "5.5",
+    "6",
     "7",
     "7.5"
    ],
@@ -1159,12 +1140,27 @@
     "4",
     "5",
     "5.5",
-    "6",
     "6.5",
     "7.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-sunny-lime-black-pu141a19r-q11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6773ce6629e44eb08abb159343e2a25a/99ceb27381ac4463b79303a1d59c6158.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Zalando",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Fast-R Nitro Elite 3 Ekiden - Trainers - White-Lime Squeeze",
+   "colour": "",
+   "gender": "men",
+   "price": 300.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "8"
+   ],
+   "url": "https://www.zalando.ie/puma-fast-r-nitro-elite-3-ekiden-trainers-white-lime-squeeze-pu112p0bv-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/f1b26f95a20943e9885382e0852fcc96/189f14c594b3482a8da0f5d30bd29b26.jpg?imwidth=400&filter=packshot"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1181,7 +1177,6 @@
     "4",
     "4.5",
     "5",
-    "5.5",
     "6",
     "6.5",
     "9",
@@ -1230,7 +1225,6 @@
     "5",
     "7",
     "7.5",
-    "9.5",
     "10.5",
     "13"
    ],
