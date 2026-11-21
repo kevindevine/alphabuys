@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T20:34:00+00:00",
+ "checked": "2026-11-21T02:33:49+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -30,7 +30,8 @@
     "7",
     "8",
     "9",
-    "10"
+    "10",
+    "11"
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228270",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228270_o?fmt=auto&w=345&h=345&v=1"
@@ -543,21 +544,6 @@
    ],
    "url": "https://ie.sportsdirect.com/asics-mens-metaspeed-sky-tokyo-fast-neutral-road-running-shoes-210651#colcode=21065115",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21065115_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Vaporfly 4 Road Running Shoes Womens",
-   "colour": "Blue Void",
-   "gender": "women",
-   "price": 78.0,
-   "was": 260.0,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
