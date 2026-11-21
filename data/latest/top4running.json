@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T19:21:08+00:00",
+ "checked": "2026-11-21T07:28:34+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -198,7 +198,7 @@
    "name": "ASICS Metaspeed Sky Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 186.7,
+   "price": 183.0,
    "was": null,
    "sizes": [
     "3.5",
@@ -253,7 +253,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "blue",
    "gender": "men",
-   "price": 207.5,
+   "price": 203.4,
    "was": null,
    "sizes": [
     "3.5",
@@ -281,7 +281,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "white",
    "gender": "men",
-   "price": 229.5,
+   "price": 224.9,
    "was": null,
    "sizes": [
     "3.5",
@@ -303,7 +303,7 @@
    "name": "ASICS Metaspeed Edge Tokyo",
    "colour": "green",
    "gender": "men",
-   "price": 215.9,
+   "price": 211.6,
    "was": null,
    "sizes": [
     "3.5",
@@ -398,110 +398,6 @@
    "image": "https://i1.t4s.cz/products/1013a123-401/asics-metaspeed-sky-paris-858362-1013a123-405.png"
   },
   {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "yellow",
-   "gender": "women",
-   "price": 182.0,
-   "was": null,
-   "sizes": [
-    "4.5"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-women-hf6412-800",
-   "image": "https://i1.t4s.cz/products/hf6412-800/nike-vaporfly-4-1071048-hf6412-8003.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 162.2,
-   "was": null,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-800",
-   "image": "https://i1.t4s.cz/products/hf6414-800/nike-vaporfly-4-1071043-hf6414-8003.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "",
-   "gender": "men",
-   "price": 229.5,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "9",
-    "10",
-    "10.5",
-    "11"
-   ],
-   "url": "https://top4running.ie/p/nike-zoomx-vaporfly-next-4-glam-running-shoe-io9571-400",
-   "image": "https://i1.t4s.cz/products/io9571-400/nike-zoomx-vaporfly-next-4-glam-1046639-io9571-4007.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "",
-   "gender": "men",
-   "price": 259.99,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-se-running-shoe-iv4079-001",
-   "image": "https://i1.t4s.cz/products/iv4079-001/nike-vaporfly-4-se-running-shoe-1227099-iv4079-0013.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 259.99,
-   "was": null,
-   "sizes": [
-    "6",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-106",
-   "image": "https://i1.t4s.cz/products/hf6414-106/nike-vaporfly-4-running-shoe-1228397-hf6414-1063.png"
-  },
-  {
    "shoe": "puma-elite",
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
@@ -530,7 +426,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "red",
    "gender": "men",
-   "price": 195.1,
+   "price": 199.0,
    "was": null,
    "sizes": [
     "8.5",
@@ -615,11 +511,10 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "purple",
    "gender": "men",
-   "price": 186.3,
+   "price": 190.0,
    "was": null,
    "sizes": [
     "9",
-    "9.5",
     "10"
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-light-lavender-ultra-312127-08",
@@ -1308,7 +1203,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "white",
    "gender": "men",
-   "price": 207.5,
+   "price": 203.4,
    "was": null,
    "sizes": [
     "7.5",
@@ -1328,7 +1223,7 @@
    "name": "Saucony Endorphin Pro 5",
    "colour": "black",
    "gender": "men",
-   "price": 199.3,
+   "price": 195.3,
    "was": null,
    "sizes": [
     "7.5",
@@ -1626,6 +1521,398 @@
    "image": "https://i1.t4s.cz/products/s101308-1008/saucony-endorphin-pro-5-1193381-s101308-10081.png"
   },
   {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "men",
+   "price": 209.9,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-9n3",
+   "image": "https://i1.t4s.cz/products/mrcel-9n3/new-balance-new-balance-supercomp-elite-v6-running-shoe-1153939-mrcel-9n31.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "pink",
+   "gender": "men",
+   "price": 252.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-mrcel6sqd",
+   "image": "https://i1.t4s.cz/products/mrcel6sqd/new-balance-supercomp-elite-v6-1149158-mrcel6sqd1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 252.0,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-supercomp-eli-wrcel185",
+   "image": "https://i1.t4s.cz/products/wrcel185/new-balance-tcs-nyc-marathon-supercomp-eli-1196685-wrcel1851.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 209.9,
+   "was": null,
+   "sizes": [
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-2ru",
+   "image": "https://i1.t4s.cz/products/wrcel-2ru/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149450-wrcel-2ru1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 209.9,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-8dm",
+   "image": "https://i1.t4s.cz/products/mrcel-8dm/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149445-mrcel-8dm1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "blue",
+   "gender": "women",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-wrcel7uh",
+   "image": "https://i1.t4s.cz/products/wrcel7uh/new-balance-fuelcell-supercomp-elite-v5-1050606-wrcel7uh1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 266.0,
+   "was": null,
+   "sizes": [
+    "7"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-supercomp-eli-mrcel7rz",
+   "image": "https://i1.t4s.cz/products/mrcel7rz/new-balance-tcs-nyc-marathon-supercomp-eli-1196675-mrcel7rz1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "orange",
+   "gender": "women",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-wrcel4jm",
+   "image": "https://i1.t4s.cz/products/wrcel4jm/new-balance-fuelcell-supercomp-elite-v5-1073111-wrcel4jm1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "orange",
+   "gender": "men",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "12.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-mrcel3ud",
+   "image": "https://i1.t4s.cz/products/mrcel3ud/new-balance-fuelcell-supercomp-elite-v5-1073138-mrcel3ud1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "men",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-mrcelld5-mrcelld5",
+   "image": "https://i1.t4s.cz/products/mrcelld5-mrcelld5/new-balance-fuelcell-supercomp-elite-v5-986346-mrcelld5-mrcelld5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "pink",
+   "gender": "women",
+   "price": 252.0,
+   "was": null,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-wrcel8ggb",
+   "image": "https://i1.t4s.cz/products/wrcel8ggb/new-balance-supercomp-elite-v6-1154506-wrcel8ggb1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "blue",
+   "gender": "men",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "11.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-mrcel79h",
+   "image": "https://i1.t4s.cz/products/mrcel79h/new-balance-fuelcell-supercomp-elite-v5-1050611-mrcel79h1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "women",
+   "price": 167.9,
+   "was": null,
+   "sizes": [
+    "4.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelld5-wrcelld5",
+   "image": "https://i1.t4s.cz/products/wrcelld5-wrcelld5/new-balance-fuelcell-supercomp-elite-v5-995269-wrcelld5-wrcelld5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "",
+   "gender": "men",
+   "price": 237.9,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel598-598",
+   "image": "https://i1.t4s.cz/products/mrcel598-598/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149503-mrcel598-5981.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "women",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "1.5",
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
+   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "blue",
+   "gender": "women",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "1.5",
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-91c",
+   "image": "https://i1.t4s.cz/products/wrcel-91c/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149455-wrcel-91c1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5",
+   "colour": "white",
+   "gender": "men",
+   "price": 201.3,
+   "was": null,
+   "sizes": [
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-mrcellr5-mrcellr5",
+   "image": "https://i1.t4s.cz/products/mrcellr5-mrcellr5/new-balance-fuelcell-supercomp-elite-v5-972166-mrcellr5-mrcellr5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance FuelCell SuperComp Elite v5 Ekiden",
+   "colour": "white",
+   "gender": "women",
+   "price": 195.9,
+   "was": null,
+   "sizes": [
+    "4",
+    "5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelem5-wrcelem5",
+   "image": "https://i1.t4s.cz/products/wrcelem5-wrcelem5/new-balance-fuelcell-supercomp-elite-v5-999216-wrcelem5-wrcelem5.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v5",
+   "name": "New Balance TCS NYC Marathon FuelCell SuperComp Elite v5",
+   "colour": "",
+   "gender": "women",
+   "price": 195.9,
+   "was": null,
+   "sizes": [
+    "4.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-tcs-nyc-marathon-fuelcell-supercomp-elite-v5-running-shoe-women-wrcelny5-wrcelny5",
+   "image": "https://i1.t4s.cz/products/wrcelny5-wrcelny5/new-balance-tcs-nyc-marathon-fuelcell-supercomp-elite-v5-992194-wrcelny5-wrcelny5.png"
+  },
+  {
    "shoe": "hoka-rocket-x",
    "shop": "Top4Running",
    "model": "Rocket X 3",
@@ -1668,21 +1955,6 @@
   {
    "shoe": "hoka-rocket-x",
    "shop": "Top4Running",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 162.9,
-   "was": null,
-   "sizes": [
-    "10"
-   ],
-   "url": "https://top4running.ie/p/hoka-rocket-x-3-shoe-1168724-snlg",
-   "image": "https://i1.t4s.cz/products/1168724-snlg/hoka-rocket-x-3-984500-1168724-snlg.png"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "Top4Running",
    "model": "Rocket X 2",
    "name": "Hoka Rocket X 2",
    "colour": "white",
@@ -1721,14 +1993,13 @@
    "name": "shoes On Running Cloudboom Strike 2",
    "colour": "green",
    "gender": "men",
-   "price": 225.0,
+   "price": 220.5,
    "was": null,
    "sizes": [
     "8.5",
     "9",
     "9.5",
     "10",
-    "10.5",
     "11.5",
     "12",
     "12.5"
@@ -1766,7 +2037,7 @@
    "name": "shoes On Running Cloudboom Strike 2",
    "colour": "white",
    "gender": "men",
-   "price": 215.7,
+   "price": 220.0,
    "was": null,
    "sizes": [
     "11.5"
@@ -1781,7 +2052,7 @@
    "name": "shoes On Running Cloudboom Strike",
    "colour": "orange",
    "gender": "women",
-   "price": 242.8,
+   "price": 238.0,
    "was": null,
    "sizes": [
     "4",
@@ -1882,7 +2153,7 @@
    "name": "shoes On Running Cloudboom Strike LightSpray",
    "colour": "white",
    "gender": "men",
-   "price": 295.1,
+   "price": 289.2,
    "was": null,
    "sizes": [
     "6",
@@ -1959,6 +2230,7 @@
     "9",
     "9.5",
     "10",
+    "10.5",
     "12"
    ],
    "url": "https://top4running.ie/p/brooks-hyperion-elite-5-1000491d756",
