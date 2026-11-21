@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T15:19:53+00:00",
+ "checked": "2026-11-21T19:24:51+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -102,7 +102,6 @@
     "3.5",
     "4",
     "4.5",
-    "6",
     "6.5"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-3-running-shoe-women-fd8315-800",
@@ -143,6 +142,21 @@
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-proto-running-shoe-women-iz9609-002",
    "image": "https://i1.t4s.cz/products/iz9609-002/nike-alphafly-4-proto-running-shoe-women-1228461-iz9609-0023.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Top4Running",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "green",
+   "gender": "men",
+   "price": 223.9,
+   "was": null,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://top4running.ie/p/nike-alphafly-3-ekiden-im8066-999",
+   "image": "https://i1.t4s.cz/products/im8066-999/nike-alphafly-3-ekiden-1037794-im8066-9993.png"
   },
   {
    "shoe": "alphafly",
@@ -485,6 +499,309 @@
    ],
    "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-106",
    "image": "https://i1.t4s.cz/products/hf6414-106/nike-vaporfly-4-running-shoe-1228397-hf6414-1063.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 174.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-poison-pink-yellow-a-313298-01",
+   "image": "https://i1.t4s.cz/products/313298-01/puma-deviate-nitro-elite-4-showtime-1109483-313298-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "red",
+   "gender": "men",
+   "price": 199.0,
+   "was": null,
+   "sizes": [
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312127-07",
+   "image": "https://i1.t4s.cz/products/312127-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122816-312127-071.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 224.1,
+   "was": null,
+   "sizes": [
+    "8",
+    "9",
+    "10",
+    "10.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-white-chambray-312127-09",
+   "image": "https://i1.t4s.cz/products/312127-09/puma-deviate-nitro-elite-4-1102614-312127-091.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 211.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-312127-10",
+   "image": "https://i1.t4s.cz/products/312127-10/puma-deviate-nitro-elite-4-1188545-312127-101.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "black",
+   "gender": "men",
+   "price": 220.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-saysky-313942-01",
+   "image": "https://i1.t4s.cz/products/313942-01/puma-deviate-nitro-elite-4-saysky-1159417-313942-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "purple",
+   "gender": "men",
+   "price": 190.0,
+   "was": null,
+   "sizes": [
+    "9",
+    "10"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-light-lavender-ultra-312127-08",
+   "image": "https://i1.t4s.cz/products/312127-08/puma-deviate-nitro-elite-light-lavender-ultra-1120121-312127-084.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "red",
+   "gender": "women",
+   "price": 199.2,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-ultra-red-inky-depth-312128-07",
+   "image": "https://i1.t4s.cz/products/312128-07/puma-deviate-nitro-elite-ultra-red-inky-depth-1122222-312128-071.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "black",
+   "gender": "women",
+   "price": 194.9,
+   "was": null,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-saysky-wns-313943-01",
+   "image": "https://i1.t4s.cz/products/313943-01/puma-deviate-nitro-elite-4-saysky-wns-1159423-313943-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 225.0,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-06",
+   "image": "https://i1.t4s.cz/products/312127-06/puma-deviate-nitro-elite-4-1061136-312127-061.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "yellow",
+   "gender": "women",
+   "price": 199.2,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-wns-312128-10",
+   "image": "https://i1.t4s.cz/products/312128-10/puma-deviate-nitro-elite-4-wns-1217607-312128-101.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 212.9,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-rc-312907-01",
+   "image": "https://i1.t4s.cz/products/312907-01/puma-deviate-nitro-elite-4-rc-1106342-312907-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 3",
+   "name": "Puma Deviate NITRO Elite 3",
+   "colour": "green",
+   "gender": "women",
+   "price": 160.9,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5.5",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-3-wns-309810-07",
+   "image": "https://i1.t4s.cz/products/309810-07/puma-deviate-nitro-elite-3-945638-309810-07.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "blue",
+   "gender": "men",
+   "price": 200.0,
+   "was": null,
+   "sizes": [
+    "12"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-running-shoe-312127-03",
+   "image": "https://i1.t4s.cz/products/312127-03/puma-deviate-nitro-elite-4-1074703-312127-031.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "women",
+   "price": 249.0,
+   "was": null,
+   "sizes": [
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-running-shoe-women-313706-01",
+   "image": "https://i1.t4s.cz/products/313706-01/puma-deviate-nitro-elite-running-shoe-women-1252961-313706-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "",
+   "gender": "men",
+   "price": 249.0,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-running-shoe-313705-01",
+   "image": "https://i1.t4s.cz/products/313705-01/puma-deviate-nitro-elite-running-shoe-1252469-313705-011.png"
   },
   {
    "shoe": "puma-elite",
@@ -1432,7 +1749,8 @@
     "9.5",
     "10",
     "10.5",
-    "11"
+    "11",
+    "12"
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-8dm",
    "image": "https://i1.t4s.cz/products/mrcel-8dm/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149445-mrcel-8dm1.png"
@@ -1627,28 +1945,6 @@
    "shop": "Top4Running",
    "model": "SC Elite v6",
    "name": "New Balance SuperComp Elite v6",
-   "colour": "white",
-   "gender": "women",
-   "price": 224.0,
-   "was": null,
-   "sizes": [
-    "1.5",
-    "3.5",
-    "4.5",
-    "5",
-    "5.5",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
-   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Top4Running",
-   "model": "SC Elite v6",
-   "name": "New Balance SuperComp Elite v6",
    "colour": "blue",
    "gender": "women",
    "price": 224.0,
@@ -1665,6 +1961,28 @@
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-91c",
    "image": "https://i1.t4s.cz/products/wrcel-91c/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149455-wrcel-91c1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "women",
+   "price": 224.0,
+   "was": null,
+   "sizes": [
+    "1.5",
+    "3.5",
+    "4.5",
+    "5",
+    "5.5",
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
+   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
   },
   {
    "shoe": "nb-sc-elite",
@@ -1780,7 +2098,6 @@
    "was": null,
    "sizes": [
     "9.5",
-    "10",
     "11.5",
     "12"
    ],
