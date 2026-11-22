@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21T19:30:50+00:00",
+ "checked": "2026-11-22T01:26:20+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -115,7 +115,6 @@
    "price": 233.95,
    "was": 310.0,
    "sizes": [
-    "8",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
@@ -1058,8 +1057,7 @@
     "9",
     "10",
     "10.5",
-    "11",
-    "13"
+    "11"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-trail-running-shoes-sunny-lime-black-pu142a28v-q11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/1b2c674757734fc9b0857139df5a2d30/dc738934c68d4264a42a538ff11a5fae.jpg?imwidth=400&filter=packshot"
@@ -1109,6 +1107,28 @@
    "shoe": "puma-elite",
    "shop": "Zalando",
    "model": "Deviate Nitro Elite 4",
+   "name": "Deviate Nitro Elite 4 Ekiden",
+   "colour": "white-lime squeeze",
+   "gender": "men",
+   "price": 250.0,
+   "was": null,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-ekiden-road-running-shoes-white-lime-squeeze-pu142a2e6-a11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/3977d8bb15994446a3a730428593d558/32073d3cff594bb093be0ce1685de671.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Zalando",
+   "model": "Deviate Nitro Elite 4",
    "name": "Deviate Nitro Elite 4 Wns",
    "colour": "ultra red-inky depths- white",
    "gender": "women",
@@ -1140,8 +1160,7 @@
     "4",
     "5",
     "5.5",
-    "6.5",
-    "7.5"
+    "6.5"
    ],
    "url": "https://www.zalando.ie/puma-deviate-nitro-elite-4-wns-road-running-shoes-sunny-lime-black-pu141a19r-q11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/6773ce6629e44eb08abb159343e2a25a/99ceb27381ac4463b79303a1d59c6158.jpg?imwidth=400&filter=packshot"
@@ -1331,8 +1350,7 @@
     "6.5",
     "7",
     "7.5",
-    "8",
-    "9.5"
+    "8"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitemulti-s2341a09w-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/7db72177ecaf4453812baa7b30ca2156/d4727247c3134ca1b212e251b527fa66.jpg?imwidth=400&filter=packshot"
@@ -1352,11 +1370,9 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "10.5",
-    "11",
-    "11.5"
+    "11"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-viziredblack-s2342a0bc-g11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/8a005561499e4fe6aea5e2ba5a20a1d9/f375a5bf93d542378ab42ae144eee634.jpg?imwidth=400&filter=packshot"
@@ -1646,7 +1662,6 @@
     "7.5",
     "8.5",
     "9.5",
-    "10.5",
     "11.5"
    ],
    "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-black-neon-h1x44a00e-q11.html",
