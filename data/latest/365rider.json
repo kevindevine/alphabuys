@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T07:21:36+00:00",
+ "checked": "2026-11-22T11:16:22+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -338,6 +338,32 @@
    "shoe": "vaporfly",
    "shop": "365rider",
    "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 SE White Black Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 268.66,
+   "was": null,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/men-running-shoes/24596-nike-vaporfly-4-se-white-black-shoes.html",
+   "image": "https://www.365rider.com/117820-home_default/nike-vaporfly-4-se-white-black-shoes.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "365rider",
+   "model": "Vaporfly 4",
+   "name": "Women's Nike Vaporfly 4 White Purple Shoes",
+   "colour": "",
+   "gender": "women",
+   "price": 268.66,
+   "was": null,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/24595-women-s-nike-vaporfly-4-white-purple-shoes.html",
+   "image": "https://www.365rider.com/117829-home_default/women-s-nike-vaporfly-4-white-purple-shoes.jpg"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "365rider",
+   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4 Pink Black Women's Shoes",
    "colour": "",
    "gender": "women",
@@ -346,6 +372,51 @@
    "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/24593-nike-vaporfly-4-pink-black-women-s-shoes.html",
    "image": "https://www.365rider.com/117806-home_default/nike-vaporfly-4-pink-black-women-s-shoes.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 Red White AW26",
+   "colour": "",
+   "gender": "men",
+   "price": 168.69,
+   "was": 254.12,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/22389-puma-deviate-nitro-elite-4-red-white-aw26.html",
+   "image": "https://www.365rider.com/107663-home_default/puma-deviate-nitro-elite-4-red-white-aw26.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "365rider",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate NITRO Elite 4 Purple Red AW26 Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 168.69,
+   "was": 254.12,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11.5"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/22390-puma-deviate-nitro-elite-4-purple-red-aw26-shoes.html",
+   "image": "https://www.365rider.com/107660-home_default/puma-deviate-nitro-elite-4-purple-red-aw26-shoes.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -522,29 +593,6 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22392-puma-deviate-nitro-elite-4-red-white-aw26-women-s-shoes.html",
    "image": "https://www.365rider.com/107643-home_default/puma-deviate-nitro-elite-4-red-white-aw26-women-s-shoes.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "365rider",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate NITRO Elite 4 Green Black AW26 Women's",
-   "colour": "",
-   "gender": "women",
-   "price": 162.59,
-   "was": 254.12,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://www.365rider.com/en/women-s-running-shoes/22394-puma-deviate-nitro-elite-4-green-black-aw26-women-s.html",
-   "image": "https://www.365rider.com/112119-home_default/puma-deviate-nitro-elite-4-green-black-aw26-women-s.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -1243,53 +1291,6 @@
    "shoe": "nb-sc-elite",
    "shop": "365rider",
    "model": "SC Elite v6",
-   "name": "New Balance SuperComp Elite v6 Shoes Yellow Grey AW26",
-   "colour": "",
-   "gender": "men",
-   "price": 213.42,
-   "was": 284.63,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/23156-new-balance-supercomp-elite-v6-shoes-yellow-grey-aw26.html",
-   "image": "https://www.365rider.com/110478-home_default/new-balance-supercomp-elite-v6-shoes-yellow-grey-aw26.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v6",
-   "name": "New Balance SuperComp Elite v6 Beige Grey",
-   "colour": "",
-   "gender": "men",
-   "price": 213.42,
-   "was": 284.63,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/23147-new-balance-supercomp-elite-v6-beige-grey-running-shoes-aw26.html",
-   "image": "https://www.365rider.com/110424-home_default/new-balance-supercomp-elite-v6-beige-grey-running-shoes-aw26.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v6",
    "name": "New Balance SuperComp Elite v6 Orange Grey",
    "colour": "",
    "gender": "men",
@@ -1370,54 +1371,8 @@
     "10",
     "10.5"
    ],
-   "url": "https://www.365rider.com/en/men-running-shoes/19955-new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.html",
-   "image": "https://www.365rider.com/94686-home_default/new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "365rider",
-   "model": "SC Elite v5",
-   "name": "New Balance FuelCell SuperComp Elite v5 Shoes White Red AW25",
-   "colour": "",
-   "gender": "men",
-   "price": 157.51,
-   "was": 284.63,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5"
-   ],
    "url": "https://www.365rider.com/en/men-running-shoes/19955-112082-new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.html#/117-size-45_eur",
    "image": "https://www.365rider.com/94686-home_default/new-balance-fuelcell-supercomp-elite-v5-shoes-white-red-aw25.jpg"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "365rider",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3 White Red SS26 Unisex Shoes",
-   "colour": "",
-   "gender": "men",
-   "price": 177.84,
-   "was": 254.13,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/21864-hoka-rocket-x-3-white-red-ss26-unisex-shoes.html",
-   "image": "https://www.365rider.com/104276-home_default/hoka-rocket-x-3-white-red-ss26-unisex-shoes.jpg"
-  },
-  {
-   "shoe": "hoka-rocket-x",
-   "shop": "365rider",
-   "model": "Rocket X 3",
-   "name": "Hoka Rocket X 3 Shoes Green Red SS26 Unisex",
-   "colour": "",
-   "gender": "men",
-   "price": 177.84,
-   "was": 254.13,
-   "sizes": [],
-   "url": "https://www.365rider.com/en/men-running-shoes/21745-hoka-rocket-x-3-shoes-green-red-ss26-unisex.html",
-   "image": "https://www.365rider.com/103254-home_default/hoka-rocket-x-3-shoes-green-red-ss26-unisex.jpg"
   },
   {
    "shoe": "hoka-rocket-x",
