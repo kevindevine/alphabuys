@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T11:41:40+00:00",
+ "checked": "2026-11-22T19:51:44+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -731,7 +731,6 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
-    "4",
     "5",
     "5.5",
     "6",
@@ -1603,7 +1602,6 @@
     "5",
     "7.5",
     "8.5",
-    "9",
     "9.5",
     "10",
     "10.5",
@@ -1873,9 +1871,7 @@
    "was": 259.99,
    "sizes": [
     "6",
-    "6.5",
-    "7",
-    "8.5"
+    "6.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik25396/nike-zoomx-vaporfly-next%25-4-se-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25396/NIK25396_800_1.jpg"
@@ -1948,7 +1944,6 @@
    "price": 139.99,
    "was": 259.99,
    "sizes": [
-    "6",
     "6.5",
     "7.5"
    ],
@@ -2030,7 +2025,6 @@
     "7.5",
     "9.5",
     "10",
-    "10.5",
     "11.5",
     "12"
    ],
@@ -2145,8 +2139,6 @@
    "price": 139.99,
    "was": 259.99,
    "sizes": [
-    "5",
-    "5.5",
     "6",
     "7",
     "8",
@@ -2618,7 +2610,6 @@
    "sizes": [
     "4",
     "4.5",
-    "5",
     "5.5",
     "7",
     "7.5"
@@ -3081,6 +3072,21 @@
    "shop": "SportsShoes",
    "model": "Endorphin Elite 3",
    "name": "Endorphin Elite 3",
+   "colour": "Black / Gunmetal",
+   "gender": "men",
+   "price": 319.99,
+   "was": null,
+   "sizes": [
+    "8.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/sau5540/saucony-endorphin-elite-3-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5540/SAU5540_800_1.png"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "SportsShoes",
+   "model": "Endorphin Elite 3",
+   "name": "Endorphin Elite 3",
    "colour": "White / Multi",
    "gender": "men",
    "price": 319.99,
@@ -3092,21 +3098,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/sau5541/saucony-endorphin-elite-3-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5541/SAU5541_800_1.png"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "SportsShoes",
-   "model": "Endorphin Elite 3",
-   "name": "Endorphin Elite 3",
-   "colour": "Black / Gunmetal",
-   "gender": "men",
-   "price": 319.99,
-   "was": null,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/sau5540/saucony-endorphin-elite-3-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5540/SAU5540_800_1.png"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3914,7 +3905,6 @@
    "was": 249.99,
    "sizes": [
     "3",
-    "4",
     "9",
     "10"
    ],
@@ -4737,8 +4727,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "9"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/new696360/new-balance-fuelcell-supercomp-elite-v5-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696360/NEW696360_800_1.jpg"

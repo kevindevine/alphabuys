@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T11:41:40+00:00",
+ "checked": "2026-11-22T19:51:44+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -18,7 +18,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-racer-blue-atomic-pink-indigo-burst-white-n1242a2z1-k13.html",
@@ -44,7 +43,6 @@
     "6",
     "6.5",
     "7",
-    "7.5",
     "8"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-chalkpurple-dynastyhyper-crimsonfennelspruce-aurapalest-purple-n1241a1ev-h12.html",
@@ -100,6 +98,7 @@
    "price": 233.95,
    "was": 310.0,
    "sizes": [
+    "8",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
@@ -415,8 +414,7 @@
     "4.5",
     "5",
     "5.5",
-    "6",
-    "10"
+    "6"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-5-road-running-shoes-ftwr-whitecore-blacksolar-turbo-ad541a2mr-a11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/9be07f335b9540189c744408bffab3f0/b2ae028c6720408287f6ad99715f9e5a.jpg?imwidth=400&filter=packshot"
@@ -438,8 +436,7 @@
     "8",
     "8.5",
     "9",
-    "9.5",
-    "12"
+    "9.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adizero-adios-pro-4-road-running-shoes-shock-pinkmetallicaurora-plum-ad542a5gq-j11.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/9990ab0f75224ecf999eff7d55d45239/ec0a7743bea544679319369913a680a6.jpg?imwidth=400&filter=packshot"
@@ -768,6 +765,7 @@
     "6",
     "6.5",
     "9.5",
+    "10",
     "11.5",
     "12",
     "13",
@@ -790,7 +788,6 @@
     "3.5",
     "4",
     "5",
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -1205,7 +1202,6 @@
     "7",
     "7.5",
     "8",
-    "9.5",
     "10",
     "10.5",
     "11",
@@ -1226,6 +1222,7 @@
    "sizes": [
     "3",
     "5",
+    "6",
     "7",
     "7.5",
     "13"
@@ -1381,8 +1378,6 @@
    "sizes": [
     "6.5",
     "7.5",
-    "8",
-    "8.5",
     "9",
     "10",
     "10.5",
@@ -1403,7 +1398,6 @@
    "sizes": [
     "3",
     "3.5",
-    "5",
     "7",
     "7.5",
     "8",
@@ -1552,21 +1546,6 @@
    "image": "https://img01.ztat.net/article/spp-media-p1/1f80a92f43c3460c89fb68952b79d3d7/5fd4932d54f249ae95ab81c50b14ebba.jpg?imwidth=400&filter=packshot"
   },
   {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "white/splash",
-   "gender": "women",
-   "price": 215.95,
-   "was": 270.0,
-   "sizes": [
-    "7.5"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-whitesplash-s2341a09o-a12.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/47737469c45741b3ba095d3aacf95225/5799d8b570c04d8196876d7b1f79f327.jpg?imwidth=400&filter=packshot"
-  },
-  {
    "shoe": "nb-sc-elite",
    "shop": "Zalando",
    "model": "SC Elite v6",
@@ -1583,7 +1562,6 @@
     "5",
     "5.5",
     "6.5",
-    "7",
     "7.5",
     "8",
     "10"
@@ -1649,7 +1627,6 @@
     "7.5",
     "8.5",
     "9.5",
-    "10.5",
     "11.5"
    ],
    "url": "https://www.zalando.ie/hoka-rocket-x-3-unisex-road-running-shoes-frostelectric-lime-h1x44a00e-a12.html",
