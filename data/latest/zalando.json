@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T01:50:43+00:00",
+ "checked": "2026-11-23T13:16:36+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -42,8 +42,7 @@
     "5.5",
     "6",
     "6.5",
-    "7",
-    "8"
+    "7"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-chalkpurple-dynastyhyper-crimsonfennelspruce-aurapalest-purple-n1241a1ev-h12.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/a0d5e388c48144dd8f90e4a9660fa4e5/7bfd6fc62c1442efa2a979d1ed950f82.jpg?imwidth=400&filter=packshot"
@@ -92,13 +91,27 @@
    "shoe": "alphafly",
    "shop": "Zalando",
    "model": "Alphafly 3",
+   "name": "Alphafly 3",
+   "colour": "team red/barely green/bright crimson/purple dynasty/atomic pink/steam",
+   "gender": "women",
+   "price": 202.95,
+   "was": 310.0,
+   "sizes": [
+    "6"
+   ],
+   "url": "https://www.zalando.ie/nike-performance-alphafly-3-se-road-running-shoes-team-redbarely-greenbright-crimsonpurple-dynastyatomic-pinksteam-n1241a1ho-i11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/bb5ecc45e0394d7ab335f0d9010dfe6a/900ab69f0c81433d95f56aa44a200828.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Zalando",
+   "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next 3 Unisex",
    "colour": "barely green/black spruce/volt tint/volt ice/sapphire/steam",
    "gender": "men",
    "price": 233.95,
    "was": 310.0,
    "sizes": [
-    "8",
     "14"
    ],
    "url": "https://www.zalando.ie/nike-performance-air-zoom-alphafly-next-3-road-running-shoes-barely-greenblack-sprucevolt-tintvolt-icesapphiresteam-n1242a2z1-m11.html",
@@ -257,9 +270,7 @@
     "6",
     "6.5",
     "7",
-    "7.5",
-    "8",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.zalando.ie/adidas-performance-adios-pro-4-road-running-shoes-ftwr-whitebeam-orangelucid-red-ad541a2fg-a15.html",
    "image": "https://img01.ztat.net/article/spp-media-p1/2bef2dd20657418fa9ac3ca2d167cd24/1a68a2101655455bbf456024e6adf271.jpg?imwidth=400&filter=packshot"
@@ -741,7 +752,6 @@
     "6",
     "7",
     "7.5",
-    "8",
     "10",
     "10.5",
     "11",
@@ -815,6 +825,7 @@
     "7.5",
     "9",
     "9.5",
+    "10",
     "10.5",
     "11.5",
     "12",
@@ -1121,7 +1132,6 @@
     "3.5",
     "5",
     "6",
-    "6.5",
     "7",
     "8"
    ],
@@ -1180,6 +1190,7 @@
     "6",
     "6.5",
     "9.5",
+    "10",
     "13"
    ],
    "url": "https://www.zalando.ie/saucony-endorphin-elite-unisex-road-running-shoes-whitemulti-s2344a00e-a13.html",
@@ -1221,7 +1232,6 @@
    "sizes": [
     "3",
     "5",
-    "6",
     "7",
     "7.5",
     "13"
@@ -1350,7 +1360,6 @@
    "was": 270.0,
    "sizes": [
     "6.5",
-    "7",
     "7.5",
     "8",
     "8.5",
@@ -1721,7 +1730,6 @@
    "price": 165.0,
    "was": 275.0,
    "sizes": [
-    "5",
     "8"
    ],
    "url": "https://www.zalando.ie/brooks-trainers-pink-clay-atomizer-blue-br944a007-j11.html",
