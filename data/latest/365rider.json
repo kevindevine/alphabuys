@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T07:15:09+00:00",
+ "checked": "2026-11-23T11:17:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -99,7 +99,7 @@
    "name": "Asics Metaspeed Sky Tokyo Red White AW25 Unisex",
    "colour": "",
    "gender": "men",
-   "price": 196.14,
+   "price": 198.18,
    "was": 274.46,
    "sizes": [
     "4",
@@ -164,9 +164,9 @@
    "price": 193.08,
    "was": 274.46,
    "sizes": [
-    "5.5",
     "6.5",
     "7",
+    "8",
     "11",
     "11.5"
    ],
@@ -274,64 +274,6 @@
    "image": "https://www.365rider.com/98456-home_default/asics-metaspeed-sky-tokyo-ekiden-shoes-green-white-ss26-unisex.jpg"
   },
   {
-   "shoe": "metaspeed",
-   "shop": "365rider",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Asics Metaspeed Edge Tokyo Ekiden Green White SS26 Unisex Shoes",
-   "colour": "",
-   "gender": "men",
-   "price": 193.08,
-   "was": 274.46,
-   "sizes": [
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11.5"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/20673-asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.html",
-   "image": "https://www.365rider.com/99021-home_default/asics-metaspeed-edge-tokyo-ekiden-green-white-ss26-unisex-shoes.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "365rider",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "ASICS Metaspeed Edge Tokyo Unisex Sneakers White Coral AW26",
-   "colour": "",
-   "gender": "men",
-   "price": 279.0,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.365rider.com/en/running/22325-asics-metaspeed-edge-tokyo-unisex-sneakers-white-coral-aw26.html",
-   "image": "https://www.365rider.com/117793-home_default/asics-metaspeed-edge-tokyo-unisex-sneakers-white-coral-aw26.jpg"
-  },
-  {
    "shoe": "vaporfly",
    "shop": "365rider",
    "model": "Vaporfly 4",
@@ -377,7 +319,7 @@
    "name": "Puma Deviate NITRO Elite 4 Red White AW26",
    "colour": "",
    "gender": "men",
-   "price": 168.69,
+   "price": 157.51,
    "was": 254.12,
    "sizes": [
     "7.5",
@@ -400,7 +342,7 @@
    "name": "Puma Deviate NITRO Elite 4 Purple Red AW26 Shoes",
    "colour": "",
    "gender": "men",
-   "price": 168.69,
+   "price": 162.59,
    "was": 254.12,
    "sizes": [
     "7.5",
@@ -422,7 +364,7 @@
    "name": "Puma Deviate NITRO Elite 4 Green Black AW26 Shoes",
    "colour": "",
    "gender": "men",
-   "price": 168.69,
+   "price": 162.59,
    "was": 254.12,
    "sizes": [
     "7",
@@ -486,7 +428,7 @@
    "name": "Puma Deviate NITRO Elite 4 Purple Pink AW26 Women's Shoes",
    "colour": "",
    "gender": "women",
-   "price": 159.55,
+   "price": 157.51,
    "was": 254.12,
    "sizes": [
     "5",
@@ -556,7 +498,7 @@
    "name": "Puma Deviate NITRO Elite 4 SAYSKY Black Blue AW26",
    "colour": "",
    "gender": "men",
-   "price": 177.84,
+   "price": 172.76,
    "was": 264.29,
    "sizes": [
     "8",
@@ -576,7 +518,7 @@
    "name": "Puma Deviate NITRO Elite 4 Red White AW26 Women's Shoes",
    "colour": "",
    "gender": "women",
-   "price": 158.53,
+   "price": 157.51,
    "was": 254.12,
    "sizes": [
     "4",
@@ -596,7 +538,7 @@
    "name": "Puma Deviate NITRO Elite 4 Green Black AW26 Women's",
    "colour": "",
    "gender": "women",
-   "price": 162.59,
+   "price": 157.51,
    "was": 254.12,
    "sizes": [
     "3.5",
@@ -656,7 +598,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes White Blue AW26",
    "colour": "",
    "gender": "men",
-   "price": 203.26,
+   "price": 189.02,
    "was": 304.95,
    "sizes": [
     "6.5",
@@ -678,7 +620,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes Purple Red AW26",
    "colour": "",
    "gender": "men",
-   "price": 199.19,
+   "price": 189.02,
    "was": 304.95,
    "sizes": [
     "7.5",
@@ -700,7 +642,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Shoes Red Black AW26",
    "colour": "",
    "gender": "men",
-   "price": 203.26,
+   "price": 189.02,
    "was": 304.95,
    "sizes": [
     "7",
@@ -722,7 +664,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Green Black",
    "colour": "",
    "gender": "men",
-   "price": 203.25,
+   "price": 189.02,
    "was": 304.95,
    "sizes": [
     "7",
@@ -745,7 +687,7 @@
    "name": "Puma FAST-R Nitro Elite 3 Black Red",
    "colour": "",
    "gender": "men",
-   "price": 203.26,
+   "price": 189.02,
    "was": 304.95,
    "sizes": [
     "7.5",
@@ -1029,6 +971,49 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Shoes Yellow Black SS26",
+   "colour": "",
+   "gender": "men",
+   "price": 167.67,
+   "was": 274.46,
+   "sizes": [
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/20543-saucony-endorphin-pro-5-shoes-yellow-black-ss26.html",
+   "image": "https://www.365rider.com/104553-home_default/saucony-endorphin-pro-5-shoes-yellow-black-ss26.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Black Pink SS26 Shoes",
+   "colour": "",
+   "gender": "men",
+   "price": 168.69,
+   "was": 274.46,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11"
+   ],
+   "url": "https://www.365rider.com/en/men-running-shoes/20544-saucony-endorphin-pro-5-black-pink-ss26-shoes.html",
+   "image": "https://www.365rider.com/104739-home_default/saucony-endorphin-pro-5-black-pink-ss26-shoes.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Shoes Red Black AW26",
    "colour": "",
    "gender": "men",
@@ -1268,7 +1253,7 @@
    "name": "New Balance SuperComp Elite v6 Shoes Yellow Grey AW26",
    "colour": "",
    "gender": "men",
-   "price": 213.42,
+   "price": 209.36,
    "was": 284.63,
    "sizes": [
     "7.5",
@@ -1292,7 +1277,7 @@
    "name": "New Balance SuperComp Elite v6 Beige Grey",
    "colour": "",
    "gender": "men",
-   "price": 213.42,
+   "price": 209.36,
    "was": 284.63,
    "sizes": [
     "7.5",
@@ -1448,7 +1433,7 @@
    "name": "Hoka Rocket X 3 White Green AW26 Unisex",
    "colour": "",
    "gender": "men",
-   "price": 186.99,
+   "price": 178.86,
    "was": 254.13,
    "sizes": [],
    "url": "https://www.365rider.com/en/men-running-shoes/23062-hoka-rocket-x-3-white-green-aw26-unisex-running-shoes.html",

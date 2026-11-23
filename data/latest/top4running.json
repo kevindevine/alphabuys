@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T07:15:09+00:00",
+ "checked": "2026-11-23T11:17:10+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -20,7 +20,10 @@
     "9",
     "9.5",
     "10",
-    "10.5"
+    "10.5",
+    "11",
+    "11.5",
+    "12"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-running-shoe-im5546-800",
    "image": "https://i1.t4s.cz/products/im5546-800/nike-alphafly-4-running-shoe-1254015-im5546-8003.png"
@@ -184,11 +187,9 @@
    "name": "adidas Adizero Adios Pro 4",
    "colour": "blue",
    "gender": "men",
-   "price": 177.5,
+   "price": 250.0,
    "was": null,
-   "sizes": [
-    "9"
-   ],
+   "sizes": [],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-js2579",
    "image": "https://i1.t4s.cz/products/js2579/adidas-adizero-adios-pro-4-1054720-js25791.png"
   },
@@ -829,7 +830,7 @@
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "",
    "gender": "men",
-   "price": 174.9,
+   "price": 149.9,
    "was": null,
    "sizes": [
     "7.5",
@@ -1442,8 +1443,7 @@
     "7",
     "8.5",
     "9",
-    "9.5",
-    "10.5"
+    "9.5"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-2-s30994-344",
    "image": "https://i1.t4s.cz/products/s30994-344/saucony-endorphin-elite-2-958693-s30994-344.png"
@@ -1482,8 +1482,7 @@
     "4",
     "5",
     "5.5",
-    "6",
-    "10"
+    "6"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-elite-3-s100981-1025",
    "image": "https://i1.t4s.cz/products/s100981-1025/saucony-endorphin-elite-3-1124730-s100981-10253.png"
@@ -2062,11 +2061,13 @@
    "price": 209.9,
    "was": null,
    "sizes": [
+    "4.5",
     "5",
     "5.5",
+    "6",
     "6.5",
     "7",
-    "8"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-2ru",
    "image": "https://i1.t4s.cz/products/wrcel-2ru/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149450-wrcel-2ru1.png"
@@ -2143,14 +2144,16 @@
    "price": 215.1,
    "was": null,
    "sizes": [
-    "1.5",
+    "3",
     "3.5",
+    "4",
     "4.5",
     "5",
     "5.5",
+    "6",
     "6.5",
     "7",
-    "8"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
    "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
@@ -2277,14 +2280,16 @@
    "price": 223.9,
    "was": null,
    "sizes": [
-    "1.5",
+    "3",
     "3.5",
+    "4",
     "4.5",
     "5",
     "5.5",
+    "6",
     "6.5",
     "7",
-    "8"
+    "7.5"
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-91c",
    "image": "https://i1.t4s.cz/products/wrcel-91c/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1149455-wrcel-91c1.png"
