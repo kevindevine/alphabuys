@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T19:51:44+00:00",
+ "checked": "2026-11-23T01:50:43+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -841,7 +841,6 @@
     "8.5",
     "9",
     "9.5",
-    "10",
     "10.5",
     "11",
     "11.5",
@@ -1371,26 +1370,6 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "vizired/black",
-   "gender": "men",
-   "price": 175.95,
-   "was": 270.0,
-   "sizes": [
-    "6.5",
-    "7.5",
-    "9",
-    "10",
-    "10.5",
-    "11"
-   ],
-   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-viziredblack-s2342a0bc-g11.html",
-   "image": "https://img01.ztat.net/article/spp-media-p1/8a005561499e4fe6aea5e2ba5a20a1d9/f375a5bf93d542378ab42ae144eee634.jpg?imwidth=400&filter=packshot"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Zalando",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
    "colour": "vizired",
    "gender": "women",
    "price": 188.95,
@@ -1420,7 +1399,6 @@
    "sizes": [
     "6",
     "6.5",
-    "7",
     "7.5",
     "8",
     "8.5",
@@ -1428,7 +1406,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "11.5",
     "12",
     "13"
@@ -1517,6 +1494,25 @@
    "shop": "Zalando",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
+   "colour": "vizired/black",
+   "gender": "men",
+   "price": 175.95,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7.5",
+    "9",
+    "10.5",
+    "11"
+   ],
+   "url": "https://www.zalando.ie/saucony-endorphin-pro-5-road-running-shoes-viziredblack-s2342a0bc-g11.html",
+   "image": "https://img01.ztat.net/article/spp-media-p1/8a005561499e4fe6aea5e2ba5a20a1d9/f375a5bf93d542378ab42ae144eee634.jpg?imwidth=400&filter=packshot"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Zalando",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
    "colour": "citron/black",
    "gender": "men",
    "price": 188.95,
@@ -1579,7 +1575,6 @@
    "price": 209.95,
    "was": 280.0,
    "sizes": [
-    "7",
     "7.5",
     "8.5",
     "9",

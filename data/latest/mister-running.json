@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T19:51:44+00:00",
+ "checked": "2026-11-23T01:50:43+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -98,21 +98,6 @@
    ],
    "url": "https://www.misterrunning.com/en/nike-alphafly-4-womens-running-shoes-sea-glass-iz9609-002.html",
    "image": "https://www.misterrunning.com/media/products/2026-media-10/nike-alphafly-next-4-scarpe-da-running-donna-sea-glass-iz9609-002_A-600x600.jpg"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Mister Running",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly Next% 3",
-   "colour": "Platinum Tint/Purple Dynasty/Ocean Cube",
-   "gender": "men",
-   "price": 185.9,
-   "was": 309.99,
-   "sizes": [
-    "6.5"
-   ],
-   "url": "https://www.misterrunning.com/en/nike-alphafly-next-3-mens-running-shoes-platinum-tint-fd8311-003.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/nike-alphafly-next-3-scarpe-da-running-uomo-platinum-tint-fd8311-003_A-600x600.jpg"
   },
   {
    "shoe": "alphafly",
@@ -1051,21 +1036,6 @@
    "shoe": "puma-elite",
    "shop": "Mister Running",
    "model": "Deviate Nitro Elite 4",
-   "name": "Puma X Hyrox Deviate Nitro Elite 4",
-   "colour": "Intense Mint/Light Lavender",
-   "gender": "women",
-   "price": 159.9,
-   "was": 250.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://www.misterrunning.com/en/puma-x-hyrox-nitro-elite-4-womens-running-shoes-intense-mint-314157-01.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-06/314157-01-A-600x600.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Mister Running",
-   "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
    "colour": "Sunny Lime/Black",
    "gender": "men",
@@ -1078,7 +1048,6 @@
     "9",
     "9.5",
     "10",
-    "10.5",
     "11.5",
     "12"
    ],
@@ -1181,7 +1150,6 @@
    "sizes": [
     "6",
     "8",
-    "9",
     "9.5",
     "11.5"
    ],
@@ -1674,7 +1642,6 @@
    "was": 280.0,
    "sizes": [
     "7",
-    "7.5",
     "8",
     "8.5",
     "9",
@@ -1875,7 +1842,6 @@
    "sizes": [
     "7.5",
     "8",
-    "8.5",
     "9.5"
    ],
    "url": "https://www.misterrunning.com/en/hoka-rocket-x-3-mens-running-shoes-alabaster-frost-1168724-arfr.html",

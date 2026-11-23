@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T19:51:44+00:00",
+ "checked": "2026-11-23T01:50:43+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -91,6 +91,28 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "ZoomX Alphafly 3 Mens Running Shoes",
+   "colour": "Blue/White",
+   "gender": "men",
+   "price": 225.0,
+   "was": 310.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228221",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21228221_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "ZoomX Alphafly 3 Mens Running Shoes",
    "colour": "Laser Orange",
    "gender": "men",
    "price": 225.0,
@@ -131,28 +153,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228216",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21228216_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "ZoomX Alphafly 3 Mens Running Shoes",
-   "colour": "Blue/White",
-   "gender": "men",
-   "price": 225.0,
-   "was": 310.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-zoomx-alphafly-3-mens-running-shoes-212282#colcode=21228221",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21228221_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -378,10 +378,6 @@
    "price": 209.0,
    "was": 300.0,
    "sizes": [
-    "7",
-    "8",
-    "9",
-    "10",
     "11"
    ],
    "url": "https://ie.sportsdirect.com/y3-adios-pro-4-211482#colcode=21148203",
@@ -413,25 +409,6 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-running-shoes-213595#colcode=21359518",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21359518_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adios Pro 4",
-   "colour": "Classic Wht",
-   "gender": "men",
-   "price": 209.0,
-   "was": 300.0,
-   "sizes": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
-   ],
-   "url": "https://ie.sportsdirect.com/y3-adios-pro-4-211482#colcode=21148202",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21148202_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -474,6 +451,21 @@
    "shop": "Sports Direct",
    "model": "Adios Pro 4",
    "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
+   "colour": "Orange/Gold",
+   "gender": "women",
+   "price": 180.0,
+   "was": 250.0,
+   "sizes": [
+    "5.5"
+   ],
+   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220612",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21220612_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Sports Direct",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
    "colour": "White/Blue",
    "gender": "women",
    "price": 199.0,
@@ -487,21 +479,6 @@
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220632",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21220632_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios PRO 4 Women's Road Running Shoes",
-   "colour": "Orange/Gold",
-   "gender": "women",
-   "price": 180.0,
-   "was": 250.0,
-   "sizes": [
-    "5.5"
-   ],
-   "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-womens-road-running-shoes-212206#colcode=21220612",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21220612_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "adios-pro",
@@ -593,41 +570,10 @@
    "price": 209.0,
    "was": 300.0,
    "sizes": [
-    "7",
-    "8"
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/y3-mens-adios-pro-everyday-neutral-road-running-shoes-116640#colcode=11664003",
    "image": "https://cdn.media.amplience.net/i/frasersdev/11664003_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 1",
-   "name": "Men's Adios Pro Everyday Neutral Road Running Shoes",
-   "colour": "Off White",
-   "gender": "men",
-   "price": 300.0,
-   "was": null,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/y3-mens-adios-pro-everyday-neutral-road-running-shoes-116640#colcode=11664001",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/11664001_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Sports Direct",
-   "model": "Adios Pro 1",
-   "name": "Men's Adios Pro Runners",
-   "colour": "Black",
-   "gender": "men",
-   "price": 245.0,
-   "was": 350.0,
-   "sizes": [
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/y3-mens-adios-pro-runners-116319#colcode=11631903",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/11631903_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "metaspeed",
