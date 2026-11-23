@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T11:17:10+00:00",
+ "checked": "2026-11-23T15:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -23,7 +23,8 @@
     "10.5",
     "11",
     "11.5",
-    "12"
+    "12",
+    "13"
    ],
    "url": "https://top4running.ie/p/nike-alphafly-4-running-shoe-im5546-800",
    "image": "https://i1.t4s.cz/products/im5546-800/nike-alphafly-4-running-shoe-1254015-im5546-8003.png"
@@ -179,19 +180,6 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-5-m-ki8294",
    "image": "https://i1.t4s.cz/products/ki8294/adidas-adizero-adios-pro-5-m-1184083-ki82941.png"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "Top4Running",
-   "model": "Adios Pro 4",
-   "name": "adidas Adizero Adios Pro 4",
-   "colour": "blue",
-   "gender": "men",
-   "price": 250.0,
-   "was": null,
-   "sizes": [],
-   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-js2579",
-   "image": "https://i1.t4s.cz/products/js2579/adidas-adizero-adios-pro-4-1054720-js25791.png"
   },
   {
    "shoe": "adios-pro",
@@ -353,6 +341,21 @@
    ],
    "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-ki1465",
    "image": "https://i1.t4s.cz/products/ki1465/adidas-adizero-adios-pro-4-running-shoe-1119405-ki14651.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "men",
+   "price": 187.9,
+   "was": null,
+   "sizes": [
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-jr7088",
+   "image": "https://i1.t4s.cz/products/jr7088/adidas-adizero-adios-pro-4-1037837-jr70882.png"
   },
   {
    "shoe": "adios-pro",
@@ -531,6 +534,7 @@
     "5",
     "5.5",
     "6",
+    "7",
     "8.5",
     "9"
    ],
@@ -2257,7 +2261,7 @@
    "name": "New Balance FuelCell SuperComp Elite v5",
    "colour": "white",
    "gender": "men",
-   "price": 224.0,
+   "price": 167.9,
    "was": null,
    "sizes": [
     "7.5",
@@ -2316,7 +2320,7 @@
    "name": "New Balance TCS NYC Marathon FuelCell SuperComp Elite v5",
    "colour": "",
    "gender": "women",
-   "price": 195.9,
+   "price": 167.9,
    "was": null,
    "sizes": [
     "4.5"
@@ -2668,7 +2672,6 @@
     "5",
     "5.5",
     "6",
-    "6.5",
     "7",
     "7.5",
     "8",
