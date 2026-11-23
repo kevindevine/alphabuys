@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22T19:25:15+00:00",
+ "checked": "2026-11-23T07:15:09+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -8,14 +8,13 @@
    "name": "Nike Alphafly 3 White Purple",
    "colour": "",
    "gender": "men",
-   "price": 203.25,
+   "price": 218.54,
    "was": 315.11,
    "sizes": [
     "7.5",
     "8",
     "8.5",
     "9.5",
-    "10",
     "10.5"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/23706-nike-alphafly-3-white-purple-running-shoes.html",
@@ -1030,27 +1029,6 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Black Pink SS26 Shoes",
-   "colour": "",
-   "gender": "men",
-   "price": 168.69,
-   "was": 274.46,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "11"
-   ],
-   "url": "https://www.365rider.com/en/men-running-shoes/20544-saucony-endorphin-pro-5-black-pink-ss26-shoes.html",
-   "image": "https://www.365rider.com/104739-home_default/saucony-endorphin-pro-5-black-pink-ss26-shoes.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "365rider",
-   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 Shoes Red Black AW26",
    "colour": "",
    "gender": "men",
@@ -1108,6 +1086,28 @@
    ],
    "url": "https://www.365rider.com/en/running/22782-saucony-endorphin-pro-5-shoes-white-green-aw26.html",
    "image": "https://www.365rider.com/109035-home_default/saucony-endorphin-pro-5-shoes-white-green-aw26.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Shoes Orange White AW26",
+   "colour": "",
+   "gender": "men",
+   "price": 177.84,
+   "was": 274.46,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
+   ],
+   "url": "https://www.365rider.com/en/running/22780-saucony-endorphin-pro-5-shoes-orange-white-aw26.html",
+   "image": "https://www.365rider.com/110961-home_default/saucony-endorphin-pro-5-shoes-orange-white-aw26.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -1179,6 +1179,26 @@
    "shoe": "saucony-endorphin",
    "shop": "365rider",
    "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Orange Purple SS26",
+   "colour": "",
+   "gender": "women",
+   "price": 158.53,
+   "was": 274.46,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/21047-saucony-endorphin-pro-5-orange-purple-ss26-women-s-running-shoes.html",
+   "image": "https://www.365rider.com/106594-home_default/saucony-endorphin-pro-5-orange-purple-ss26-women-s-running-shoes.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
    "name": "Saucony Endorphin Pro 5 White Pink AW26",
    "colour": "",
    "gender": "women",
@@ -1206,6 +1226,40 @@
    ],
    "url": "https://www.365rider.com/en/women-s-running-shoes/22756-saucony-endorphin-pro-5-shoes-red-aw26-women-s.html",
    "image": "https://www.365rider.com/112650-home_default/saucony-endorphin-pro-5-shoes-red-aw26-women-s.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Shoes Yellow Grey AW26 Women",
+   "colour": "",
+   "gender": "women",
+   "price": 177.84,
+   "was": 274.46,
+   "sizes": [],
+   "url": "https://www.365rider.com/en/women-s-running-shoes/22755-saucony-endorphin-pro-5-shoes-yellow-grey-aw26-women.html",
+   "image": "https://www.365rider.com/112642-home_default/saucony-endorphin-pro-5-shoes-yellow-grey-aw26-women.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "365rider",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 White Green AW26 Women's Shoes",
+   "colour": "",
+   "gender": "women",
+   "price": 177.84,
+   "was": 274.46,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8"
+   ],
+   "url": "https://www.365rider.com/en/running/22757-saucony-endorphin-pro-5-white-green-aw26-women-s-shoes.html",
+   "image": "https://www.365rider.com/109007-home_default/saucony-endorphin-pro-5-white-green-aw26-women-s-shoes.jpg"
   },
   {
    "shoe": "nb-sc-elite",
