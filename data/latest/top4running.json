@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24T07:15:22+00:00",
+ "checked": "2026-11-24T11:15:05+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -518,7 +518,6 @@
     "5",
     "5.5",
     "6",
-    "7",
     "8.5",
     "9"
    ],
@@ -763,7 +762,7 @@
    "name": "Nike Vaporfly 4",
    "colour": "",
    "gender": "men",
-   "price": 259.99,
+   "price": 194.9,
    "was": null,
    "sizes": [
     "6",
@@ -791,7 +790,7 @@
    "name": "Nike Vaporfly 4",
    "colour": "yellow",
    "gender": "men",
-   "price": 259.99,
+   "price": 194.9,
    "was": null,
    "sizes": [
     "6",
@@ -1898,7 +1897,6 @@
     "5.5",
     "6",
     "6.5",
-    "7",
     "8"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s11064-120",
@@ -2409,7 +2407,8 @@
    "was": null,
    "sizes": [
     "9.5",
-    "11.5"
+    "11.5",
+    "12"
    ],
    "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-3ug30055076",
    "image": "https://i1.t4s.cz/products/3ug30055076/on-running-cloudboom-strike-2-1188428-3ug300550761.png"
@@ -2490,7 +2489,8 @@
     "6",
     "6.5",
     "7",
-    "7.5"
+    "7.5",
+    "8"
    ],
    "url": "https://top4running.ie/p/on-running-cloudboom-strike-3we30474836",
    "image": "https://i1.t4s.cz/products/3we30474836/on-running-cloudboom-strike-1090374-3we304748361.png"
