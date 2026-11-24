@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T13:16:36+00:00",
+ "checked": "2026-11-24T02:23:03+00:00",
  "offers": [
   {
    "shoe": "metaspeed",
@@ -26,6 +26,92 @@
    "sizes": [],
    "url": "https://amphibianking.ie/products/asics-metaspeed-sky-tokyo-unisex?variant=54805443412297",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/asics_metaspeed_aqua.webp?v=1783527978"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "Lapis/Citron",
+   "gender": "men",
+   "price": 170.0,
+   "was": 250.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52559249244489",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/endorphin_pro_4_citron.jpg?v=1750860243"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "WHITE/MUTANT",
+   "gender": "men",
+   "price": 170.0,
+   "was": 250.0,
+   "sizes": [
+    "8.5"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52563810812233",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_26-6-2025_145935_saucony.orderwwwbrands.eu.jpg?v=1750946419"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "Fog/Peel",
+   "gender": "men",
+   "price": 170.0,
+   "was": 250.0,
+   "sizes": [
+    "10"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51643965964617",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/pro_4_mens_fog.jpg?v=1738167519"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "BLACK/VO2",
+   "gender": "men",
+   "price": 170.0,
+   "was": 250.0,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52558758412617",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_25-6-2025_13580_saucony.orderwwwbrands.eu.jpg?v=1750856316"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "Orange",
+   "gender": "men",
+   "price": 170.0,
+   "was": 250.0,
+   "sizes": [],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51643966062921",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SauconyEndorphinPro4Men_sOrange.jpg?v=1738167479"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 4",
+   "name": "Saucony Endorphin Pro 4 Men's",
+   "colour": "White/Shadow",
+   "gender": "men",
+   "price": 170.0,
+   "was": null,
+   "sizes": [
+    "10"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51959640457545",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S20939-68_796f31fd-bc32-47b2-9467-8bf39c257f66.jpg?v=1742640386"
   },
   {
    "shoe": "saucony-endorphin",
@@ -134,88 +220,67 @@
   {
    "shoe": "saucony-endorphin",
    "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "Lapis/Citron",
+   "model": "Endorphin Elite 1",
+   "name": "Saucony Endorphin Elite Men's",
+   "colour": "White / Gold",
    "gender": "men",
-   "price": 170.0,
-   "was": 250.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52559249244489",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/endorphin_pro_4_citron.jpg?v=1750860243"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "WHITE/MUTANT",
-   "gender": "men",
-   "price": 170.0,
-   "was": 250.0,
-   "sizes": [
-    "8.5"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52563810812233",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_26-6-2025_145935_saucony.orderwwwbrands.eu.jpg?v=1750946419"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "Fog/Peel",
-   "gender": "men",
-   "price": 170.0,
-   "was": 250.0,
-   "sizes": [
-    "10"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51643965964617",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/pro_4_mens_fog.jpg?v=1738167519"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "BLACK/VO2",
-   "gender": "men",
-   "price": 170.0,
-   "was": 250.0,
+   "price": 210.0,
+   "was": 300.0,
    "sizes": [
     "8"
    ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=52558758412617",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_25-6-2025_13580_saucony.orderwwwbrands.eu.jpg?v=1750856316"
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-mens?variant=48516102553929",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S20768-13_1.jpg?v=1690971541"
   },
   {
    "shoe": "saucony-endorphin",
    "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "Orange",
+   "model": "Endorphin Elite 1",
+   "name": "Saucony Endorphin Elite Men's",
+   "colour": "Viziblue/Citron Blue",
    "gender": "men",
-   "price": 170.0,
-   "was": 250.0,
-   "sizes": [],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51643966062921",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/SauconyEndorphinPro4Men_sOrange.jpg?v=1738167479"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 4",
-   "name": "Saucony Endorphin Pro 4 Men's",
-   "colour": "White/Shadow",
-   "gender": "men",
-   "price": 170.0,
-   "was": null,
+   "price": 210.0,
+   "was": 300.0,
    "sizes": [
-    "10"
+    "8"
    ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-4-mans?variant=51959640457545",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S20939-68_796f31fd-bc32-47b2-9467-8bf39c257f66.jpg?v=1742640386"
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-mens?variant=50489495388489",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Men_s_Viziblue_Citron_Blue.webp?v=1722351926"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Women's",
+   "colour": "BLACK/SHOCK",
+   "gender": "women",
+   "price": 240.0,
+   "was": 270.0,
+   "sizes": [
+    "5",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54046071521609",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Pro 5",
+   "name": "Saucony Endorphin Pro 5 Women's",
+   "colour": "WHITE/SPLASH",
+   "gender": "women",
+   "price": 240.0,
+   "was": 270.0,
+   "sizes": [
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54297241715017",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S11064-120.jpg?v=1777559351"
   },
   {
    "shoe": "saucony-endorphin",
@@ -269,6 +334,21 @@
    ],
    "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-mens?variant=54060184568137",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "Amphibian King",
+   "model": "Endorphin Elite 1",
+   "name": "Saucony Endorphin Elite Women's",
+   "colour": "White/ViziRed",
+   "gender": "women",
+   "price": 180.0,
+   "was": null,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-womens?variant=51180567396681",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Women_s_White_Vizi.jpg?v=1731925822"
   },
   {
    "shoe": "saucony-endorphin",
@@ -347,86 +427,6 @@
    "sizes": [],
    "url": "https://amphibianking.ie/products/saucony-endorphin-elite-2-unisex?variant=52563827556681",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_26-6-2025_1570_saucony.orderwwwbrands.eu.jpg?v=1769105111"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 1",
-   "name": "Saucony Endorphin Elite Women's",
-   "colour": "White/ViziRed",
-   "gender": "women",
-   "price": 180.0,
-   "was": null,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-womens?variant=51180567396681",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Women_s_White_Vizi.jpg?v=1731925822"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 1",
-   "name": "Saucony Endorphin Elite Men's",
-   "colour": "White / Gold",
-   "gender": "men",
-   "price": 210.0,
-   "was": 300.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-mens?variant=48516102553929",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S20768-13_1.jpg?v=1690971541"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Elite 1",
-   "name": "Saucony Endorphin Elite Men's",
-   "colour": "Viziblue/Citron Blue",
-   "gender": "men",
-   "price": 210.0,
-   "was": 300.0,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-elite-mens?variant=50489495388489",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Saucony_Endorphin_Elite_Men_s_Viziblue_Citron_Blue.webp?v=1722351926"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Women's",
-   "colour": "BLACK/SHOCK",
-   "gender": "women",
-   "price": 240.0,
-   "was": 270.0,
-   "sizes": [
-    "5",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54046071521609",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_18-3-2026_144247_saucony.orderwwwbrands.eu.jpg?v=1773845312"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Amphibian King",
-   "model": "Endorphin Pro 5",
-   "name": "Saucony Endorphin Pro 5 Women's",
-   "colour": "WHITE/SPLASH",
-   "gender": "women",
-   "price": 240.0,
-   "was": 270.0,
-   "sizes": [
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://amphibianking.ie/products/saucony-endorphin-pro-5-womens?variant=54297241715017",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/S11064-120.jpg?v=1777559351"
   },
   {
    "shoe": "nb-sc-elite",
@@ -659,25 +659,6 @@
   {
    "shoe": "brooks-hyperion-elite",
    "shop": "Amphibian King",
-   "model": "Hyperion Elite 6",
-   "name": "Brooks Hyperion Elite 6 (Unisex)",
-   "colour": "Vaporous Grey/Yellow/Black",
-   "gender": "men",
-   "price": 275.0,
-   "was": null,
-   "sizes": [
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10"
-   ],
-   "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex-copy?variant=54978966815049",
-   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/brooks_hyperion_max_6.webp?v=1785576022"
-  },
-  {
-   "shoe": "brooks-hyperion-elite",
-   "shop": "Amphibian King",
    "model": "Hyperion Elite 5",
    "name": "Brooks Hyperion Elite 5 Unisex",
    "colour": "Pink Clay / Atomizer Blue",
@@ -714,6 +695,25 @@
    ],
    "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex?variant=53792809255241",
    "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/Screenshot_3-2-2026_11580_fasttrack.brooksrunning.com.jpg?v=1770119916"
+  },
+  {
+   "shoe": "brooks-hyperion-elite",
+   "shop": "Amphibian King",
+   "model": "Hyperion Elite 6",
+   "name": "Brooks Hyperion Elite 6 (Unisex)",
+   "colour": "Vaporous Grey/Yellow/Black",
+   "gender": "men",
+   "price": 275.0,
+   "was": null,
+   "sizes": [
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10"
+   ],
+   "url": "https://amphibianking.ie/products/brooks-hyperion-elite-5-unisex-copy?variant=54978966815049",
+   "image": "https://cdn.shopify.com/s/files/1/0989/7022/files/brooks_hyperion_max_6.webp?v=1785576022"
   }
  ]
 }
