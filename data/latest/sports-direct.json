@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24T13:58:48+00:00",
+ "checked": "2026-11-24T23:57:29+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -29,7 +29,6 @@
    "was": 310.0,
    "sizes": [
     "5",
-    "5.5",
     "6",
     "6.5",
     "7"
@@ -80,6 +79,7 @@
    "price": 155.0,
    "was": 310.0,
    "sizes": [
+    "4",
     "5",
     "6",
     "6.5",
@@ -87,6 +87,22 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000806_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "White/Platinum",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "6.5"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -137,17 +153,21 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "White/Platinum",
+   "colour": "Laser Orange",
    "gender": "women",
-   "price": 155.0,
+   "price": 225.0,
    "was": 310.0,
    "sizes": [
+    "4",
     "5",
+    "5.5",
     "6",
-    "6.5"
+    "6.5",
+    "7",
+    "8"
    ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000812",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000812_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -258,27 +278,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000824",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000824_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Laser Orange",
-   "gender": "women",
-   "price": 225.0,
-   "was": 310.0,
-   "sizes": [
-    "4",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000812",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000812_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -595,8 +594,6 @@
    "price": 78.0,
    "was": 260.0,
    "sizes": [
-    "4",
-    "5",
     "6",
     "7"
    ],
@@ -615,7 +612,7 @@
    "sizes": [
     "5",
     "6",
-    "7"
+    "6.5"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
@@ -890,6 +887,7 @@
     "8",
     "8.5",
     "9",
+    "9.5",
     "10",
     "11",
     "12"
@@ -1491,6 +1489,7 @@
     "7",
     "8",
     "8.5",
+    "9",
     "9.5",
     "10",
     "11",
