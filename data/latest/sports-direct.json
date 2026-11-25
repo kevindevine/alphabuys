@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T08:52:30+00:00",
+ "checked": "2026-11-25T19:26:40+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -23,24 +23,6 @@
    "shop": "Sports Direct",
    "model": "Alphafly 3",
    "name": "Alphafly 3 Running Shoes Womens",
-   "colour": "Crimson",
-   "gender": "women",
-   "price": 155.0,
-   "was": 310.0,
-   "sizes": [
-    "5",
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Sports Direct",
-   "model": "Alphafly 3",
-   "name": "Alphafly 3 Running Shoes Womens",
    "colour": "Glacier Blue",
    "gender": "women",
    "price": 155.0,
@@ -52,6 +34,24 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000818",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000818_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Sports Direct",
+   "model": "Alphafly 3",
+   "name": "Alphafly 3 Running Shoes Womens",
+   "colour": "Crimson",
+   "gender": "women",
+   "price": 155.0,
+   "was": 310.0,
+   "sizes": [
+    "5",
+    "5.5",
+    "6",
+    "7"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21000808_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "alphafly",
@@ -79,10 +79,8 @@
    "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "4",
     "5",
     "6",
-    "6.5",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000806",
@@ -595,8 +593,8 @@
    "was": 260.0,
    "sizes": [
     "5",
-    "6",
-    "6.5"
+    "6.5",
+    "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281927_o?fmt=auto&w=345&h=345&v=1"
@@ -617,6 +615,29 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281918",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281918_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Sports Direct",
+   "model": "Vaporfly 4",
+   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
+   "colour": "Citron Pulse",
+   "gender": "men",
+   "price": 190.0,
+   "was": 260.0,
+   "sizes": [
+    "7",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12"
+   ],
+   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281513",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21281513_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -850,29 +871,6 @@
    ],
    "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281570",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21281570_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Sports Direct",
-   "model": "Vaporfly 4",
-   "name": "Men's Vaporfly 4 Fast Neutral Road Running Shoes",
-   "colour": "Citron Pulse",
-   "gender": "men",
-   "price": 190.0,
-   "was": 260.0,
-   "sizes": [
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12"
-   ],
-   "url": "https://ie.sportsdirect.com/nike-mens-vaporfly-4-fast-neutral-road-running-shoes-212815#colcode=21281513",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21281513_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "vaporfly",
@@ -1430,25 +1428,6 @@
    "shoe": "on-cloudboom",
    "shop": "Sports Direct",
    "model": "Cloudboom Strike",
-   "name": "Womens On Cloudboom Strike Fast Neutral Road Running Shoes",
-   "colour": "Juniper/Lime",
-   "gender": "women",
-   "price": 205.0,
-   "was": 280.0,
-   "sizes": [
-    "4",
-    "5",
-    "6",
-    "7",
-    "8"
-   ],
-   "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
-   "image": "https://cdn.media.amplience.net/i/frasersdev/21292424_o?fmt=auto&w=345&h=345&v=1"
-  },
-  {
-   "shoe": "on-cloudboom",
-   "shop": "Sports Direct",
-   "model": "Cloudboom Strike",
    "name": "On Cloudboom Strike Mens Fast Running Shoes",
    "colour": "Juniper/Lime",
    "gender": "men",
@@ -1466,6 +1445,25 @@
    ],
    "url": "https://ie.sportsdirect.com/on-on-cloudboom-strike-mens-fast-running-shoes-212923#colcode=21292324",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21292324_o?fmt=auto&w=345&h=345&v=1"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Sports Direct",
+   "model": "Cloudboom Strike",
+   "name": "Womens On Cloudboom Strike Fast Neutral Road Running Shoes",
+   "colour": "Juniper/Lime",
+   "gender": "women",
+   "price": 205.0,
+   "was": 280.0,
+   "sizes": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "url": "https://ie.sportsdirect.com/on-womens-on-cloudboom-strike-fast-neutral-road-running-shoes-212924#colcode=21292424",
+   "image": "https://cdn.media.amplience.net/i/frasersdev/21292424_o?fmt=auto&w=345&h=345&v=1"
   },
   {
    "shoe": "on-cloudboom",
