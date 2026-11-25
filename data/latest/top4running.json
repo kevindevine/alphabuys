@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T15:15:05+00:00",
+ "checked": "2026-11-25T19:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -403,6 +403,21 @@
    "shop": "Top4Running",
    "model": "Adios Pro 4",
    "name": "adidas Adizero Adios Pro 4",
+   "colour": "white",
+   "gender": "women",
+   "price": 187.9,
+   "was": null,
+   "sizes": [
+    "6.5"
+   ],
+   "url": "https://top4running.ie/p/adidas-adizero-adios-pro-4-running-shoe-women-jq1691",
+   "image": "https://i1.t4s.cz/products/jq1691/adidas-adizero-adios-pro-4-1071161-jq16911.png"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "Top4Running",
+   "model": "Adios Pro 4",
+   "name": "adidas Adizero Adios Pro 4",
    "colour": "purple",
    "gender": "women",
    "price": 199.9,
@@ -707,21 +722,6 @@
    "shop": "Top4Running",
    "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 162.2,
-   "was": null,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://top4running.ie/p/nike-vaporfly-4-running-shoe-hf6414-800",
-   "image": "https://i1.t4s.cz/products/hf6414-800/nike-vaporfly-4-1071043-hf6414-8003.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Top4Running",
-   "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4",
    "colour": "",
    "gender": "men",
    "price": 202.5,
@@ -856,30 +856,6 @@
    "shop": "Top4Running",
    "model": "Deviate Nitro Elite 4",
    "name": "Puma Deviate Nitro Elite 4",
-   "colour": "yellow",
-   "gender": "men",
-   "price": 211.9,
-   "was": null,
-   "sizes": [
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "12",
-    "13"
-   ],
-   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-312127-10",
-   "image": "https://i1.t4s.cz/products/312127-10/puma-deviate-nitro-elite-4-1188545-312127-101.png"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "Top4Running",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Puma Deviate Nitro Elite 4",
    "colour": "black",
    "gender": "men",
    "price": 220.9,
@@ -898,6 +874,30 @@
    ],
    "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-saysky-313942-01",
    "image": "https://i1.t4s.cz/products/313942-01/puma-deviate-nitro-elite-4-saysky-1159417-313942-011.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Puma Deviate Nitro Elite 4",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 211.9,
+   "was": null,
+   "sizes": [
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "12",
+    "13"
+   ],
+   "url": "https://top4running.ie/p/puma-deviate-nitro-elite-4-312127-10",
+   "image": "https://i1.t4s.cz/products/312127-10/puma-deviate-nitro-elite-4-1188545-312127-101.png"
   },
   {
    "shoe": "puma-elite",
@@ -1883,9 +1883,7 @@
     "9.5",
     "10",
     "10.5",
-    "11",
-    "11.5",
-    "12"
+    "11"
    ],
    "url": "https://top4running.ie/p/saucony-endorphin-pro-5-s101360-1001",
    "image": "https://i1.t4s.cz/products/s101360-1001/saucony-endorphin-pro-5-1193431-s101360-10011.png"
@@ -2132,30 +2130,6 @@
    "shop": "Top4Running",
    "model": "SC Elite v6",
    "name": "New Balance SuperComp Elite v6",
-   "colour": "white",
-   "gender": "women",
-   "price": 215.0,
-   "was": null,
-   "sizes": [
-    "3",
-    "3.5",
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5"
-   ],
-   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
-   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "Top4Running",
-   "model": "SC Elite v6",
-   "name": "New Balance SuperComp Elite v6",
    "colour": "yellow",
    "gender": "men",
    "price": 209.9,
@@ -2175,6 +2149,30 @@
    ],
    "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-mrcel-8dm",
    "image": "https://i1.t4s.cz/products/mrcel-8dm/new-balance-new-balance-supercomp-elite-v6-running-shoe-1149445-mrcel-8dm1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "Top4Running",
+   "model": "SC Elite v6",
+   "name": "New Balance SuperComp Elite v6",
+   "colour": "white",
+   "gender": "women",
+   "price": 215.0,
+   "was": null,
+   "sizes": [
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5"
+   ],
+   "url": "https://top4running.ie/p/new-balance-supercomp-elite-v6-running-shoe-women-wrcel-4zt",
+   "image": "https://i1.t4s.cz/products/wrcel-4zt/new-balance-new-balance-supercomp-elite-v6-running-shoe-women-1153944-wrcel-4zt1.png"
   },
   {
    "shoe": "nb-sc-elite",
@@ -2485,6 +2483,22 @@
    "shop": "Top4Running",
    "model": "Cloudboom Strike",
    "name": "shoes On Running Cloudboom Strike",
+   "colour": "black",
+   "gender": "men",
+   "price": 184.8,
+   "was": null,
+   "sizes": [
+    "9",
+    "9.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-m-3me30480299",
+   "image": "https://i1.t4s.cz/products/3me30480299/on-running-cloudboom-strike-960775-3me30480299.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
    "colour": "orange",
    "gender": "men",
    "price": 184.8,
@@ -2522,22 +2536,6 @@
    ],
    "url": "https://top4running.ie/p/on-running-cloudboom-strike-2-ls-3ug30022929",
    "image": "https://i1.t4s.cz/products/3ug30022929/on-running-cloudboom-strike-2-ls-1148867-3ug300229291.png"
-  },
-  {
-   "shoe": "on-cloudboom",
-   "shop": "Top4Running",
-   "model": "Cloudboom Strike",
-   "name": "shoes On Running Cloudboom Strike",
-   "colour": "black",
-   "gender": "men",
-   "price": 184.8,
-   "was": null,
-   "sizes": [
-    "9",
-    "9.5"
-   ],
-   "url": "https://top4running.ie/p/on-running-cloudboom-strike-m-3me30480299",
-   "image": "https://i1.t4s.cz/products/3me30480299/on-running-cloudboom-strike-960775-3me30480299.png"
   },
   {
    "shoe": "on-cloudboom",
