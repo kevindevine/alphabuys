@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T19:26:40+00:00",
+ "checked": "2026-11-26T03:39:30+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -48,6 +48,7 @@
     "5",
     "5.5",
     "6",
+    "6.5",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000808",
@@ -96,8 +97,7 @@
    "price": 155.0,
    "was": 310.0,
    "sizes": [
-    "5",
-    "6.5"
+    "5"
    ],
    "url": "https://ie.sportsdirect.com/nike-alphafly-3-running-shoes-womens-210008#colcode=21000830",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21000830_o?fmt=auto&w=345&h=345&v=1"
@@ -363,8 +363,7 @@
     "9.5",
     "10",
     "10.5",
-    "11.5",
-    "12"
+    "11.5"
    ],
    "url": "https://ie.sportsdirect.com/adidas-adizero-adios-pro-4-running-shoes-213595#colcode=21359518",
    "image": "https://cdn.media.amplience.net/i/frasersdev/21359518_o?fmt=auto&w=345&h=345&v=1"
@@ -593,7 +592,7 @@
    "was": 260.0,
    "sizes": [
     "5",
-    "6.5",
+    "6",
     "7"
    ],
    "url": "https://ie.sportsdirect.com/nike-vaporfly-4-road-running-shoes-womens-212819#colcode=21281927",
