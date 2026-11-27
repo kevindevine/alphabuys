@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T01:49:10+00:00",
+ "checked": "2026-11-27T12:48:37+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -16,6 +16,8 @@
     "6.5",
     "7",
     "7.5",
+    "8",
+    "9.5",
     "10",
     "10.5",
     "11",
@@ -66,9 +68,7 @@
    "price": 185.99,
    "was": 309.99,
    "sizes": [
-    "3",
     "4",
-    "5",
     "5.5",
     "6",
     "6.5",
@@ -134,7 +134,6 @@
    "price": 185.99,
    "was": 309.99,
    "sizes": [
-    "9",
     "12"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-300",
@@ -180,11 +179,9 @@
    "price": 185.99,
    "was": 309.99,
    "sizes": [
-    "6",
     "6.5",
     "7",
     "8",
-    "8.5",
     "9",
     "9.5",
     "10",
@@ -237,37 +234,12 @@
    "price": 191.99,
    "was": 319.99,
    "sizes": [
+    "6",
     "10",
     "14"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-mens-road-racing-shoes-KnKE5jwD/IO9573-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c939d1f-85c8-4cfc-ad28-b1aea980a958/AIR+ZOOM+ALPHAFLY+NEXT%25+3+GLAM.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Nike",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "Laser Orange/Citron Pulse/Volt Ice/Indigo Burst",
-   "gender": "men",
-   "price": 185.99,
-   "was": 309.99,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "8",
-    "8.5",
-    "9",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-800",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/30c60f35-8b9b-4e17-aca3-7464f3ee9971/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
    "shoe": "alphafly",
@@ -284,6 +256,29 @@
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-401",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c2d2d5e-8a8d-439b-a18e-b3a7868d3954/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Nike",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "Laser Orange/Citron Pulse/Volt Ice/Indigo Burst",
+   "gender": "men",
+   "price": 185.99,
+   "was": 309.99,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "8",
+    "10",
+    "10.5",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-800",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/30c60f35-8b9b-4e17-aca3-7464f3ee9971/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
    "shoe": "alphafly",
@@ -459,7 +454,8 @@
    "was": 259.99,
    "sizes": [
     "6",
-    "7.5",
+    "6.5",
+    "7",
     "8",
     "8.5",
     "9",
@@ -503,7 +499,6 @@
     "7.5",
     "8",
     "8.5",
-    "9",
     "9.5",
     "10",
     "10.5",
@@ -567,7 +562,6 @@
     "9.5",
     "10",
     "10.5",
-    "11",
     "11.5",
     "12",
     "13"

@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T01:49:10+00:00",
+ "checked": "2026-11-27T12:48:37+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -76,19 +76,6 @@
    "shop": "SportsShoes",
    "model": "Alphafly 3",
    "name": "Air Zoom Alphafly Next% 3",
-   "colour": "Racer Blue/Atomic Pink/Indigo Burst/White",
-   "gender": "men",
-   "price": 216.99,
-   "was": 309.99,
-   "sizes": [],
-   "url": "https://www.sportsshoes.com/product/nik25687/nike-air-zoom-alphafly-next%25-3-men's-running-shoes---fa26",
-   "image": "https://cdn.sportsshoes.com/product/N/NIK25687/NIK25687_800_1.jpg"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "SportsShoes",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
    "colour": "Platinum Tint/Ocean Cube/Moon Particle/Purple Dynasty",
    "gender": "men",
    "price": 216.99,
@@ -96,7 +83,8 @@
    "sizes": [
     "6",
     "6.5",
-    "7.5"
+    "7.5",
+    "8.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik25686/nike-air-zoom-alphafly-next%25-3-men's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25686/NIK25686_800_1.jpg"
@@ -125,21 +113,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/nik25776/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25776/NIK25776_800_1.jpg"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "SportsShoes",
-   "model": "Alphafly 3",
-   "name": "Air Zoom Alphafly Next% 3",
-   "colour": "Laser Orange / Indigo Burst / Citron Pulse",
-   "gender": "men",
-   "price": 169.99,
-   "was": 309.99,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.sportsshoes.com/product/nik24893/nike-air-zoom-alphafly-next%25-3-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NIK24893/NIK24893_800_1.png"
   },
   {
    "shoe": "alphafly",
@@ -912,7 +885,6 @@
    "price": 191.99,
    "was": 249.99,
    "sizes": [
-    "4",
     "4.5",
     "5",
     "5.5",
@@ -1182,6 +1154,7 @@
    "was": 249.99,
    "sizes": [
     "6",
+    "6.5",
     "7",
     "7.5",
     "8",
@@ -1379,23 +1352,6 @@
    "shop": "SportsShoes",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
-   "colour": "Core Black/ Matte Silver/ Glory Green",
-   "gender": "men",
-   "price": 249.99,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi17710/adidas-adizero-adios-pro-4-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI17710/ADI17710_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
    "colour": "Crystal White / Matte Silver / Glory Green",
    "gender": "women",
    "price": 199.99,
@@ -1411,6 +1367,23 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi17810/adidas-adizero-adios-pro-4-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17810/ADI17810_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Core Black/ Matte Silver/ Glory Green",
+   "gender": "men",
+   "price": 249.99,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi17710/adidas-adizero-adios-pro-4-men's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI17710/ADI17710_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1449,31 +1422,6 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
-   "model": "Metaspeed Edge Tokyo",
-   "name": "Metaspeed Edge Tokyo",
-   "colour": "White / Flash Coral",
-   "gender": "men",
-   "price": 297.59,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi17106/asics-metaspeed-edge-tokyo-running-shoes---ss27",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI17106/ASI17106_800_1.png"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
    "model": "Metaspeed Sky Tokyo",
    "name": "Metaspeed Sky Tokyo",
    "colour": "WHITE/FLASH CORAL",
@@ -1495,6 +1443,31 @@
    ],
    "url": "https://www.sportsshoes.com/product/asi17105/asics-metaspeed-sky-tokyo-running-shoes---ss27",
    "image": "https://cdn.sportsshoes.com/product/A/ASI17105/ASI17105_800_1.png"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "SportsShoes",
+   "model": "Metaspeed Edge Tokyo",
+   "name": "Metaspeed Edge Tokyo",
+   "colour": "White / Flash Coral",
+   "gender": "men",
+   "price": 297.59,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12"
+   ],
+   "url": "https://www.sportsshoes.com/product/asi17106/asics-metaspeed-edge-tokyo-running-shoes---ss27",
+   "image": "https://cdn.sportsshoes.com/product/A/ASI17106/ASI17106_800_1.png"
   },
   {
    "shoe": "metaspeed",
@@ -1524,7 +1497,6 @@
    "was": null,
    "sizes": [
     "6",
-    "6.5",
     "7",
     "7.5",
     "8",
@@ -1620,21 +1592,6 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
-   "model": "Metaspeed Sky Tokyo",
-   "name": "Metaspeed Sky Tokyo",
-   "colour": "Green Gecko / Black",
-   "gender": "men",
-   "price": 269.99,
-   "was": null,
-   "sizes": [
-    "6"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi16202/asics-metaspeed-sky-tokyo-running-shoes---ss26",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI16202/ASI16202_800_1.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
    "model": "Metaspeed Ray Tokyo",
    "name": "Metaspeed Ray Tokyo",
    "colour": "White / Flash Red",
@@ -1658,6 +1615,23 @@
   {
    "shoe": "metaspeed",
    "shop": "SportsShoes",
+   "model": "Metaspeed Edge Paris",
+   "name": "Metaspeed Edge Paris",
+   "colour": "Safety Yellow/ Black",
+   "gender": "men",
+   "price": 180.99,
+   "was": 249.99,
+   "sizes": [
+    "2.5",
+    "3",
+    "5.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/asi14882/asics-metaspeed-edge-paris-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/A/ASI14882/ASI14882_800_8.jpg"
+  },
+  {
+   "shoe": "metaspeed",
+   "shop": "SportsShoes",
    "model": "Metaspeed Sky Paris",
    "name": "Metaspeed Sky Paris",
    "colour": "Safety Yellow/ Black",
@@ -1672,23 +1646,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/asi14881/asics-metaspeed-sky-paris-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ASI14881/ASI14881_800_1.jpg"
-  },
-  {
-   "shoe": "metaspeed",
-   "shop": "SportsShoes",
-   "model": "Metaspeed Edge Paris",
-   "name": "Metaspeed Edge Paris",
-   "colour": "Safety Yellow/ Black",
-   "gender": "men",
-   "price": 180.99,
-   "was": 249.99,
-   "sizes": [
-    "2.5",
-    "3",
-    "5.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/asi14882/asics-metaspeed-edge-paris-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/A/ASI14882/ASI14882_800_8.jpg"
   },
   {
    "shoe": "vaporfly",
@@ -1943,7 +1900,8 @@
     "5.5",
     "6",
     "7",
-    "7.5"
+    "7.5",
+    "8"
    ],
    "url": "https://www.sportsshoes.com/product/nik25104/nike-zoomx-vaporfly-next%25-4-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25104/NIK25104_800_1.jpg"
@@ -1959,8 +1917,7 @@
    "was": 259.99,
    "sizes": [
     "6.5",
-    "7.5",
-    "11.5"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik24966/nike-zoomx-vaporfly-next%25-4-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NIK24966/NIK24966_800_1.jpg"
@@ -2115,7 +2072,6 @@
    "was": 259.99,
    "sizes": [
     "5",
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -2427,30 +2383,6 @@
    "shop": "SportsShoes",
    "model": "Deviate Nitro Elite 4",
    "name": "Deviate Nitro Elite 4",
-   "colour": "Light Lavender / Ultra Red / Inky Depths ",
-   "gender": "women",
-   "price": 199.99,
-   "was": 249.99,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3213/puma-deviate-nitro-elite-4-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3213/PUM3213_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Deviate Nitro Elite 4",
-   "name": "Deviate Nitro Elite 4",
    "colour": "Light Lavender / Ultra Red / Inky Depths",
    "gender": "men",
    "price": 249.99,
@@ -2497,6 +2429,30 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3119/puma-deviate-nitro-elite-4-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3119/PUM3119_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
+   "model": "Deviate Nitro Elite 4",
+   "name": "Deviate Nitro Elite 4",
+   "colour": "Light Lavender / Ultra Red / Inky Depths ",
+   "gender": "women",
+   "price": 199.99,
+   "was": 249.99,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3213/puma-deviate-nitro-elite-4-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3213/PUM3213_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -2589,21 +2545,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3112/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3112/PUM3112_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 3",
-   "name": "Fast-R Nitro Elite 3",
-   "colour": "Sunny Lime",
-   "gender": "men",
-   "price": 299.99,
-   "was": null,
-   "sizes": [
-    "8"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3115/puma-fast-r-nitro-elite-3-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3115/PUM3115_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -2764,28 +2705,6 @@
   {
    "shoe": "puma-elite",
    "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 1",
-   "name": "Fast-R Nitro Elite",
-   "colour": "Elektrocharged",
-   "gender": "men",
-   "price": 148.59,
-   "was": 285.19,
-   "sizes": [
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9.5",
-    "13"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum3300/puma-fast-r-nitro-elite-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3300/PUM3300_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 2",
    "name": "Fast-R Nitro Elite 2",
    "colour": "puma white-pure magenta-yellow alert",
@@ -2809,6 +2728,28 @@
    "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 1",
    "name": "Fast-R Nitro Elite",
+   "colour": "Elektrocharged",
+   "gender": "men",
+   "price": 148.59,
+   "was": 285.19,
+   "sizes": [
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9.5",
+    "13"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3300/puma-fast-r-nitro-elite-men's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3300/PUM3300_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
+   "model": "Fast-R Nitro Elite 1",
+   "name": "Fast-R Nitro Elite",
    "colour": "White/Ultra Blue",
    "gender": "men",
    "price": 148.59,
@@ -2825,23 +2766,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/pum3299/puma-fast-r-nitro-elite-men's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/P/PUM3299/PUM3299_800_1.jpg"
-  },
-  {
-   "shoe": "puma-elite",
-   "shop": "SportsShoes",
-   "model": "Fast-R Nitro Elite 2",
-   "name": "Fast-R Nitro Elite 2",
-   "colour": "",
-   "gender": "women",
-   "price": 155.99,
-   "was": 299.99,
-   "sizes": [
-    "4.5",
-    "6.5",
-    "7.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/pum2672/puma-fast-r-nitro-elite-2-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM2672/PUM2672_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -2881,6 +2805,23 @@
   {
    "shoe": "puma-elite",
    "shop": "SportsShoes",
+   "model": "Fast-R Nitro Elite 2",
+   "name": "Fast-R Nitro Elite 2",
+   "colour": "Nitro Blue-Fizzy Apple-Speed Blue",
+   "gender": "women",
+   "price": 142.59,
+   "was": 285.19,
+   "sizes": [
+    "4.5",
+    "6",
+    "6.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/pum3285/puma-fast-r-nitro-elite-2-women's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM3285/PUM3285_800_1.jpg"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 1",
    "name": "Fast-R Nitro Elite",
    "colour": "Black/ Pink/ Multicolour",
@@ -2898,17 +2839,17 @@
    "shop": "SportsShoes",
    "model": "Fast-R Nitro Elite 2",
    "name": "Fast-R Nitro Elite 2",
-   "colour": "Nitro Blue-Fizzy Apple-Speed Blue",
+   "colour": "",
    "gender": "women",
-   "price": 142.59,
-   "was": 285.19,
+   "price": 155.99,
+   "was": 299.99,
    "sizes": [
     "4.5",
-    "6",
-    "6.5"
+    "6.5",
+    "7.5"
    ],
-   "url": "https://www.sportsshoes.com/product/pum3285/puma-fast-r-nitro-elite-2-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/P/PUM3285/PUM3285_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/pum2672/puma-fast-r-nitro-elite-2-women's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/P/PUM2672/PUM2672_800_1.jpg"
   },
   {
    "shoe": "puma-elite",
@@ -3645,32 +3586,6 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "Shock Pink",
-   "gender": "men",
-   "price": 269.99,
-   "was": null,
-   "sizes": [
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13"
-   ],
-   "url": "https://www.sportsshoes.com/product/sau5476/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5476/SAU5476_800_1.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "SportsShoes",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
    "colour": "Black / Shock",
    "gender": "women",
    "price": 269.99,
@@ -3696,7 +3611,7 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "Citron / Black",
+   "colour": "Shock Pink",
    "gender": "men",
    "price": 269.99,
    "was": null,
@@ -3714,8 +3629,8 @@
     "12",
     "13"
    ],
-   "url": "https://www.sportsshoes.com/product/sau5475/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5475/SAU5475_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/sau5476/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5476/SAU5476_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3748,7 +3663,32 @@
    "shop": "SportsShoes",
    "model": "Endorphin Pro 5",
    "name": "Endorphin Pro 5",
-   "colour": "Birch / Black",
+   "colour": "White / Navy ",
+   "gender": "women",
+   "price": 269.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "SportsShoes",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "Citron / Black",
    "gender": "men",
    "price": 269.99,
    "was": null,
@@ -3766,8 +3706,8 @@
     "12",
     "13"
    ],
-   "url": "https://www.sportsshoes.com/product/sau5477/saucony-endorphin-pro-5-men's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5477/SAU5477_800_1.jpg"
+   "url": "https://www.sportsshoes.com/product/sau5475/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5475/SAU5475_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3793,6 +3733,32 @@
    ],
    "url": "https://www.sportsshoes.com/product/sau5496/saucony-endorphin-pro-5-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5496/SAU5496_800_1.jpg"
+  },
+  {
+   "shoe": "saucony-endorphin",
+   "shop": "SportsShoes",
+   "model": "Endorphin Pro 5",
+   "name": "Endorphin Pro 5",
+   "colour": "Birch / Black",
+   "gender": "men",
+   "price": 269.99,
+   "was": null,
+   "sizes": [
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13"
+   ],
+   "url": "https://www.sportsshoes.com/product/sau5477/saucony-endorphin-pro-5-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/S/SAU5477/SAU5477_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3845,31 +3811,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/sau5478/saucony-endorphin-pro-5-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/S/SAU5478/SAU5478_800_1.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "SportsShoes",
-   "model": "Endorphin Pro 5",
-   "name": "Endorphin Pro 5",
-   "colour": "White / Navy ",
-   "gender": "women",
-   "price": 269.99,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9"
-   ],
-   "url": "https://www.sportsshoes.com/product/sau5499/saucony-endorphin-pro-5-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/S/SAU5499/SAU5499_800_1.jpg"
   },
   {
    "shoe": "saucony-endorphin",
@@ -3990,7 +3931,6 @@
    "price": 149.99,
    "was": 249.99,
    "sizes": [
-    "4",
     "5",
     "7",
     "7.5",
@@ -4508,6 +4448,31 @@
    "model": "SC Elite v6",
    "name": "SuperComp Elite v6",
    "colour": "Pink Granite/Field Green",
+   "gender": "women",
+   "price": 279.99,
+   "was": null,
+   "sizes": [
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9"
+   ],
+   "url": "https://www.sportsshoes.com/product/new696893/new-balance-supercomp-elite-v6-women's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW696893/NEW696893_800_1.png"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v6",
+   "name": "SuperComp Elite v6",
+   "colour": "Pink Granite/Field Green",
    "gender": "men",
    "price": 279.99,
    "was": null,
@@ -4528,31 +4493,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/new696874/new-balance-supercomp-elite-v6-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/N/NEW696874/NEW696874_800_1.png"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v6",
-   "name": "SuperComp Elite v6",
-   "colour": "Pink Granite/Field Green",
-   "gender": "women",
-   "price": 279.99,
-   "was": null,
-   "sizes": [
-    "4",
-    "4.5",
-    "5",
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9"
-   ],
-   "url": "https://www.sportsshoes.com/product/new696893/new-balance-supercomp-elite-v6-women's-running-shoes---aw26",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW696893/NEW696893_800_1.png"
   },
   {
    "shoe": "nb-sc-elite",
@@ -4915,7 +4855,6 @@
     "9",
     "9.5",
     "10",
-    "10.5",
     "11"
    ],
    "url": "https://www.sportsshoes.com/product/new696115/new-balance-fuelcell-supercomp-elite-v5-men's-running-shoes",
@@ -5078,23 +5017,6 @@
    "shoe": "nb-sc-elite",
    "shop": "SportsShoes",
    "model": "SC Elite v4",
-   "name": "FuelCell SuperComp Elite v4",
-   "colour": "Ultra Pink with White and Black",
-   "gender": "women",
-   "price": 201.99,
-   "was": 279.99,
-   "sizes": [
-    "3.5",
-    "4",
-    "4.5"
-   ],
-   "url": "https://www.sportsshoes.com/product/new695617/new-balance-fuelcell-supercomp-elite-v4-women's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/N/NEW695617/NEW695617_800_1.jpg"
-  },
-  {
-   "shoe": "nb-sc-elite",
-   "shop": "SportsShoes",
-   "model": "SC Elite v4",
    "name": "FuelCell SuperComp Elite V4",
    "colour": "Ultra Pink with White and Black",
    "gender": "men",
@@ -5111,6 +5033,23 @@
    ],
    "url": "https://www.sportsshoes.com/product/new695605/new-balance-fuelcell-supercomp-elite-v4-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/N/NEW695605/NEW695605_800_1.jpg"
+  },
+  {
+   "shoe": "nb-sc-elite",
+   "shop": "SportsShoes",
+   "model": "SC Elite v4",
+   "name": "FuelCell SuperComp Elite v4",
+   "colour": "Ultra Pink with White and Black",
+   "gender": "women",
+   "price": 201.99,
+   "was": 279.99,
+   "sizes": [
+    "3.5",
+    "4",
+    "4.5"
+   ],
+   "url": "https://www.sportsshoes.com/product/new695617/new-balance-fuelcell-supercomp-elite-v4-women's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/N/NEW695617/NEW695617_800_1.jpg"
   },
   {
    "shoe": "nb-sc-elite",
