@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T12:48:37+00:00",
+ "checked": "2026-11-27T23:35:11+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -65,8 +65,7 @@
    "sizes": [
     "5.5",
     "6",
-    "7.5",
-    "8"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik26571/nike-alphafly-4-women's-running-shoes---sp27",
    "image": "https://cdn.sportsshoes.com/product/N/NIK26571/NIK26571_800_1.jpg"
@@ -83,8 +82,7 @@
    "sizes": [
     "6",
     "6.5",
-    "7.5",
-    "8.5"
+    "7.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik25686/nike-air-zoom-alphafly-next%25-3-men's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25686/NIK25686_800_1.jpg"
@@ -158,8 +156,7 @@
    "price": 169.99,
    "was": 309.99,
    "sizes": [
-    "6",
-    "6.5"
+    "6"
    ],
    "url": "https://www.sportsshoes.com/product/nik25069/nike-air-zoom-alphafly-next%25-3-women's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK25069/NIK25069_800_1.jpg"
@@ -599,7 +596,6 @@
    "price": 199.99,
    "was": 249.99,
    "sizes": [
-    "8.5",
     "9"
    ],
    "url": "https://www.sportsshoes.com/product/adi19045/adidas-adizero-adios-pro-4-women's-running-shoes---aw26",
@@ -885,6 +881,7 @@
    "price": 191.99,
    "was": 249.99,
    "sizes": [
+    "4",
     "4.5",
     "5",
     "5.5",
@@ -1054,8 +1051,7 @@
     "8.5",
     "9",
     "9.5",
-    "10",
-    "10.5"
+    "10"
    ],
    "url": "https://www.sportsshoes.com/product/adi18654/adidas-adizero-adios-pro-4-women's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/A/ADI18654/ADI18654_800_1.jpg"
@@ -1160,7 +1156,6 @@
     "8",
     "8.5",
     "9",
-    "10",
     "12",
     "12.5"
    ],
@@ -1275,6 +1270,21 @@
   {
    "shoe": "adios-pro",
    "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
+   "colour": "Core Black / Iron Metallic / Carbon",
+   "gender": "men",
+   "price": 199.99,
+   "was": 249.99,
+   "sizes": [
+    "8"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi17972/adidas-adizero-adios-pro-4-men's-running-shoes---aw26",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI17972/ADI17972_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
    "model": "Adios Pro Evo 2",
    "name": "Adizero Adios Pro Evo 2",
    "colour": "Silver Metallic / Lucid Red / Grey Two",
@@ -1352,6 +1362,23 @@
    "shop": "SportsShoes",
    "model": "Adios Pro 4",
    "name": "Adizero Adios Pro 4",
+   "colour": "Core Black/ Matte Silver/ Glory Green",
+   "gender": "men",
+   "price": 249.99,
+   "was": null,
+   "sizes": [
+    "6",
+    "6.5",
+    "7"
+   ],
+   "url": "https://www.sportsshoes.com/product/adi17710/adidas-adizero-adios-pro-4-men's-running-shoes",
+   "image": "https://cdn.sportsshoes.com/product/A/ADI17710/ADI17710_800_1.jpg"
+  },
+  {
+   "shoe": "adios-pro",
+   "shop": "SportsShoes",
+   "model": "Adios Pro 4",
+   "name": "Adizero Adios Pro 4",
    "colour": "Crystal White / Matte Silver / Glory Green",
    "gender": "women",
    "price": 199.99,
@@ -1367,23 +1394,6 @@
    ],
    "url": "https://www.sportsshoes.com/product/adi17810/adidas-adizero-adios-pro-4-women's-running-shoes",
    "image": "https://cdn.sportsshoes.com/product/A/ADI17810/ADI17810_800_1.jpg"
-  },
-  {
-   "shoe": "adios-pro",
-   "shop": "SportsShoes",
-   "model": "Adios Pro 4",
-   "name": "Adizero Adios Pro 4",
-   "colour": "Core Black/ Matte Silver/ Glory Green",
-   "gender": "men",
-   "price": 249.99,
-   "was": null,
-   "sizes": [
-    "6",
-    "6.5",
-    "7"
-   ],
-   "url": "https://www.sportsshoes.com/product/adi17710/adidas-adizero-adios-pro-4-men's-running-shoes",
-   "image": "https://cdn.sportsshoes.com/product/A/ADI17710/ADI17710_800_1.jpg"
   },
   {
    "shoe": "adios-pro",
@@ -1993,8 +2003,7 @@
     "6.5",
     "7",
     "7.5",
-    "11.5",
-    "12"
+    "11.5"
    ],
    "url": "https://www.sportsshoes.com/product/nik24529/nike-zoomx-vaporfly-next%25-4-men's-running-shoes---fa26",
    "image": "https://cdn.sportsshoes.com/product/N/NIK24529/NIK24529_800_1.jpg"
@@ -2148,7 +2157,6 @@
     "6",
     "6.5",
     "7",
-    "13",
     "14"
    ],
    "url": "https://www.sportsshoes.com/product/nik23920/nike-zoomx-vaporfly-next%25-4-men's-running-shoes",
@@ -2185,7 +2193,6 @@
     "7",
     "7.5",
     "8",
-    "10",
     "12"
    ],
    "url": "https://www.sportsshoes.com/product/nik23921/nike-zoomx-vaporfly-next%25-4-men's-running-shoes---fa26",
@@ -2488,7 +2495,6 @@
    "price": 249.99,
    "was": null,
    "sizes": [
-    "9.5",
     "11.5",
     "12",
     "13"
@@ -2881,7 +2887,6 @@
    "sizes": [
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5",
     "10",
@@ -3958,7 +3963,6 @@
     "4",
     "4.5",
     "5",
-    "6",
     "6.5",
     "7",
     "7.5",
@@ -4409,7 +4413,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "10.5",
     "11.5",
@@ -4714,7 +4717,7 @@
     "4.5",
     "5.5",
     "6",
-    "7.5",
+    "6.5",
     "9"
    ],
    "url": "https://www.sportsshoes.com/product/new696601/new-balance-fuelcell-supercomp-elite-v5-london-edition-women's-running-shoes---aw26",
@@ -4909,9 +4912,7 @@
     "8",
     "8.5",
     "9",
-    "9.5",
-    "10",
-    "11"
+    "10"
    ],
    "url": "https://www.sportsshoes.com/product/new695999/new-balance-fuelcell-supercomp-elite-v5-men's-running-shoes---aw26",
    "image": "https://cdn.sportsshoes.com/product/N/NEW695999/NEW695999_800_1.jpg"
