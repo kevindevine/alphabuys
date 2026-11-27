@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T15:15:01+00:00",
+ "checked": "2026-11-27T19:15:06+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -117,7 +117,6 @@
    "was": null,
    "sizes": [
     "3.5",
-    "4",
     "4.5",
     "5",
     "5.5",
@@ -510,6 +509,8 @@
    "price": 259.95,
    "was": null,
    "sizes": [
+    "4",
+    "4.5",
     "5",
     "5.5",
     "6",
@@ -614,8 +615,6 @@
     "3.5",
     "4.5",
     "5",
-    "8",
-    "9.5",
     "10",
     "10.5",
     "11"
@@ -945,6 +944,7 @@
    "sizes": [
     "5",
     "5.5",
+    "6",
     "6.5",
     "7",
     "7.5",
@@ -1134,6 +1134,23 @@
    ],
    "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-wns-312061-12",
    "image": "https://i1.t4s.cz/products/312061-12/puma-fast-r-nitro-elite-3-wns-1149025-312061-121.png"
+  },
+  {
+   "shoe": "puma-elite",
+   "shop": "Top4Running",
+   "model": "Fast-R Nitro Elite 3",
+   "name": "Puma Fast-R Nitro Elite 3",
+   "colour": "",
+   "gender": "men",
+   "price": 234.3,
+   "was": null,
+   "sizes": [
+    "8",
+    "10",
+    "10.5"
+   ],
+   "url": "https://top4running.ie/p/puma-fast-r-nitro-elite-3-st-313615-01",
+   "image": "https://i1.t4s.cz/products/313615-01/puma-fast-r-nitro-elite-3-1096717-313615-011.png"
   },
   {
    "shoe": "puma-elite",
@@ -1596,7 +1613,6 @@
    "sizes": [
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5",
     "10.5"
@@ -2565,6 +2581,23 @@
    "shop": "Top4Running",
    "model": "Cloudboom Strike",
    "name": "shoes On Running Cloudboom Strike",
+   "colour": "",
+   "gender": "women",
+   "price": 168.0,
+   "was": null,
+   "sizes": [
+    "6.5",
+    "7",
+    "8"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3we30470256",
+   "image": "https://i1.t4s.cz/products/3we30470256/on-running-cloudboom-strike-786115-3we30470260.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
    "colour": "black",
    "gender": "women",
    "price": 196.0,
@@ -2574,6 +2607,34 @@
    ],
    "url": "https://top4running.ie/p/on-running-cloudboom-strike-w-3we30470299",
    "image": "https://i1.t4s.cz/products/3we30470299/on-running-cloudboom-strike-960803-3we30470299.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "yellow",
+   "gender": "men",
+   "price": 280.0,
+   "was": null,
+   "sizes": [],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-shoe-3me3048-3331",
+   "image": "https://i1.t4s.cz/products/3me3048-3331/on-running-cloudboom-strike-887056-3me3048-3331.png"
+  },
+  {
+   "shoe": "on-cloudboom",
+   "shop": "Top4Running",
+   "model": "Cloudboom Strike",
+   "name": "shoes On Running Cloudboom Strike",
+   "colour": "white",
+   "gender": "men",
+   "price": 244.8,
+   "was": null,
+   "sizes": [
+    "10.5"
+   ],
+   "url": "https://top4running.ie/p/on-running-cloudboom-strike-3me30480462",
+   "image": "https://i1.t4s.cz/products/3me30480462/on-running-cloudboom-strike-814183-3me30480462.png"
   },
   {
    "shoe": "on-cloudboom",
