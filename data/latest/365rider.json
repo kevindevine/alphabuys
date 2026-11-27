@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T11:15:06+00:00",
+ "checked": "2026-11-27T15:15:01+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -77,7 +77,6 @@
     "5",
     "5.5",
     "6",
-    "6.5",
     "7"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/19486-asics-metaspeed-sky-tokyo-red-white-aw25-unisex.html",
@@ -270,7 +269,6 @@
     "6",
     "6.5",
     "8.5",
-    "9",
     "9.5",
     "10",
     "10.5"
@@ -298,8 +296,8 @@
    "name": "Women's Nike Vaporfly 4 White Purple Shoes",
    "colour": "",
    "gender": "women",
-   "price": 268.66,
-   "was": null,
+   "price": 224.64,
+   "was": 264.29,
    "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/24595-women-s-nike-vaporfly-4-white-purple-shoes.html",
    "image": "https://www.365rider.com/117829-home_default/women-s-nike-vaporfly-4-white-purple-shoes.jpg"
@@ -311,8 +309,8 @@
    "name": "Nike Vaporfly 4 Pink Black Women's Shoes",
    "colour": "",
    "gender": "women",
-   "price": 268.66,
-   "was": null,
+   "price": 229.69,
+   "was": 264.29,
    "sizes": [],
    "url": "https://www.365rider.com/en/women-s-running-shoes/24593-nike-vaporfly-4-pink-black-women-s-shoes.html",
    "image": "https://www.365rider.com/117806-home_default/nike-vaporfly-4-pink-black-women-s-shoes.jpg"
@@ -678,7 +676,6 @@
    "price": 189.02,
    "was": 304.95,
    "sizes": [
-    "7.5",
     "8",
     "8.5",
     "9",
@@ -1099,6 +1096,7 @@
    "price": 158.53,
    "was": 274.46,
    "sizes": [
+    "4.5",
     "5",
     "5.5",
     "7",
@@ -1323,7 +1321,6 @@
     "10",
     "10.5",
     "11",
-    "11.5",
     "12"
    ],
    "url": "https://www.365rider.com/en/men-running-shoes/21167-new-balance-fuelcell-supercomp-elite-v5-blue-green-ss26-shoes.html",
