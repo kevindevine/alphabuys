@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T23:35:11+00:00",
+ "checked": "2026-11-28T08:07:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -11,7 +11,6 @@
    "price": 159.99,
    "was": 319.99,
    "sizes": [
-    "5.5",
     "6",
     "6.5",
     "7",
@@ -19,7 +18,6 @@
     "8",
     "8.5",
     "9",
-    "9.5",
     "10",
     "10.5",
     "11",
@@ -72,42 +70,11 @@
    "sizes": [
     "6.5",
     "11",
-    "11.5",
     "12",
     "14"
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/FD8311-003",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae088d22-67d0-49c0-a1b6-b308f2b53ad4/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
-  },
-  {
-   "shoe": "alphafly",
-   "shop": "Nike",
-   "model": "Alphafly 3",
-   "name": "Nike Alphafly 3",
-   "colour": "Multi-Colour/Volt/White/Black",
-   "gender": "men",
-   "price": 159.99,
-   "was": 319.99,
-   "sizes": [
-    "5.5",
-    "6",
-    "6.5",
-    "7",
-    "7.5",
-    "8",
-    "8.5",
-    "9",
-    "9.5",
-    "10",
-    "10.5",
-    "11",
-    "11.5",
-    "12",
-    "13",
-    "14"
-   ],
-   "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/IM8066-999",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7216632-c3bc-49fa-92a4-9aef3be2f8fe/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
    "shoe": "alphafly",
@@ -123,6 +90,35 @@
    ],
    "url": "https://www.nike.com/ie/t/alphafly-3-glam-mens-road-racing-shoes-KnKE5jwD/IO9573-800",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c939d1f-85c8-4cfc-ad28-b1aea980a958/AIR+ZOOM+ALPHAFLY+NEXT%25+3+GLAM.png"
+  },
+  {
+   "shoe": "alphafly",
+   "shop": "Nike",
+   "model": "Alphafly 3",
+   "name": "Nike Alphafly 3",
+   "colour": "Multi-Colour/Volt/White/Black",
+   "gender": "men",
+   "price": 159.99,
+   "was": 319.99,
+   "sizes": [
+    "5.5",
+    "6",
+    "6.5",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11",
+    "11.5",
+    "12",
+    "13",
+    "14"
+   ],
+   "url": "https://www.nike.com/ie/t/alphafly-3-mens-road-racing-shoes-KnKE5jwD/IM8066-999",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7216632-c3bc-49fa-92a4-9aef3be2f8fe/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png"
   },
   {
    "shoe": "alphafly",
@@ -151,7 +147,6 @@
    "sizes": [
     "6",
     "6.5",
-    "10",
     "10.5",
     "11.5",
     "12",
@@ -174,6 +169,11 @@
     "6",
     "6.5",
     "7",
+    "7.5",
+    "8.5",
+    "10",
+    "10.5",
+    "11",
     "11.5",
     "12",
     "13",
@@ -245,7 +245,6 @@
    "price": 185.99,
    "was": 309.99,
    "sizes": [
-    "4",
     "5.5",
     "6",
     "6.5",
@@ -496,7 +495,9 @@
    "gender": "men",
    "price": 155.99,
    "was": 259.99,
-   "sizes": [],
+   "sizes": [
+    "10.5"
+   ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-mens-road-racing-shoes-DeKC4kdI/HF6414-300",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/80c08194-8ae0-42c3-a878-531a2c730f7b/ZOOMX+VAPORFLY+NEXT%25+4.png"
   },
@@ -578,6 +579,7 @@
     "8.5",
     "9",
     "9.5",
+    "10",
     "10.5",
     "11.5",
     "12",
@@ -637,7 +639,6 @@
     "7",
     "7.5",
     "8",
-    "8.5",
     "9"
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-womens-road-racing-shoes-nUJzqPSE/HF6412-300",
@@ -677,21 +678,6 @@
    "shoe": "vaporfly",
    "shop": "Nike",
    "model": "Vaporfly 4",
-   "name": "Nike Vaporfly 4 'Eliud Kipchoge'",
-   "colour": "Silt Red/Fire Pink/Bright Ceramic/Green Shock",
-   "gender": "men",
-   "price": 161.99,
-   "was": 269.99,
-   "sizes": [
-    "6.5"
-   ],
-   "url": "https://www.nike.com/ie/t/vaporfly-4-eliud-kipchoge-mens-road-racing-shoes-DeKC4kdI/IH0869-605",
-   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/833fb6e2-e7c9-4a89-b2c4-fdc4ade82b04/ZOOMX+VAPORFLY+NEXT%25+4+EK.png"
-  },
-  {
-   "shoe": "vaporfly",
-   "shop": "Nike",
-   "model": "Vaporfly 4",
    "name": "Nike Vaporfly 4 x Renegade",
    "colour": "Brown Basalt/Bronze Eclipse/Burgundy Ash/Hyper Crimson",
    "gender": "men",
@@ -712,6 +698,50 @@
    ],
    "url": "https://www.nike.com/ie/t/vaporfly-4-x-renegade-mens-road-racing-shoes-DeKC4kdI/IQ7313-200",
    "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/89d22e6e-201a-4a13-81d0-80d4a2f6fb5b/ZMX+VAPORFLY+NXT%25+4+X+RENEGADE.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Nike",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 'Eliud Kipchoge'",
+   "colour": "Silt Red/Fire Pink/Bright Ceramic/Green Shock",
+   "gender": "men",
+   "price": 161.99,
+   "was": 269.99,
+   "sizes": [
+    "6.5"
+   ],
+   "url": "https://www.nike.com/ie/t/vaporfly-4-eliud-kipchoge-mens-road-racing-shoes-DeKC4kdI/IH0869-605",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/833fb6e2-e7c9-4a89-b2c4-fdc4ade82b04/ZOOMX+VAPORFLY+NEXT%25+4+EK.png"
+  },
+  {
+   "shoe": "vaporfly",
+   "shop": "Nike",
+   "model": "Vaporfly 4",
+   "name": "Nike Vaporfly 4 SE",
+   "colour": "Team Red/Atomic Pink/Bright Crimson/Barely Green",
+   "gender": "women",
+   "price": 181.99,
+   "was": 259.99,
+   "sizes": [
+    "2.5",
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "5",
+    "5.5",
+    "6",
+    "6.5",
+    "7",
+    "7.5",
+    "8",
+    "8.5",
+    "9",
+    "9.5"
+   ],
+   "url": "https://www.nike.com/ie/t/vaporfly-4-se-womens-road-racing-shoes-nUJzqPSE/IR2311-600",
+   "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e5fdf7a0-a71d-4b98-abef-1804c359879f/W+ZMX+VAPORFLY+NEXT%25+4+SE.png"
   },
   {
    "shoe": "vaporfly",

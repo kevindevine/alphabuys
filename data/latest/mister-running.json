@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T23:35:11+00:00",
+ "checked": "2026-11-28T08:07:07+00:00",
  "offers": [
   {
    "shoe": "alphafly",
@@ -371,7 +371,6 @@
     "7",
     "7.5",
     "8",
-    "8.5",
     "9",
     "9.5",
     "10",
@@ -503,7 +502,6 @@
    "price": 194.9,
    "was": 270.0,
    "sizes": [
-    "5.5",
     "6",
     "7",
     "7.5",
@@ -1104,19 +1102,6 @@
    "shop": "Mister Running",
    "model": "Endorphin Elite 2",
    "name": "Saucony Endorphin Elite 2",
-   "colour": "White/Crimson",
-   "gender": "men",
-   "price": 149.9,
-   "was": 300.0,
-   "sizes": [],
-   "url": "https://www.misterrunning.com/en/saucony-endorphin-elite-2-running-shoes-white-crimson-s30994-172.html",
-   "image": "https://www.misterrunning.com/media/products/2026-media-01/saucony-endorphin-elite-2-scarpe-da-running-white-crimson-s30994-172-A-600x600.jpg"
-  },
-  {
-   "shoe": "saucony-endorphin",
-   "shop": "Mister Running",
-   "model": "Endorphin Elite 2",
-   "name": "Saucony Endorphin Elite 2",
    "colour": "White/Mutant",
    "gender": "men",
    "price": 149.9,
@@ -1124,8 +1109,7 @@
    "sizes": [
     "4",
     "4.5",
-    "5",
-    "5.5"
+    "5"
    ],
    "url": "https://www.misterrunning.com/en/saucony-endorphin-elite-2-running-shoes-white-mutant-s30994-97.html",
    "image": "https://www.misterrunning.com/media/products/2025-media-06/S30994-97_A-600x600.jpg"
